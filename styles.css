@@ -56,4 +56,28 @@ header{
 
 .btn-whatsapp{
     margin-top: 20px;
+     padding-top: 10px;
+}
+
+.login{
+    color: #ffff;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fe6902;
+    padding: 10px 10px 10px 10px;
+    border: none;
+}
+
+.btn-login{
+    margin-top: 10px;
+}
+
+.fa-whatsapp{
+    
+    font-size: 20px;
+}
+
+.fa-cart-shopping{
+    
 }
