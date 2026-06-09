@@ -1,44 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">  
-<link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Gran Prix Mayorista</title>
 </head>
+
 <body>
-<header>
-    <div class="logo-header">
-        <img src="/img/Fondo Blanco GP.png" alt="" class="logo">
-    </div>
 
-    <div class="buscador">
-        <input type="text" placeholder="Buscar productos...">
-    </div>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="/img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
 
-    <div class="btn-whatsapp">
-        <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" class="enlace-whatsapp">
-            Sumate al canal de Whatsapp
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
-    </div>
+        <div class="search-wrap">
+            <div class="search-box">
+                <input type="text" placeholder="Buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
 
-    <div class="btn-login">
-        <button class="login">LOGIN</button>
-    </div>
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
 
-    <div>
-        <button>
-            <i class="fa-thin fa-cart-shopping"></i>
+            <!-- LOGIN -->
+            <button class="btn-login" onclick="abrirModal('modal-registro')">
+                <i class="fa-regular fa-circle-user"></i>
+                LOGIN
+            </button>
+
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SLIDER -->
+    <section class="hero">
+        <div class="slides">
+            <img src="/img/Promo Galicia(1920 x 455 px).png" alt="Promoción Banco Galicia" class="promo-galicia slide">
+            <img src="/img/Promo Bica (1920 x 455 px).png" alt="Promoción Banco Bica" class="promo-bica slide">
+            <img src="/img/Promo Lucchetti(1920 x 455 px).png" alt="Promoción Lucchetti" class="promo-lucchetti slide">
+        </div>
+
+        <button class="arrow-btn arrow-prev" aria-label="Anterior">
+            <i class="fa-solid fa-chevron-left"></i>
         </button>
+        <button class="arrow-btn arrow-next" aria-label="Siguiente">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="hero-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </section>
+
+    <!-- INFO CARDS -->
+    <section class="info-section">
+        <div class="icard">
+            <div class="icard-body">
+                <div class="icard-title">¿Cómo<br>comprar?</div>
+                <i class="fa-solid fa-cart-shopping icard-icon"></i>
+            </div>
+            <button class="icard-btn">Ver los pasos</button>
+        </div>
+
+        <div class="icard featured">
+            <div class="icard-body">
+                <div class="icard-title">Ofertas</div>
+                <div class="icon-badge">
+                    <i class="fa-solid fa-percent"></i>
+                </div>
+            </div>
+            <button class="icard-btn">Ver ofertas</button>
+        </div>
+
+        <div class="icard">
+            <div class="icard-body">
+                <div class="icard-title">Promos<br>bancarias</div>
+                <i class="fa-solid fa-credit-card icard-icon"></i>
+            </div>
+            <button class="icard-btn">Ver promociones</button>
+        </div>
+    </section>
+
+    <!-- MODAL REGISTRO -->
+    <div class="modal-overlay" id="modal-registro">
+        <div class="modal">
+            <button class="modal-cerrar" onclick="cerrarModal('modal-registro')">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h2 class="modal-titulo">Registrate en Gran Prix Online</h2>
+            <p class="modal-subtitulo">Te pedimos que ingreses los siguientes datos para gestionar tu compra:</p>
+
+            <div class="modal-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Nombre*" class="input-field">
+                    <input type="text" placeholder="Apellido*" class="input-field">
+                </div>
+
+                <div class="form-row">
+                    <input type="password" placeholder="Contraseña*" class="input-field">
+                    <input type="email" placeholder="Correo electrónico*" class="input-field">
+                </div>
+
+                <div class="form-row">
+                    <div class="input-dni">
+                        <select class="select-tipo">
+                            <option>DNI</option>
+                            <option>CUIT</option>
+                        </select>
+                        <input type="text" placeholder="DNI o CUIT*" class="input-field">
+                    </div>
+                    <input type="date" class="input-field">
+                </div>
+
+                <div class="form-row">
+                    <div class="input-localidad">
+                        <select class="select-field" id="select-provincia" onchange="cargarLocalidades()">
+                            <option value="">Provincia*</option>
+                        </select>
+                        <select class="select-field" id="select-localidad">
+                            <option value="">Localidad*</option>
+                        </select>
+                    </div>
+                    <input type="tel" placeholder="Celular*" class="input-field">
+                </div>
+
+                <p class="campos-obligatorios">*Campos obligatorios</p>
+
+                <div class="form-checks">
+                    <label class="check-label">
+                        <input type="checkbox">
+                        Acepto los términos y condiciones de <a href="#" class="link-naranja">Gran Prix Online</a>*
+                    </label>
+                    <label class="check-label">
+                        <input type="checkbox">
+                        Deseo recibir las novedades en mi correo
+                    </label>
+                </div>
+
+                <div class="form-botones">
+                    <button class="btn-registrar">REGISTRARME</button>
+                    <button class="btn-ya-tengo">YA TENGO CUENTA</button>
+                </div>
+            </div>
+        </div>
     </div>
-</header>
 
+    <!-- ✅ Script siempre al final del body -->
+    <script src="/javascript.js"></script>
 </body>
-</html>
 
+</html>
