@@ -23,6 +23,7 @@ a {
 body {
   font-family: var(--font);
   background: #f5f5f5;
+    min-height: 100vh;
 }
  
 /* ======================== NAVBAR ======================== */
@@ -580,4 +581,127 @@ body {
 .btn-ya-tengo:hover {
     border-color: #fe6902;
     color: #fe6902;
+}
+
+/* Campo con error */
+.input-error {
+    border-color: #cc0000 !important;
+    background-color: #fff5f5;
+}
+
+/* Mensaje de error */
+.msg-error {
+    display: inline-block;
+    background: #cc0000;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+
+/////////////////////////MODAL SALIR/////////////////////////
+
+.modal-salir {
+    text-align: center;
+    max-width: 560px;
+    padding: 60px 40px;
+}
+
+.modal-salir .modal-titulo {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.modal-salir .modal-subtitulo {
+    margin-bottom: 40px;
+}
+
+.modal-exito {
+    max-width: 780px;
+    padding: 60px 50px;
+}
+
+.exito-texto {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+
+.exito-subtitulo {
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.exito-lista {
+    list-style: disc;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+//////////////login///////////////
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);  /* 120px = altura del navbar */
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 440px;
+    padding: 20px;
+}
+
+.login-titulo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.login-olvide {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.login-botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.login-error {
+    background: #9b1c1c;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    max-width: 440px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.login-error span {
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
 }

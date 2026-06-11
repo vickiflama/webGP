@@ -108,7 +108,7 @@
     <!-- MODAL REGISTRO -->
     <div class="modal-overlay" id="modal-registro">
         <div class="modal">
-            <button class="modal-cerrar" onclick="cerrarModal('modal-registro')">
+            <button class="modal-cerrar" onclick="abrirConfirmarSalir()">
                 <i class="fa-solid fa-xmark"></i>
             </button>
 
@@ -163,15 +163,57 @@
                 </div>
 
                 <div class="form-botones">
-                    <button class="btn-registrar">REGISTRARME</button>
-                    <button class="btn-ya-tengo">YA TENGO CUENTA</button>
+                    <button class="btn-registrar" onclick="validarFormulario()">REGISTRARME</button>
+                    <button class="btn-ya-tengo" onclick="window.location.href='login.html'">YA TENGO CUENTA</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- ✅ Script siempre al final del body -->
+    <!-- Modal Confirmar Salir -->
+    <div class="modal-overlay" id="modal-salir">
+        <div class="modal modal-salir">
+            <button class="modal-cerrar" onclick="volverAlRegistro()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h2 class="modal-titulo">¿Desea salir?</h2>
+            <p class="modal-subtitulo">Si desea salir no se habrá registrado correctamente</p>
+
+            <div class="form-botones">
+                <button class="btn-registrar" onclick="confirmarSalir()">CONFIRMAR</button>
+                <button class="btn-ya-tengo" onclick="volverAlRegistro()">CANCELAR</button>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Registro Exitoso -->
+<div class="modal-overlay" id="modal-exito">
+    <div class="modal modal-exito">
+        <button class="modal-cerrar" onclick="cerrarModal('modal-exito')">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <h2 class="modal-titulo">¡Tu cuenta se creó exitosamente!</h2>
+
+        <p class="exito-texto">
+            Revisá tu correo <strong id="exito-email"></strong>, recibirás un mail con las instrucciones para confirmar la activación de tu cuenta.
+        </p>
+
+        <p class="exito-subtitulo">¿El mail no llegó?</p>
+
+        <ul class="exito-lista">
+            <li>Chequeá tu conexión a Internet</li>
+            <li>Revisá tu carpeta Spam.</li>
+            <li>¿Sigue sin llegar? Escribinos a nuestro WhatsApp de Atención al Cliente al <strong>********</strong></li>
+        </ul>
+    </div>
+</div>
+
+
     <script src="/javascript.js"></script>
+    <script src="login.js"></script>
 </body>
 
 </html>

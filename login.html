@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login - Gran Prix Mayorista</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="/img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+
+        <div class="search-wrap">
+            <div class="search-box">
+                <input type="text" placeholder="Buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
+            <button class="btn-login">
+                <i class="fa-regular fa-circle-user"></i>
+                LOGIN
+            </button>
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- FORMULARIO LOGIN -->
+    <section class="login-section">
+        <!-- Banner error -->
+<div class="login-error" id="login-error" style="display:none">
+    <span>¡Ups! <i class="fa-solid fa-circle-xmark"></i></span>
+    <p>Tu correo electrónico o contraseña fueron ingresados incorrectamente. Inténtalo nuevamente</p>
+</div>
+        <div class="login-box">
+            <p class="login-titulo">Ingresá tus datos:</p>
+
+            <input type="email" placeholder="Correo electrónico" class="input-field" id="login-email">
+            <input type="password" placeholder="Contraseña" class="input-field" id="login-password">
+
+            <p class="login-olvide">
+                ¿Olvidaste tu <strong>contraseña</strong>?
+            </p>
+
+            <div class="login-botones">
+                <button class="btn-registrar" onclick="validarLogin()">ACCESO</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="/javascript.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
