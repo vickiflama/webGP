@@ -42,11 +42,20 @@
                 </a>
             </button>
 
-            <!-- LOGIN -->
-            <button class="btn-login" onclick="abrirModal('modal-registro')">
-                <i class="fa-regular fa-circle-user"></i>
-                LOGIN
-            </button>
+            <!-- MENU USUARIO -->
+            <div class="user-menu-wrap">
+                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span id="nombre-usuario">LOGIN</span>
+                </button>
+                <div class="user-dropdown" id="user-dropdown">
+                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                    <hr>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
+                        sesión</a>
+                </div>
+            </div>
 
             <div class="cart-wrap">
                 <i class="fa-solid fa-cart-shopping"></i>
@@ -190,32 +199,34 @@
     </div>
 
     <!-- Modal Registro Exitoso -->
-<div class="modal-overlay" id="modal-exito">
-    <div class="modal modal-exito">
-        <button class="modal-cerrar" onclick="cerrarModal('modal-exito')">
-            <i class="fa-solid fa-xmark"></i>
-        </button>
+    <div class="modal-overlay" id="modal-exito">
+        <div class="modal modal-exito">
+            <button class="modal-cerrar" onclick="cerrarModal('modal-exito')">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
 
-        <h2 class="modal-titulo">¡Tu cuenta se creó exitosamente!</h2>
+            <h2 class="modal-titulo">¡Tu cuenta se creó exitosamente!</h2>
 
-        <p class="exito-texto">
-            Revisá tu correo <strong id="exito-email"></strong>, recibirás un mail con las instrucciones para confirmar la activación de tu cuenta.
-        </p>
+            <p class="exito-texto">
+                Revisá tu correo <strong id="exito-email"></strong>, recibirás un mail con las instrucciones para
+                confirmar la activación de tu cuenta.
+            </p>
 
-        <p class="exito-subtitulo">¿El mail no llegó?</p>
+            <p class="exito-subtitulo">¿El mail no llegó?</p>
 
-        <ul class="exito-lista">
-            <li>Chequeá tu conexión a Internet</li>
-            <li>Revisá tu carpeta Spam.</li>
-            <li>¿Sigue sin llegar? Escribinos a nuestro WhatsApp de Atención al Cliente al <strong>********</strong></li>
-        </ul>
+            <ul class="exito-lista">
+                <li>Chequeá tu conexión a Internet</li>
+                <li>Revisá tu carpeta Spam.</li>
+                <li>¿Sigue sin llegar? Escribinos a nuestro WhatsApp de Atención al Cliente al <strong>********</strong>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
 
 
     <script src="javascript.js"></script>
     <script src="login.js"></script>
-   <script type="module" src="firebase.js"></script>
+    <script type="module" src="firebase.js"></script>
 </body>
 
 </html>

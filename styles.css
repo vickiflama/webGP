@@ -646,3 +646,45 @@ body {
     line-height: 1.6;
 }
 
+.user-menu-wrap {
+    position: relative;
+}
+
+.user-dropdown {
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    min-width: 180px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.user-dropdown.activo {
+    display: block;
+}
+
+.user-dropdown a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.user-dropdown a:hover {
+    background: #f5f5f5;
+    color: #fe6902;
+}
+
+.user-dropdown hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 4px 0;
+}

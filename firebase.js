@@ -1,6 +1,6 @@
 // ==================== FIREBASE CONFIG ====================
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, updateProfile } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, updateProfile } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAlVuVENd77eqQO-EjrvPQ-ppXISZ0qZYA",
@@ -16,7 +16,7 @@ const auth = getAuth(app);
 
 // ==================== REGISTRO ====================
 async function registrarUsuario() {
-    if (!validarFormulario()) return;
+    if (!window.validarFormulario()) return;
 
     const nombre = document.querySelector('input[placeholder="Nombre*"]').value;
     const apellido = document.querySelector('input[placeholder="Apellido*"]').value;
@@ -29,13 +29,10 @@ async function registrarUsuario() {
             displayName: `${nombre} ${apellido}`
         });
 
-        // Guarda el nombre en localStorage
         localStorage.setItem('usuarioNombre', `${nombre} ${apellido}`);
-
-        // Muestra modal de éxito
         document.getElementById('exito-email').textContent = email;
-        cerrarModal('modal-registro');
-        abrirModal('modal-exito');
+        window.cerrarModal('modal-registro');
+        window.abrirModal('modal-exito');
 
     } catch (error) {
         console.error('Error al registrar:', error);
@@ -67,7 +64,7 @@ async function loginUsuario() {
         const userCredential = await signInWithEmailAndPassword(auth, emailVal, passwordVal);
         const nombre = userCredential.user.displayName;
         localStorage.setItem('usuarioNombre', nombre);
-        window.location.replace('index.html');
+        window.location.href = 'index.html';
     } catch (error) {
         errorBanner.style.display = 'block';
         emailField.classList.add('input-error');
@@ -79,22 +76,41 @@ async function loginUsuario() {
 async function cerrarSesion() {
     await signOut(auth);
     localStorage.removeItem('usuarioNombre');
-    window.location.replace = 'index.html';
+    window.location.href = 'index.html';
 }
 
-// ==================== NAVBAR - MOSTRAR NOMBRE ====================
+// ==================== NAVBAR ====================
 function actualizarNavbar() {
     const nombre = localStorage.getItem('usuarioNombre');
-    const btnLogin = document.querySelector('.btn-login');
-    if (btnLogin && nombre) {
-        btnLogin.innerHTML = `<i class="fa-regular fa-circle-user"></i> ${nombre.split(' ')[0]}`;
-        btnLogin.onclick = cerrarSesion;
+    const nombreSpan = document.getElementById('nombre-usuario');
+    if (nombreSpan && nombre) {
+        nombreSpan.textContent = nombre.split(' ')[0];
     }
 }
 
-// Llama al cargar cualquier página
 actualizarNavbar();
 
+// ==================== MENU DESPLEGABLE ====================
+function toggleMenu() {
+    const nombre = localStorage.getItem('usuarioNombre');
+    if (!nombre) {
+        window.abrirModal('modal-registro');
+        return;
+    }
+    const dropdown = document.getElementById('user-dropdown');
+    if (dropdown) dropdown.classList.toggle('activo');
+}
+
+document.addEventListener('click', function(e) {
+    const wrap = document.querySelector('.user-menu-wrap');
+    if (wrap && !wrap.contains(e.target)) {
+        const dropdown = document.getElementById('user-dropdown');
+        if (dropdown) dropdown.classList.remove('activo');
+    }
+});
+
+// ==================== EXPONER GLOBALMENTE ====================
 window.registrarUsuario = registrarUsuario;
 window.loginUsuario = loginUsuario;
 window.cerrarSesion = cerrarSesion;
+window.toggleMenu = toggleMenu;
