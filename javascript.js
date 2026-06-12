@@ -50,39 +50,71 @@ document.querySelectorAll('.modal-overlay').forEach(overlay => {
 });
 
 // ==================== PROVINCIAS Y LOCALIDADES ====================
-async function cargarProvincias() {
-    const select = document.getElementById('select-provincia');
+// ==================== PROVINCIAS Y LOCALIDADES ====================
+let localidadesPorProvincia = {};
+
+// Carga TODO de una sola vez al iniciar la página
+async function precargarTodo() {
     try {
-        const res = await fetch('https://apis.datos.gob.ar/georef/api/provincias?orden=nombre&max=100');
+        const res = await fetch('https://apis.datos.gob.ar/georef/api/municipios?max=5000&campos=nombre,provincia.nombre');
         const data = await res.json();
-        data.provincias.forEach(provincia => {
-            const option = document.createElement('option');
-            option.value = provincia.id;
-            option.textContent = provincia.nombre;
-            select.appendChild(option);
+
+        data.municipios.forEach(municipio => {
+            const provincia = municipio.provincia.nombre;
+            if (!localidadesPorProvincia[provincia]) {
+                localidadesPorProvincia[provincia] = [];
+            }
+            localidadesPorProvincia[provincia].push(municipio.nombre);
         });
+
+        // Ordena alfabéticamente cada provincia
+        Object.keys(localidadesPorProvincia).forEach(key => {
+            localidadesPorProvincia[key].sort();
+        });
+
+        console.log('Localidades precargadas ✅');
     } catch (error) {
-        console.error('Error cargando provincias:', error);
+        console.error('Error precargando localidades:', error);
     }
 }
 
-async function cargarLocalidades() {
-    const provinciaId = document.getElementById('select-provincia').value;
+// Llama al precargar cuando carga la página
+precargarTodo();
+
+function cargarProvincias() {
+    const select = document.getElementById('select-provincia');
+    if (select.options.length > 1) return;
+
+    const provincias = [
+        "Buenos Aires", "Catamarca", "Chaco", "Chubut", "Córdoba",
+        "Corrientes", "Entre Ríos", "Formosa", "Jujuy", "La Pampa",
+        "La Rioja", "Mendoza", "Misiones", "Neuquén", "Río Negro",
+        "Salta", "San Juan", "San Luis", "Santa Cruz", "Santa Fe",
+        "Santiago del Estero", "Tierra del Fuego", "Tucumán",
+        "Ciudad Autónoma de Buenos Aires"
+    ];
+
+    provincias.forEach(nombre => {
+        const option = document.createElement('option');
+        option.value = nombre;
+        option.textContent = nombre;
+        select.appendChild(option);
+    });
+}
+
+function cargarLocalidades() {
+    const provincia = document.getElementById('select-provincia').value;
     const selectLocalidad = document.getElementById('select-localidad');
     selectLocalidad.innerHTML = '<option value="">Localidad*</option>';
-    if (!provinciaId) return;
-    try {
-        const res = await fetch(`https://apis.datos.gob.ar/georef/api/municipios?provincia=${provinciaId}&orden=nombre&max=1000`);
-        const data = await res.json();
-        data.municipios.forEach(municipio => {
-            const option = document.createElement('option');
-            option.value = municipio.id;
-            option.textContent = municipio.nombre;
-            selectLocalidad.appendChild(option);
-        });
-    } catch (error) {
-        console.error('Error cargando localidades:', error);
-    }
+    if (!provincia) return;
+
+    const ciudades = localidadesPorProvincia[provincia] || [];
+    ciudades.forEach(ciudad => {
+        const option = document.createElement('option');
+        option.value = ciudad;
+        option.textContent = ciudad;
+        selectLocalidad.appendChild(option);
+    });
 }
 
 // ==================== VALIDACIÓN ====================

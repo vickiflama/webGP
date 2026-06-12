@@ -20,3 +20,16 @@ function validarLogin() {
         console.log('Login válido, ingresando...');
     }
 }
+
+function enviarRecuperar() {
+    const email = document.getElementById('recuperar-email');
+    email.classList.remove('input-error');
+
+    if (email.value.trim() === '') {
+        email.classList.add('input-error');
+        return;
+    }
+
+    // Redirige a la página de éxito
+    window.location.href = 'mailconfirmado.html';
+}

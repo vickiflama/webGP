@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="login.css">
-    <title>Login - Gran Prix Mayorista</title>
+    <title>Recuperar contraseña - Gran Prix Mayorista</title>
 </head>
-
-<body>
+<body class="login-page">
 
     <!-- NAVBAR -->
     <header class="navbar">
@@ -22,18 +20,15 @@
                 <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
             </a>
         </div>
-
         <div class="search-wrap">
             <div class="search-box">
                 <input type="text" placeholder="Buscador">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
-
         <div class="nav-right">
             <button class="btn-whatsapp">
-                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
-                    rel="noopener noreferrer">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-whatsapp"></i>
                     Sumate al canal de WhatsApp
                 </a>
@@ -49,32 +44,24 @@
         </div>
     </header>
 
-    <!-- FORMULARIO LOGIN -->
+    <!-- FORMULARIO RECUPERAR -->
     <section class="login-section">
-    <div class="login-box">
+        <div class="login-box">
+            <p class="login-titulo">Recuperá tu contraseña</p>
 
-        <!-- Banner error -->
-        <div class="login-error" id="login-error" style="display:none">
-            <span>¡Ups! <i class="fa-solid fa-circle-xmark"></i></span>
-            <p>Tu correo electrónico o contraseña fueron ingresados incorrectamente. Inténtalo nuevamente</p>
+            <div class="recuperar-banner">
+                Por favor ingresá tu mail con el que te registraste, y te enviaremos las instrucciones para recuperar tu contraseña.
+            </div>
+
+            <input type="email" placeholder="Correo electrónico*" class="input-field" id="recuperar-email">
+
+            <div class="login-botones">
+                <button class="btn-registrar" onclick="enviarRecuperar()">ENVIAR</button>
+            </div>
         </div>
-
-        <p class="login-titulo">Ingresá tus datos:</p>
-        <input type="email" placeholder="Correo electrónico" class="input-field" id="login-email">
-        <input type="password" placeholder="Contraseña" class="input-field" id="login-password">
-
-        <a href="recuperarcontraseña.html" class="login-olvide">
-            ¿Olvidaste tu <strong>contraseña</strong>?
-        </a>
-
-        <div class="login-botones">
-            <button class="btn-registrar" onclick="validarLogin()">ACCESO</button>
-        </div>
-    </div>
-</section>
+    </section>
 
     <script src="javascript.js"></script>
     <script src="login.js"></script>
 </body>
-
 </html>
