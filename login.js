@@ -36,6 +36,8 @@ function enviarRecuperar() {
 
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Enter') {
-        loginUsuario();
+        if (window.loginUsuario) {
+            window.loginUsuario();
+        }
     }
 });
