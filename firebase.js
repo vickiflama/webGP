@@ -14,6 +14,20 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
+// ==================== LOADING ====================
+function mostrarLoading(texto = 'Cargando...') {
+    const overlay = document.getElementById('loading');
+    if (!overlay) return;
+    const textoEl = overlay.querySelector('.loading-texto');
+    if (textoEl) textoEl.textContent = texto;
+    overlay.classList.add('activo');
+}
+
+function ocultarLoading() {
+    const overlay = document.getElementById('loading');
+    if (overlay) overlay.classList.remove('activo');
+}
+
 // ==================== REGISTRO ====================
 async function registrarUsuario() {
     if (!window.validarFormulario()) return;
@@ -22,24 +36,41 @@ async function registrarUsuario() {
     const apellido = document.querySelector('input[placeholder="Apellido*"]').value;
     const email = document.querySelector('input[placeholder="Correo electrónico*"]').value;
     const password = document.querySelector('input[placeholder="Contraseña*"]').value;
+    const celular = document.querySelector('input[placeholder="Celular*"]').value;
+    const dni = document.querySelector('input[placeholder="DNI o CUIT*"]').value;
+    const fecha = document.querySelector('input[type="date"]').value;
+    const provincia = document.getElementById('select-provincia').value;
+    const localidad = document.getElementById('select-localidad').value;
 
+    mostrarLoading('Creando tu cuenta...');
     try {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
         await updateProfile(userCredential.user, {
             displayName: `${nombre} ${apellido}`
         });
 
+        const { getFirestore, doc, setDoc } = await import("https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js");
+        const db = getFirestore(app);
+        await setDoc(doc(db, 'usuarios', userCredential.user.uid), {
+            celular,
+            dni,
+            fechaNacimiento: fecha,
+            provincia,
+            localidad
+        });
+
         localStorage.setItem('usuarioNombre', `${nombre} ${apellido}`);
+        ocultarLoading();
         document.getElementById('exito-email').textContent = email;
         window.cerrarModal('modal-registro');
         window.abrirModal('modal-exito');
 
     } catch (error) {
+        ocultarLoading();
         console.error('Error al registrar:', error);
         alert('Error al registrar: ' + error.message);
     }
 }
-
 // ==================== LOGIN ====================
 async function loginUsuario() {
     const emailField = document.getElementById('login-email');
@@ -60,12 +91,14 @@ async function loginUsuario() {
         return;
     }
 
+    mostrarLoading('Ingresando...');
     try {
         const userCredential = await signInWithEmailAndPassword(auth, emailVal, passwordVal);
         const nombre = userCredential.user.displayName;
         localStorage.setItem('usuarioNombre', nombre);
         window.location.href = 'index.html';
     } catch (error) {
+        ocultarLoading();
         errorBanner.style.display = 'block';
         emailField.classList.add('input-error');
         passwordField.classList.add('input-error');
@@ -74,6 +107,7 @@ async function loginUsuario() {
 
 // ==================== CERRAR SESIÓN ====================
 async function cerrarSesion() {
+    mostrarLoading('Cerrando sesión...');
     await signOut(auth);
     localStorage.removeItem('usuarioNombre');
     window.location.href = 'index.html';
@@ -114,3 +148,5 @@ window.registrarUsuario = registrarUsuario;
 window.loginUsuario = loginUsuario;
 window.cerrarSesion = cerrarSesion;
 window.toggleMenu = toggleMenu;
+window.mostrarLoading = mostrarLoading;
+window.ocultarLoading = ocultarLoading;

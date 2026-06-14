@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="perfil.css">
+    <title>Mi Perfil - Gran Prix Mayorista</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+        <div class="search-wrap">
+            <div class="search-box">
+                <input type="text" placeholder="Buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
+            <div class="user-menu-wrap">
+                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span id="nombre-usuario">LOGIN</span>
+                </button>
+                <div class="user-dropdown" id="user-dropdown">
+                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                    <hr>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
+                </div>
+            </div>
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- PERFIL -->
+    <section class="perfil-section">
+
+        <!-- SECCIÓN 1: DATOS DEL REGISTRO -->
+        <div class="perfil-card">
+            <div class="perfil-card-header">
+                <h2 class="perfil-titulo"><i class="fa-regular fa-user"></i> Mis datos</h2>
+                <button class="btn-editar" id="btn-editar-datos" onclick="editarSeccion('datos')">
+                    <i class="fa-solid fa-pen"></i> Editar
+                </button>
+            </div>
+
+            <div class="form-grid">
+                <div class="form-grupo">
+                    <label>Nombre</label>
+                    <input type="text" id="perfil-nombre" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Apellido</label>
+                    <input type="text" id="perfil-apellido" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Correo electrónico</label>
+                    <input type="email" id="perfil-email" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Celular</label>
+                    <input type="tel" id="perfil-celular" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>DNI / CUIT</label>
+                    <input type="text" id="perfil-dni" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Fecha de nacimiento</label>
+                    <input type="date" id="perfil-fecha" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Provincia</label>
+                    <input type="text" id="perfil-provincia" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Localidad</label>
+                    <input type="text" id="perfil-localidad" class="input-perfil" disabled>
+                </div>
+            </div>
+
+            <div class="perfil-botones" id="botones-datos" style="display:none">
+                <button class="btn-cancelar" onclick="cancelarEdicion('datos')">CANCELAR</button>
+                <button class="btn-guardar" onclick="guardarDatos()">GUARDAR</button>
+            </div>
+        </div>
+
+        <!-- SECCIÓN 2: DIRECCIÓN -->
+        <div class="perfil-card">
+            <div class="perfil-card-header">
+                <h2 class="perfil-titulo"><i class="fa-solid fa-location-dot"></i> Dirección de entrega</h2>
+                <button class="btn-editar" id="btn-editar-direccion" onclick="editarSeccion('direccion')">
+                    <i class="fa-solid fa-pen"></i> Editar
+                </button>
+            </div>
+
+            <div class="form-grid">
+                <div class="form-grupo">
+                    <label>Calle</label>
+                    <input type="text" id="dir-calle" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Número</label>
+                    <input type="text" id="dir-numero" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Piso</label>
+                    <input type="text" id="dir-piso" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Departamento</label>
+                    <input type="text" id="dir-depto" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Provincia</label>
+                    <input type="text" id="dir-provincia" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Localidad</label>
+                    <input type="text" id="dir-localidad" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo">
+                    <label>Código postal</label>
+                    <input type="text" id="dir-cp" class="input-perfil" disabled>
+                </div>
+                <div class="form-grupo form-grupo-full">
+                    <label>Referencias</label>
+                    <input type="text" id="dir-referencias" class="input-perfil" placeholder="Ej: Casa con portón azul, entre calles..." disabled>
+                </div>
+            </div>
+
+            <div class="perfil-botones" id="botones-direccion" style="display:none">
+                <button class="btn-cancelar" onclick="cancelarEdicion('direccion')">CANCELAR</button>
+                <button class="btn-guardar" onclick="guardarDireccion()">GUARDAR</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- LOADING -->
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
+
+    <script src="javascript.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="perfil.js"></script>
+</body>
+</html>

@@ -33,3 +33,9 @@ function enviarRecuperar() {
     // Redirige a la página de éxito
     window.location.href = 'mailconfirmado.html';
 }
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+        loginUsuario();
+    }
+});

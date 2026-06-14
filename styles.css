@@ -688,3 +688,43 @@ body {
     border-top: 1px solid #eee;
     margin: 4px 0;
 }
+
+/* LOADING */
+.loading-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.8);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.loading-overlay.activo {
+    display: flex;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f0f0f0;
+    border-top: 5px solid #fe6902;
+    border-radius: 50%;
+    animation: girar 0.8s linear infinite;
+}
+
+@keyframes girar {
+    to { transform: rotate(360deg); }
+}
+
+.loading-texto {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fe6902;
+    font-family: var(--font);
+}
