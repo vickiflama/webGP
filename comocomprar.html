@@ -8,14 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="perfil.css">
-    <title>Mail enviado - Gran Prix Mayorista</title>
+    <title>Cómo Comprar - Gran Prix Mayorista</title>
 </head>
 
-<body class="login-page">
+<body>
 
     <!-- NAVBAR -->
     <header class="navbar">
@@ -24,12 +22,14 @@
                 <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
             </a>
         </div>
+
         <div class="search-wrap">
             <div class="search-box">
                 <input type="text" placeholder="Buscador">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
+
         <div class="nav-right">
             <button class="btn-whatsapp">
                 <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
@@ -61,25 +61,8 @@
         </div>
     </header>
 
-    <!-- MENSAJE ÉXITO -->
-    <section class="login-section">
-        <div class="mail-enviado-box">
-            <h2 class="mail-enviado-titulo">El mail fue enviado con éxito</h2>
-            <p class="mail-enviado-subtitulo">Ingrese a su correo electrónico y siga los pasos para recuperar su
-                contraseña</p>
-        </div>
-    </section>
-
-    <!-- LOADING -->
-<div class="loading-overlay" id="loading">
-    <div class="spinner"></div>
-    <p class="loading-texto">Cargando...</p>
-</div>
 
     <script src="javascript.js"></script>
-    <script type="module" src="firebase.js"></script>
-    <script type="module" src="perfil.js"></script>
     <script src="modales.js"></script>
+    <script type="module" src="firebase.js"></script>
 </body>
-
-</html>

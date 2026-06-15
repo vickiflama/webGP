@@ -5,17 +5,13 @@
 }
 
 .login-page .login-section {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
 }
 
-.login-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .login-box {
     display: flex;
