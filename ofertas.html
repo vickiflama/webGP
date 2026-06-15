@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ofertas.css">
+    <title>Ofertas - Gran Prix Mayorista</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+        <div class="search-wrap">
+            <div class="search-box">
+                <input type="text" placeholder="Buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
+            <div class="user-menu-wrap">
+                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span id="nombre-usuario">LOGIN</span>
+                </button>
+                <div class="user-dropdown" id="user-dropdown">
+                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                    <hr>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
+                </div>
+            </div>
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENIDO -->
+    <div class="ofertas-wrap">
+
+        <!-- FILTROS -->
+        <aside class="filtros">
+            <h3 class="filtros-titulo"><i class="fa-solid fa-sliders"></i> Filtrar</h3>
+
+            <div class="filtro-grupo">
+                <button class="filtro-header" onclick="toggleFiltro('categoria')">
+                    Categoría <span id="icon-categoria">+</span>
+                </button>
+                <div class="filtro-opciones" id="filtro-categoria">
+                    <label><input type="checkbox" value="yerba"> Yerba mate</label>
+                    <label><input type="checkbox" value="cafe"> Café</label>
+                    <label><input type="checkbox" value="bebidas"> Bebidas</label>
+                    <label><input type="checkbox" value="snacks"> Snacks</label>
+                    <label><input type="checkbox" value="limpieza"> Limpieza</label>
+                </div>
+            </div>
+
+            <div class="filtro-grupo">
+                <button class="filtro-header" onclick="toggleFiltro('marca')">
+                    Marca <span id="icon-marca">+</span>
+                </button>
+                <div class="filtro-opciones" id="filtro-marca">
+                    <label><input type="checkbox" value="taragui"> Taragüi</label>
+                    <label><input type="checkbox" value="chamigo"> Chamigo</label>
+                    <label><input type="checkbox" value="cbsebastian"> Cruz de Malta</label>
+                    <label><input type="checkbox" value="pampa"> Pampa</label>
+                    <label><input type="checkbox" value="cachamate"> Cachamate</label>
+                </div>
+            </div>
+
+            <div class="filtro-grupo">
+                <button class="filtro-header" onclick="toggleFiltro('ordenar')">
+                    Ordenar <span id="icon-ordenar">+</span>
+                </button>
+                <div class="filtro-opciones" id="filtro-ordenar">
+                    <label><input type="radio" name="orden" value="menor"> Menor precio</label>
+                    <label><input type="radio" name="orden" value="mayor"> Mayor precio</label>
+                    <label><input type="radio" name="orden" value="descuento"> Mayor descuento</label>
+                </div>
+            </div>
+        </aside>
+
+        <!-- PRODUCTOS -->
+        <section class="productos-grid" id="productos-grid">
+
+            <div class="producto-card">
+                <div class="badge badge-off">60% OFF</div>
+                <img src="img/productos/chamigo.png" alt="Yerba Chamigo" class="producto-img">
+                <p class="producto-nombre">YERBA MATE CHAMIGO 1 KG</p>
+                <p class="producto-precio">$1.238</p>
+                <div class="producto-acciones">
+                    <div class="cantidad-wrap">
+                        <button onclick="cambiarCantidad(this, -1)">−</button>
+                        <span>1</span>
+                        <button onclick="cambiarCantidad(this, 1)">+</button>
+                    </div>
+                    <button class="btn-comprar">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/indumar.png" alt="Yerba Indumar" class="producto-img">
+                <p class="producto-nombre">YERBA MATE INDUMAR 500g</p>
+                <p class="producto-precio">$1.445,69</p>
+                <div class="producto-acciones">
+                    <div class="cantidad-wrap">
+                        <button onclick="cambiarCantidad(this, -1)">−</button>
+                        <span>1</span>
+                        <button onclick="cambiarCantidad(this, 1)">+</button>
+                    </div>
+                    <button class="btn-comprar">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="badge badge-3x2">3x2</div>
+                <img src="img/productos/taragui.png" alt="Yerba Taragüi" class="producto-img">
+                <p class="producto-nombre">YERBA MATE TARAGUI 500g</p>
+                <p class="producto-precio">$1.844,99</p>
+                <div class="producto-acciones">
+                    <div class="cantidad-wrap">
+                        <button onclick="cambiarCantidad(this, -1)">−</button>
+                        <span>1</span>
+                        <button onclick="cambiarCantidad(this, 1)">+</button>
+                    </div>
+                    <button class="btn-comprar">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/cachamate.png" alt="Cachamate" class="producto-img">
+                <p class="producto-nombre">YERBA MATE CACHAMATE HIERBAS DIG. 500g</p>
+                <p class="producto-precio">$1.506,14</p>
+                <div class="producto-acciones">
+                    <div class="cantidad-wrap">
+                        <button onclick="cambiarCantidad(this, -1)">−</button>
+                        <span>1</span>
+                        <button onclick="cambiarCantidad(this, 1)">+</button>
+                    </div>
+                    <button class="btn-comprar">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/campeche.png" alt="Campeche" class="producto-img">
+                <p class="producto-nombre">YERBA MATE CAMPECHE SUAVE 500g</p>
+                <p class="producto-precio">$1.320,00</p>
+                <div class="producto-acciones">
+                    <div class="cantidad-wrap">
+                        <button onclick="cambiarCantidad(this, -1)">−</button>
+                        <span>1</span>
+                        <button onclick="cambiarCantidad(this, 1)">+</button>
+                    </div>
+                    <button class="btn-comprar">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/pampa.png" alt="Pampa" class="producto-img">
+                <p class="producto-nombre">YERBA MATE ORGANICA PAMPA 500g</p>
+                <p class="producto-precio">$1.680,50</p>
+                <div class="producto-acciones">
+                    <div class="cantidad-wrap">
+                        <button onclick="cambiarCantidad(this, -1)">−</button>
+                        <span>1</span>
+                        <button onclick="cambiarCantidad(this, 1)">+</button>
+                    </div>
+                    <button class="btn-comprar">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <div class="badge badge-off">20% OFF</div>
+                <img src="img/productos/cruzdemalta.png" alt="Cruz de Malta" class="producto-img">
+                <p class="producto-nombre">YERBA MATE CRUZ DE MALTA 500g</p>
+                <p class="producto-precio">$1.920,00</p>
+                <div class="producto-acciones">
+                    <div class="cantidad-wrap">
+                        <button onclick="cambiarCantidad(this, -1)">−</button>
+                        <span>1</span>
+                        <button onclick="cambiarCantidad(this, 1)">+</button>
+                    </div>
+                    <button class="btn-comprar">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="producto-card">
+                <img src="img/productos/aguantadora.png" alt="Aguantadora" class="producto-img">
+                <p class="producto-nombre">YERBA MATE AGUANTADORA 500g</p>
+                <p class="producto-precio">$1.450,00</p>
+                <div class="producto-acciones">
+                    <div class="cantidad-wrap">
+                        <button onclick="cambiarCantidad(this, -1)">−</button>
+                        <span>1</span>
+                        <button onclick="cambiarCantidad(this, 1)">+</button>
+                    </div>
+                    <button class="btn-comprar">COMPRAR</button>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- LOADING -->
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
+
+    <script src="javascript.js"></script>
+    <script src="modales.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <script src="ofertas.js"></script>
+</body>
+</html>
