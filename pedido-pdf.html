@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pedido-pdf.css">
+
+    <title>Pedido Gran Prix</title>
+
+</head>
+
+<body>
+
+    <!-- HEADER CON LOGO -->
+    <div class="header">
+        <img src="img/Fondo Blanco GP.png" alt="Gran Prix Mayorista">
+        <p>Comprobante de pedido</p>
+    </div>
+
+    <!-- NO VÁLIDO COMO FACTURA -->
+    <div class="no-factura">
+        DOCUMENTO NO VÁLIDO COMO FACTURA
+    </div>
+
+    <!-- NRO PEDIDO Y FECHA/HORA -->
+    <div class="nro-pedido">
+        <span>Número de pedido: <strong id="nro-pedido"></strong></span>
+        <span id="pdf-fecha-hora"></span>
+    </div>
+
+    <div class="seccion">
+        <h3>Productos</h3>
+        <div id="pdf-productos"></div>
+        <div class="total-row">
+            <span>Total:</span>
+            <span id="pdf-total"></span>
+        </div>
+    </div>
+
+    <div class="seccion">
+        <h3>Criterio de reemplazo</h3>
+        <p id="pdf-reemplazo"></p>
+    </div>
+
+    <div class="seccion">
+        <h3>Envío</h3>
+        <p id="pdf-envio"></p>
+    </div>
+
+    <div class="seccion">
+        <h3>Pago</h3>
+        <p id="pdf-pago"></p>
+    </div>
+
+    <div class="footer">
+        <p>Gran Prix Mayorista — Bv. Lovatto N° 1313, Reconquista, Santa Fe</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="pedido-pdf.js"></script>
+</body>
+
+</html>

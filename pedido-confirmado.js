@@ -32,3 +32,9 @@ if (pedido.tipoEnvio === 'retiro') {
         Turno: ${pedido.turno}
     `;
 }
+
+// DESCARGAR PDF
+
+function descargarPDF() {
+    window.open('pedido-pdf.html', '_blank');
+}

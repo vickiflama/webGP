@@ -655,3 +655,79 @@
 .alerta-error.activo {
     display: flex;
 }
+
+/* BOTÓN PDF */
+
+.btn-pdf {
+    background: #1A3D6B;
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: var(--font);
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-pdf:hover {
+    background: #fe6902;
+}
+
+/* ===== ESTILOS PARA IMPRESIÓN/PDF ===== */
+@media print {
+    /* Oculta todo lo que no es el pedido */
+    .navbar,
+    .confirmado-botones,
+    .loading-overlay {
+        display: none !important;
+    }
+
+    body {
+        background: white !important;
+    }
+
+    .confirmado-wrap {
+        max-width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .confirmado-icono {
+        color: #3DB549 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .resumen-seccion {
+        border: 1px solid #ddd !important;
+        break-inside: avoid;
+    }
+
+    .resumen-seccion h3 {
+        color: #1A3D6B !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .nro-pedido {
+        background: #f0f9f1 !important;
+        border: 1.5px solid #3DB549 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .resumen-total strong {
+        color: #fe6902 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+    .resumen-seccion {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }

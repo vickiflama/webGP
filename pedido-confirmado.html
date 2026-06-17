@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="carrito.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <title>Pedido Confirmado - Gran Prix Mayorista</title>
 </head>
 <body>
@@ -97,14 +98,16 @@
         </div>
 
         <div class="confirmado-botones">
-            <a href="pedidos.html" class="btn-siguiente">
-                <i class="fa-solid fa-box"></i> Ver mis pedidos
-            </a>
-            <a href="index.html" class="btn-atras">
-                <i class="fa-solid fa-home"></i> Volver al inicio
-            </a>
-        </div>
-
+    <a href="pedidos.html" class="btn-siguiente">
+        <i class="fa-solid fa-box"></i> Ver mis pedidos
+    </a>
+    <button class="btn-pdf" onclick="descargarPDF()">
+    <i class="fa-solid fa-file-pdf"></i> Descargar PDF
+</button>
+    <a href="index.html" class="btn-atras">
+        <i class="fa-solid fa-home"></i> Volver al inicio
+    </a>
+</div>
     </div>
 
     <!-- LOADING -->

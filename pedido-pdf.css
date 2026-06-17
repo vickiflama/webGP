@@ -1,0 +1,86 @@
+ body { font-family: "Poppins", sans-serif; padding: 30px; color: #333; }
+        
+        .header { 
+            text-align: center; 
+            margin-bottom: 16px;
+            border-bottom: 3px solid #1A3D6B;
+            padding-bottom: 16px;
+        }
+        .header img { 
+            height: 80px; 
+            width: auto; 
+            margin-bottom: 8px;
+        }
+        .header p { 
+            color: #777; 
+            font-size: 13px; 
+            margin: 4px 0;
+        }
+
+        .no-factura {
+            background: #fff3cd;
+            border: 1.5px solid #FFB800;
+            border-radius: 8px;
+            padding: 8px 16px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 700;
+            color: #856404;
+            margin-bottom: 16px;
+            letter-spacing: 1px;
+        }
+
+        .nro-pedido { 
+            background: #f0f9f1; 
+            border: 1.5px solid #3DB549; 
+            border-radius: 8px; 
+            padding: 12px 16px; 
+            text-align: center;
+            margin-bottom: 16px;
+            font-size: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nro-pedido strong { color: #1A3D6B; font-size: 17px; }
+        .nro-pedido span { color: #777; font-size: 13px; }
+
+        .seccion { 
+            border: 1px solid #eee; 
+            border-radius: 8px; 
+            padding: 16px; 
+            margin-bottom: 14px; 
+        }
+        .seccion h3 { 
+            color: #1A3D6B; 
+            border-bottom: 1px solid #eee; 
+            padding-bottom: 8px; 
+            margin: 0 0 12px 0;
+            font-size: 15px;
+        }
+        .seccion p { margin: 6px 0; font-size: 14px; }
+        .producto-row { 
+            display: flex; 
+            justify-content: space-between; 
+            padding: 4px 0; 
+            font-size: 14px;
+        }
+        .total-row { 
+            display: flex; 
+            justify-content: space-between; 
+            font-weight: bold; 
+            border-top: 2px solid #eee; 
+            margin-top: 8px; 
+            padding-top: 8px;
+            font-size: 15px;
+        }
+        .total-row span:last-child { color: #fe6902; }
+
+        .footer { 
+            text-align: center; 
+            margin-top: 24px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+            font-size: 12px; 
+            color: #999; 
+        }
