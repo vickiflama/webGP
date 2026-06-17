@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="carrito.css">
     <title>Mi Carrito - Gran Prix Mayorista</title>
 </head>
+
 <body>
 
     <!-- NAVBAR -->
@@ -28,7 +30,8 @@
         </div>
         <div class="nav-right">
             <button class="btn-whatsapp">
-                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
+                    rel="noopener noreferrer">
                     <i class="fa-brands fa-whatsapp"></i>
                     Sumate al canal de WhatsApp
                 </a>
@@ -42,7 +45,8 @@
                     <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
                     <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
                     <hr>
-                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
+                        sesión</a>
                 </div>
             </div>
             <div class="cart-wrap">
@@ -125,7 +129,8 @@
         <!-- PASO 2: REEMPLAZO -->
         <div class="paso" id="paso-2" style="display:none">
             <h2 class="paso-titulo">Criterios de reemplazo</h2>
-            <p class="paso-subtitulo">¿Qué hacemos si algún producto no está disponible al momento de preparar tu pedido?</p>
+            <p class="paso-subtitulo">¿Qué hacemos si algún producto no está disponible al momento de preparar tu
+                pedido?</p>
 
             <div class="opciones-reemplazo">
                 <label class="opcion-card" id="op-granprix">
@@ -196,7 +201,8 @@
                         <div>
                             <strong>Retiro en el mayorista</strong>
                             <p>Bv. Lovatto N° 1313, Reconquista, Santa Fe.<br>
-                            <small>Te avisamos por WhatsApp cuando tu pedido esté listo para retirar.</small></p>
+                                <small>Te avisamos por WhatsApp cuando tu pedido esté listo para retirar.</small>
+                            </p>
                         </div>
                     </div>
                 </label>
@@ -235,8 +241,43 @@
                         <input type="text" id="env-cp" class="input-field" placeholder="CP">
                     </div>
                     <div class="form-grupo-envio form-full">
+                        <label>Teléfono de contacto*</label>
+                        <input type="tel" id="env-telefono" class="input-field" placeholder="Ej: 3482395855">
+                    </div>
+                    <div class="form-grupo-envio form-full">
                         <label>Referencias</label>
-                        <input type="text" id="env-referencias" class="input-field" placeholder="Ej: Casa con portón azul">
+                        <input type="text" id="env-referencias" class="input-field"
+                            placeholder="Ej: Casa con portón azul">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Selector de turno -->
+            <div class="turno-wrap" id="turno-wrap">
+                <h3 class="form-subtitulo">Elegí tu turno de entrega</h3>
+                <p class="paso-subtitulo">Lunes a viernes de 8 a 16hs</p>
+
+                <div class="calendario-wrap" id="calendario"></div>
+
+                <div class="franjas-wrap" id="franjas-wrap" style="display:none">
+                    <p class="franja-titulo">Elegí el horario:</p>
+                    <div class="franjas">
+                        <label class="franja-card">
+                            <input type="radio" name="franja" value="manana">
+                            <div class="franja-contenido">
+                                <i class="fa-solid fa-sun"></i>
+                                <span>Mañana</span>
+                                <small>8:00 - 12:00hs</small>
+                            </div>
+                        </label>
+                        <label class="franja-card">
+                            <input type="radio" name="franja" value="tarde">
+                            <div class="franja-contenido">
+                                <i class="fa-solid fa-cloud-sun"></i>
+                                <span>Tarde</span>
+                                <small>12:00 - 16:00hs</small>
+                            </div>
+                        </label>
                     </div>
                 </div>
             </div>
@@ -373,4 +414,5 @@
     <script src="carrito.js"></script>
     <script type="module" src="firebase.js"></script>
 </body>
+
 </html>

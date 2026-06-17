@@ -451,3 +451,133 @@
 .btn-confirmar:hover {
     background: #2d9438;
 }
+
+/* CALENDARIO */
+.turno-wrap {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #eee;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.calendario-wrap {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.cal-dia-nombre {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #999;
+    padding: 4px 0;
+}
+
+.cal-dia {
+    text-align: center;
+    padding: 10px 4px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+}
+
+.cal-dia.disponible {
+    background: #f0f9f1;
+    color: #3DB549;
+    border-color: #3DB549;
+}
+
+.cal-dia.disponible:hover {
+    background: #3DB549;
+    color: white;
+}
+
+.cal-dia.seleccionado {
+    background: #fe6902;
+    color: white;
+    border-color: #fe6902;
+}
+
+.cal-dia.no-disponible {
+    background: #f5f5f5;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.cal-dia.pasado {
+    background: #f5f5f5;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.cal-dia.vacio {
+    background: transparent;
+    cursor: default;
+}
+
+/* FRANJAS */
+.franja-titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.franjas {
+    display: flex;
+    gap: 12px;
+}
+
+.franja-card {
+    flex: 1;
+    border: 2px solid #eee;
+    border-radius: 12px;
+    padding: 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: block;
+}
+
+.franja-card:hover {
+    border-color: #fe6902;
+}
+
+.franja-card:has(input:checked) {
+    border-color: #fe6902;
+    background: #fff8f4;
+}
+
+.franja-card input {
+    display: none;
+}
+
+.franja-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.franja-contenido i {
+    font-size: 24px;
+    color: #fe6902;
+}
+
+.franja-contenido span {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+.franja-contenido small {
+    font-size: 12px;
+    color: #777;
+}
+
