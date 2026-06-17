@@ -1,0 +1,190 @@
+.comocomprar-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px 60px;
+}
+
+/* HEADER */
+.comocomprar-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.comocomprar-header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1A3D6B;
+    margin-bottom: 10px;
+}
+
+.comocomprar-header p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* PASOS */
+.pasos-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.paso-card {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 24px 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.paso-card:last-child {
+    border-bottom: none;
+}
+
+/* Número */
+.paso-numero {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fe6902;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* Ícono */
+.paso-icono {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background: #f0f4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.paso-icono i {
+    font-size: 22px;
+    color: #1A3D6B;
+}
+
+/* Contenido */
+.paso-contenido {
+    flex: 1;
+}
+
+.paso-contenido h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1A3D6B;
+    margin-bottom: 8px;
+}
+
+.paso-contenido p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.paso-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #fe6902;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+.paso-link:hover {
+    text-decoration: underline;
+}
+
+/* Opciones dentro del paso */
+.paso-opciones {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.paso-opcion {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 12px 14px;
+}
+
+.paso-opcion i {
+    font-size: 20px;
+    color: #fe6902;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.paso-opcion strong {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.paso-opcion span {
+    font-size: 13px;
+    color: #777;
+    line-height: 1.5;
+}
+
+/* CTA FINAL */
+.comocomprar-cta {
+    text-align: center;
+    background: #1A3D6B;
+    border-radius: 20px;
+    padding: 40px 30px;
+    margin-top: 48px;
+    color: white;
+}
+
+.comocomprar-cta h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.comocomprar-cta p {
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.cta-botones {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.cta-botones .btn-siguiente {
+    text-decoration: none;
+}
+
+.cta-botones .btn-atras {
+    text-decoration: none;
+    border-color: white;
+    color: white;
+}
+
+.cta-botones .btn-atras:hover {
+    background: white;
+    color: #1A3D6B;
+}

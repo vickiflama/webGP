@@ -1,0 +1,233 @@
+.pedidos-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.pedidos-titulo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1A3D6B;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* SIN PEDIDOS */
+.sin-pedidos {
+    text-align: center;
+    padding: 60px 20px;
+    color: #999;
+}
+
+.sin-pedidos i {
+    font-size: 60px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.sin-pedidos p {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+/* TARJETA PEDIDO */
+.pedido-card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    border: 1px solid #eee;
+}
+
+.pedido-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.pedido-nro {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A3D6B;
+}
+
+.pedido-fecha {
+    font-size: 13px;
+    color: #999;
+    margin-top: 4px;
+}
+
+.pedido-estado {
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.estado-pendiente {
+    background: #FFF3CD;
+    color: #856404;
+}
+
+.estado-preparacion {
+    background: #cfe2ff;
+    color: #084298;
+}
+
+.estado-listo {
+    background: #d1e7dd;
+    color: #0f5132;
+}
+
+.estado-camino {
+    background: #e8d5f5;
+    color: #5a2d8a;
+}
+
+.estado-entregado {
+    background: #d1e7dd;
+    color: #0f5132;
+}
+
+.pedido-card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+}
+
+.pedido-info {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.pedido-info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.pedido-info-item span:first-child {
+    font-size: 12px;
+    color: #999;
+    font-weight: 600;
+}
+
+.pedido-info-item span:last-child {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+.pedido-info-item .precio {
+    color: #fe6902;
+    font-size: 18px;
+}
+
+.pedido-botones {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-ver-detalle {
+    background: #1A3D6B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: var(--font);
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-ver-detalle:hover {
+    background: #fe6902;
+}
+
+.btn-pdf-pedido {
+    background: transparent;
+    color: #1A3D6B;
+    border: 2px solid #1A3D6B;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: var(--font);
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-pdf-pedido:hover {
+    background: #1A3D6B;
+    color: white;
+}
+
+/* MODAL DETALLE */
+.modal-detalle-contenido {
+    max-width: 680px;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+.detalle-seccion {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.detalle-seccion:last-child {
+    border-bottom: none;
+}
+
+.detalle-seccion h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1A3D6B;
+    margin-bottom: 8px;
+}
+
+.detalle-seccion p {
+    font-size: 14px;
+    color: #555;
+    margin: 4px 0;
+}
+
+.detalle-producto-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+    padding: 4px 0;
+}
+
+.detalle-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 8px;
+    margin-top: 8px;
+    border-top: 2px solid #eee;
+}
+
+.detalle-total span:last-child {
+    color: #fe6902;
+}

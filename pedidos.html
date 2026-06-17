@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pedidos.css">
+    <title>Mis Pedidos - Gran Prix Mayorista</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+        <div class="search-wrap">
+            <div class="search-box">
+                <input type="text" placeholder="Buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
+            <div class="user-menu-wrap">
+                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span id="nombre-usuario">LOGIN</span>
+                </button>
+                <div class="user-dropdown" id="user-dropdown">
+                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                    <hr>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
+                </div>
+            </div>
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge" id="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENIDO -->
+    <section class="pedidos-section">
+        <h2 class="pedidos-titulo"><i class="fa-solid fa-box"></i> Mis pedidos</h2>
+
+        <!-- Sin pedidos -->
+        <div class="sin-pedidos" id="sin-pedidos" style="display:none">
+            <i class="fa-solid fa-box-open"></i>
+            <p>Todavía no tenés pedidos</p>
+            <a href="ofertas.html" class="btn-siguiente">Ver ofertas</a>
+        </div>
+
+        <!-- Lista de pedidos -->
+        <div id="lista-pedidos"></div>
+
+    </section>
+
+    <!-- MODAL DETALLE PEDIDO -->
+    <div class="modal-overlay" id="modal-detalle">
+        <div class="modal modal-detalle-contenido">
+            <button class="modal-cerrar" onclick="cerrarDetalle()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h2 class="modal-titulo" id="detalle-nro"></h2>
+            <div id="detalle-contenido"></div>
+        </div>
+    </div>
+
+    <!-- LOADING -->
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
+
+    <script src="javascript.js"></script>
+    <script src="modales.js"></script>
+    <script src="pedidos.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="pedidos-firebase.js"></script>
+</body>
+</html>

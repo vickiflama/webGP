@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="comocomprar.css">
     <title>Cómo Comprar - Gran Prix Mayorista</title>
 </head>
 
@@ -22,24 +22,19 @@
                 <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
             </a>
         </div>
-
         <div class="search-wrap">
             <div class="search-box">
                 <input type="text" placeholder="Buscador">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
-
         <div class="nav-right">
             <button class="btn-whatsapp">
-                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
-                    rel="noopener noreferrer">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-whatsapp"></i>
                     Sumate al canal de WhatsApp
                 </a>
             </button>
-
-            <!-- MENU USUARIO -->
             <div class="user-menu-wrap">
                 <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
                     <i class="fa-regular fa-circle-user"></i>
@@ -49,20 +44,164 @@
                     <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
                     <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
                     <hr>
-                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
-                        sesión</a>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
                 </div>
             </div>
-
             <div class="cart-wrap">
                 <i class="fa-solid fa-cart-shopping"></i>
-                <span class="cart-badge">0</span>
+                <span class="cart-badge" id="cart-badge">0</span>
             </div>
         </div>
     </header>
 
+    <!-- CONTENIDO -->
+    <section class="comocomprar-section">
+
+        <div class="comocomprar-header">
+            <h1>¿Cómo comprar?</h1>
+            <p>Seguí estos simples pasos para realizar tu pedido en Gran Prix Mayorista</p>
+        </div>
+
+        <div class="pasos-wrap">
+
+            <!-- PASO 1 -->
+            <div class="paso-card">
+                <div class="paso-numero">1</div>
+                <div class="paso-contenido">
+                    <h3>Registrate o ingresá</h3>
+                    <p>Creá tu cuenta con tus datos personales o iniciá sesión si ya tenés una. Es rápido y gratuito.</p>
+                    <a href="login.html" class="paso-link">Ir al login <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- PASO 2 -->
+            <div class="paso-card">
+                <div class="paso-numero">2</div>
+                <div class="paso-contenido">
+                    <h3>Buscá tus productos</h3>
+                    <p>Navegá por nuestras ofertas o usá el buscador para encontrar lo que necesitás.</p>
+                    <a href="ofertas.html" class="paso-link">Ver ofertas <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- PASO 3 -->
+            <div class="paso-card">
+                <div class="paso-numero">3</div>
+                <div class="paso-contenido">
+                    <h3>Agregá al carrito</h3>
+                    <p>Seleccioná la cantidad que necesitás y hacé clic en COMPRAR. Podés seguir agregando más productos.</p>
+                </div>
+            </div>
+
+            <!-- PASO 4 -->
+            <div class="paso-card">
+                <div class="paso-numero">4</div>
+                <div class="paso-contenido">
+                    <h3>Revisá tu carrito</h3>
+                    <p>Verificá los productos y cantidades antes de continuar. Recordá que el mínimo de compra es de <strong>$50.000</strong>.</p>
+                </div>
+            </div>
+
+            <!-- PASO 5 -->
+            <div class="paso-card">
+                <div class="paso-numero">5</div>
+                <div class="paso-contenido">
+                    <h3>Elegí cómo recibir tu pedido</h3>
+                    <p>Tenés dos opciones:</p>
+                    <div class="paso-opciones">
+                        <div class="paso-opcion">
+                            <i class="fa-solid fa-truck"></i>
+                            <div>
+                                <strong>Envío a domicilio</strong>
+                                <span>Elegís el día y turno horario (mañana 8-12hs o tarde 12-16hs)</span>
+                            </div>
+                        </div>
+                        <div class="paso-opcion">
+                            <i class="fa-solid fa-store"></i>
+                            <div>
+                                <strong>Retiro en el local</strong>
+                                <span>Bv. Lovatto N° 1313, Reconquista, Santa Fe. Te avisamos por WhatsApp cuando esté listo.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PASO 6 -->
+            <div class="paso-card">
+                <div class="paso-numero">6</div>
+                <div class="paso-contenido">
+                    <h3>Elegí cómo pagar</h3>
+                    <div class="paso-opciones">
+                        <div class="paso-opcion">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <div>
+                                <strong>Efectivo</strong>
+                                <span>Pagás al recibir tu pedido o al retirarlo en el local.</span>
+                            </div>
+                        </div>
+                        <div class="paso-opcion">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <div>
+                                <strong>Transferencia bancaria</strong>
+                                <span>Te contactamos por WhatsApp con los datos bancarios. El pedido se confirma una vez acreditado el pago.</span>
+                            </div>
+                        </div>
+                        <div class="paso-opcion">
+                            <i class="fa-solid fa-credit-card"></i>
+                            <div>
+                                <strong>Tarjeta de débito/crédito</strong>
+                                <span>Te enviamos un link de pago seguro para que abones desde donde estés.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PASO 7 -->
+            <div class="paso-card">
+                <div class="paso-numero">7</div>
+                <div class="paso-contenido">
+                    <h3>Confirmá tu pedido</h3>
+                    <p>Revisá el resumen completo y confirmá. Vas a poder descargar tu comprobante en PDF con el número de pedido.</p>
+                </div>
+            </div>
+
+            <!-- PASO 8 -->
+            <div class="paso-card">
+                <div class="paso-numero">8</div>
+                <div class="paso-contenido">
+                    <h3>Te contactamos por WhatsApp</h3>
+                    <p>Una vez confirmado el pedido nos comunicamos para coordinar la entrega o avisarte cuando esté listo para retirar.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- CTA FINAL -->
+        <div class="comocomprar-cta">
+            <h2>¿Listo para empezar?</h2>
+            <p>Registrate y empezá a comprar hoy</p>
+            <div class="cta-botones">
+                <a href="ofertas.html" class="btn-siguiente">
+                    <i class="fa-solid fa-cart-shopping"></i> Ver ofertas
+                </a>
+                <a href="login.html" class="btn-atras">
+                    <i class="fa-regular fa-circle-user"></i> Registrarme
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- LOADING -->
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
 
     <script src="javascript.js"></script>
     <script src="modales.js"></script>
     <script type="module" src="firebase.js"></script>
 </body>
+</html>
