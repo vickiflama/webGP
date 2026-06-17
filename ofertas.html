@@ -50,7 +50,7 @@
                         sesión</a>
                 </div>
             </div>
-            <div class="cart-wrap" onclick="toggleCarrito()">
+            <div class="cart-wrap">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <span class="cart-badge" id="cart-badge">0</span>
             </div>
@@ -250,7 +250,7 @@
         <div class="carrito-items" id="carrito-items"></div>
         <div class="carrito-footer">
             <div class="carrito-subtotal" id="carrito-subtotal">SUBTOTAL: $0</div>
-            <button class="btn-mi-carrito">MI CARRITO</button>
+            <button class="btn-mi-carrito" onclick="window.location.href='carrito.html'">MI CARRITO</button>
         </div>
     </div>
 
@@ -258,7 +258,7 @@
     <script src="modales.js"></script>
     <script src="ofertas.js"></script>
     <script type="module" src="firebase.js"></script>
-    
+
 </body>
 
 </html>

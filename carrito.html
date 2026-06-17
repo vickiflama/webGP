@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carrito.css">
+    <title>Mi Carrito - Gran Prix Mayorista</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+        <div class="search-wrap">
+            <div class="search-box">
+                <input type="text" placeholder="Buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
+            <div class="user-menu-wrap">
+                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span id="nombre-usuario">LOGIN</span>
+                </button>
+                <div class="user-dropdown" id="user-dropdown">
+                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                    <hr>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
+                </div>
+            </div>
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge" id="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- PROGRESO -->
+    <div class="progreso-wrap">
+        <div class="progreso-steps">
+            <div class="step activo" id="step-ind-1">
+                <div class="step-circle">1</div>
+                <span>Mi carrito</span>
+            </div>
+            <div class="step-linea" id="linea-1"></div>
+            <div class="step" id="step-ind-2">
+                <div class="step-circle">2</div>
+                <span>Reemplazo</span>
+            </div>
+            <div class="step-linea" id="linea-2"></div>
+            <div class="step" id="step-ind-3">
+                <div class="step-circle">3</div>
+                <span>Envío</span>
+            </div>
+            <div class="step-linea" id="linea-3"></div>
+            <div class="step" id="step-ind-4">
+                <div class="step-circle">4</div>
+                <span>Pago</span>
+            </div>
+            <div class="step-linea" id="linea-4"></div>
+            <div class="step" id="step-ind-5">
+                <div class="step-circle">5</div>
+                <span>Confirmar</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENIDO PASOS -->
+    <div class="checkout-wrap">
+
+        <!-- PASO 1: CARRITO -->
+        <div class="paso" id="paso-1">
+            <h2 class="paso-titulo">Mi carrito</h2>
+
+            <!-- Alerta mínimo -->
+            <div class="alerta-minimo" id="alerta-minimo" style="display:none">
+                <i class="fa-solid fa-circle-info"></i>
+                El monto mínimo de compra es de <strong>$50.000</strong>. Agregá más productos para continuar.
+            </div>
+
+            <div class="carrito-tabla" id="carrito-tabla">
+                <div class="carrito-tabla-header">
+                    <span>Producto</span>
+                    <span>Precio</span>
+                    <span>Cantidad</span>
+                    <span>Subtotal</span>
+                    <span></span>
+                </div>
+                <div id="carrito-lista"></div>
+            </div>
+
+            <div class="carrito-total-wrap">
+                <div class="carrito-total">
+                    <span>Total:</span>
+                    <strong id="carrito-total">$0</strong>
+                </div>
+                <div class="paso-botones">
+                    <a href="ofertas.html" class="btn-seguir-comprando">
+                        <i class="fa-solid fa-arrow-left"></i> Seguir comprando
+                    </a>
+                    <button class="btn-siguiente" onclick="irPaso(2)">
+                        Continuar <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PASO 2: REEMPLAZO -->
+        <div class="paso" id="paso-2" style="display:none">
+            <h2 class="paso-titulo">Criterios de reemplazo</h2>
+            <p class="paso-subtitulo">¿Qué hacemos si algún producto no está disponible al momento de preparar tu pedido?</p>
+
+            <div class="opciones-reemplazo">
+                <label class="opcion-card" id="op-granprix">
+                    <input type="radio" name="reemplazo" value="granprix">
+                    <div class="opcion-contenido">
+                        <i class="fa-solid fa-store"></i>
+                        <div>
+                            <strong>Gran Prix elige</strong>
+                            <p>Reemplazamos por un producto similar de igual calidad y precio.</p>
+                        </div>
+                    </div>
+                </label>
+
+                <label class="opcion-card" id="op-no">
+                    <input type="radio" name="reemplazo" value="no">
+                    <div class="opcion-contenido">
+                        <i class="fa-solid fa-ban"></i>
+                        <div>
+                            <strong>No reemplazar</strong>
+                            <p>Si no hay stock, el producto simplemente no se incluye en el pedido.</p>
+                        </div>
+                    </div>
+                </label>
+
+                <label class="opcion-card" id="op-whatsapp">
+                    <input type="radio" name="reemplazo" value="whatsapp">
+                    <div class="opcion-contenido">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div>
+                            <strong>Contactarme por WhatsApp</strong>
+                            <p>Te avisamos y decidís vos qué hacer con ese producto.</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="paso-botones">
+                <button class="btn-atras" onclick="irPaso(1)">
+                    <i class="fa-solid fa-arrow-left"></i> Atrás
+                </button>
+                <button class="btn-siguiente" onclick="irPaso(3)">
+                    Continuar <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- PASO 3: ENVÍO -->
+        <div class="paso" id="paso-3" style="display:none">
+            <h2 class="paso-titulo">Envío</h2>
+            <p class="paso-subtitulo">¿Cómo querés recibir tu pedido?</p>
+
+            <div class="opciones-envio">
+                <label class="opcion-card" id="op-envio">
+                    <input type="radio" name="envio" value="envio" onchange="mostrarFormEnvio()">
+                    <div class="opcion-contenido">
+                        <i class="fa-solid fa-truck"></i>
+                        <div>
+                            <strong>Envío a domicilio</strong>
+                            <p>Te lo llevamos a tu dirección.</p>
+                        </div>
+                    </div>
+                </label>
+
+                <label class="opcion-card" id="op-retiro">
+                    <input type="radio" name="envio" value="retiro" onchange="mostrarFormEnvio()">
+                    <div class="opcion-contenido">
+                        <i class="fa-solid fa-shop"></i>
+                        <div>
+                            <strong>Retiro en el mayorista</strong>
+                            <p>Bv. Lovatto N° 1313, Reconquista, Santa Fe.<br>
+                            <small>Te avisamos por WhatsApp cuando tu pedido esté listo para retirar.</small></p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <!-- Formulario dirección -->
+            <div class="form-direccion" id="form-direccion" style="display:none">
+                <h3 class="form-subtitulo">Dirección de entrega</h3>
+                <div class="form-grid-envio">
+                    <div class="form-grupo-envio form-full">
+                        <label>Calle*</label>
+                        <input type="text" id="env-calle" class="input-field" placeholder="Nombre de la calle">
+                    </div>
+                    <div class="form-grupo-envio">
+                        <label>Número*</label>
+                        <input type="text" id="env-numero" class="input-field" placeholder="Número">
+                    </div>
+                    <div class="form-grupo-envio">
+                        <label>Piso</label>
+                        <input type="text" id="env-piso" class="input-field" placeholder="Piso">
+                    </div>
+                    <div class="form-grupo-envio">
+                        <label>Departamento</label>
+                        <input type="text" id="env-depto" class="input-field" placeholder="Dpto">
+                    </div>
+                    <div class="form-grupo-envio">
+                        <label>Provincia*</label>
+                        <input type="text" id="env-provincia" class="input-field" placeholder="Provincia">
+                    </div>
+                    <div class="form-grupo-envio">
+                        <label>Localidad*</label>
+                        <input type="text" id="env-localidad" class="input-field" placeholder="Localidad">
+                    </div>
+                    <div class="form-grupo-envio">
+                        <label>Código postal*</label>
+                        <input type="text" id="env-cp" class="input-field" placeholder="CP">
+                    </div>
+                    <div class="form-grupo-envio form-full">
+                        <label>Referencias</label>
+                        <input type="text" id="env-referencias" class="input-field" placeholder="Ej: Casa con portón azul">
+                    </div>
+                </div>
+            </div>
+
+            <div class="paso-botones">
+                <button class="btn-atras" onclick="irPaso(2)">
+                    <i class="fa-solid fa-arrow-left"></i> Atrás
+                </button>
+                <button class="btn-siguiente" onclick="irPaso(4)">
+                    Continuar <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- PASO 4: PAGO -->
+        <div class="paso" id="paso-4" style="display:none">
+            <h2 class="paso-titulo">Método de pago</h2>
+
+            <div class="opciones-pago">
+                <label class="opcion-card">
+                    <input type="radio" name="pago" value="efectivo">
+                    <div class="opcion-contenido">
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <div>
+                            <strong>Efectivo</strong>
+                            <p>Pagás al momento de recibir o retirar tu pedido.</p>
+                        </div>
+                    </div>
+                </label>
+
+                <label class="opcion-card">
+                    <input type="radio" name="pago" value="transferencia">
+                    <div class="opcion-contenido">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <div>
+                            <strong>Transferencia bancaria</strong>
+                            <p>Te enviamos los datos por WhatsApp para realizar la transferencia.</p>
+                        </div>
+                    </div>
+                </label>
+
+                <label class="opcion-card">
+                    <input type="radio" name="pago" value="tarjeta">
+                    <div class="opcion-contenido">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <div>
+                            <strong>Tarjeta</strong>
+                            <p>Débito o crédito. Aplicamos las promociones bancarias vigentes.</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <!-- Factura -->
+            <div class="factura-wrap">
+                <label class="check-label">
+                    <input type="checkbox" id="check-factura">
+                    Necesito factura
+                </label>
+                <div id="form-factura" style="display:none">
+                    <div class="form-grid-envio" style="margin-top:16px">
+                        <div class="form-grupo-envio">
+                            <label>CUIT*</label>
+                            <input type="text" id="fact-cuit" class="input-field" placeholder="CUIT">
+                        </div>
+                        <div class="form-grupo-envio">
+                            <label>Razón social*</label>
+                            <input type="text" id="fact-razon" class="input-field" placeholder="Razón social">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="paso-botones">
+                <button class="btn-atras" onclick="irPaso(3)">
+                    <i class="fa-solid fa-arrow-left"></i> Atrás
+                </button>
+                <button class="btn-siguiente" onclick="irPaso(5)">
+                    Continuar <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- PASO 5: CONFIRMAR -->
+        <div class="paso" id="paso-5" style="display:none">
+            <h2 class="paso-titulo">Confirmar pedido</h2>
+
+            <div class="resumen-wrap">
+                <div class="resumen-seccion">
+                    <h3>Productos</h3>
+                    <div id="resumen-productos"></div>
+                    <div class="resumen-total">
+                        <span>Total:</span>
+                        <strong id="resumen-total"></strong>
+                    </div>
+                </div>
+
+                <div class="resumen-seccion">
+                    <h3>Reemplazo</h3>
+                    <p id="resumen-reemplazo"></p>
+                </div>
+
+                <div class="resumen-seccion">
+                    <h3>Envío</h3>
+                    <p id="resumen-envio"></p>
+                </div>
+
+                <div class="resumen-seccion">
+                    <h3>Pago</h3>
+                    <p id="resumen-pago"></p>
+                </div>
+            </div>
+
+            <div class="paso-botones">
+                <button class="btn-atras" onclick="irPaso(4)">
+                    <i class="fa-solid fa-arrow-left"></i> Atrás
+                </button>
+                <button class="btn-confirmar" onclick="confirmarPedido()">
+                    <i class="fa-solid fa-check"></i> Confirmar pedido
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- LOADING -->
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
+
+    <script src="javascript.js"></script>
+    <script src="modales.js"></script>
+    <script src="carrito.js"></script>
+    <script type="module" src="firebase.js"></script>
+</body>
+</html>
