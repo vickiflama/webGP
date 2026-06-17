@@ -1,6 +1,7 @@
 // ==================== FIREBASE CONFIG ====================
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, updateProfile } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAlVuVENd77eqQO-EjrvPQ-ppXISZ0qZYA",
@@ -11,8 +12,9 @@ const firebaseConfig = {
     appId: "1:969104780476:web:1d4e79065815a4181474b9"
 };
 
-const app = initializeApp(firebaseConfig);
+const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 const auth = getAuth(app);
+const db = getFirestore(app);
 
 // ==================== LOADING ====================
 function mostrarLoading(texto = 'Cargando...') {
@@ -107,11 +109,11 @@ async function loginUsuario() {
 
 // ==================== CERRAR SESIÓN ====================
 async function cerrarSesion() {
-    mostrarLoading('Cerrando sesión...');
     await signOut(auth);
     localStorage.removeItem('usuarioNombre');
     window.location.href = 'index.html';
 }
+
 
 // ==================== NAVBAR ====================
 function actualizarNavbar() {
@@ -143,6 +145,28 @@ document.addEventListener('click', function(e) {
     }
 });
 
+// ==================== GUARDAR PEDIDO ====================
+import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+const db = getFirestore(app);
+
+async function guardarPedido(pedido) {
+    try {
+        const user = auth.currentUser;
+        if (user) {
+            await addDoc(collection(db, 'pedidos'), {
+                ...pedido,
+                uid: user.uid,
+                usuario: user.displayName,
+            });
+        }
+    } catch (error) {
+        console.error('Error guardando pedido:', error);
+    }
+}
+
+window.guardarPedido = guardarPedido;
+
 // ==================== EXPONER GLOBALMENTE ====================
 window.registrarUsuario = registrarUsuario;
 window.loginUsuario = loginUsuario;
@@ -150,3 +174,5 @@ window.cerrarSesion = cerrarSesion;
 window.toggleMenu = toggleMenu;
 window.mostrarLoading = mostrarLoading;
 window.ocultarLoading = ocultarLoading;
+window._cerrarSesionFirebase = cerrarSesion;
+window.cerrarSesion = cerrarSesion;

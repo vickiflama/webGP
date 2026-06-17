@@ -185,6 +185,39 @@ function volverAlRegistro() {
     document.getElementById('modal-registro').classList.add('activo');
 }
 
+// ==================== TOGGLE MENU ====================
+window.toggleMenu = function() {
+    const nombre = localStorage.getItem('usuarioNombre');
+    if (!nombre) {
+        const modal = document.getElementById('modal-registro');
+        if (modal) {
+            abrirModal('modal-registro');
+        } else {
+            window.location.href = 'login.html';
+        }
+        return;
+    }
+    const dropdown = document.getElementById('user-dropdown');
+    if (dropdown) dropdown.classList.toggle('activo');
+};
+
+window.cerrarSesion = function() {
+    localStorage.removeItem('usuarioNombre');
+    // Si firebase está cargado lo usa, sino solo limpia y redirige
+    if (window._cerrarSesionFirebase) {
+        window._cerrarSesionFirebase();
+    } else {
+        window.location.href = 'index.html';
+    }
+
+if (!window.cerrarSesion) {
+    window.cerrarSesion = function() {
+        localStorage.removeItem('usuarioNombre');
+        window.location.href = 'index.html';
+    };
+}
+}
+
 // ==================== EXPONER GLOBALMENTE ====================
 window.abrirModal = abrirModal;
 window.cerrarModal = cerrarModal;

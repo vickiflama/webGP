@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carrito.css">
+    <title>Pedido Confirmado - Gran Prix Mayorista</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+        <div class="search-wrap">
+            <div class="search-box">
+                <input type="text" placeholder="Buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
+            <div class="user-menu-wrap">
+                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span id="nombre-usuario">LOGIN</span>
+                </button>
+                <div class="user-dropdown" id="user-dropdown">
+                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                    <hr>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
+                </div>
+            </div>
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge" id="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="confirmado-wrap">
+
+        <!-- Ícono de éxito -->
+        <div class="confirmado-icono">
+            <i class="fa-solid fa-circle-check"></i>
+        </div>
+
+        <h1 class="confirmado-titulo">¡Pedido confirmado!</h1>
+        <p class="confirmado-subtitulo">Gracias por tu compra. Te contactaremos por WhatsApp para coordinar los detalles.</p>
+
+        <!-- Detalle del pedido -->
+        <div class="confirmado-detalle">
+
+            <div class="resumen-seccion">
+                <h3>Productos</h3>
+                <div id="conf-productos"></div>
+                <div class="resumen-total">
+                    <span>Total:</span>
+                    <strong id="conf-total"></strong>
+                </div>
+            </div>
+
+            <div class="resumen-seccion">
+                <h3>Criterio de reemplazo</h3>
+                <p id="conf-reemplazo"></p>
+            </div>
+
+            <div class="resumen-seccion">
+                <h3>Envío</h3>
+                <p id="conf-envio"></p>
+            </div>
+
+            <div class="resumen-seccion">
+                <h3>Pago</h3>
+                <p id="conf-pago"></p>
+            </div>
+
+        </div>
+
+        <div class="confirmado-botones">
+            <a href="pedidos.html" class="btn-siguiente">
+                <i class="fa-solid fa-box"></i> Ver mis pedidos
+            </a>
+            <a href="index.html" class="btn-atras">
+                <i class="fa-solid fa-home"></i> Volver al inicio
+            </a>
+        </div>
+
+    </div>
+
+    <!-- LOADING -->
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
+
+    <script src="javascript.js"></script>
+    <script src="modales.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <script>
+        // Carga el pedido desde localStorage
+        const pedido = JSON.parse(localStorage.getItem('ultimoPedido') || '{}');
+
+        // Productos
+        const confProductos = document.getElementById('conf-productos');
+        if (pedido.productos) {
+            confProductos.innerHTML = pedido.productos.map(p => `
+                <div class="resumen-item">
+                    <span>${p.nombre} x${p.cantidad}</span>
+                    <span>$${(p.precio * p.cantidad).toLocaleString('es-AR')}</span>
+                </div>
+            `).join('');
+        }
+
+        document.getElementById('conf-total').textContent = `$${(pedido.total || 0).toLocaleString('es-AR')}`;
+        document.getElementById('conf-reemplazo').textContent = pedido.reemplazo || '-';
+        document.getElementById('conf-pago').textContent = pedido.pago + (pedido.factura ? ' + Factura' : '');
+
+        // Envío
+        if (pedido.tipoEnvio === 'retiro') {
+            document.getElementById('conf-envio').textContent = 'Retiro en Bv. Lovatto N° 1313, Reconquista, Santa Fe.';
+        } else if (pedido.direccion) {
+            const d = pedido.direccion;
+            document.getElementById('conf-envio').innerHTML = `
+                ${d.calle} ${d.numero}${d.piso ? ', Piso ' + d.piso : ''}${d.depto ? ' Dpto ' + d.depto : ''}<br>
+                ${d.localidad}, ${d.provincia} (CP: ${d.cp})<br>
+                Tel: ${d.telefono}<br>
+                Turno: ${pedido.turno}
+            `;
+        }
+    </script>
+</body>
+</html>

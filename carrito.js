@@ -48,35 +48,35 @@ function validarPaso1() {
 }
 
 function validarPaso3() {
-    const envio = document.querySelector('input[name="envio"]:checked');
-    if (!envio) {
-        alert('Seleccioná una opción de envío.');
-        return false;
-    }
-    if (envio.value === 'envio') {
-        const calle = document.getElementById('env-calle').value.trim();
-        const numero = document.getElementById('env-numero').value.trim();
-        const telefono = document.getElementById('env-telefono').value.trim();
+  const envio = document.querySelector('input[name="envio"]:checked');
+  if (!envio) {
+    alert("Seleccioná una opción de envío.");
+    return false;
+  }
+  if (envio.value === "envio") {
+    const calle = document.getElementById("env-calle").value.trim();
+    const numero = document.getElementById("env-numero").value.trim();
+    const telefono = document.getElementById("env-telefono").value.trim();
 
-        if (!calle || !numero) {
-            alert('Completá al menos la calle y el número.');
-            return false;
-        }
-        if (!telefono) {
-            alert('Ingresá un teléfono de contacto.');
-            return false;
-        }
-        if (!diaSeleccionado) {
-            alert('Seleccioná un día de entrega.');
-            return false;
-        }
-        const franja = document.querySelector('input[name="franja"]:checked');
-        if (!franja) {
-            alert('Seleccioná un horario de entrega.');
-            return false;
-        }
+    if (!calle || !numero) {
+      alert("Completá al menos la calle y el número.");
+      return false;
     }
-    return true;
+    if (!telefono) {
+      alert("Ingresá un teléfono de contacto.");
+      return false;
+    }
+    if (!diaSeleccionado) {
+      alert("Seleccioná un día de entrega.");
+      return false;
+    }
+    const franja = document.querySelector('input[name="franja"]:checked');
+    if (!franja) {
+      alert("Seleccioná un horario de entrega.");
+      return false;
+    }
+  }
+  return true;
 }
 
 function validarPaso4() {
@@ -246,16 +246,88 @@ function armarResumen() {
 }
 
 // ==================== CONFIRMAR ====================
-function confirmarPedido() {
-  window.mostrarLoading("Enviando pedido...");
-  setTimeout(() => {
-    window.ocultarLoading();
+async function confirmarPedido() {
+  window.mostrarLoading("Guardando pedido...");
+
+  try {
+    // Recolecta todos los datos
+    const envio = document.querySelector('input[name="envio"]:checked');
+    const reemplazo = document.querySelector('input[name="reemplazo"]:checked');
+    const pago = document.querySelector('input[name="pago"]:checked');
+    const franja = document.querySelector('input[name="franja"]:checked');
+    const factura = document.getElementById("check-factura").checked;
+
+    const textosPago = {
+      efectivo: "Efectivo",
+      transferencia: "Transferencia bancaria",
+      tarjeta: "Tarjeta de débito/crédito",
+    };
+
+    const textosReemplazo = {
+      granprix: "Gran Prix elige un producto similar",
+      no: "No reemplazar",
+      whatsapp: "Contactar por WhatsApp",
+    };
+
+    const pedido = {
+      productos: carritoData,
+      total: calcularTotal(),
+      reemplazo: textosReemplazo[reemplazo?.value] || "-",
+      tipoEnvio: envio?.value,
+      pago: textosPago[pago?.value] || "-",
+      factura: factura,
+      fecha: new Date().toISOString(),
+      estado: "pendiente",
+    };
+
+    // Datos de envío
+    if (envio?.value === "envio") {
+      pedido.direccion = {
+        calle: document.getElementById("env-calle").value,
+        numero: document.getElementById("env-numero").value,
+        piso: document.getElementById("env-piso").value,
+        depto: document.getElementById("env-depto").value,
+        provincia: document.getElementById("env-provincia").value,
+        localidad: document.getElementById("env-localidad").value,
+        cp: document.getElementById("env-cp").value,
+        referencias: document.getElementById("env-referencias").value,
+        telefono: document.getElementById("env-telefono").value,
+      };
+      const franjaTexto =
+        franja?.value === "manana" ? "8:00 - 12:00hs" : "12:00 - 16:00hs";
+      const fechaTexto = diaSeleccionado?.toLocaleDateString("es-AR", {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+      });
+      pedido.turno = `${fechaTexto} ${franjaTexto}`;
+    } else {
+      pedido.direccion = {
+        retiro: "Bv. Lovatto N° 1313, Reconquista, Santa Fe",
+      };
+    }
+
+    // Guarda en localStorage para la página de confirmación
+    localStorage.setItem("ultimoPedido", JSON.stringify(pedido));
+
+    // Guarda en Firestore si hay usuario logueado
+    const usuario = localStorage.getItem("usuarioNombre");
+    if (usuario) {
+      if (window.guardarPedido) {
+        await window.guardarPedido(pedido);
+      }
+    }
+
+    // Limpia el carrito
     localStorage.removeItem("carritoGP");
-    alert(
-      "✅ ¡Pedido confirmado! Te contactaremos por WhatsApp para coordinar.",
-    );
-    window.location.href = "index.html";
-  }, 2000);
+
+    window.ocultarLoading();
+    window.location.href = "pedido-confirmado.html";
+  } catch (error) {
+    window.ocultarLoading();
+    console.error("Error:", error);
+    alert("Error al confirmar el pedido: " + error.message);
+  }
 }
 
 // ==================== CALENDARIO ====================
