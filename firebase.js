@@ -1,7 +1,7 @@
 // ==================== FIREBASE CONFIG ====================
 import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, updateProfile } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
-import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { getFirestore, collection, addDoc, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAlVuVENd77eqQO-EjrvPQ-ppXISZ0qZYA",
@@ -51,14 +51,8 @@ async function registrarUsuario() {
             displayName: `${nombre} ${apellido}`
         });
 
-        const { getFirestore, doc, setDoc } = await import("https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js");
-        const db = getFirestore(app);
         await setDoc(doc(db, 'usuarios', userCredential.user.uid), {
-            celular,
-            dni,
-            fechaNacimiento: fecha,
-            provincia,
-            localidad
+            celular, dni, fechaNacimiento: fecha, provincia, localidad
         });
 
         localStorage.setItem('usuarioNombre', `${nombre} ${apellido}`);
@@ -73,6 +67,7 @@ async function registrarUsuario() {
         alert('Error al registrar: ' + error.message);
     }
 }
+
 // ==================== LOGIN ====================
 async function loginUsuario() {
     const emailField = document.getElementById('login-email');
@@ -114,7 +109,6 @@ async function cerrarSesion() {
     window.location.href = 'index.html';
 }
 
-
 // ==================== NAVBAR ====================
 function actualizarNavbar() {
     const nombre = localStorage.getItem('usuarioNombre');
@@ -130,7 +124,12 @@ actualizarNavbar();
 function toggleMenu() {
     const nombre = localStorage.getItem('usuarioNombre');
     if (!nombre) {
-        window.abrirModal('modal-registro');
+        const modal = document.getElementById('modal-registro');
+        if (modal) {
+            window.abrirModal('modal-registro');
+        } else {
+            window.location.href = 'login.html';
+        }
         return;
     }
     const dropdown = document.getElementById('user-dropdown');
@@ -146,10 +145,6 @@ document.addEventListener('click', function(e) {
 });
 
 // ==================== GUARDAR PEDIDO ====================
-import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
-
-const db = getFirestore(app);
-
 async function guardarPedido(pedido) {
     try {
         const user = auth.currentUser;
@@ -165,8 +160,6 @@ async function guardarPedido(pedido) {
     }
 }
 
-window.guardarPedido = guardarPedido;
-
 // ==================== EXPONER GLOBALMENTE ====================
 window.registrarUsuario = registrarUsuario;
 window.loginUsuario = loginUsuario;
@@ -174,5 +167,4 @@ window.cerrarSesion = cerrarSesion;
 window.toggleMenu = toggleMenu;
 window.mostrarLoading = mostrarLoading;
 window.ocultarLoading = ocultarLoading;
-window._cerrarSesionFirebase = cerrarSesion;
-window.cerrarSesion = cerrarSesion;
+window.guardarPedido = guardarPedido;

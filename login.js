@@ -41,3 +41,11 @@ document.addEventListener('keydown', function(e) {
         }
     }
 });
+
+window.addEventListener('load', function() {
+    if (!window.loginUsuario) {
+        window.loginUsuario = function() {
+            console.error('Firebase no cargó todavía');
+        };
+    }
+});
