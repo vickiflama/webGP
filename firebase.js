@@ -148,6 +148,19 @@ document.addEventListener('click', function(e) {
 async function guardarPedido(pedido) {
     try {
         const user = auth.currentUser;
+
+        // Genera el número de pedido
+        const { getDocs } = await import("https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js");
+        const snapshot = await getDocs(collection(db, 'pedidos'));
+        const numero = snapshot.size + 1;
+        const fecha = new Date();
+        const fechaStr = fecha.getFullYear().toString() +
+            String(fecha.getMonth() + 1).padStart(2, '0') +
+            String(fecha.getDate()).padStart(2, '0');
+        const nroPedido = `GP-${fechaStr}-${String(numero).padStart(4, '0')}`;
+
+        pedido.nroPedido = nroPedido;
+
         if (user) {
             await addDoc(collection(db, 'pedidos'), {
                 ...pedido,
@@ -155,6 +168,10 @@ async function guardarPedido(pedido) {
                 usuario: user.displayName,
             });
         }
+
+        // Guarda el número en localStorage para mostrarlo en la confirmación
+        localStorage.setItem('ultimoPedidoNro', nroPedido);
+
     } catch (error) {
         console.error('Error guardando pedido:', error);
     }

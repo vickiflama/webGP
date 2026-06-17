@@ -63,6 +63,11 @@
         <p class="confirmado-subtitulo">Gracias por tu compra. Te contactaremos por WhatsApp para coordinar los detalles.</p>
 
         <!-- Detalle del pedido -->
+
+<div class="nro-pedido">
+    <span>Número de pedido:</span>
+    <strong id="conf-nro-pedido"></strong>
+</div>
         <div class="confirmado-detalle">
 
             <div class="resumen-seccion">
@@ -110,38 +115,8 @@
 
     <script src="javascript.js"></script>
     <script src="modales.js"></script>
+    <script src="pedido-confirmado.js"></script>
     <script type="module" src="firebase.js"></script>
-    <script>
-        // Carga el pedido desde localStorage
-        const pedido = JSON.parse(localStorage.getItem('ultimoPedido') || '{}');
-
-        // Productos
-        const confProductos = document.getElementById('conf-productos');
-        if (pedido.productos) {
-            confProductos.innerHTML = pedido.productos.map(p => `
-                <div class="resumen-item">
-                    <span>${p.nombre} x${p.cantidad}</span>
-                    <span>$${(p.precio * p.cantidad).toLocaleString('es-AR')}</span>
-                </div>
-            `).join('');
-        }
-
-        document.getElementById('conf-total').textContent = `$${(pedido.total || 0).toLocaleString('es-AR')}`;
-        document.getElementById('conf-reemplazo').textContent = pedido.reemplazo || '-';
-        document.getElementById('conf-pago').textContent = pedido.pago + (pedido.factura ? ' + Factura' : '');
-
-        // Envío
-        if (pedido.tipoEnvio === 'retiro') {
-            document.getElementById('conf-envio').textContent = 'Retiro en Bv. Lovatto N° 1313, Reconquista, Santa Fe.';
-        } else if (pedido.direccion) {
-            const d = pedido.direccion;
-            document.getElementById('conf-envio').innerHTML = `
-                ${d.calle} ${d.numero}${d.piso ? ', Piso ' + d.piso : ''}${d.depto ? ' Dpto ' + d.depto : ''}<br>
-                ${d.localidad}, ${d.provincia} (CP: ${d.cp})<br>
-                Tel: ${d.telefono}<br>
-                Turno: ${pedido.turno}
-            `;
-        }
-    </script>
+   
 </body>
 </html>
