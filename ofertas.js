@@ -27,21 +27,33 @@ function toggleCarrito() {
 }
 
 function agregarAlCarrito(nombre, precio, btn) {
-  const wrap = btn
-    .closest(".producto-acciones")
-    .querySelector(".cantidad-wrap span");
-  const cantidad = parseInt(wrap.textContent);
+    // Busca en mv-acciones (index.html) o producto-acciones (ofertas.html)
+    const wrap = btn.closest('.mv-acciones, .producto-acciones')?.querySelector('.cantidad-wrap span');
+    const cantidad = wrap ? parseInt(wrap.textContent) : 1;
 
-  const existe = carrito.find((p) => p.nombre === nombre);
-  if (existe) {
-    existe.cantidad += cantidad;
-  } else {
-    carrito.push({ nombre, precio, cantidad });
-  }
+    const existe = carritoIndex.find(p => p.nombre === nombre);
+    if (existe) {
+        existe.cantidad += cantidad;
+    } else {
+        carritoIndex.push({ nombre, precio, cantidad });
+    }
 
-  actualizarCarrito();
-  document.getElementById("carrito-panel").classList.add("activo");
-  localStorage.setItem("carritoGP", JSON.stringify(carrito));
+    localStorage.setItem('carritoGP', JSON.stringify(carritoIndex));
+
+    // Actualiza badge
+    const badge = document.querySelector('.cart-badge');
+    if (badge) {
+        const total = carritoIndex.reduce((sum, p) => sum + p.cantidad, 0);
+        badge.textContent = total;
+    }
+
+    // Feedback visual
+    btn.textContent = '✓ Agregado';
+    btn.style.background = '#3DB549';
+    setTimeout(() => {
+        btn.textContent = 'COMPRAR';
+        btn.style.background = '';
+    }, 1500);
 }
 
 function eliminarDelCarrito(index) {
