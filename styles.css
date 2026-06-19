@@ -848,3 +848,165 @@ body {
 .mv-dot.active {
     background: #fe6902;
 }
+
+/* ======================== SUSCRIPCIÓN ======================== */
+.suscripcion-section {
+    background: white;
+    padding: 50px 40px;
+}
+
+.suscripcion-wrap {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.suscripcion-titulo-wrap {
+    display: flex;
+   justify-content: center;
+    gap: 14px;
+    margin-bottom: 30px;
+}
+
+.suscripcion-titulo-wrap i {
+    font-size: 32px;
+    color: #fe6902;
+}
+
+.suscripcion-titulo {
+    font-size: 22px;
+    font-weight: 800;
+    color: #fe6902;
+}
+
+.suscripcion-btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.btn-suscribir {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 14px 48px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: var(--font);
+    transition: background 0.2s;
+}
+
+.btn-suscribir:hover {
+    background: #fe6902;
+}
+
+/* ======================== FOOTER ======================== */
+.footer {
+    background: #4D4D4D;
+    color: white;
+    padding: 40px 40px 0;
+}
+
+.footer-wrap {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 160px;
+}
+
+.footer-logo {
+    height: 150px;
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+
+.footer-slogan {
+    font-size: 13px;
+    color: #ccc;
+}
+
+.footer-info {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 14px;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.footer-info i {
+    font-size: 16px;
+    color: #fe6902;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.footer-titulo {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fe6902;
+    margin-bottom: 4px;
+    letter-spacing: 1px;
+}
+
+.footer-subtitulo {
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-links a {
+    color: #ccc;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #fe6902;
+}
+
+.footer-redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.2s;
+}
+
+.footer-social a:hover {
+    color: #fe6902;
+}
+
+.footer-bottom {
+    border-top: 1px solid #666;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
