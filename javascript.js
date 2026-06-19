@@ -1,3 +1,6 @@
+// ==================== CARRITO ====================
+let carritoIndex = JSON.parse(localStorage.getItem('carritoGP') || '[]');
+
 // ==================== SLIDER ====================
 if (document.querySelector('.slides')) {
     let actual = 0;
@@ -203,20 +206,12 @@ window.toggleMenu = function() {
 
 window.cerrarSesion = function() {
     localStorage.removeItem('usuarioNombre');
-    // Si firebase está cargado lo usa, sino solo limpia y redirige
     if (window._cerrarSesionFirebase) {
         window._cerrarSesionFirebase();
     } else {
         window.location.href = 'index.html';
     }
-
-if (!window.cerrarSesion) {
-    window.cerrarSesion = function() {
-        localStorage.removeItem('usuarioNombre');
-        window.location.href = 'index.html';
-    };
-}
-}
+};
 
 // ==================== SLIDER MÁS VENDIDOS ====================
 let mvActual = 0;
@@ -224,19 +219,18 @@ const mvVisibles = 4;
 
 function iniciarSliderProductos() {
     const slider = document.getElementById('mv-slider');
-    const dots = document.getElementById('mv-dots');
-    if (!slider || !dots) return;
+    const dotsEl = document.getElementById('mv-dots');
+    if (!slider || !dotsEl) return;
 
     const cards = slider.querySelectorAll('.mv-card');
     const totalSlides = Math.ceil(cards.length / mvVisibles);
 
-    // Genera dots
-    dots.innerHTML = '';
+    dotsEl.innerHTML = '';
     for (let i = 0; i < totalSlides; i++) {
         const dot = document.createElement('div');
         dot.className = `mv-dot ${i === 0 ? 'active' : ''}`;
         dot.onclick = () => irASlideProductos(i);
-        dots.appendChild(dot);
+        dotsEl.appendChild(dot);
     }
 }
 
@@ -252,7 +246,6 @@ function moverSliderProductos(direccion) {
 
     const cardWidth = slider.querySelector('.mv-card').offsetWidth + 20;
     slider.style.transform = `translateX(-${mvActual * mvVisibles * cardWidth}px)`;
-
     dots.forEach((d, i) => d.classList.toggle('active', i === mvActual));
 }
 
@@ -263,17 +256,53 @@ function irASlideProductos(index) {
 
     const cardWidth = slider.querySelector('.mv-card').offsetWidth + 20;
     slider.style.transform = `translateX(-${mvActual * mvVisibles * cardWidth}px)`;
-
     dots.forEach((d, i) => d.classList.toggle('active', i === mvActual));
 }
 
-// Inicializa cuando carga
-document.addEventListener('DOMContentLoaded', function() {
-    iniciarSliderProductos();
-});
+// ==================== CARRITO PANEL ====================
+function actualizarPanelCarrito() {
+    carritoIndex = JSON.parse(localStorage.getItem('carritoGP') || '[]');
 
-// Carrito desde index.html
-let carritoIndex = JSON.parse(localStorage.getItem('carritoGP') || '[]');
+    const itemsEl = document.getElementById('carrito-items');
+    const contadorEl = document.getElementById('carrito-contador');
+    const subtotalEl = document.getElementById('carrito-subtotal');
+    const badgeEl = document.getElementById('cart-badge');
+
+    if (!itemsEl) return;
+
+    const totalProductos = carritoIndex.reduce((sum, p) => sum + p.cantidad, 0);
+    const subtotal = carritoIndex.reduce((sum, p) => sum + (p.precio * p.cantidad), 0);
+
+    if (badgeEl) badgeEl.textContent = totalProductos;
+    if (contadorEl) contadorEl.textContent = `${totalProductos} producto${totalProductos !== 1 ? 's' : ''}`;
+
+    itemsEl.innerHTML = '';
+    carritoIndex.forEach((producto, index) => {
+        const item = document.createElement('div');
+        item.className = 'carrito-item';
+        item.innerHTML = `
+            <div class="carrito-item-nombre">${producto.nombre}</div>
+            <span class="carrito-item-cantidad">${producto.cantidad} U.</span>
+            <span class="carrito-item-precio">$${(producto.precio * producto.cantidad).toLocaleString('es-AR')}</span>
+            <button class="carrito-item-eliminar" onclick="eliminarDelCarritoIndex(${index})">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </button>
+        `;
+        itemsEl.appendChild(item);
+    });
+
+    if (subtotalEl) subtotalEl.textContent = `SUBTOTAL: $${subtotal.toLocaleString('es-AR')}`;
+}
+
+function eliminarDelCarritoIndex(index) {
+    carritoIndex.splice(index, 1);
+    localStorage.setItem('carritoGP', JSON.stringify(carritoIndex));
+    actualizarPanelCarrito();
+    if (carritoIndex.length === 0) {
+        const panel = document.getElementById('carrito-panel');
+        if (panel) panel.classList.remove('activo');
+    }
+}
 
 function cambiarCantidad(btn, cambio) {
     const wrap = btn.parentElement;
@@ -285,8 +314,8 @@ function cambiarCantidad(btn, cambio) {
 }
 
 function agregarAlCarrito(nombre, precio, btn) {
-    const wrap = btn.closest('.mv-acciones').querySelector('.cantidad-wrap span');
-    const cantidad = parseInt(wrap.textContent);
+    const wrap = btn.closest('.mv-acciones, .producto-acciones')?.querySelector('.cantidad-wrap span');
+    const cantidad = wrap ? parseInt(wrap.textContent) : 1;
 
     const existe = carritoIndex.find(p => p.nombre === nombre);
     if (existe) {
@@ -296,15 +325,11 @@ function agregarAlCarrito(nombre, precio, btn) {
     }
 
     localStorage.setItem('carritoGP', JSON.stringify(carritoIndex));
+    actualizarPanelCarrito();
 
-    // Actualiza badge
-    const badge = document.querySelector('.cart-badge');
-    if (badge) {
-        const total = carritoIndex.reduce((sum, p) => sum + p.cantidad, 0);
-        badge.textContent = total;
-    }
+    const panel = document.getElementById('carrito-panel');
+    if (panel) panel.classList.add('activo');
 
-    // Feedback visual
     btn.textContent = '✓ Agregado';
     btn.style.background = '#3DB549';
     setTimeout(() => {
@@ -312,6 +337,29 @@ function agregarAlCarrito(nombre, precio, btn) {
         btn.style.background = '';
     }, 1500);
 }
+
+// ==================== DOM CONTENT LOADED ====================
+document.addEventListener('DOMContentLoaded', function() {
+    iniciarSliderProductos();
+    actualizarPanelCarrito();
+
+    const cartWrap = document.querySelector('.cart-wrap');
+    const panel = document.getElementById('carrito-panel');
+
+    if (cartWrap && panel) {
+        cartWrap.addEventListener('click', function() {
+            if (carritoIndex.length > 0) {
+                panel.classList.toggle('activo');
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!cartWrap.contains(e.target) && !panel.contains(e.target)) {
+                panel.classList.remove('activo');
+            }
+        });
+    }
+});
 
 // ==================== EXPONER GLOBALMENTE ====================
 window.abrirModal = abrirModal;
@@ -322,3 +370,7 @@ window.volverAlRegistro = volverAlRegistro;
 window.cargarLocalidades = cargarLocalidades;
 window.cargarProvincias = cargarProvincias;
 window.validarFormulario = validarFormulario;
+window.moverSliderProductos = moverSliderProductos;
+window.agregarAlCarrito = agregarAlCarrito;
+window.cambiarCantidad = cambiarCantidad;
+window.eliminarDelCarritoIndex = eliminarDelCarritoIndex;

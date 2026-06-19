@@ -61,7 +61,7 @@
 
             <div class="cart-wrap">
                 <i class="fa-solid fa-cart-shopping"></i>
-                <span class="cart-badge">0</span>
+                <span class="cart-badge" id="cart-badge">0</span>
             </div>
         </div>
     </header>
@@ -95,7 +95,7 @@
                 <div class="icard-title">¿Cómo<br>comprar?</div>
                 <i class="fa-solid fa-cart-shopping icard-icon"></i>
             </div>
-           <a href="comocomprar.html"> <button class="icard-btn">Ver los pasos</button></a>
+            <a href="comocomprar.html"> <button class="icard-btn">Ver los pasos</button></a>
         </div>
 
         <div class="icard featured">
@@ -118,113 +118,125 @@
     </section>
 
     <!-- LOS MÁS VENDIDOS -->
-<section class="mas-vendidos">
-    <h2 class="mas-vendidos-titulo">LOS MÁS VENDIDOS</h2>
+    <section class="mas-vendidos">
+        <h2 class="mas-vendidos-titulo">LOS MÁS VENDIDOS</h2>
 
-    <div class="mas-vendidos-wrap">
-        <button class="mv-arrow mv-prev" onclick="moverSliderProductos(-1)">
-            <i class="fa-solid fa-chevron-left"></i>
-        </button>
+        <div class="mas-vendidos-wrap">
+            <button class="mv-arrow mv-prev" onclick="moverSliderProductos(-1)">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
 
-        <div class="mv-slider-wrap">
-            <div class="mv-slider" id="mv-slider">
+            <div class="mv-slider-wrap">
+                <div class="mv-slider" id="mv-slider">
 
-                <div class="mv-card">
-                    <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto" class="mv-img">
-                    <p class="mv-nombre">CHOCOLATADA BAGGIO LATTE 1L</p>
-                    <p class="mv-precio">$2.002,69</p>
-                    <div class="mv-acciones">
-                        <div class="cantidad-wrap">
-                            <button onclick="cambiarCantidad(this, -1)">−</button>
-                            <span>1</span>
-                            <button onclick="cambiarCantidad(this, 1)">+</button>
+                    <div class="mv-card">
+                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
+                            class="mv-img">
+                        <p class="mv-nombre">CHOCOLATADA BAGGIO LATTE 1L</p>
+                        <p class="mv-precio">$2.002,69</p>
+                        <div class="mv-acciones">
+                            <div class="cantidad-wrap">
+                                <button onclick="cambiarCantidad(this, -1)">−</button>
+                                <span>1</span>
+                                <button onclick="cambiarCantidad(this, 1)">+</button>
+                            </div>
+                            <button class="btn-comprar"
+                                onclick="agregarAlCarrito('CHOCOLATADA BAGGIO LATTE 1L', 2002.69, this)">COMPRAR</button>
                         </div>
-                        <button class="btn-comprar" onclick="agregarAlCarrito('CHOCOLATADA BAGGIO LATTE 1L', 2002.69, this)">COMPRAR</button>
                     </div>
-                </div>
 
-                <div class="mv-card">
-                    <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto" class="mv-img">
-                    <p class="mv-nombre">YERBA MATE TARAGUI 500g</p>
-                    <p class="mv-precio">$1.844,99</p>
-                    <div class="mv-acciones">
-                        <div class="cantidad-wrap">
-                            <button onclick="cambiarCantidad(this, -1)">−</button>
-                            <span>1</span>
-                            <button onclick="cambiarCantidad(this, 1)">+</button>
+                    <div class="mv-card">
+                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
+                            class="mv-img">
+                        <p class="mv-nombre">YERBA MATE TARAGUI 500g</p>
+                        <p class="mv-precio">$1.844,99</p>
+                        <div class="mv-acciones">
+                            <div class="cantidad-wrap">
+                                <button onclick="cambiarCantidad(this, -1)">−</button>
+                                <span>1</span>
+                                <button onclick="cambiarCantidad(this, 1)">+</button>
+                            </div>
+                            <button class="btn-comprar"
+                                onclick="agregarAlCarrito('YERBA MATE TARAGUI 500g', 1844.99, this)">COMPRAR</button>
                         </div>
-                        <button class="btn-comprar" onclick="agregarAlCarrito('YERBA MATE TARAGUI 500g', 1844.99, this)">COMPRAR</button>
                     </div>
-                </div>
 
-                <div class="mv-card">
-                    <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto" class="mv-img">
-                    <p class="mv-nombre">ACEITE GIRA COC 15*900 CC</p>
-                    <p class="mv-precio">$3.700,00</p>
-                    <div class="mv-acciones">
-                        <div class="cantidad-wrap">
-                            <button onclick="cambiarCantidad(this, -1)">−</button>
-                            <span>1</span>
-                            <button onclick="cambiarCantidad(this, 1)">+</button>
+                    <div class="mv-card">
+                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
+                            class="mv-img">
+                        <p class="mv-nombre">ACEITE GIRA COC 15*900 CC</p>
+                        <p class="mv-precio">$3.700,00</p>
+                        <div class="mv-acciones">
+                            <div class="cantidad-wrap">
+                                <button onclick="cambiarCantidad(this, -1)">−</button>
+                                <span>1</span>
+                                <button onclick="cambiarCantidad(this, 1)">+</button>
+                            </div>
+                            <button class="btn-comprar"
+                                onclick="agregarAlCarrito('ACEITE GIRA COC 15*900 CC', 3700, this)">COMPRAR</button>
                         </div>
-                        <button class="btn-comprar" onclick="agregarAlCarrito('ACEITE GIRA COC 15*900 CC', 3700, this)">COMPRAR</button>
                     </div>
-                </div>
 
-                <div class="mv-card">
-                    <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto" class="mv-img">
-                    <p class="mv-nombre">YERBA MATE CHAMIGO 1 KG</p>
-                    <p class="mv-precio">$1.238,00</p>
-                    <div class="mv-acciones">
-                        <div class="cantidad-wrap">
-                            <button onclick="cambiarCantidad(this, -1)">−</button>
-                            <span>1</span>
-                            <button onclick="cambiarCantidad(this, 1)">+</button>
+                    <div class="mv-card">
+                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
+                            class="mv-img">
+                        <p class="mv-nombre">YERBA MATE CHAMIGO 1 KG</p>
+                        <p class="mv-precio">$1.238,00</p>
+                        <div class="mv-acciones">
+                            <div class="cantidad-wrap">
+                                <button onclick="cambiarCantidad(this, -1)">−</button>
+                                <span>1</span>
+                                <button onclick="cambiarCantidad(this, 1)">+</button>
+                            </div>
+                            <button class="btn-comprar"
+                                onclick="agregarAlCarrito('YERBA MATE CHAMIGO 1 KG', 1238, this)">COMPRAR</button>
                         </div>
-                        <button class="btn-comprar" onclick="agregarAlCarrito('YERBA MATE CHAMIGO 1 KG', 1238, this)">COMPRAR</button>
                     </div>
-                </div>
 
-                <div class="mv-card">
-                    <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto" class="mv-img">
-                    <p class="mv-nombre">YERBA MATE CRUZ DE MALTA 500g</p>
-                    <p class="mv-precio">$1.920,00</p>
-                    <div class="mv-acciones">
-                        <div class="cantidad-wrap">
-                            <button onclick="cambiarCantidad(this, -1)">−</button>
-                            <span>1</span>
-                            <button onclick="cambiarCantidad(this, 1)">+</button>
+                    <div class="mv-card">
+                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
+                            class="mv-img">
+                        <p class="mv-nombre">YERBA MATE CRUZ DE MALTA 500g</p>
+                        <p class="mv-precio">$1.920,00</p>
+                        <div class="mv-acciones">
+                            <div class="cantidad-wrap">
+                                <button onclick="cambiarCantidad(this, -1)">−</button>
+                                <span>1</span>
+                                <button onclick="cambiarCantidad(this, 1)">+</button>
+                            </div>
+                            <button class="btn-comprar"
+                                onclick="agregarAlCarrito('YERBA MATE CRUZ DE MALTA 500g', 1920, this)">COMPRAR</button>
                         </div>
-                        <button class="btn-comprar" onclick="agregarAlCarrito('YERBA MATE CRUZ DE MALTA 500g', 1920, this)">COMPRAR</button>
                     </div>
-                </div>
 
-                <div class="mv-card">
-                    <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto" class="mv-img">
-                    <p class="mv-nombre">YERBA MATE INDUMAR 500g</p>
-                    <p class="mv-precio">$1.445,69</p>
-                    <div class="mv-acciones">
-                        <div class="cantidad-wrap">
-                            <button onclick="cambiarCantidad(this, -1)">−</button>
-                            <span>1</span>
-                            <button onclick="cambiarCantidad(this, 1)">+</button>
+                    <div class="mv-card">
+                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
+                            class="mv-img">
+                        <p class="mv-nombre">YERBA MATE INDUMAR 500g</p>
+                        <p class="mv-precio">$1.445,69</p>
+                        <div class="mv-acciones">
+                            <div class="cantidad-wrap">
+                                <button onclick="cambiarCantidad(this, -1)">−</button>
+                                <span>1</span>
+                                <button onclick="cambiarCantidad(this, 1)">+</button>
+                            </div>
+                            <button class="btn-comprar"
+                                onclick="agregarAlCarrito('YERBA MATE INDUMAR 500g', 1445.69, this)">COMPRAR</button>
                         </div>
-                        <button class="btn-comprar" onclick="agregarAlCarrito('YERBA MATE INDUMAR 500g', 1445.69, this)">COMPRAR</button>
                     </div>
-                </div>
 
+                </div>
             </div>
+
+            <button class="mv-arrow mv-next" onclick="moverSliderProductos(1)">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
         </div>
 
-        <button class="mv-arrow mv-next" onclick="moverSliderProductos(1)">
-            <i class="fa-solid fa-chevron-right"></i>
-        </button>
-    </div>
+        <!-- Dots -->
+        <div class="mv-dots" id="mv-dots"></div>
 
-    <!-- Dots -->
-    <div class="mv-dots" id="mv-dots"></div>
-
-</section>
+    </section>
 
     <!-- MODAL REGISTRO -->
     <div class="modal-overlay" id="modal-registro">
@@ -334,17 +346,28 @@
         </div>
     </div>
 
-<!-- LOADING -->
-<div class="loading-overlay" id="loading">
-    <div class="spinner"></div>
-    <p class="loading-texto">Cargando...</p>
-</div>
+    <!-- CARRITO PANEL -->
+    <div class="carrito-panel" id="carrito-panel">
+        <div class="carrito-header">
+            <span class="carrito-titulo">Mi carrito</span>
+            <span class="carrito-contador" id="carrito-contador">0 productos</span>
+        </div>
+        <div class="carrito-items" id="carrito-items"></div>
+        <div class="carrito-footer">
+            <div class="carrito-subtotal" id="carrito-subtotal">SUBTOTAL: $0</div>
+            <button class="btn-mi-carrito" onclick="window.location.href='carrito.html'">MI CARRITO</button>
+        </div>
+    </div>
+
+    <!-- LOADING -->
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
 
     <script src="javascript.js"></script>
     <script src="login.js"></script>
     <script src="modales.js"></script>
-    <script src="ofertas.js"></script>
-    <script src="carrito.js"></script>
     <script type="module" src="firebase.js"></script>
 </body>
 
