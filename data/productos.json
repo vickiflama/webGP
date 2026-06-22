@@ -1,0 +1,906 @@
+{
+  "ultima_actualizacion": "2026-06-22T20:28:29.532Z",
+  "total": 100,
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "ACEITE  COC VDE NR 12*1.50 L",
+      "unidadesBulto": 12,
+      "codBarra": "7790060023684",
+      "familia": "ACEITES",
+      "rubro": "ACEITES TRADICIONALES",
+      "precio": 67788.447
+    },
+    {
+      "id": 4,
+      "nombre": "ACEITE GIRA COC 15*900 CC",
+      "unidadesBulto": 15,
+      "codBarra": "7790070012050",
+      "familia": "ACEITES",
+      "rubro": "ACEITES TRADICIONALES",
+      "precio": 56199.188
+    },
+    {
+      "id": 10,
+      "nombre": "ACEITE OLIVA COCINERO 12 * 500 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790070265142",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 105104.569
+    },
+    {
+      "id": 11,
+      "nombre": "ADEREZO CLASICO COCINERO 12 * 500 CC.",
+      "unidadesBulto": 12,
+      "codBarra": "7790070265463",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 22140.229
+    },
+    {
+      "id": 14,
+      "nombre": "ACEITE OLIVA EV COCINERO 12 * 500 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790070265098",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 124214.377
+    },
+    {
+      "id": 16,
+      "nombre": "FRITOLIM MANTECA ANTIADHER. 12 * 120 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070265340",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 43521.958
+    },
+    {
+      "id": 17,
+      "nombre": "FRITOLIM OLIVA ANTIADHER. 12 * 120",
+      "unidadesBulto": 12,
+      "codBarra": "7790070265357",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 54088.065
+    },
+    {
+      "id": 18,
+      "nombre": "FRITOLIM CLASICO ANTIADHEREN. 12 * 120 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070265333",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 43521.958
+    },
+    {
+      "id": 27,
+      "nombre": "AC OLIVA LIRA CLAS EV 12*250CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790070231635",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 63365.256
+    },
+    {
+      "id": 28,
+      "nombre": "ACETO LIRA ITALIANO PET 12 * 250 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790070231949",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 17109.533
+    },
+    {
+      "id": 29,
+      "nombre": "ACETO COCINERO 12 * 250 CC.",
+      "unidadesBulto": 12,
+      "codBarra": "7790070228031",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 25351.702
+    },
+    {
+      "id": 31,
+      "nombre": "LIMON MINERVA BOT 12 * 1 L.",
+      "unidadesBulto": 12,
+      "codBarra": "7790070507358",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "JUGO",
+      "precio": 50889.103
+    },
+    {
+      "id": 32,
+      "nombre": "LIMON MINERVA BOT  12 * 500 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790070507341",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "JUGO",
+      "precio": 27162.54
+    },
+    {
+      "id": 34,
+      "nombre": "LIMON MINERVA BOT 12* 250 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790070507372",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "JUGO",
+      "precio": 16774.714
+    },
+    {
+      "id": 36,
+      "nombre": "BUDIN EXQUISITA VAIN 12*300 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070431011",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 23046.422
+    },
+    {
+      "id": 37,
+      "nombre": "BUDIN EXQUISITA CHOC 12*300 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070431028",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 27643.188
+    },
+    {
+      "id": 40,
+      "nombre": "ARROZ LUCCHETTI  L/FINO 10*1KG",
+      "unidadesBulto": 10,
+      "codBarra": "7790070431486",
+      "familia": "ARROZ.",
+      "rubro": "ARROZ",
+      "precio": 16719.102
+    },
+    {
+      "id": 41,
+      "nombre": "BUDIN LIMON EXQUISITA 12*300G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070433800",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 19349.57
+    },
+    {
+      "id": 47,
+      "nombre": "LUCCHETTINIS MULTICOLOR   12 * 500 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070320100",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 50121.358
+    },
+    {
+      "id": 48,
+      "nombre": "ARROZ LUCC L/FINO 10*500 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070431493",
+      "familia": "ARROZ.",
+      "rubro": "ARROZ",
+      "precio": 8997.475
+    },
+    {
+      "id": 50,
+      "nombre": "EXQUISITA CHOCOLATADA 12*300 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070433022",
+      "familia": "ADHERESOS",
+      "rubro": "CACAOS",
+      "precio": 28268.637
+    },
+    {
+      "id": 51,
+      "nombre": "LUCCHETTINIS JAMON/QSO 12 * 500 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070317452",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 50121.358
+    },
+    {
+      "id": 52,
+      "nombre": "LUCCHETTINIS ESPINACA/QSO 12 * 500 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070317469",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 50121.358
+    },
+    {
+      "id": 53,
+      "nombre": "BIZCOCH EXQUISITA CHOC LDG 12 * 450 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070432940",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 48426.814
+    },
+    {
+      "id": 54,
+      "nombre": "BIZC. ESPEC. VAINILL. EXQUISITA 12 * 540",
+      "unidadesBulto": 12,
+      "codBarra": "7790070432964",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 33979.982
+    },
+    {
+      "id": 55,
+      "nombre": "BIZC. ESPEC CHOC. EXQUISITA 12 * 540 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070432971",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 41262.125
+    },
+    {
+      "id": 56,
+      "nombre": "TORTA HUM CHOC. EXQUISITA 12 * 450G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070432889",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 41074.721
+    },
+    {
+      "id": 57,
+      "nombre": "TORTA CHIPS CHOC. EXQUISITA 12 * 500G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070432872",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 41074.721
+    },
+    {
+      "id": 58,
+      "nombre": "BROWNIES EXQUISITA  12*425G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070432858",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 46226.973
+    },
+    {
+      "id": 59,
+      "nombre": "BIZC. EXQUISITA VAIN. LDG 12 * 450 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070432933",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 46102.113
+    },
+    {
+      "id": 60,
+      "nombre": "EXQUISITA CHOCOLATADA 18 * 150G",
+      "unidadesBulto": 18,
+      "codBarra": "7790070433015",
+      "familia": "ADHERESOS",
+      "rubro": "CACAOS",
+      "precio": 24392.838
+    },
+    {
+      "id": 61,
+      "nombre": "BIZC. ESPEC. NJA EXQUISITA 12 * 540 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070432988",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 33979.982
+    },
+    {
+      "id": 62,
+      "nombre": "BIZC. ESPEC. LIMON EXQUISITA 12 * 540 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070432995",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 33979.982
+    },
+    {
+      "id": 63,
+      "nombre": "BIZC. ESPEC. COCO EXQUISITA 12 * 540 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070433008",
+      "familia": "HARINAS",
+      "rubro": "HORNEABLES",
+      "precio": 33979.982
+    },
+    {
+      "id": 76,
+      "nombre": "POSTRE PLAC CHOCO EXQTA C/VIT 12*65 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070417954",
+      "familia": "HARINAS",
+      "rubro": "GELIFICABLES",
+      "precio": 15067.755
+    },
+    {
+      "id": 77,
+      "nombre": "POSTRE PLAC D/LECHE EXQTA C/VIT 12 * 50",
+      "unidadesBulto": 12,
+      "codBarra": "7790070417992",
+      "familia": "HARINAS",
+      "rubro": "GELIFICABLES",
+      "precio": 7611.578
+    },
+    {
+      "id": 78,
+      "nombre": "POSTRE PLAC VAIN EXQTA C/VIT 12*50 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070417978",
+      "familia": "HARINAS",
+      "rubro": "GELIFICABLES",
+      "precio": 11311.891
+    },
+    {
+      "id": 80,
+      "nombre": "POSTRE VAINILLA EXQTA  12 * 80 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070417893",
+      "familia": "HARINAS",
+      "rubro": "GELIFICABLES",
+      "precio": 11312.956
+    },
+    {
+      "id": 81,
+      "nombre": "POSTRE CHOCO. EXQTA C/VIT 12 * 80 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070412485",
+      "familia": "HARINAS",
+      "rubro": "GELIFICABLES",
+      "precio": 12574.659
+    },
+    {
+      "id": 90,
+      "nombre": "YERBA N/GAUCHA SELECCION 6 * 1 K",
+      "unidadesBulto": 6,
+      "codBarra": "7790070507280",
+      "familia": "INFUSIONES.",
+      "rubro": "YERBAS",
+      "precio": 12115.154
+    },
+    {
+      "id": 92,
+      "nombre": "YERBA N/GAUCHA SELECCION 10 * 500 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070507273",
+      "familia": "INFUSIONES.",
+      "rubro": "YERBAS",
+      "precio": 17737.729
+    },
+    {
+      "id": 93,
+      "nombre": "N. GAUCHA SUAVE 10 * 500 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070509109",
+      "familia": "INFUSIONES.",
+      "rubro": "YERBAS",
+      "precio": 16754.434
+    },
+    {
+      "id": 94,
+      "nombre": "YERBA SUAVE N/GAUCHA  6 * 1 KG",
+      "unidadesBulto": 6,
+      "codBarra": "7790070509116",
+      "familia": "INFUSIONES.",
+      "rubro": "YERBAS",
+      "precio": 11396.69
+    },
+    {
+      "id": 99,
+      "nombre": "MATE COCIDO N. GAUCHA 10 * 25 U",
+      "unidadesBulto": 10,
+      "codBarra": "7790070508805",
+      "familia": "INFUSIONES.",
+      "rubro": "YERBAS",
+      "precio": 9984.642
+    },
+    {
+      "id": 100,
+      "nombre": "YERBA CHAMIGO S/TACC 10 * 500 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070509123",
+      "familia": "INFUSIONES.",
+      "rubro": "YERBAS",
+      "precio": 16943.642
+    },
+    {
+      "id": 101,
+      "nombre": "YERBA CHAMIGO 6 * 1 K",
+      "unidadesBulto": 6,
+      "codBarra": "7790070509017",
+      "familia": "INFUSIONES.",
+      "rubro": "YERBAS",
+      "precio": 17569.915
+    },
+    {
+      "id": 104,
+      "nombre": "PREFERIDO LIB/GLUTEN 14*350G",
+      "unidadesBulto": 14,
+      "codBarra": "7790070100283",
+      "familia": "SALUDABLES",
+      "rubro": "REBOZADORES",
+      "precio": 41540.994
+    },
+    {
+      "id": 105,
+      "nombre": "REBOZADOR PREFERIDO  9 * 1 K",
+      "unidadesBulto": 9,
+      "codBarra": "7790070433190",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 25620.359
+    },
+    {
+      "id": 106,
+      "nombre": "N GAUCHA CIMARRON 6 * 1 KG",
+      "unidadesBulto": 6,
+      "codBarra": "7790070100382",
+      "familia": "INFUSIONES.",
+      "rubro": "YERBAS",
+      "precio": 20405.077
+    },
+    {
+      "id": 108,
+      "nombre": "PAN RALLADO PREFERIDO  9 * 1 KG",
+      "unidadesBulto": 9,
+      "codBarra": "7790070433176",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 25620.359
+    },
+    {
+      "id": 109,
+      "nombre": "PAN RALLADO LUCCHETTI  9 * 1 KG",
+      "unidadesBulto": 9,
+      "codBarra": "7790070433282",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 19880.736
+    },
+    {
+      "id": 110,
+      "nombre": "P. RALL. AJO/PEREJ FORT. PREF 20 * 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070433237",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 34077.738
+    },
+    {
+      "id": 111,
+      "nombre": "P. RALLADO PREFERIDO C/HARINA 20 * 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070433169",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 29773.841
+    },
+    {
+      "id": 112,
+      "nombre": "REBOZADOR PREFERIDO  20* 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070433183",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 29773.841
+    },
+    {
+      "id": 113,
+      "nombre": "REBOZADOR LUCCHETTI 20*500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070413703",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 22238.638
+    },
+    {
+      "id": 114,
+      "nombre": "HARINA 0000 FAVORITA  N/VIT 15 * 1 K",
+      "unidadesBulto": 15,
+      "codBarra": "7790070562265",
+      "familia": "HARINAS",
+      "rubro": "HARINAS Y PREMEZCLAS",
+      "precio": 21158.352
+    },
+    {
+      "id": 115,
+      "nombre": "HARINA 000  FAVORITA  B6 B12 15 * 1 K",
+      "unidadesBulto": 15,
+      "codBarra": "7790070562258",
+      "familia": "HARINAS",
+      "rubro": "HARINAS Y PREMEZCLAS",
+      "precio": 15279.078
+    },
+    {
+      "id": 116,
+      "nombre": "PAN RALLADO LUCCHETTI 20 * 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070433275",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 23210.196
+    },
+    {
+      "id": 117,
+      "nombre": "HARINA INTEG BLANCAFLOR 10*1 KG",
+      "unidadesBulto": 10,
+      "codBarra": "7792180141095",
+      "familia": "HARINAS",
+      "rubro": "HARINAS Y PREMEZCLAS",
+      "precio": 14513.114
+    },
+    {
+      "id": 118,
+      "nombre": "HARINA BLANCAFLOR LEUDANTE 15 * 1 K",
+      "unidadesBulto": 15,
+      "codBarra": "7790070562180",
+      "familia": "HARINAS",
+      "rubro": "HARINAS Y PREMEZCLAS",
+      "precio": 28872.91
+    },
+    {
+      "id": 121,
+      "nombre": "HARINA P/T.FRITA LUCCHETTI 12 * 500 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070562067",
+      "familia": "HARINAS",
+      "rubro": "HARINAS Y PREMEZCLAS",
+      "precio": 25274.746
+    },
+    {
+      "id": 122,
+      "nombre": "N GAUCHA CIMARRON 10 * 500 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070100375",
+      "familia": "INFUSIONES.",
+      "rubro": "YERBAS",
+      "precio": 18830.722
+    },
+    {
+      "id": 123,
+      "nombre": "PREMEZCLA ÑOQUIS LUCCHETTI 12*500G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070562043",
+      "familia": "HARINAS",
+      "rubro": "HARINAS Y PREMEZCLAS",
+      "precio": 49742.858
+    },
+    {
+      "id": 124,
+      "nombre": "PREMEZCLA LUCCHETTI PIZZA 10 * 850 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070562128",
+      "familia": "HARINAS",
+      "rubro": "HARINAS Y PREMEZCLAS",
+      "precio": 22455.954
+    },
+    {
+      "id": 126,
+      "nombre": "VITINA CLASICA NVPLUS  6 * 500 G",
+      "unidadesBulto": 6,
+      "codBarra": "7790070336965",
+      "familia": "HARINAS",
+      "rubro": "VITINA",
+      "precio": 17573.181
+    },
+    {
+      "id": 127,
+      "nombre": "VITINA CLASICA NVPLUS 6 * 250  G",
+      "unidadesBulto": 6,
+      "codBarra": "7790070336972",
+      "familia": "HARINAS",
+      "rubro": "VITINA",
+      "precio": 9725.665
+    },
+    {
+      "id": 128,
+      "nombre": "PENNE RIGATI MTZO S/GLU 12*500G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070335999",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 37292.369
+    },
+    {
+      "id": 129,
+      "nombre": "SPAGHETTI MTZZO LIBRE/GLUTEN 20*500G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070336002",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 62153.937
+    },
+    {
+      "id": 130,
+      "nombre": "DEDALITOS TERRABUSI 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7622300724436",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 11369.221
+    },
+    {
+      "id": 131,
+      "nombre": "MUNICIONES TERRABUSI 15 * 500",
+      "unidadesBulto": 15,
+      "codBarra": "7622300724306",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 10700.417
+    },
+    {
+      "id": 133,
+      "nombre": "TIRABUZON 3 VEG. MTZZO 34 15*500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070335937",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 26076.94
+    },
+    {
+      "id": 135,
+      "nombre": "REBOZADOR FAVORITA 10 * 900 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070413604",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 17597.054
+    },
+    {
+      "id": 136,
+      "nombre": "PENNE RIG 3 VEG. MTZZO 45 15*500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070335944",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 26076.94
+    },
+    {
+      "id": 137,
+      "nombre": "AVE MARIA TERRABUSI 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7622300724283",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 14211.462
+    },
+    {
+      "id": 138,
+      "nombre": "TIRABUZON MATARAZZO 12*500+50G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070102621",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 16779.98
+    },
+    {
+      "id": 139,
+      "nombre": "LASAGNA FORT. MATARAZZO 28 * 250 G",
+      "unidadesBulto": 28,
+      "codBarra": "7790070337016",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 48676.945
+    },
+    {
+      "id": 141,
+      "nombre": "PAN RALLADO FAVORITA 20 * 450 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070433312",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 18524.846
+    },
+    {
+      "id": 142,
+      "nombre": "FORATTINI MATARAZZO 20 * 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070318664",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 26454.605
+    },
+    {
+      "id": 143,
+      "nombre": "SPAGHETTI MATARAZZO N°7  20 * 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070336309",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 30083.141
+    },
+    {
+      "id": 144,
+      "nombre": "BUCATTINI MATARAZZO  20*500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070336323",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 30083.141
+    },
+    {
+      "id": 146,
+      "nombre": "MOÑO  MATARAZZO  15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790230033031",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 32879.802
+    },
+    {
+      "id": 147,
+      "nombre": "FETTUCCINE MATARAZZO 100% 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070318671",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 32879.802
+    },
+    {
+      "id": 148,
+      "nombre": "LASAGNA PRECOCIDA MTZZO 20 * 400 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070337023",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 52909.888
+    },
+    {
+      "id": 149,
+      "nombre": "CABELLO ANGEL MATARAZZO 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070320001",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 32879.802
+    },
+    {
+      "id": 150,
+      "nombre": "AVE MARIA MATARAZZO 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070320018",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 22562.35
+    },
+    {
+      "id": 151,
+      "nombre": "TIRAB. MTZZO MIX LEGUM LDG 12* 500G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070336224",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 37292.369
+    },
+    {
+      "id": 152,
+      "nombre": "MUNICIONES MATARAZZO 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070320032",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 22562.35
+    },
+    {
+      "id": 153,
+      "nombre": "DEDALITO MATARAZZO 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070320025",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 22562.35
+    },
+    {
+      "id": 154,
+      "nombre": "TALLARIN SEM. MATARAZZO N°5  20 * 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070336316",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 30083.141
+    },
+    {
+      "id": 155,
+      "nombre": "TIRABUZON MTZZO N°28  15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070336293",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 22562.35
+    },
+    {
+      "id": 156,
+      "nombre": "MOSTACHOL  MATARAZZO N°51 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070320773",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 19841.374
+    },
+    {
+      "id": 157,
+      "nombre": "CODITO RAY. MTZZO 100% 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070318619",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 22562.35
+    },
+    {
+      "id": 159,
+      "nombre": "SPAGHETTI FAVORITA HIERRO 20 * 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070320285",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 16534.42
+    },
+    {
+      "id": 160,
+      "nombre": "TALLARIN FAVORITA HIERRO 20 * 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070320292",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 16534.42
+    },
+    {
+      "id": 167,
+      "nombre": "MOSTACHOL FAVORITA HIERRO 15 * 500G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070320315",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 12400.818
+    },
+    {
+      "id": 168,
+      "nombre": "CODITO RAY FAVORITA HIERRO 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070320322",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 12400.818
+    },
+    {
+      "id": 169,
+      "nombre": "FUSILLI TERRABUSI 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 14112.823
+    },
+    {
+      "id": 170,
+      "nombre": "TIRABUZON FAVORITA HIERRO 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070320308",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 12400.818
+    },
+    {
+      "id": 172,
+      "nombre": "SPAGHETTI ESPINACA RINA 20 * 500 G",
+      "unidadesBulto": 20,
+      "codBarra": "",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 46359.275
+    },
+    {
+      "id": 191,
+      "nombre": "TIRABUZON LUCCHETTI 15 * 500 G",
+      "unidadesBulto": 15,
+      "codBarra": "7790070336026",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 19274.32
+    }
+  ]
+}
