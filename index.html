@@ -117,121 +117,29 @@
         </div>
     </section>
 
-    <!-- LOS MÁS VENDIDOS -->
-    <section class="mas-vendidos">
-        <h2 class="mas-vendidos-titulo">LOS MÁS VENDIDOS</h2>
+   <!-- LOS MÁS VENDIDOS -->
+<section class="mas-vendidos">
+    <h2 class="mas-vendidos-titulo">LOS MÁS VENDIDOS</h2>
 
-        <div class="mas-vendidos-wrap">
-            <button class="mv-arrow mv-prev" onclick="moverSliderProductos(-1)">
-                <i class="fa-solid fa-chevron-left"></i>
-            </button>
+    <div class="mas-vendidos-wrap">
+        <button class="mv-arrow mv-prev" onclick="moverSliderProductos(-1)">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
 
-            <div class="mv-slider-wrap">
-                <div class="mv-slider" id="mv-slider">
-
-                    <div class="mv-card">
-                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
-                            class="mv-img">
-                        <p class="mv-nombre">CHOCOLATADA BAGGIO LATTE 1L</p>
-                        <p class="mv-precio">$2.002,69</p>
-                        <div class="mv-acciones">
-                            <div class="cantidad-wrap">
-                                <button onclick="cambiarCantidad(this, -1)">−</button>
-                                <span>1</span>
-                                <button onclick="cambiarCantidad(this, 1)">+</button>
-                            </div>
-                            <button class="btn-comprar"
-                                onclick="agregarAlCarrito('CHOCOLATADA BAGGIO LATTE 1L', 2002.69, this)">COMPRAR</button>
-                        </div>
-                    </div>
-
-                    <div class="mv-card">
-                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
-                            class="mv-img">
-                        <p class="mv-nombre">YERBA MATE TARAGUI 500g</p>
-                        <p class="mv-precio">$1.844,99</p>
-                        <div class="mv-acciones">
-                            <div class="cantidad-wrap">
-                                <button onclick="cambiarCantidad(this, -1)">−</button>
-                                <span>1</span>
-                                <button onclick="cambiarCantidad(this, 1)">+</button>
-                            </div>
-                            <button class="btn-comprar"
-                                onclick="agregarAlCarrito('YERBA MATE TARAGUI 500g', 1844.99, this)">COMPRAR</button>
-                        </div>
-                    </div>
-
-                    <div class="mv-card">
-                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
-                            class="mv-img">
-                        <p class="mv-nombre">ACEITE GIRA COC 15*900 CC</p>
-                        <p class="mv-precio">$3.700,00</p>
-                        <div class="mv-acciones">
-                            <div class="cantidad-wrap">
-                                <button onclick="cambiarCantidad(this, -1)">−</button>
-                                <span>1</span>
-                                <button onclick="cambiarCantidad(this, 1)">+</button>
-                            </div>
-                            <button class="btn-comprar"
-                                onclick="agregarAlCarrito('ACEITE GIRA COC 15*900 CC', 3700, this)">COMPRAR</button>
-                        </div>
-                    </div>
-
-                    <div class="mv-card">
-                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
-                            class="mv-img">
-                        <p class="mv-nombre">YERBA MATE CHAMIGO 1 KG</p>
-                        <p class="mv-precio">$1.238,00</p>
-                        <div class="mv-acciones">
-                            <div class="cantidad-wrap">
-                                <button onclick="cambiarCantidad(this, -1)">−</button>
-                                <span>1</span>
-                                <button onclick="cambiarCantidad(this, 1)">+</button>
-                            </div>
-                            <button class="btn-comprar"
-                                onclick="agregarAlCarrito('YERBA MATE CHAMIGO 1 KG', 1238, this)">COMPRAR</button>
-                        </div>
-                    </div>
-
-                    <div class="mv-card">
-                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
-                            class="mv-img">
-                        <p class="mv-nombre">YERBA MATE CRUZ DE MALTA 500g</p>
-                        <p class="mv-precio">$1.920,00</p>
-                        <div class="mv-acciones">
-                            <div class="cantidad-wrap">
-                                <button onclick="cambiarCantidad(this, -1)">−</button>
-                                <span>1</span>
-                                <button onclick="cambiarCantidad(this, 1)">+</button>
-                            </div>
-                            <button class="btn-comprar"
-                                onclick="agregarAlCarrito('YERBA MATE CRUZ DE MALTA 500g', 1920, this)">COMPRAR</button>
-                        </div>
-                    </div>
-
-                    <div class="mv-card">
-                        <img src="https://via.placeholder.com/180x180/f5f5f5/fe6902?text=Producto" alt="Producto"
-                            class="mv-img">
-                        <p class="mv-nombre">YERBA MATE INDUMAR 500g</p>
-                        <p class="mv-precio">$1.445,69</p>
-                        <div class="mv-acciones">
-                            <div class="cantidad-wrap">
-                                <button onclick="cambiarCantidad(this, -1)">−</button>
-                                <span>1</span>
-                                <button onclick="cambiarCantidad(this, 1)">+</button>
-                            </div>
-                            <button class="btn-comprar"
-                                onclick="agregarAlCarrito('YERBA MATE INDUMAR 500g', 1445.69, this)">COMPRAR</button>
-                        </div>
-                    </div>
-
-                </div>
+        <div class="mv-slider-wrap">
+            <div class="mv-slider" id="mv-slider">
+                <!-- Se llena desde javascript.js con datos del JSON -->
             </div>
-
-            <button class="mv-arrow mv-next" onclick="moverSliderProductos(1)">
-                <i class="fa-solid fa-chevron-right"></i>
-            </button>
         </div>
+
+        <button class="mv-arrow mv-next" onclick="moverSliderProductos(1)">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- Dots -->
+    <div class="mv-dots" id="mv-dots"></div>
+</section>
 
         <!-- Dots -->
         <div class="mv-dots" id="mv-dots"></div>

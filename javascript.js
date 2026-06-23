@@ -397,9 +397,43 @@ function agregarAlCarrito(nombre, precio, btn) {
   }, 1500);
 }
 
+// ==================== SLIDER DESDE JSON ====================
+async function cargarSliderMasVendidos() {
+  const slider = document.getElementById('mv-slider');
+  if (!slider) return;
+
+  try {
+    const res = await fetch('data/productos.json');
+    if (!res.ok) return;
+    const data = await res.json();
+    const productos = data.productos.slice(0, 12);
+
+    slider.innerHTML = productos.map(p => `
+      <div class="mv-card">
+        <img src="https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.familia || 'GP')}"
+             alt="${p.nombre}" class="mv-img">
+        <p class="mv-nombre">${p.nombre}</p>
+        <p class="mv-precio">${p.precio.toLocaleString('es-AR', { style: 'currency', currency: 'ARS', minimumFractionDigits: 2 })}</p>
+        <div class="mv-acciones">
+          <div class="cantidad-wrap">
+            <button onclick="cambiarCantidad(this, -1)">−</button>
+            <span>1</span>
+            <button onclick="cambiarCantidad(this, 1)">+</button>
+          </div>
+          <button class="btn-comprar"
+            onclick="agregarAlCarrito(${JSON.stringify(p.nombre)}, ${p.precio}, this)">COMPRAR</button>
+        </div>
+      </div>
+    `).join('');
+  } catch (err) {
+    console.error('Error cargando slider:', err);
+  }
+}
+
 // ==================== DOM CONTENT LOADED ====================
-document.addEventListener("DOMContentLoaded", function () {
-  iniciarSliderProductos();
+document.addEventListener("DOMContentLoaded", async function () {
+  await cargarSliderMasVendidos(); 
+  iniciarSliderProductos();      
   actualizarPanelCarrito();
 
   const cartWrap = document.querySelector(".cart-wrap");
