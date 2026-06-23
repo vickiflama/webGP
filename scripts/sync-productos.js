@@ -5,6 +5,7 @@ const path = require('path');
 const BASE = 'alimentosdelnea.chesserp.com';
 const USUARIO = process.env.CHESS_USUARIO;
 const PASSWORD = process.env.CHESS_PASSWORD;
+const ID_DEPOSITO = 1;
 
 function request(options, body = null) {
   return new Promise((resolve, reject) => {
@@ -58,7 +59,7 @@ async function getArticulos(sessionId) {
     if (articulos.length === 0) break;
 
     todos = todos.concat(articulos);
-    console.log(`  Lote ${lote}: ${articulos.length} artículos (total acumulado: ${todos.length})`);
+    console.log(`  Lote ${lote}: ${articulos.length} artículos (total: ${todos.length})`);
     lote++;
   }
 
@@ -78,6 +79,33 @@ async function getPrecios(sessionId) {
   return precios;
 }
 
+async function getStock(sessionId) {
+  const hoy = new Date();
+  const fecha = `${String(hoy.getDate()).padStart(2, '0')}/${String(hoy.getMonth() + 1).padStart(2, '0')}/${hoy.getFullYear()}`;
+
+  const res = await request({
+    hostname: BASE,
+    path: `/AR965/web/api/chess/v1/stock/?idDeposito=${ID_DEPOSITO}&frescura=true&fechaStock=${encodeURIComponent(fecha)}`,
+    method: 'GET',
+    headers: { 'Accept': 'application/json', 'Cookie': sessionId }
+  });
+
+  const items = res.body?.dsStockFisicoApi?.dsStock || [];
+  console.log(`✅ Registros de stock: ${items.length}`);
+
+  // Sumar cantBultos por idArticulo
+  const stockMap = {};
+  for (const item of items) {
+    if (!stockMap[item.idArticulo]) stockMap[item.idArticulo] = 0;
+    stockMap[item.idArticulo] += item.cantBultos || 0;
+  }
+
+  const conStock = Object.values(stockMap).filter(v => v > 0).length;
+  console.log(`✅ Artículos con stock > 0: ${conStock}`);
+
+  return stockMap;
+}
+
 function getAgrupacion(eAgrupaciones, tipo) {
   const ag = eAgrupaciones?.find(a => a.idFormaAgrupar === tipo);
   return ag?.desAgrupacion || '';
@@ -87,9 +115,11 @@ async function main() {
   if (!USUARIO || !PASSWORD) throw new Error('Faltan CHESS_USUARIO y CHESS_PASSWORD');
 
   const sessionId = await login();
-  const [articulos, precios] = await Promise.all([
+
+  const [articulos, precios, stockMap] = await Promise.all([
     getArticulos(sessionId),
-    getPrecios(sessionId)
+    getPrecios(sessionId),
+    getStock(sessionId)
   ]);
 
   const precioMap = {};
@@ -98,7 +128,12 @@ async function main() {
   }
 
   const productos = articulos
-    .filter(a => !a.anulado && a.visibleMobile && precioMap[a.idArticulo] > 0)
+    .filter(a =>
+      !a.anulado &&
+      a.visibleMobile &&
+      precioMap[a.idArticulo] > 0 &&
+      (stockMap[a.idArticulo] || 0) > 0
+    )
     .map(a => ({
       id: a.idArticulo,
       nombre: a.desArticulo,
@@ -106,10 +141,11 @@ async function main() {
       codBarra: a.codBarraUnidad || '',
       familia: getAgrupacion(a.eAgrupaciones, 'FAMILIAS'),
       rubro: getAgrupacion(a.eAgrupaciones, 'RUBROS'),
-      precio: precioMap[a.idArticulo] || 0
+      precio: precioMap[a.idArticulo] || 0,
+      stock: stockMap[a.idArticulo] || 0
     }));
 
-  console.log(`✅ Productos activos con precio: ${productos.length}`);
+  console.log(`✅ Productos con precio y stock: ${productos.length}`);
 
   const output = {
     ultima_actualizacion: new Date().toISOString(),
