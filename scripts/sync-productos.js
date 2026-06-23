@@ -49,13 +49,10 @@ async function getArticulos(sessionId) {
   while (true) {
     const res = await request({
       hostname: BASE,
-      path: `/AR965/web/api/chess/v1/articulos/?nroLote=${lote}&cantidad=1000`,
+      path: `/AR965/web/api/chess/v1/articulos/?nroLote=${lote}`,
       method: 'GET',
       headers: { 'Accept': 'application/json', 'Cookie': sessionId }
     });
-
-    console.log(`--- RESPUESTA LOTE ${lote} ---`);
-    console.log(JSON.stringify(res.body, null, 2));
 
     const articulos = res.body?.Articulos?.eArticulos || [];
     if (articulos.length === 0) break;
