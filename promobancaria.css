@@ -1,0 +1,11 @@
+.promos-bancarias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.promo-target{
+    width: 500px;
+    height: auto;
+}

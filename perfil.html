@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="perfil.css">
     <title>Mi Perfil - Gran Prix Mayorista</title>
 </head>
+
 <body>
 
     <!-- NAVBAR -->
@@ -28,7 +30,8 @@
         </div>
         <div class="nav-right">
             <button class="btn-whatsapp">
-                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
+                    rel="noopener noreferrer">
                     <i class="fa-brands fa-whatsapp"></i>
                     Sumate al canal de WhatsApp
                 </a>
@@ -42,7 +45,8 @@
                     <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
                     <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
                     <hr>
-                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
+                        sesión</a>
                 </div>
             </div>
             <div class="cart-wrap">
@@ -103,6 +107,11 @@
                 <button class="btn-cancelar" onclick="cancelarEdicion('datos')">CANCELAR</button>
                 <button class="btn-guardar" onclick="guardarDatos()">GUARDAR</button>
             </div>
+            <div class="alerta-error" id="alerta-datos">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <span id="alerta-datos-texto"></span>
+            </div>
+
         </div>
 
         <!-- SECCIÓN 2: DIRECCIÓN -->
@@ -145,13 +154,18 @@
                 </div>
                 <div class="form-grupo form-grupo-full">
                     <label>Referencias</label>
-                    <input type="text" id="dir-referencias" class="input-perfil" placeholder="Ej: Casa con portón azul, entre calles..." disabled>
+                    <input type="text" id="dir-referencias" class="input-perfil"
+                        placeholder="Ej: Casa con portón azul, entre calles..." disabled>
                 </div>
             </div>
 
             <div class="perfil-botones" id="botones-direccion" style="display:none">
                 <button class="btn-cancelar" onclick="cancelarEdicion('direccion')">CANCELAR</button>
                 <button class="btn-guardar" onclick="guardarDireccion()">GUARDAR</button>
+            </div>
+            <div class="alerta-error" id="alerta-direccion">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <span id="alerta-direccion-texto"></span>
             </div>
         </div>
 
@@ -168,4 +182,5 @@
     <script type="module" src="perfil.js"></script>
     <script src="modales.js"></script>
 </body>
+
 </html>

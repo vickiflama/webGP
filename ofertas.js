@@ -45,8 +45,10 @@ function renderizarProductos(lista) {
           <span>1</span>
           <button onclick="cambiarCantidad(this, 1)">+</button>
         </div>
-        <button class="btn-comprar"
-          onclick="agregarAlCarrito(${JSON.stringify(p.nombre)}, ${p.precio}, this)">COMPRAR</button>
+        <button class="btn-comprar" 
+  data-nombre="${p.nombre.replace(/"/g, '&quot;')}"
+  data-precio="${p.precio}"
+  onclick="agregarAlCarrito(this)">COMPRAR</button>
       </div>
     </div>
   `).join('');
@@ -112,29 +114,29 @@ function cambiarCantidad(btn, cambio) {
 }
 
 // ==================== CARRITO ====================
-function agregarAlCarrito(nombre, precio, btn) {
-  const wrap = btn
-    .closest('.mv-acciones, .producto-acciones')
-    ?.querySelector('.cantidad-wrap span');
-  const cantidad = wrap ? parseInt(wrap.textContent) : 1;
+function agregarAlCarrito(btn) {
+    const nombre = btn.dataset.nombre;
+    const precio = parseFloat(btn.dataset.precio);
+    const wrap = btn.closest('.mv-acciones, .producto-acciones')?.querySelector('.cantidad-wrap span');
+    const cantidad = wrap ? parseInt(wrap.textContent) : 1;
 
-  carritoIndex = JSON.parse(localStorage.getItem('carritoGP') || '[]');
-  const existe = carritoIndex.find(p => p.nombre === nombre);
-  if (existe) {
-    existe.cantidad += cantidad;
-  } else {
-    carritoIndex.push({ nombre, precio, cantidad });
-  }
+    carritoIndex = JSON.parse(localStorage.getItem('carritoGP') || '[]');
+    const existe = carritoIndex.find(p => p.nombre === nombre);
+    if (existe) {
+        existe.cantidad += cantidad;
+    } else {
+        carritoIndex.push({ nombre, precio, cantidad });
+    }
 
-  localStorage.setItem('carritoGP', JSON.stringify(carritoIndex));
-  actualizarPanelCarrito();
+    localStorage.setItem('carritoGP', JSON.stringify(carritoIndex));
+    actualizarPanelCarrito();
 
-  btn.textContent = '✓ Agregado';
-  btn.style.background = '#3DB549';
-  setTimeout(() => {
-    btn.textContent = 'COMPRAR';
-    btn.style.background = '';
-  }, 1500);
+    btn.textContent = '✓ Agregado';
+    btn.style.background = '#3DB549';
+    setTimeout(() => {
+        btn.textContent = 'COMPRAR';
+        btn.style.background = '';
+    }, 1500);
 }
 
 // ==================== LOADING ====================

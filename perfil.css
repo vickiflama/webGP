@@ -135,3 +135,20 @@
 .btn-guardar:hover {
     background: #e05500;
 }
+
+.alerta-error {
+    background: #cc0000;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+    display: none;
+    align-items: center;
+    gap: 10px;
+}
+
+.alerta-error.activo {
+    display: flex;
+}

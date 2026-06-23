@@ -37,23 +37,33 @@ async function login() {
       'Content-Length': Buffer.byteLength(body)
     }
   }, body);
-
   if (!res.body.sessionId) throw new Error('Login fallido: ' + JSON.stringify(res.body));
   console.log('✅ Login OK');
   return res.body.sessionId;
 }
 
 async function getArticulos(sessionId) {
-  const res = await request({
-    hostname: BASE,
-    path: '/AR965/web/api/chess/v1/articulos/',
-    method: 'GET',
-    headers: { 'Accept': 'application/json', 'Cookie': sessionId }
-  });
+  let todos = [];
+  let lote = 1;
 
-  const articulos = res.body?.Articulos?.eArticulos || [];
-  console.log(`✅ Artículos recibidos: ${articulos.length}`);
-  return articulos;
+  while (true) {
+    const res = await request({
+      hostname: BASE,
+      path: `/AR965/web/api/chess/v1/articulos/?nroLote=${lote}`,
+      method: 'GET',
+      headers: { 'Accept': 'application/json', 'Cookie': sessionId }
+    });
+
+    const articulos = res.body?.Articulos?.eArticulos || [];
+    if (articulos.length === 0) break;
+
+    todos = todos.concat(articulos);
+    console.log(`  Lote ${lote}: ${articulos.length} artículos (total acumulado: ${todos.length})`);
+    lote++;
+  }
+
+  console.log(`✅ Total artículos: ${todos.length}`);
+  return todos;
 }
 
 async function getPrecios(sessionId) {
@@ -63,9 +73,8 @@ async function getPrecios(sessionId) {
     method: 'GET',
     headers: { 'Accept': 'application/json', 'Cookie': sessionId }
   });
-
   const precios = res.body?.dsListaPreciosApi?.eListaPrecios || [];
-  console.log(`✅ Precios recibidos: ${precios.length}`);
+  console.log(`✅ Precios: ${precios.length}`);
   return precios;
 }
 
@@ -75,26 +84,19 @@ function getAgrupacion(eAgrupaciones, tipo) {
 }
 
 async function main() {
-  if (!USUARIO || !PASSWORD) {
-    throw new Error('Faltan las variables de entorno CHESS_USUARIO y CHESS_PASSWORD');
-  }
+  if (!USUARIO || !PASSWORD) throw new Error('Faltan CHESS_USUARIO y CHESS_PASSWORD');
 
   const sessionId = await login();
-
   const [articulos, precios] = await Promise.all([
     getArticulos(sessionId),
     getPrecios(sessionId)
   ]);
 
-  // Mapa de precios por idArticulo (solo los no anulados)
   const precioMap = {};
   for (const p of precios) {
-    if (!p.Anulado) {
-      precioMap[p.id_articulo] = p.Precio_Final;
-    }
+    if (!p.Anulado) precioMap[p.id_articulo] = p.Precio_Final;
   }
 
-  // Combinar artículos con precios, filtrando los sin precio o anulados
   const productos = articulos
     .filter(a => !a.anulado && a.visibleMobile && precioMap[a.idArticulo] > 0)
     .map(a => ({
@@ -115,7 +117,6 @@ async function main() {
     productos
   };
 
-  // Crear carpeta data si no existe y guardar
   const dir = path.join(process.cwd(), 'data');
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, 'productos.json'), JSON.stringify(output, null, 2));

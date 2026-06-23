@@ -72,24 +72,28 @@
 
 /* PRODUCTOS */
 .productos-grid {
-    flex: 1;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 14px;
     align-content: start;
+    padding-right: 20px;
 }
 
 .producto-card {
     background: white;
+    width: 250px;
+    height: 300px;
     border-radius: 12px;
     border: 1.5px solid #e0e0e0;
-    padding: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 6px;
     position: relative;
     transition: box-shadow 0.2s;
+    padding-bottom: 10px;
+   padding-top: 10px;
 }
 
 .producto-card:hover {
@@ -151,7 +155,7 @@
     gap: 6px;
     width: 100%;
     justify-content: center;
-    margin-top: 4px;
+    margin-top: 30px;
 }
 
 .cantidad-wrap {
@@ -337,5 +341,12 @@
 .section-ofertas{
     display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
+   justify-content: space-between;
+   padding: 0;
+   margin-top: 10px;
+}
+
+.filtros{
+  margin-top: 10px;
+  margin-left: 20px;
 }
