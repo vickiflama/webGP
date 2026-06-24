@@ -454,8 +454,8 @@ document.addEventListener("DOMContentLoaded", async function () {
       }
     });
   }
-});
-// Buscador navbar → redirige a catalogo.html
+
+  // Buscador navbar → redirige a catalogo.html
 const searchInput = document.querySelector('.search-box input');
 const searchIcon = document.querySelector('.search-box i');
 
@@ -473,6 +473,9 @@ if (searchInput) {
 
   searchIcon.addEventListener('click', irACatalogo);
 }
+
+});
+
 
 // ==================== SUSCRIPCIÓN ====================
 function suscribirse() {
