@@ -6,6 +6,25 @@ const BASE = 'alimentosdelnea.chesserp.com';
 const USUARIO = process.env.CHESS_USUARIO;
 const PASSWORD = process.env.CHESS_PASSWORD;
 const ID_DEPOSITO = 2;
+const FAMILIAS_EXCLUIDAS = new Set([
+  'CONGELADOS.',
+  'ENVASE',
+  'VARIOS',
+  'OTROS.',
+  'FINANCIERO',
+  'MATERIAL POP'  
+]);
+
+// IDs de productos específicos que no deben aparecer
+const PRODUCTOS_EXCLUIDOS = new Set([
+  900,   // SOMBRILLA + BASE
+  905,   // PALLET MADERA BLANCA
+  9000,  // RECARGO FINANCIERO
+  2776,
+  61679,
+  10105,
+  1070
+]);
 
 function request(options, body = null) {
   return new Promise((resolve, reject) => {
@@ -128,12 +147,14 @@ async function main() {
   }
 
   const productos = articulos
-    .filter(a =>
-      !a.anulado &&
-      a.visibleMobile &&
-      precioMap[a.idArticulo] > 0 &&
-      (stockMap[a.idArticulo] || 0) > 0
-    )
+   .filter(a =>
+  !a.anulado &&
+  precioMap[a.idArticulo] > 0 &&
+  (stockMap[a.idArticulo] || 0) > 0 &&
+  !FAMILIAS_EXCLUIDAS.has(getAgrupacion(a.eAgrupaciones, 'FAMILIAS')) &&
+  !PRODUCTOS_EXCLUIDOS.has(a.idArticulo)
+)
+
     .map(a => ({
       id: a.idArticulo,
       nombre: a.desArticulo,
@@ -163,3 +184,4 @@ main().catch(err => {
   console.error('❌ Error:', err.message);
   process.exit(1);
 });
+
