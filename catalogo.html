@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ofertas.css">
+    <link rel="stylesheet" href="carrito.css">
+    <title>Catálogo - Gran Prix Mayorista</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+        <div class="search-wrap">
+            <div class="search-box">
+                <input type="text" placeholder="Buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
+            <div class="user-menu-wrap">
+                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span id="nombre-usuario">LOGIN</span>
+                </button>
+                <div class="user-dropdown" id="user-dropdown">
+                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                    <hr>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
+                        sesión</a>
+                </div>
+            </div>
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge" id="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENIDO -->
+    <div class="section-ofertas">
+
+        <!-- FILTROS -->
+        <section class="filtros">
+            <h3 class="filtros-titulo"><i class="fa-solid fa-sliders"></i> Filtrar</h3>
+
+            <div class="filtro-grupo">
+                <button class="filtro-header" onclick="toggleFiltro('categoria')">
+                    Categoría <span id="icon-categoria">+</span>
+                </button>
+                <div class="filtro-opciones" id="filtro-categoria"></div>
+            </div>
+
+            <div class="filtro-grupo">
+                <button class="filtro-header" onclick="toggleFiltro('ordenar')">
+                    Ordenar <span id="icon-ordenar">+</span>
+                </button>
+                <div class="filtro-opciones" id="filtro-ordenar">
+                    <label><input type="radio" name="orden" value="menor"> Menor precio</label>
+                    <label><input type="radio" name="orden" value="mayor"> Mayor precio</label>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTOS -->
+        <section class="productos-grid" id="productos-grid">
+        </section>
+
+    </div>
+    <div id="paginacion" class="paginacion"></div>
+
+    <!-- LOADING -->
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
+
+    <!-- CARRITO PANEL -->
+    <div class="carrito-panel" id="carrito-panel">
+        <div class="carrito-header">
+            <span class="carrito-titulo">Mi carrito</span>
+            <span class="carrito-contador" id="carrito-contador">0 productos</span>
+        </div>
+        <div class="carrito-items" id="carrito-items"></div>
+        <div class="carrito-footer">
+            <div class="carrito-subtotal" id="carrito-subtotal">SUBTOTAL: $0</div>
+            <button class="btn-mi-carrito" onclick="window.location.href='carrito.html'">MI CARRITO</button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-wrap">
+
+            <div class="footer-col">
+                <img src="img/Fondo Blanco GP.png" alt="Gran Prix Mayorista" class="footer-logo">
+                <p class="footer-slogan">¡Con Gran Prix ahorrás más!</p>
+            </div>
+
+            <div class="footer-col">
+                <div class="footer-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <div>
+                        <p>Lunes a Viernes 8 a 19 hs</p>
+                        <p>Sábado 8 a 13 hs</p>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <p>Bv. Lovatto N° 1313</p>
+                        <p>Reconquista, Santa Fe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-titulo">GRAN PRIX ONLINE</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Medios de pago</a></li>
+                    <li><a href="#">Formas de entrega</a></li>
+                    <li><a href="#">Promociones bancarias</a></li>
+                    <li><a href="comocomprar.html">¿Cómo comprar?</a></li>
+                    <li><a href="pedidos.html">Mis pedidos</a></li>
+                    <li><a href="#">Botón de arrepentimiento</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-redes">
+                <h4 class="footer-titulo">SEGUINOS</h4>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/Granprixmayorista" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/granprixmayorista" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"><i
+                            class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Gran Prix Mayorista. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+    <script src="modales.js"></script>
+    <script src="catalogo.js"></script>
+    <script type="module" src="firebase.js"></script>
+</body>
+
+</html>

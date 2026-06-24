@@ -455,6 +455,24 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
   }
 });
+// Buscador navbar → redirige a catalogo.html
+const searchInput = document.querySelector('.search-box input');
+const searchIcon = document.querySelector('.search-box i');
+
+if (searchInput) {
+  const irACatalogo = () => {
+    const texto = searchInput.value.trim();
+    if (texto) {
+      window.location.href = `catalogo.html?buscar=${encodeURIComponent(texto)}`;
+    }
+  };
+
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') irACatalogo();
+  });
+
+  searchIcon.addEventListener('click', irACatalogo);
+}
 
 // ==================== SUSCRIPCIÓN ====================
 function suscribirse() {
@@ -494,6 +512,7 @@ function suscribirse() {
     alerta.style.background = "";
   }, 4000);
 }
+
 
 // ==================== EXPONER GLOBALMENTE ====================
 window.abrirModal = abrirModal;
