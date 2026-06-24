@@ -5,7 +5,7 @@ const path = require('path');
 const BASE = 'alimentosdelnea.chesserp.com';
 const USUARIO = process.env.CHESS_USUARIO;
 const PASSWORD = process.env.CHESS_PASSWORD;
-const ID_DEPOSITO = 1;
+const ID_DEPOSITO = 2;
 
 function request(options, body = null) {
   return new Promise((resolve, reject) => {
