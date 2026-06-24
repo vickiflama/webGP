@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-06-23T18:08:48.020Z",
-  "total": 1470,
+  "ultima_actualizacion": "2026-06-24T11:40:58.932Z",
+  "total": 1466,
   "productos": [
     {
       "id": 1,
@@ -20,7 +20,7 @@
       "familia": "ACEITES",
       "rubro": "ACEITES TRADICIONALES",
       "precio": 56199.188,
-      "stock": 153
+      "stock": 151
     },
     {
       "id": 16,
@@ -30,7 +30,7 @@
       "familia": "ACEITES",
       "rubro": "ACEITES ESPECIALES",
       "precio": 43521.958,
-      "stock": 76
+      "stock": 69
     },
     {
       "id": 17,
@@ -50,7 +50,7 @@
       "familia": "ACEITES",
       "rubro": "ACEITES ESPECIALES",
       "precio": 43521.958,
-      "stock": 34
+      "stock": 27
     },
     {
       "id": 27,
@@ -100,7 +100,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "JUGO",
       "precio": 16774.714,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 40,
@@ -110,7 +110,7 @@
       "familia": "ARROZ.",
       "rubro": "ARROZ",
       "precio": 16719.102,
-      "stock": 108
+      "stock": 105
     },
     {
       "id": 48,
@@ -120,7 +120,7 @@
       "familia": "ARROZ.",
       "rubro": "ARROZ",
       "precio": 8997.475,
-      "stock": 90
+      "stock": 89
     },
     {
       "id": 51,
@@ -130,7 +130,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 50121.358,
-      "stock": 46
+      "stock": 40
     },
     {
       "id": 52,
@@ -140,7 +140,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 50121.358,
-      "stock": 33
+      "stock": 28
     },
     {
       "id": 62,
@@ -150,7 +150,7 @@
       "familia": "HARINAS",
       "rubro": "HORNEABLES",
       "precio": 33979.982,
-      "stock": 6
+      "stock": 2
     },
     {
       "id": 92,
@@ -170,7 +170,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 16754.434,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 94,
@@ -250,7 +250,7 @@
       "familia": "HARINAS",
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 21158.352,
-      "stock": 69
+      "stock": 68
     },
     {
       "id": 115,
@@ -260,7 +260,7 @@
       "familia": "HARINAS",
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 15279.078,
-      "stock": 25
+      "stock": 24
     },
     {
       "id": 117,
@@ -310,7 +310,7 @@
       "familia": "HARINAS",
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 49742.858,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 124,
@@ -330,7 +330,7 @@
       "familia": "HARINAS",
       "rubro": "VITINA",
       "precio": 17573.181,
-      "stock": 14
+      "stock": 12
     },
     {
       "id": 128,
@@ -350,7 +350,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 62153.937,
-      "stock": 31
+      "stock": 24
     },
     {
       "id": 130,
@@ -360,7 +360,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 11369.221,
-      "stock": 19
+      "stock": 15
     },
     {
       "id": 133,
@@ -380,7 +380,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 26076.94,
-      "stock": 96
+      "stock": 95
     },
     {
       "id": 137,
@@ -390,7 +390,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
-      "stock": 27
+      "stock": 23
     },
     {
       "id": 138,
@@ -400,17 +400,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 16779.98,
-      "stock": 179
-    },
-    {
-      "id": 139,
-      "nombre": "LASAGNA FORT. MATARAZZO 28 * 250 G",
-      "unidadesBulto": 28,
-      "codBarra": "7790070337016",
-      "familia": "PASTAS",
-      "rubro": "PASTAS SECAS",
-      "precio": 48676.945,
-      "stock": 1
+      "stock": 171
     },
     {
       "id": 143,
@@ -430,7 +420,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 30083.141,
-      "stock": 174
+      "stock": 172
     },
     {
       "id": 146,
@@ -440,7 +430,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 32879.802,
-      "stock": 105
+      "stock": 101
     },
     {
       "id": 147,
@@ -450,7 +440,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 32879.802,
-      "stock": 87
+      "stock": 86
     },
     {
       "id": 148,
@@ -460,7 +450,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 52909.888,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 149,
@@ -470,7 +460,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 32879.802,
-      "stock": 104
+      "stock": 102
     },
     {
       "id": 150,
@@ -490,7 +480,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 37292.369,
-      "stock": 39
+      "stock": 36
     },
     {
       "id": 152,
@@ -510,7 +500,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 22562.35,
-      "stock": 28
+      "stock": 25
     },
     {
       "id": 155,
@@ -520,7 +510,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 22562.35,
-      "stock": 18
+      "stock": 12
     },
     {
       "id": 157,
@@ -530,7 +520,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 22562.35,
-      "stock": 84
+      "stock": 83
     },
     {
       "id": 159,
@@ -540,7 +530,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 16534.42,
-      "stock": 236
+      "stock": 216
     },
     {
       "id": 160,
@@ -580,7 +570,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 12400.818,
-      "stock": 262
+      "stock": 261
     },
     {
       "id": 191,
@@ -590,7 +580,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
-      "stock": 238
+      "stock": 233
     },
     {
       "id": 173,
@@ -600,7 +590,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 24816.265,
-      "stock": 146
+      "stock": 141
     },
     {
       "id": 175,
@@ -610,7 +600,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 24485.524,
-      "stock": 53
+      "stock": 52
     },
     {
       "id": 176,
@@ -630,7 +620,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 22562.35,
-      "stock": 146
+      "stock": 139
     },
     {
       "id": 186,
@@ -640,7 +630,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
-      "stock": 84
+      "stock": 83
     },
     {
       "id": 187,
@@ -660,7 +650,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
-      "stock": 182
+      "stock": 181
     },
     {
       "id": 195,
@@ -680,7 +670,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 25699.093,
-      "stock": 169
+      "stock": 165
     },
     {
       "id": 197,
@@ -690,7 +680,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 27318.932,
-      "stock": 131
+      "stock": 128
     },
     {
       "id": 198,
@@ -700,7 +690,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 27318.932,
-      "stock": 83
+      "stock": 80
     },
     {
       "id": 199,
@@ -710,7 +700,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 27324.232,
-      "stock": 121
+      "stock": 119
     },
     {
       "id": 200,
@@ -720,7 +710,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
-      "stock": 30
+      "stock": 27
     },
     {
       "id": 201,
@@ -730,7 +720,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
-      "stock": 137
+      "stock": 131
     },
     {
       "id": 202,
@@ -750,7 +740,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
-      "stock": 27
+      "stock": 22
     },
     {
       "id": 204,
@@ -760,7 +750,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
-      "stock": 32
+      "stock": 29
     },
     {
       "id": 205,
@@ -780,7 +770,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 65162.529,
-      "stock": 12
+      "stock": 10
     },
     {
       "id": 210,
@@ -800,7 +790,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 56115.25,
-      "stock": 19
+      "stock": 13
     },
     {
       "id": 215,
@@ -810,7 +800,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 56115.25,
-      "stock": 19
+      "stock": 17
     },
     {
       "id": 216,
@@ -820,7 +810,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 56115.25,
-      "stock": 19
+      "stock": 15
     },
     {
       "id": 217,
@@ -850,7 +840,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 17077.674,
-      "stock": 100
+      "stock": 84
     },
     {
       "id": 225,
@@ -860,7 +850,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 17077.674,
-      "stock": 146
+      "stock": 140
     },
     {
       "id": 226,
@@ -870,7 +860,7 @@
       "familia": "ADHERESOS",
       "rubro": "EDULCORANTE",
       "precio": 30359.891,
-      "stock": 13
+      "stock": 7
     },
     {
       "id": 229,
@@ -880,7 +870,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 18948.624,
-      "stock": 122
+      "stock": 116
     },
     {
       "id": 230,
@@ -890,7 +880,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
-      "stock": 260
+      "stock": 259
     },
     {
       "id": 231,
@@ -900,7 +890,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
-      "stock": 184
+      "stock": 178
     },
     {
       "id": 236,
@@ -930,7 +920,7 @@
       "familia": "ADHERESOS",
       "rubro": "EDULCORANTE",
       "precio": 7893.88,
-      "stock": 70
+      "stock": 67
     },
     {
       "id": 239,
@@ -940,7 +930,7 @@
       "familia": "ADHERESOS",
       "rubro": "EDULCORANTE",
       "precio": 13730.277,
-      "stock": 13
+      "stock": 9
     },
     {
       "id": 242,
@@ -960,7 +950,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
-      "stock": 135
+      "stock": 123
     },
     {
       "id": 246,
@@ -990,7 +980,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 22562.35,
-      "stock": 78
+      "stock": 66
     },
     {
       "id": 255,
@@ -1000,7 +990,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 18948.624,
-      "stock": 145
+      "stock": 144
     },
     {
       "id": 269,
@@ -1260,7 +1250,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 30111.733,
-      "stock": 92
+      "stock": 90
     },
     {
       "id": 324,
@@ -1270,7 +1260,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 40148.974,
-      "stock": 102
+      "stock": 100
     },
     {
       "id": 329,
@@ -1280,7 +1270,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 46359.275,
-      "stock": 64
+      "stock": 59
     },
     {
       "id": 331,
@@ -1410,7 +1400,7 @@
       "familia": "HARINAS",
       "rubro": "GELIFICABLES",
       "precio": 14122.116,
-      "stock": 26
+      "stock": 23
     },
     {
       "id": 373,
@@ -1420,7 +1410,7 @@
       "familia": "HARINAS",
       "rubro": "GELIFICABLES",
       "precio": 14122.116,
-      "stock": 43
+      "stock": 42
     },
     {
       "id": 376,
@@ -1430,7 +1420,7 @@
       "familia": "HARINAS",
       "rubro": "VITINA",
       "precio": 11737.254,
-      "stock": 7
+      "stock": 2
     },
     {
       "id": 378,
@@ -1450,7 +1440,7 @@
       "familia": "SALUDABLES",
       "rubro": "SNACKS SALUDABLES",
       "precio": 101526.502,
-      "stock": 5
+      "stock": 3
     },
     {
       "id": 386,
@@ -1460,7 +1450,7 @@
       "familia": "SALUDABLES",
       "rubro": "SNACKS SALUDABLES",
       "precio": 101526.502,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 400,
@@ -1480,7 +1470,7 @@
       "familia": "ARROZ.",
       "rubro": "ARROZ",
       "precio": 12056.694,
-      "stock": 96
+      "stock": 92
     },
     {
       "id": 405,
@@ -1490,7 +1480,7 @@
       "familia": "ARROZ.",
       "rubro": "ARROZ",
       "precio": 32126.153,
-      "stock": 29
+      "stock": 24
     },
     {
       "id": 407,
@@ -1510,7 +1500,7 @@
       "familia": "ARROZ.",
       "rubro": "ARROZ",
       "precio": 20976.959,
-      "stock": 41
+      "stock": 38
     },
     {
       "id": 410,
@@ -1520,7 +1510,7 @@
       "familia": "ARROZ.",
       "rubro": "ARROZ",
       "precio": 9978.64,
-      "stock": 42
+      "stock": 37
     },
     {
       "id": 413,
@@ -1530,7 +1520,7 @@
       "familia": "ARROZ.",
       "rubro": "ARROZ",
       "precio": 18919.221,
-      "stock": 35
+      "stock": 26
     },
     {
       "id": 418,
@@ -1550,7 +1540,7 @@
       "familia": "ARROZ.",
       "rubro": "ARROZ",
       "precio": 10140.816,
-      "stock": 140
+      "stock": 138
     },
     {
       "id": 427,
@@ -1563,16 +1553,6 @@
       "stock": 13
     },
     {
-      "id": 435,
-      "nombre": "CRUZ/MALTA BDO/MTA S/TACC 10*500 G",
-      "unidadesBulto": 10,
-      "codBarra": "7790070509062",
-      "familia": "INFUSIONES.",
-      "rubro": "YERBAS",
-      "precio": 19005.615,
-      "stock": 2
-    },
-    {
       "id": 442,
       "nombre": "YERBA CRUZ/MALTA SELECCION 10*500G",
       "unidadesBulto": 10,
@@ -1580,7 +1560,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 22119.066,
-      "stock": 3
+      "stock": 1
     },
     {
       "id": 445,
@@ -1590,7 +1570,7 @@
       "familia": "INFUSIONES.",
       "rubro": "CAFE",
       "precio": 30734.182,
-      "stock": 40
+      "stock": 39
     },
     {
       "id": 448,
@@ -1600,7 +1580,7 @@
       "familia": "INFUSIONES.",
       "rubro": "CAFE",
       "precio": 86712.145,
-      "stock": 18
+      "stock": 15
     },
     {
       "id": 455,
@@ -1630,7 +1610,7 @@
       "familia": "ARROZ.",
       "rubro": "ARROZ",
       "precio": 23576.898,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 459,
@@ -1640,7 +1620,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 37292.369,
-      "stock": 57
+      "stock": 51
     },
     {
       "id": 485,
@@ -1840,7 +1820,7 @@
       "familia": "ADHERESOS",
       "rubro": "SAL",
       "precio": 25711.09,
-      "stock": 4
+      "stock": 2
     },
     {
       "id": 564,
@@ -1850,7 +1830,7 @@
       "familia": "ADHERESOS",
       "rubro": "SAL",
       "precio": 14318.865,
-      "stock": 223
+      "stock": 221
     },
     {
       "id": 565,
@@ -1880,7 +1860,7 @@
       "familia": "ADHERESOS",
       "rubro": "SAL",
       "precio": 20442.439,
-      "stock": 114
+      "stock": 113
     },
     {
       "id": 569,
@@ -1900,7 +1880,7 @@
       "familia": "ADHERESOS",
       "rubro": "SAL",
       "precio": 26196.5,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 571,
@@ -1910,7 +1890,7 @@
       "familia": "ADHERESOS",
       "rubro": "SAL",
       "precio": 24474.005,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 572,
@@ -1970,7 +1950,7 @@
       "familia": "OTROS",
       "rubro": "REPOSTERIA",
       "precio": 11550.001,
-      "stock": 194
+      "stock": 183
     },
     {
       "id": 616,
@@ -2060,7 +2040,7 @@
       "familia": "CONSERVAS",
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 138992.01,
-      "stock": 58
+      "stock": 57
     },
     {
       "id": 651,
@@ -2310,7 +2290,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 14450.002,
-      "stock": 3
+      "stock": 1
     },
     {
       "id": 786,
@@ -2350,7 +2330,7 @@
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 1453.394,
-      "stock": 861
+      "stock": 811
     },
     {
       "id": 802,
@@ -2360,7 +2340,7 @@
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 26219.882,
-      "stock": 146
+      "stock": 142
     },
     {
       "id": 803,
@@ -2440,7 +2420,7 @@
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 35746.957,
-      "stock": 120
+      "stock": 110
     },
     {
       "id": 823,
@@ -2550,7 +2530,7 @@
       "familia": "CONSERVAS",
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 15403.08,
-      "stock": 152
+      "stock": 151
     },
     {
       "id": 883,
@@ -2570,7 +2550,7 @@
       "familia": "CONSERVAS",
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26387.999,
-      "stock": 413
+      "stock": 350
     },
     {
       "id": 887,
@@ -2720,7 +2700,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 28531.074,
-      "stock": 4
+      "stock": 2
     },
     {
       "id": 1000,
@@ -2730,7 +2710,7 @@
       "familia": "ADHERESOS",
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 13616.82,
-      "stock": 918
+      "stock": 909
     },
     {
       "id": 1001,
@@ -2740,7 +2720,7 @@
       "familia": "ADHERESOS",
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 7982.043,
-      "stock": 639
+      "stock": 628
     },
     {
       "id": 1002,
@@ -2750,7 +2730,7 @@
       "familia": "ADHERESOS",
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 18963.12,
-      "stock": 508
+      "stock": 479
     },
     {
       "id": 1003,
@@ -2760,7 +2740,7 @@
       "familia": "ADHERESOS",
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 37454.534,
-      "stock": 87
+      "stock": 65
     },
     {
       "id": 1004,
@@ -2770,7 +2750,7 @@
       "familia": "ADHERESOS",
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 43887.305,
-      "stock": 105
+      "stock": 104
     },
     {
       "id": 1005,
@@ -2790,7 +2770,7 @@
       "familia": "ADHERESOS",
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 9307.417,
-      "stock": 821
+      "stock": 809
     },
     {
       "id": 1007,
@@ -2870,7 +2850,7 @@
       "familia": "ACEITES",
       "rubro": "ACEITES TRADICIONALES",
       "precio": 56250,
-      "stock": 692
+      "stock": 686
     },
     {
       "id": 1025,
@@ -2890,7 +2870,7 @@
       "familia": "ACEITES",
       "rubro": "ACEITES TRADICIONALES",
       "precio": 71400.001,
-      "stock": 430
+      "stock": 424
     },
     {
       "id": 1028,
@@ -2910,7 +2890,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA",
       "precio": 4470.797,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 1030,
@@ -2920,7 +2900,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 10750.925,
-      "stock": 221
+      "stock": 219
     },
     {
       "id": 1032,
@@ -2930,7 +2910,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 3834.858,
-      "stock": 96
+      "stock": 83
     },
     {
       "id": 1033,
@@ -2950,7 +2930,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 10750.922,
-      "stock": 143
+      "stock": 139
     },
     {
       "id": 1035,
@@ -2970,7 +2950,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 10750.925,
-      "stock": 271
+      "stock": 259
     },
     {
       "id": 1037,
@@ -2990,7 +2970,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 7339.525,
-      "stock": 114
+      "stock": 113
     },
     {
       "id": 1039,
@@ -3020,7 +3000,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 10750.925,
-      "stock": 138
+      "stock": 127
     },
     {
       "id": 1043,
@@ -3030,7 +3010,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 7339.528,
-      "stock": 75
+      "stock": 73
     },
     {
       "id": 1047,
@@ -3060,7 +3040,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 10750.921,
-      "stock": 97
+      "stock": 89
     },
     {
       "id": 1054,
@@ -3080,7 +3060,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 7339.531,
-      "stock": 93
+      "stock": 92
     },
     {
       "id": 1058,
@@ -3110,7 +3090,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 17924.496,
-      "stock": 397
+      "stock": 380
     },
     {
       "id": 1081,
@@ -3120,7 +3100,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 21995.122,
-      "stock": 270
+      "stock": 267
     },
     {
       "id": 1082,
@@ -3140,7 +3120,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 33763.499,
-      "stock": 213
+      "stock": 206
     },
     {
       "id": 1084,
@@ -3150,7 +3130,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 17373.861,
-      "stock": 250
+      "stock": 245
     },
     {
       "id": 1085,
@@ -3160,7 +3140,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 15566.709,
-      "stock": 347
+      "stock": 341
     },
     {
       "id": 1086,
@@ -3170,7 +3150,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 16280.738,
-      "stock": 189
+      "stock": 183
     },
     {
       "id": 1087,
@@ -3210,7 +3190,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 15566.709,
-      "stock": 263
+      "stock": 229
     },
     {
       "id": 1092,
@@ -3230,7 +3210,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 23042.222,
-      "stock": 69
+      "stock": 66
     },
     {
       "id": 1094,
@@ -3240,7 +3220,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 24433.92,
-      "stock": 66
+      "stock": 56
     },
     {
       "id": 1095,
@@ -3250,7 +3230,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 24010.727,
-      "stock": 67
+      "stock": 65
     },
     {
       "id": 1098,
@@ -3310,7 +3290,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 15348.382,
-      "stock": 112
+      "stock": 107
     },
     {
       "id": 1119,
@@ -3330,7 +3310,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "BAGGIO",
       "precio": 16021.55,
-      "stock": 112
+      "stock": 107
     },
     {
       "id": 1133,
@@ -3340,7 +3320,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "BAGGIO",
       "precio": 7639.847,
-      "stock": 110
+      "stock": 99
     },
     {
       "id": 1139,
@@ -3490,7 +3470,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 9326.899,
-      "stock": 66
+      "stock": 11
     },
     {
       "id": 1184,
@@ -3500,7 +3480,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 13800.908,
-      "stock": 179
+      "stock": 131
     },
     {
       "id": 1185,
@@ -3580,7 +3560,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 17182.316,
-      "stock": 121
+      "stock": 118
     },
     {
       "id": 1214,
@@ -3590,7 +3570,7 @@
       "familia": "GASEOSAS.",
       "rubro": "GASEOSAS",
       "precio": 22840.001,
-      "stock": 12
+      "stock": 4
     },
     {
       "id": 1224,
@@ -3680,7 +3660,7 @@
       "familia": "GASEOSAS.",
       "rubro": "ENERGIZANTES",
       "precio": 32160,
-      "stock": 144
+      "stock": 143
     },
     {
       "id": 1351,
@@ -3690,7 +3670,7 @@
       "familia": "GASEOSAS.",
       "rubro": "ENERGIZANTES",
       "precio": 25188.001,
-      "stock": 237
+      "stock": 233
     },
     {
       "id": 1382,
@@ -3770,7 +3750,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 5934.74,
-      "stock": 42
+      "stock": 40
     },
     {
       "id": 1805,
@@ -3790,7 +3770,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 5316.825,
-      "stock": 245
+      "stock": 234
     },
     {
       "id": 1807,
@@ -3800,7 +3780,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 4253.46,
-      "stock": 77
+      "stock": 72
     },
     {
       "id": 1808,
@@ -3840,7 +3820,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "BAGGIO",
       "precio": 8969.028,
-      "stock": 650
+      "stock": 637
     },
     {
       "id": 1813,
@@ -3850,7 +3830,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "BAGGIO",
       "precio": 8969.028,
-      "stock": 422
+      "stock": 417
     },
     {
       "id": 1818,
@@ -3860,7 +3840,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
-      "stock": 2766
+      "stock": 2742
     },
     {
       "id": 1819,
@@ -3870,7 +3850,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
-      "stock": 1133
+      "stock": 1126
     },
     {
       "id": 1820,
@@ -3880,7 +3860,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
-      "stock": 163
+      "stock": 150
     },
     {
       "id": 1821,
@@ -3890,7 +3870,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
-      "stock": 275
+      "stock": 269
     },
     {
       "id": 1823,
@@ -3900,7 +3880,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
-      "stock": 707
+      "stock": 702
     },
     {
       "id": 1827,
@@ -3930,7 +3910,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
-      "stock": 291
+      "stock": 289
     },
     {
       "id": 1840,
@@ -3940,7 +3920,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "JUGO",
       "precio": 8829.143,
-      "stock": 221
+      "stock": 213
     },
     {
       "id": 1842,
@@ -4090,7 +4070,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "BAGGIO",
       "precio": 13498.821,
-      "stock": 269
+      "stock": 267
     },
     {
       "id": 1867,
@@ -4100,7 +4080,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "BAGGIO",
       "precio": 13498.821,
-      "stock": 622
+      "stock": 616
     },
     {
       "id": 1868,
@@ -4110,7 +4090,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "BAGGIO",
       "precio": 17241.738,
-      "stock": 41
+      "stock": 39
     },
     {
       "id": 1874,
@@ -4170,7 +4150,7 @@
       "familia": "VINOS",
       "rubro": "VINO DE MESA TETRA",
       "precio": 18683.235,
-      "stock": 142
+      "stock": 140
     },
     {
       "id": 1922,
@@ -4190,7 +4170,7 @@
       "familia": "VINOS",
       "rubro": "VINO DE MESA TETRA",
       "precio": 18683.235,
-      "stock": 41
+      "stock": 40
     },
     {
       "id": 1924,
@@ -4200,7 +4180,7 @@
       "familia": "VINOS",
       "rubro": "VINO DE MESA TETRA",
       "precio": 18683.235,
-      "stock": 257
+      "stock": 256
     },
     {
       "id": 1925,
@@ -4230,7 +4210,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 36600.225,
-      "stock": 154
+      "stock": 152
     },
     {
       "id": 2000,
@@ -4240,7 +4220,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 41587.761,
-      "stock": 150
+      "stock": 149
     },
     {
       "id": 2002,
@@ -4250,7 +4230,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 36600.225,
-      "stock": 180
+      "stock": 178
     },
     {
       "id": 2006,
@@ -4260,7 +4240,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 36296.491,
-      "stock": 325
+      "stock": 468
     },
     {
       "id": 2018,
@@ -4280,7 +4260,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 45233.708,
-      "stock": 835
+      "stock": 830
     },
     {
       "id": 2041,
@@ -4290,7 +4270,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 45233.708,
-      "stock": 192
+      "stock": 190
     },
     {
       "id": 2059,
@@ -4300,7 +4280,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 68041.652,
-      "stock": 697
+      "stock": 693
     },
     {
       "id": 2180,
@@ -4310,7 +4290,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39732.915,
-      "stock": 137
+      "stock": 136
     },
     {
       "id": 2195,
@@ -4370,7 +4350,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 18606.546,
-      "stock": 195
+      "stock": 191
     },
     {
       "id": 2379,
@@ -4380,7 +4360,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 18606.546,
-      "stock": 234
+      "stock": 225
     },
     {
       "id": 2400,
@@ -4390,7 +4370,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 19504.801,
-      "stock": 313
+      "stock": 308
     },
     {
       "id": 2401,
@@ -4400,7 +4380,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 36794.64,
-      "stock": 174
+      "stock": 173
     },
     {
       "id": 2402,
@@ -4500,7 +4480,7 @@
       "familia": "OTROS",
       "rubro": "MATERIAL POP",
       "precio": 350,
-      "stock": 422
+      "stock": 421
     },
     {
       "id": 2453,
@@ -4510,7 +4490,7 @@
       "familia": "OTROS",
       "rubro": "MATERIAL POP",
       "precio": 1.21,
-      "stock": 364
+      "stock": 362
     },
     {
       "id": 2454,
@@ -4520,7 +4500,7 @@
       "familia": "OTROS",
       "rubro": "MATERIAL POP",
       "precio": 1.21,
-      "stock": 334
+      "stock": 328
     },
     {
       "id": 2500,
@@ -4530,7 +4510,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 21541.245,
-      "stock": 67
+      "stock": 66
     },
     {
       "id": 2501,
@@ -4540,7 +4520,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 21541.245,
-      "stock": 119
+      "stock": 114
     },
     {
       "id": 2502,
@@ -4550,7 +4530,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 22618.812,
-      "stock": 59
+      "stock": 58
     },
     {
       "id": 2503,
@@ -4560,7 +4540,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 20155.782,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 2505,
@@ -4580,7 +4560,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 42237.821,
-      "stock": 43
+      "stock": 42
     },
     {
       "id": 2507,
@@ -4590,7 +4570,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 19536.852,
-      "stock": 29
+      "stock": 28
     },
     {
       "id": 2509,
@@ -4650,7 +4630,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 19704.366,
-      "stock": 72
+      "stock": 71
     },
     {
       "id": 2551,
@@ -4960,7 +4940,7 @@
       "familia": "CERVEZAS.",
       "rubro": "ENVASE",
       "precio": 12999.998,
-      "stock": 11981
+      "stock": 11977
     },
     {
       "id": 2776,
@@ -4970,7 +4950,7 @@
       "familia": "CERVEZAS.",
       "rubro": "ENVASE",
       "precio": 24000,
-      "stock": 11503
+      "stock": 11499
     },
     {
       "id": 2781,
@@ -5020,7 +5000,7 @@
       "familia": "APERITIVOS.",
       "rubro": "APERITIVOS",
       "precio": 92138.299,
-      "stock": 909
+      "stock": 904
     },
     {
       "id": 3008,
@@ -5030,16 +5010,6 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 417962.728,
-      "stock": 2
-    },
-    {
-      "id": 3010,
-      "nombre": "TACCONI SERRANO 6 * 1500 CC PET",
-      "unidadesBulto": 6,
-      "codBarra": "7790950003048",
-      "familia": "AMARGOS",
-      "rubro": "AMARGO",
-      "precio": 8949.971,
       "stock": 2
     },
     {
@@ -5070,7 +5040,7 @@
       "familia": "AMARGOS",
       "rubro": "AMARGO",
       "precio": 26269.645,
-      "stock": 828
+      "stock": 824
     },
     {
       "id": 3016,
@@ -5080,7 +5050,7 @@
       "familia": "AMARGOS",
       "rubro": "AMARGO",
       "precio": 26269.645,
-      "stock": 120
+      "stock": 119
     },
     {
       "id": 3017,
@@ -5140,7 +5110,7 @@
       "familia": "AMARGOS",
       "rubro": "AMARGO",
       "precio": 26269.645,
-      "stock": 366
+      "stock": 362
     },
     {
       "id": 3023,
@@ -5150,7 +5120,7 @@
       "familia": "AMARGOS",
       "rubro": "AMARGO",
       "precio": 15810.792,
-      "stock": 654
+      "stock": 653
     },
     {
       "id": 3024,
@@ -5160,7 +5130,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 19560.001,
-      "stock": 173
+      "stock": 171
     },
     {
       "id": 3026,
@@ -5200,7 +5170,7 @@
       "familia": "AMARGOS",
       "rubro": "AMARGO",
       "precio": 26269.645,
-      "stock": 41
+      "stock": 40
     },
     {
       "id": 3032,
@@ -5210,7 +5180,7 @@
       "familia": "APERITIVOS.",
       "rubro": "APERITIVOS",
       "precio": 51173.47,
-      "stock": 244
+      "stock": 242
     },
     {
       "id": 3033,
@@ -5230,7 +5200,7 @@
       "familia": "AMARGOS",
       "rubro": "AMARGO",
       "precio": 26269.645,
-      "stock": 21
+      "stock": 20
     },
     {
       "id": 3036,
@@ -5330,7 +5300,7 @@
       "familia": "APERITIVOS.",
       "rubro": "APERITIVOS",
       "precio": 57017.58,
-      "stock": 116
+      "stock": 115
     },
     {
       "id": 3070,
@@ -5370,7 +5340,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BAJO GRADO",
       "precio": 49893.408,
-      "stock": 73
+      "stock": 71
     },
     {
       "id": 3098,
@@ -5380,7 +5350,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BAJO GRADO",
       "precio": 49893.408,
-      "stock": 49
+      "stock": 48
     },
     {
       "id": 3110,
@@ -5390,7 +5360,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BAJO GRADO",
       "precio": 44800.804,
-      "stock": 111
+      "stock": 108
     },
     {
       "id": 3116,
@@ -5440,7 +5410,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BAJO GRADO",
       "precio": 44800.804,
-      "stock": 111
+      "stock": 110
     },
     {
       "id": 3135,
@@ -5450,7 +5420,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BAJO GRADO",
       "precio": 49258.257,
-      "stock": 87
+      "stock": 86
     },
     {
       "id": 3136,
@@ -5560,7 +5530,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BAJO GRADO",
       "precio": 45899.437,
-      "stock": 650
+      "stock": 649
     },
     {
       "id": 3171,
@@ -5870,7 +5840,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 36416.248,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 3228,
@@ -5880,7 +5850,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 36416.248,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 3229,
@@ -6240,7 +6210,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 26136,
-      "stock": 21
+      "stock": 18
     },
     {
       "id": 3307,
@@ -6330,7 +6300,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 37026,
-      "stock": 10
+      "stock": 8
     },
     {
       "id": 3317,
@@ -6500,7 +6470,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 56628,
-      "stock": 42
+      "stock": 39
     },
     {
       "id": 3336,
@@ -6520,7 +6490,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 26136,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3339,
@@ -6700,7 +6670,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 76936.906,
-      "stock": 39
+      "stock": 36
     },
     {
       "id": 3643,
@@ -6770,7 +6740,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 78846.903,
-      "stock": 75
+      "stock": 73
     },
     {
       "id": 3700,
@@ -6780,7 +6750,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
-      "stock": 264
+      "stock": 263
     },
     {
       "id": 3702,
@@ -6790,7 +6760,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
-      "stock": 23
+      "stock": 22
     },
     {
       "id": 3703,
@@ -6820,7 +6790,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
-      "stock": 33
+      "stock": 31
     },
     {
       "id": 3706,
@@ -6830,7 +6800,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
-      "stock": 68
+      "stock": 67
     },
     {
       "id": 3707,
@@ -6860,7 +6830,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
-      "stock": 25
+      "stock": 24
     },
     {
       "id": 3710,
@@ -6910,7 +6880,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 71456.586,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3718,
@@ -6940,7 +6910,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 34201.437,
-      "stock": 265
+      "stock": 264
     },
     {
       "id": 3723,
@@ -6970,7 +6940,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 34201.437,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 3726,
@@ -7000,7 +6970,7 @@
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
       "precio": 47919.594,
-      "stock": 120
+      "stock": 119
     },
     {
       "id": 3732,
@@ -7010,7 +6980,7 @@
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
       "precio": 39463.206,
-      "stock": 75
+      "stock": 74
     },
     {
       "id": 3735,
@@ -7020,7 +6990,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 36742.207,
-      "stock": 32
+      "stock": 31
     },
     {
       "id": 3740,
@@ -7070,7 +7040,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 51912.896,
-      "stock": 19
+      "stock": 18
     },
     {
       "id": 3748,
@@ -7091,16 +7061,6 @@
       "rubro": "LATAS Y ESTUCHES",
       "precio": 218248.196,
       "stock": 10
-    },
-    {
-      "id": 3751,
-      "nombre": "ALA COLORADA CAB FRANC 6 * 750 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7798123972016",
-      "familia": "VINOS",
-      "rubro": "VINOS FINOS",
-      "precio": 94664.701,
-      "stock": 1
     },
     {
       "id": 3752,
@@ -7180,7 +7140,7 @@
       "familia": "ACEITES",
       "rubro": "ACEITES ESPECIALES",
       "precio": 79380.005,
-      "stock": 25
+      "stock": 20
     },
     {
       "id": 3766,
@@ -7190,7 +7150,7 @@
       "familia": "ACEITES",
       "rubro": "ACEITES ESPECIALES",
       "precio": 150271.207,
-      "stock": 32
+      "stock": 27
     },
     {
       "id": 3767,
@@ -7250,7 +7210,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 94664.701,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3777,
@@ -7350,7 +7310,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 41183.996,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3876,
@@ -7360,7 +7320,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 42876.949,
-      "stock": 448
+      "stock": 440
     },
     {
       "id": 3894,
@@ -7370,7 +7330,7 @@
       "familia": "INFUSIONES.",
       "rubro": "YERBAS",
       "precio": 21072.465,
-      "stock": 174
+      "stock": 172
     },
     {
       "id": 3933,
@@ -7400,7 +7360,7 @@
       "familia": "CONSERVAS",
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 8900.929,
-      "stock": 782
+      "stock": 777
     },
     {
       "id": 4005,
@@ -7640,7 +7600,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 18224.996,
-      "stock": 111
+      "stock": 104
     },
     {
       "id": 4382,
@@ -7650,7 +7610,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 18224.996,
-      "stock": 21
+      "stock": 19
     },
     {
       "id": 4383,
@@ -7680,7 +7640,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 25200.005,
-      "stock": 436
+      "stock": 434
     },
     {
       "id": 4386,
@@ -7690,7 +7650,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 19135.001,
-      "stock": 49
+      "stock": 48
     },
     {
       "id": 4387,
@@ -7700,7 +7660,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 20480,
-      "stock": 92
+      "stock": 91
     },
     {
       "id": 4388,
@@ -7710,7 +7670,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 18311.995,
-      "stock": 35
+      "stock": 31
     },
     {
       "id": 4389,
@@ -7750,7 +7710,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 13159.996,
-      "stock": 119
+      "stock": 111
     },
     {
       "id": 4414,
@@ -7790,7 +7750,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 20480,
-      "stock": 37
+      "stock": 35
     },
     {
       "id": 4433,
@@ -7820,7 +7780,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 36742.136,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 4454,
@@ -7840,7 +7800,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 25051.709,
-      "stock": 343
+      "stock": 335
     },
     {
       "id": 4456,
@@ -8080,7 +8040,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 84029.95,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 4657,
@@ -8100,7 +8060,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 35011.205,
-      "stock": 109
+      "stock": 108
     },
     {
       "id": 4660,
@@ -8110,7 +8070,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 42507.433,
-      "stock": 37
+      "stock": 36
     },
     {
       "id": 4661,
@@ -8120,7 +8080,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 38513.465,
-      "stock": 27
+      "stock": 26
     },
     {
       "id": 4662,
@@ -8150,7 +8110,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 45754.625,
-      "stock": 55
+      "stock": 53
     },
     {
       "id": 4668,
@@ -8170,7 +8130,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 41576.399,
-      "stock": 212
+      "stock": 211
     },
     {
       "id": 4671,
@@ -8230,7 +8190,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 91857.549,
-      "stock": 94
+      "stock": 93
     },
     {
       "id": 4677,
@@ -8240,7 +8200,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 91857.549,
-      "stock": 96
+      "stock": 95
     },
     {
       "id": 4678,
@@ -8270,7 +8230,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 84878.148,
-      "stock": 192
+      "stock": 189
     },
     {
       "id": 4681,
@@ -8410,7 +8370,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 30932.476,
-      "stock": 15
+      "stock": 13
     },
     {
       "id": 4696,
@@ -8420,7 +8380,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 30932.476,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 4697,
@@ -8450,7 +8410,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 31151.281,
-      "stock": 24
+      "stock": 22
     },
     {
       "id": 4700,
@@ -8460,7 +8420,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 31151.281,
-      "stock": 22
+      "stock": 20
     },
     {
       "id": 4701,
@@ -8470,7 +8430,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 22864.027,
-      "stock": 28
+      "stock": 26
     },
     {
       "id": 4702,
@@ -8480,7 +8440,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 22864.027,
-      "stock": 26
+      "stock": 24
     },
     {
       "id": 4703,
@@ -8520,7 +8480,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 46731.991,
-      "stock": 57
+      "stock": 56
     },
     {
       "id": 4708,
@@ -8530,7 +8490,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 46731.991,
-      "stock": 128
+      "stock": 127
     },
     {
       "id": 4709,
@@ -8540,7 +8500,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 46731.991,
-      "stock": 105
+      "stock": 104
     },
     {
       "id": 4712,
@@ -8570,7 +8530,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39732.915,
-      "stock": 72
+      "stock": 71
     },
     {
       "id": 4715,
@@ -8830,7 +8790,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 40928.492,
-      "stock": 110
+      "stock": 109
     },
     {
       "id": 4745,
@@ -8840,7 +8800,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 40928.492,
-      "stock": 81
+      "stock": 80
     },
     {
       "id": 4746,
@@ -8850,7 +8810,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 40928.492,
-      "stock": 12
+      "stock": 10
     },
     {
       "id": 4747,
@@ -8870,7 +8830,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 42708.015,
-      "stock": 85
+      "stock": 84
     },
     {
       "id": 4749,
@@ -8880,7 +8840,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 42708.015,
-      "stock": 14
+      "stock": 12
     },
     {
       "id": 4750,
@@ -8900,7 +8860,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 42708.015,
-      "stock": 90
+      "stock": 89
     },
     {
       "id": 4753,
@@ -8910,7 +8870,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 36974.515,
-      "stock": 33
+      "stock": 32
     },
     {
       "id": 4754,
@@ -8920,7 +8880,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 41236.171,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 4755,
@@ -8930,7 +8890,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 36974.515,
-      "stock": 20
+      "stock": 19
     },
     {
       "id": 4756,
@@ -8940,7 +8900,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 41236.171,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 4758,
@@ -8960,7 +8920,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 39348.498,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 4762,
@@ -8970,7 +8930,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 28552.092,
-      "stock": 14
+      "stock": 13
     },
     {
       "id": 4763,
@@ -9020,7 +8980,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 19945.289,
-      "stock": 98
+      "stock": 97
     },
     {
       "id": 4768,
@@ -9030,7 +8990,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 19945.289,
-      "stock": 90
+      "stock": 88
     },
     {
       "id": 4769,
@@ -9060,7 +9020,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 38979.727,
-      "stock": 41
+      "stock": 40
     },
     {
       "id": 4772,
@@ -9070,7 +9030,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 38979.727,
-      "stock": 50
+      "stock": 48
     },
     {
       "id": 4773,
@@ -9130,7 +9090,7 @@
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
       "precio": 53154.647,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 4780,
@@ -9140,7 +9100,7 @@
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
       "precio": 56246.898,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 4781,
@@ -9170,7 +9130,7 @@
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
       "precio": 34818.125,
-      "stock": 22
+      "stock": 21
     },
     {
       "id": 4784,
@@ -9220,7 +9180,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 28607.11,
-      "stock": 24
+      "stock": 22
     },
     {
       "id": 4790,
@@ -9230,7 +9190,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 28607.11,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 4791,
@@ -9240,7 +9200,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 28607.11,
-      "stock": 11
+      "stock": 9
     },
     {
       "id": 4792,
@@ -9250,7 +9210,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 28607.11,
-      "stock": 19
+      "stock": 17
     },
     {
       "id": 4793,
@@ -9260,7 +9220,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 29395.583,
-      "stock": 18
+      "stock": 13
     },
     {
       "id": 4795,
@@ -9400,7 +9360,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 31463.812,
-      "stock": 85
+      "stock": 84
     },
     {
       "id": 4815,
@@ -9410,7 +9370,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 31511.316,
-      "stock": 137
+      "stock": 129
     },
     {
       "id": 4817,
@@ -9420,7 +9380,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 79904.952,
-      "stock": 30
+      "stock": 29
     },
     {
       "id": 4818,
@@ -9430,7 +9390,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 76936.906,
-      "stock": 117
+      "stock": 116
     },
     {
       "id": 4819,
@@ -9440,7 +9400,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 78846.903,
-      "stock": 36
+      "stock": 33
     },
     {
       "id": 4820,
@@ -9450,7 +9410,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 76936.906,
-      "stock": 126
+      "stock": 122
     },
     {
       "id": 4821,
@@ -9460,7 +9420,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 76936.906,
-      "stock": 162
+      "stock": 159
     },
     {
       "id": 4999,
@@ -9550,7 +9510,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 43139.731,
-      "stock": 22
+      "stock": 21
     },
     {
       "id": 5019,
@@ -9610,7 +9570,7 @@
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
       "precio": 74624.899,
-      "stock": 110
+      "stock": 109
     },
     {
       "id": 5030,
@@ -9830,7 +9790,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 37028.154,
-      "stock": 630
+      "stock": 625
     },
     {
       "id": 5077,
@@ -9840,7 +9800,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 37028.154,
-      "stock": 71
+      "stock": 70
     },
     {
       "id": 5078,
@@ -9870,7 +9830,7 @@
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
       "precio": 51828.656,
-      "stock": 92
+      "stock": 90
     },
     {
       "id": 5084,
@@ -9880,7 +9840,7 @@
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
       "precio": 51828.656,
-      "stock": 180
+      "stock": 176
     },
     {
       "id": 5085,
@@ -9890,7 +9850,7 @@
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
       "precio": 51828.656,
-      "stock": 8
+      "stock": 6
     },
     {
       "id": 5087,
@@ -10120,7 +10080,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 24635.031,
-      "stock": 271
+      "stock": 269
     },
     {
       "id": 5127,
@@ -10250,7 +10210,7 @@
       "familia": "APERITIVOS.",
       "rubro": "FERNET Y APERITIVOS",
       "precio": 130980.001,
-      "stock": 164
+      "stock": 161
     },
     {
       "id": 5152,
@@ -10270,7 +10230,7 @@
       "familia": "APERITIVOS.",
       "rubro": "FERNET Y APERITIVOS",
       "precio": 130020,
-      "stock": 599
+      "stock": 595
     },
     {
       "id": 5155,
@@ -10300,7 +10260,7 @@
       "familia": "APERITIVOS.",
       "rubro": "FERNET Y APERITIVOS",
       "precio": 5199.999,
-      "stock": 1925
+      "stock": 1875
     },
     {
       "id": 5160,
@@ -10380,7 +10340,7 @@
       "familia": "APERITIVOS.",
       "rubro": "FERNET Y APERITIVOS",
       "precio": 196080,
-      "stock": 927
+      "stock": 924
     },
     {
       "id": 5176,
@@ -10500,7 +10460,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 50056.895,
-      "stock": 28
+      "stock": 27
     },
     {
       "id": 5197,
@@ -10540,7 +10500,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 24449.04,
-      "stock": 101
+      "stock": 100
     },
     {
       "id": 5208,
@@ -10580,7 +10540,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 39593.4,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 5217,
@@ -10810,7 +10770,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 66506.851,
-      "stock": 98
+      "stock": 97
     },
     {
       "id": 5256,
@@ -10830,7 +10790,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 56628.04,
-      "stock": 13
+      "stock": 11
     },
     {
       "id": 5259,
@@ -10860,7 +10820,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 49139.612,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 5266,
@@ -10990,7 +10950,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 69308.836,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 5290,
@@ -11060,7 +11020,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 51350.11,
-      "stock": 40
+      "stock": 39
     },
     {
       "id": 5298,
@@ -11310,7 +11270,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 83820.001,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 5353,
@@ -11360,7 +11320,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 28440.72,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 5360,
@@ -11390,7 +11350,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 26226.788,
-      "stock": 412
+      "stock": 409
     },
     {
       "id": 5363,
@@ -11550,7 +11510,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 78926.4,
-      "stock": 50
+      "stock": 49
     },
     {
       "id": 5385,
@@ -11560,7 +11520,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 45188.556,
-      "stock": 337
+      "stock": 329
     },
     {
       "id": 5386,
@@ -11630,7 +11590,7 @@
       "familia": "VINOS",
       "rubro": "CHAMPAGNE",
       "precio": 92183.632,
-      "stock": 19
+      "stock": 17
     },
     {
       "id": 5402,
@@ -12110,7 +12070,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 56904.415,
-      "stock": 91
+      "stock": 90
     },
     {
       "id": 5519,
@@ -12250,7 +12210,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 35135.121,
-      "stock": 70
+      "stock": 69
     },
     {
       "id": 5550,
@@ -12260,7 +12220,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 33115.933,
-      "stock": 345
+      "stock": 344
     },
     {
       "id": 5552,
@@ -12280,7 +12240,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 33115.933,
-      "stock": 35
+      "stock": 34
     },
     {
       "id": 5555,
@@ -12820,7 +12780,7 @@
       "familia": "APERITIVOS.",
       "rubro": "APERITIVOS",
       "precio": 115392.533,
-      "stock": 124
+      "stock": 123
     },
     {
       "id": 5702,
@@ -12840,7 +12800,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 57694.76,
-      "stock": 146
+      "stock": 145
     },
     {
       "id": 5704,
@@ -12850,7 +12810,7 @@
       "familia": "APERITIVOS.",
       "rubro": "APERITIVOS",
       "precio": 50849.003,
-      "stock": 184
+      "stock": 183
     },
     {
       "id": 5714,
@@ -12870,7 +12830,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 101651.035,
-      "stock": 26
+      "stock": 22
     },
     {
       "id": 5716,
@@ -12990,7 +12950,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 101651.035,
-      "stock": 83
+      "stock": 79
     },
     {
       "id": 5761,
@@ -13000,7 +12960,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 35761.562,
-      "stock": 57
+      "stock": 56
     },
     {
       "id": 5762,
@@ -13010,7 +12970,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 35761.562,
-      "stock": 19
+      "stock": 18
     },
     {
       "id": 5763,
@@ -13020,7 +12980,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 36742.207,
-      "stock": 54
+      "stock": 53
     },
     {
       "id": 5766,
@@ -13030,7 +12990,7 @@
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 31511.316,
-      "stock": 169
+      "stock": 164
     },
     {
       "id": 5767,
@@ -13090,7 +13050,7 @@
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
       "precio": 68041.652,
-      "stock": 140
+      "stock": 139
     },
     {
       "id": 5810,
@@ -13330,7 +13290,7 @@
       "familia": "APERITIVOS.",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 54639.709,
-      "stock": 14
+      "stock": 13
     },
     {
       "id": 5905,
@@ -13380,7 +13340,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 32321.675,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 6028,
@@ -13470,7 +13430,7 @@
       "familia": "CERVEZAS.",
       "rubro": "CERVEZAS",
       "precio": 29652.658,
-      "stock": 33
+      "stock": 29
     },
     {
       "id": 14001,
@@ -13480,7 +13440,7 @@
       "familia": "CONSERVAS",
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10149.226,
-      "stock": 1931
+      "stock": 1927
     },
     {
       "id": 17518,
@@ -13520,7 +13480,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39427.814,
-      "stock": 112
+      "stock": 110
     },
     {
       "id": 61687,
@@ -13530,7 +13490,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39427.814,
-      "stock": 236
+      "stock": 235
     },
     {
       "id": 61688,
@@ -13540,7 +13500,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39427.814,
-      "stock": 138
+      "stock": 136
     },
     {
       "id": 61689,
@@ -13550,7 +13510,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39427.814,
-      "stock": 196
+      "stock": 194
     },
     {
       "id": 61691,
@@ -13560,7 +13520,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39427.814,
-      "stock": 185
+      "stock": 184
     },
     {
       "id": 61692,
@@ -13620,7 +13580,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39427.814,
-      "stock": 54
+      "stock": 53
     },
     {
       "id": 61702,
@@ -13740,7 +13700,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 78846.903,
-      "stock": 179
+      "stock": 177
     },
     {
       "id": 2217,
@@ -13750,7 +13710,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 78846.903,
-      "stock": 163
+      "stock": 162
     },
     {
       "id": 3109,
@@ -13780,7 +13740,7 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 78846.903,
-      "stock": 117
+      "stock": 115
     },
     {
       "id": 4900,
@@ -13790,7 +13750,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 15448.97,
-      "stock": 1401
+      "stock": 795
     },
     {
       "id": 4901,
@@ -13810,7 +13770,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 17406.835,
-      "stock": 76
+      "stock": 56
     },
     {
       "id": 4903,
@@ -13840,7 +13800,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 20887.489,
-      "stock": 87
+      "stock": 86
     },
     {
       "id": 4906,
@@ -13920,7 +13880,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 32151.05,
-      "stock": 20
+      "stock": 19
     },
     {
       "id": 4914,
@@ -13990,7 +13950,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 33232.851,
-      "stock": 12
+      "stock": 10
     },
     {
       "id": 4923,
@@ -14040,7 +14000,7 @@
       "familia": "PASTAS",
       "rubro": "PASTAS SECAS",
       "precio": 46013.759,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 285,
@@ -14070,7 +14030,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 2835,
-      "stock": 113
+      "stock": 110
     },
     {
       "id": 2533,
@@ -14100,7 +14060,7 @@
       "familia": "AMARGOS",
       "rubro": "AMARGO",
       "precio": 16159.502,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3102,
@@ -14110,7 +14070,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AMARGO",
       "precio": 15810.792,
-      "stock": 65
+      "stock": 64
     },
     {
       "id": 4476,
@@ -14280,7 +14240,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA",
       "precio": 5637.412,
-      "stock": 396
+      "stock": 390
     },
     {
       "id": 1173,
@@ -14310,7 +14270,7 @@
       "familia": "PAPELERIA",
       "rubro": "PAPELERA",
       "precio": 57646.82,
-      "stock": 20
+      "stock": 15
     },
     {
       "id": 2492,
@@ -14370,7 +14330,7 @@
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA",
       "precio": 6198,
-      "stock": 141
+      "stock": 139
     },
     {
       "id": 2537,
@@ -14410,7 +14370,7 @@
       "familia": "CERVEZAS.",
       "rubro": "CERVEZAS",
       "precio": 8130,
-      "stock": 744
+      "stock": 734
     },
     {
       "id": 2543,
@@ -14420,7 +14380,7 @@
       "familia": "CERVEZAS.",
       "rubro": "CERVEZAS",
       "precio": 9600,
-      "stock": 244
+      "stock": 239
     },
     {
       "id": 2545,
@@ -14530,7 +14490,7 @@
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
       "precio": 40702.089,
-      "stock": 112
+      "stock": 110
     },
     {
       "id": 4932,
@@ -14560,7 +14520,7 @@
       "familia": "",
       "rubro": "",
       "precio": 105600,
-      "stock": 83
+      "stock": 81
     },
     {
       "id": 5486,
@@ -14640,7 +14600,7 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39732.915,
-      "stock": 81
+      "stock": 80
     },
     {
       "id": 4824,
