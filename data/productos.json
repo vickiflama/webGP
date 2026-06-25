@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-06-25T12:06:06.170Z",
-  "total": 2257,
+  "ultima_actualizacion": "2026-06-25T15:27:56.113Z",
+  "total": 2263,
   "productos": [
     {
       "id": 1,
@@ -114,7 +114,7 @@
     },
     {
       "id": 40,
-      "nombre": "ARROZ LUCCHETTI  L/FINO 10*1KG",
+      "nombre": "ARROZLUCCHETTI  L/FINO 10*1KG",
       "unidadesBulto": 10,
       "codBarra": "7790070431486",
       "familia": "ARROZ.",
@@ -125,7 +125,7 @@
     },
     {
       "id": 48,
-      "nombre": "ARROZ LUCC L/FINO 10*500 G",
+      "nombre": "ARROZLUCC L/FINO 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070431493",
       "familia": "ARROZ.",
@@ -935,7 +935,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 18948.624,
       "descuento": 0,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 230,
@@ -946,7 +946,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
       "descuento": 0,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 231,
@@ -957,7 +957,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
       "descuento": 0,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 235,
@@ -1034,7 +1034,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
       "descuento": 0,
-      "stock": 28
+      "stock": 27
     },
     {
       "id": 246,
@@ -1100,7 +1100,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 18948.624,
       "descuento": 0,
-      "stock": 23
+      "stock": 22
     },
     {
       "id": 256,
@@ -1203,7 +1203,7 @@
     },
     {
       "id": 356,
-      "nombre": "ARROZ GALLO ORO 1 * 5 KG",
+      "nombre": "ARROZGALLO ORO 1 * 5 KG",
       "unidadesBulto": 1,
       "codBarra": "7791880000442",
       "familia": "ARROZ.",
@@ -1390,7 +1390,7 @@
     },
     {
       "id": 386,
-      "nombre": "GALLO BIZC ARROZ DCE 56 * 100 G",
+      "nombre": "GALLO BIZC ARROZDCE 56 * 100 G",
       "unidadesBulto": 56,
       "codBarra": "7790070418425",
       "familia": "SALUDABLES",
@@ -1401,7 +1401,7 @@
     },
     {
       "id": 400,
-      "nombre": "ARROZ GALLO ORO  EST 10 * 1 K",
+      "nombre": "ARROZGALLO ORO  EST 10 * 1 K",
       "unidadesBulto": 10,
       "codBarra": "7790070433091",
       "familia": "ARROZ.",
@@ -1412,7 +1412,7 @@
     },
     {
       "id": 401,
-      "nombre": "ARROZ GALLO ORO 10 * 500 G",
+      "nombre": "ARROZGALLO ORO 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070433114",
       "familia": "ARROZ.",
@@ -1423,7 +1423,7 @@
     },
     {
       "id": 407,
-      "nombre": "ARROZ GALLO LARGO FINO 10 * 500 G",
+      "nombre": "ARROZGALLO LARGO FINO 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070433145",
       "familia": "ARROZ.",
@@ -1434,7 +1434,7 @@
     },
     {
       "id": 408,
-      "nombre": "ARROZ GALLO LGO. FINO 10*1 K",
+      "nombre": "ARROZGALLO LGO. FINO 10*1 K",
       "unidadesBulto": 10,
       "codBarra": "7790070431448",
       "familia": "ARROZ.",
@@ -1445,7 +1445,7 @@
     },
     {
       "id": 410,
-      "nombre": "ARROZ LUCCHETTI PARBOIL  10 * 500 G",
+      "nombre": "ARROZLUCCHETTI PARBOIL  10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070431516",
       "familia": "ARROZ.",
@@ -1456,7 +1456,7 @@
     },
     {
       "id": 413,
-      "nombre": "ARROZ LUCCHETTI PARBOIL 10 * 1 KG",
+      "nombre": "ARROZLUCCHETTI PARBOIL 10 * 1 KG",
       "unidadesBulto": 10,
       "codBarra": "7790070431509",
       "familia": "ARROZ.",
@@ -1478,7 +1478,7 @@
     },
     {
       "id": 424,
-      "nombre": "ARROZ GALLO INTEGRAL BOLSA 10 * 500 G",
+      "nombre": "ARROZGALLO INTEGRAL BOLSA 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070433152",
       "familia": "ARROZ.",
@@ -1519,6 +1519,17 @@
       "precio": 19005.615,
       "descuento": 0,
       "stock": 9
+    },
+    {
+      "id": 438,
+      "nombre": "SPAGHETTI LUCCH 20*500+50G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070101105",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 22675.678,
+      "descuento": 0,
+      "stock": 1
     },
     {
       "id": 439,
@@ -1588,7 +1599,7 @@
     },
     {
       "id": 455,
-      "nombre": "ARROZ GALLO C/VEGETALES 12 * 240 G",
+      "nombre": "ARROZGALLO C/VEGETALES 12 * 240 G",
       "unidadesBulto": 12,
       "codBarra": "7790070432254",
       "familia": "ARROZ.",
@@ -1599,7 +1610,7 @@
     },
     {
       "id": 456,
-      "nombre": "ARROZ GALLO C/QUESO 12 * 240 G",
+      "nombre": "ARROZGALLO C/QUESO 12 * 240 G",
       "unidadesBulto": 12,
       "codBarra": "7790070432261",
       "familia": "ARROZ.",
@@ -1639,7 +1650,7 @@
       "rubro": "LACTEOS",
       "precio": 26160,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 476,
@@ -1661,7 +1672,7 @@
       "rubro": "LACTEOS",
       "precio": 24960.001,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 478,
@@ -1849,17 +1860,6 @@
       "precio": 16560.002,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 539,
-      "nombre": "MERM ZAPALLO DULCOR 12*500G",
-      "unidadesBulto": 12,
-      "codBarra": "7793046008026",
-      "familia": "CONSERVAS",
-      "rubro": "CONSERVAS Y COMESTIBLES",
-      "precio": 16560.002,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 542,
@@ -2112,7 +2112,7 @@
       "rubro": "REPOSTERIA",
       "precio": 11550.001,
       "descuento": 0,
-      "stock": 398
+      "stock": 393
     },
     {
       "id": 613,
@@ -2171,7 +2171,7 @@
     },
     {
       "id": 621,
-      "nombre": "ARROZ TRIMACER L/FINO 10 * 500 G",
+      "nombre": "ARROZTRIMACER L/FINO 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7794836000053",
       "familia": "ARROZ.",
@@ -2182,7 +2182,7 @@
     },
     {
       "id": 622,
-      "nombre": "ARROZ TRIMACER 10 * 1 KG",
+      "nombre": "ARROZTRIMACER 10 * 1 KG",
       "unidadesBulto": 10,
       "codBarra": "7794836000046",
       "familia": "ARROZ.",
@@ -2215,7 +2215,7 @@
     },
     {
       "id": 632,
-      "nombre": "ARROZ FORT TRIMACER 10*500G",
+      "nombre": "ARROZFORT TRIMACER 10*500G",
       "unidadesBulto": 10,
       "codBarra": "7794836000022",
       "familia": "ARROZ.",
@@ -2226,7 +2226,7 @@
     },
     {
       "id": 633,
-      "nombre": "ARROZ FORT TRIMACER 10*1 KG",
+      "nombre": "ARROZFORT TRIMACER 10*1 KG",
       "unidadesBulto": 10,
       "codBarra": "7794836000015",
       "familia": "ARROZ.",
@@ -2585,7 +2585,7 @@
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 202
+      "stock": 201
     },
     {
       "id": 721,
@@ -2596,7 +2596,7 @@
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 132
+      "stock": 131
     },
     {
       "id": 725,
@@ -2662,7 +2662,7 @@
       "rubro": "LACTEOS",
       "precio": 87600,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 742,
@@ -2695,7 +2695,7 @@
       "rubro": "LACTEOS",
       "precio": 32640.004,
       "descuento": 0,
-      "stock": 3
+      "stock": 4
     },
     {
       "id": 750,
@@ -3080,7 +3080,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26387.999,
       "descuento": 0,
-      "stock": 179
+      "stock": 178
     },
     {
       "id": 889,
@@ -3685,7 +3685,7 @@
       "rubro": "GASEOSAS",
       "precio": 20640,
       "descuento": 0,
-      "stock": 200
+      "stock": 195
     },
     {
       "id": 1060,
@@ -3751,7 +3751,7 @@
       "rubro": "GASEOSAS",
       "precio": 20640,
       "descuento": 0,
-      "stock": 1
+      "stock": 6
     },
     {
       "id": 1066,
@@ -3776,6 +3776,17 @@
       "stock": 75
     },
     {
+      "id": 1071,
+      "nombre": "FANTA NJA PET 6*500 CC",
+      "unidadesBulto": 6,
+      "codBarra": "7790895000836",
+      "familia": "GASEOSAS.",
+      "rubro": "GASEOSAS",
+      "precio": 8310,
+      "descuento": 0,
+      "stock": 10
+    },
+    {
       "id": 1074,
       "nombre": "COCA COLA 12 * 600 CC",
       "unidadesBulto": 12,
@@ -3784,7 +3795,7 @@
       "rubro": "GASEOSAS",
       "precio": 20580,
       "descuento": 0,
-      "stock": 16
+      "stock": 36
     },
     {
       "id": 1077,
@@ -3795,7 +3806,7 @@
       "rubro": "GASEOSAS",
       "precio": 8309.999,
       "descuento": 0,
-      "stock": 10
+      "stock": 20
     },
     {
       "id": 1078,
@@ -3817,7 +3828,7 @@
       "rubro": "PAPELERA",
       "precio": 17924.496,
       "descuento": 0,
-      "stock": 10
+      "stock": 8
     },
     {
       "id": 1081,
@@ -3828,7 +3839,7 @@
       "rubro": "PAPELERA",
       "precio": 21995.122,
       "descuento": 0,
-      "stock": 20
+      "stock": 17
     },
     {
       "id": 1082,
@@ -3839,7 +3850,7 @@
       "rubro": "PAPELERA",
       "precio": 25511.248,
       "descuento": 0,
-      "stock": 26
+      "stock": 17
     },
     {
       "id": 1083,
@@ -3850,7 +3861,7 @@
       "rubro": "PAPELERA",
       "precio": 33763.499,
       "descuento": 0,
-      "stock": 72
+      "stock": 70
     },
     {
       "id": 1084,
@@ -3916,7 +3927,7 @@
       "rubro": "PAPELERA",
       "precio": 22537.534,
       "descuento": 0,
-      "stock": 7
+      "stock": 15
     },
     {
       "id": 1090,
@@ -3927,7 +3938,7 @@
       "rubro": "PAPELERA",
       "precio": 15566.709,
       "descuento": 0,
-      "stock": 24
+      "stock": 22
     },
     {
       "id": 1092,
@@ -3949,7 +3960,7 @@
       "rubro": "PAPELERA",
       "precio": 23042.222,
       "descuento": 0,
-      "stock": 18
+      "stock": 16
     },
     {
       "id": 1094,
@@ -3960,7 +3971,7 @@
       "rubro": "PAPELERA",
       "precio": 24433.92,
       "descuento": 0,
-      "stock": 3
+      "stock": 6
     },
     {
       "id": 1095,
@@ -4029,6 +4040,17 @@
       "stock": 21
     },
     {
+      "id": 1109,
+      "nombre": "POWERADE MANZANA 6*500 CC",
+      "unidadesBulto": 6,
+      "codBarra": "7790895640018",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "ISOTONICAS",
+      "precio": 10140,
+      "descuento": 0,
+      "stock": 6
+    },
+    {
       "id": 1110,
       "nombre": "GIN INEFABLE CLAS 6*750 CC",
       "unidadesBulto": 6,
@@ -4081,7 +4103,7 @@
       "rubro": "PAPELERA",
       "precio": 15348.382,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 1119,
@@ -4191,7 +4213,7 @@
       "rubro": "BAGGIO",
       "precio": 7639.847,
       "descuento": 30,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 1134,
@@ -4337,6 +4359,17 @@
       "stock": 75
     },
     {
+      "id": 1163,
+      "nombre": "COCA COLA ZERO 6*600 CC",
+      "unidadesBulto": 6,
+      "codBarra": "7790895650840",
+      "familia": "GASEOSAS.",
+      "rubro": "GASEOSAS",
+      "precio": 10050.002,
+      "descuento": 0,
+      "stock": 10
+    },
+    {
       "id": 1171,
       "nombre": "BODEGA PRIVADA COLEC MBC 6 * 750 CC",
       "unidadesBulto": 6,
@@ -4367,7 +4400,7 @@
       "rubro": "LIMPIEZA",
       "precio": 35332,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 1184,
@@ -4389,7 +4422,7 @@
       "rubro": "PAPELERA",
       "precio": 15384.355,
       "descuento": 0,
-      "stock": 5
+      "stock": 3
     },
     {
       "id": 1186,
@@ -4480,6 +4513,28 @@
       "stock": 145
     },
     {
+      "id": 1207,
+      "nombre": "COCA COLA LATA 6 * 354 CC",
+      "unidadesBulto": 6,
+      "codBarra": "7790895000232",
+      "familia": "GASEOSAS.",
+      "rubro": "GASEOSAS",
+      "precio": 10140,
+      "descuento": 0,
+      "stock": 20
+    },
+    {
+      "id": 1211,
+      "nombre": "POWERADE FRUT TROP 6 * 500 CC",
+      "unidadesBulto": 6,
+      "codBarra": "7790895641336",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "ISOTONICAS",
+      "precio": 11994.004,
+      "descuento": 0,
+      "stock": 6
+    },
+    {
       "id": 1214,
       "nombre": "COCA COLA VDR 8 * 1500 CC RET",
       "unidadesBulto": 8,
@@ -4499,7 +4554,7 @@
       "rubro": "GASEOSAS",
       "precio": 10140,
       "descuento": 0,
-      "stock": 7
+      "stock": 27
     },
     {
       "id": 1222,
@@ -5610,7 +5665,7 @@
       "rubro": "LIMPIEZA",
       "precio": 33742.447,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 1385,
@@ -6017,7 +6072,7 @@
       "rubro": "ALFAJORES",
       "precio": 13200,
       "descuento": 0,
-      "stock": 5
+      "stock": 6
     },
     {
       "id": 1489,
@@ -6028,7 +6083,7 @@
       "rubro": "ALFAJORES",
       "precio": 13200,
       "descuento": 0,
-      "stock": 9
+      "stock": 10
     },
     {
       "id": 1495,
@@ -6039,7 +6094,7 @@
       "rubro": "ALFAJORES",
       "precio": 13200,
       "descuento": 0,
-      "stock": 6
+      "stock": 3
     },
     {
       "id": 1497,
@@ -6732,7 +6787,7 @@
       "rubro": "BAGGIO",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 56
+      "stock": 55
     },
     {
       "id": 1818,
@@ -6743,7 +6798,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 87
+      "stock": 77
     },
     {
       "id": 1819,
@@ -6754,7 +6809,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 106
+      "stock": 102
     },
     {
       "id": 1820,
@@ -6765,7 +6820,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 28
+      "stock": 25
     },
     {
       "id": 1821,
@@ -6886,7 +6941,7 @@
       "rubro": "BAGGIO",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 1856,
@@ -6908,18 +6963,7 @@
       "rubro": "AGUA",
       "precio": 4895.563,
       "descuento": 0,
-      "stock": 16
-    },
-    {
-      "id": 1858,
-      "nombre": "VIDA BY BAGGIO NRJA S/AZUC 6*1500 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790036974712",
-      "familia": "OTRAS BEBIDAS",
-      "rubro": "AGUA SABORIZADA",
-      "precio": 5563.819,
-      "descuento": 25,
-      "stock": 11
+      "stock": 14
     },
     {
       "id": 1968,
@@ -6931,6 +6975,17 @@
       "precio": 26399.998,
       "descuento": 0,
       "stock": 3
+    },
+    {
+      "id": 1858,
+      "nombre": "VIDA BY BAGGIO NRJA S/AZUC 6*1500 CC",
+      "unidadesBulto": 6,
+      "codBarra": "7790036974712",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "AGUA SABORIZADA",
+      "precio": 5563.819,
+      "descuento": 25,
+      "stock": 11
     },
     {
       "id": 1859,
@@ -7656,7 +7711,7 @@
       "rubro": "GOLOSINAS",
       "precio": 9949.999,
       "descuento": 0,
-      "stock": 19
+      "stock": 18
     },
     {
       "id": 2059,
@@ -8679,7 +8734,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 17990,
       "descuento": 0,
-      "stock": 29
+      "stock": 28
     },
     {
       "id": 2353,
@@ -8778,7 +8833,7 @@
       "rubro": "YERBAS",
       "precio": 18606.546,
       "descuento": 0,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 2379,
@@ -9427,7 +9482,7 @@
       "rubro": "GOLOSINAS",
       "precio": 10782,
       "descuento": 0,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 2682,
@@ -9475,7 +9530,7 @@
     },
     {
       "id": 2731,
-      "nombre": "Q CERVEZAS 1/1",
+      "nombre": "Q CERVEZA1/1",
       "unidadesBulto": 1,
       "codBarra": "",
       "familia": "CERVEZAS.",
@@ -9603,7 +9658,7 @@
       "rubro": "LACTEOS",
       "precio": 16960.001,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 2864,
@@ -9834,7 +9889,7 @@
       "rubro": "GALLETAS",
       "precio": 42827.321,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 2955,
@@ -9846,17 +9901,6 @@
       "precio": 27227.794,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 2959,
-      "nombre": "ALFAJOR BONOBON NEG 40*40 G",
-      "unidadesBulto": 40,
-      "codBarra": "7790040613706",
-      "familia": "SALUDABLES",
-      "rubro": "ALFAJORES",
-      "precio": 29430.001,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 2967,
@@ -9932,6 +9976,17 @@
       "familia": "SALUDABLES",
       "rubro": "SNACKS SALUDABLES",
       "precio": 17946.918,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 2995,
+      "nombre": "ALF BONOBON TRI 21*60G",
+      "unidadesBulto": 21,
+      "codBarra": "7790040148840",
+      "familia": "SALUDABLES",
+      "rubro": "ALFAJORES",
+      "precio": 30901.498,
       "descuento": 0,
       "stock": 1
     },
@@ -10428,7 +10483,7 @@
       "rubro": "AMARGO",
       "precio": 26269.645,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 3118,
@@ -11253,7 +11308,7 @@
       "rubro": "VINOS FINOS",
       "precio": 37026,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 3320,
@@ -11539,7 +11594,7 @@
       "rubro": "LATAS Y ESTUCHES",
       "precio": 281160.004,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 3364,
@@ -11653,7 +11708,7 @@
     },
     {
       "id": 3382,
-      "nombre": "COND P/ARROZ ALICANTE S/TACC 12*25G",
+      "nombre": "COND P/ARROZALICANTE S/TACC 12*25G",
       "unidadesBulto": 12,
       "codBarra": "7790150470350",
       "familia": "ADHERESOS",
@@ -12188,7 +12243,7 @@
       "rubro": "CONDIM Y ESPECIAS",
       "precio": 23839.493,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3537,
@@ -12533,7 +12588,7 @@
     },
     {
       "id": 3596,
-      "nombre": "SOPA ALICANTE POLLO/ARROZ 10*63G",
+      "nombre": "SOPA ALICANTE POLLO/ARROZ10*63G",
       "unidadesBulto": 10,
       "codBarra": "7790150441282",
       "familia": "ADHERESOS",
@@ -13387,7 +13442,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 22500.142,
       "descuento": 8.98,
-      "stock": 37
+      "stock": 36
     },
     {
       "id": 3783,
@@ -13508,7 +13563,7 @@
       "rubro": "VINOS FINOS",
       "precio": 41183.996,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 3840,
@@ -14146,7 +14201,7 @@
       "rubro": "GALLETAS",
       "precio": 45682.476,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 4109,
@@ -14333,7 +14388,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 9749.956,
       "descuento": 23.926,
-      "stock": 44
+      "stock": 45
     },
     {
       "id": 4132,
@@ -15304,6 +15359,17 @@
       "stock": 2
     },
     {
+      "id": 4521,
+      "nombre": "BIZC AZUCARADO GAONA 24 * 180 G",
+      "unidadesBulto": 24,
+      "codBarra": "7798126073062",
+      "familia": "GOLOSINAS.",
+      "rubro": "GALLETAS",
+      "precio": 17999.625,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
       "id": 4523,
       "nombre": "MAGDALENA GAONA MARMOL 10*200 G",
       "unidadesBulto": 10,
@@ -15356,7 +15422,7 @@
       "rubro": "GALLETAS",
       "precio": 17280,
       "descuento": 0,
-      "stock": 69
+      "stock": 68
     },
     {
       "id": 4530,
@@ -15437,7 +15503,7 @@
     },
     {
       "id": 4545,
-      "nombre": "TOSTADAS ARROZ GAONA 12*150 G",
+      "nombre": "TOSTADAS ARROZGAONA 12*150 G",
       "unidadesBulto": 12,
       "codBarra": "7798126074045",
       "familia": "GOLOSINAS.",
@@ -18249,7 +18315,7 @@
       "rubro": "VINOS FINOS",
       "precio": 27653.195,
       "descuento": 0,
-      "stock": 139
+      "stock": 138
     },
     {
       "id": 5276,
@@ -18854,7 +18920,7 @@
       "rubro": "VINOS FINOS",
       "precio": 45188.556,
       "descuento": 0,
-      "stock": 43
+      "stock": 42
     },
     {
       "id": 5386,
@@ -19283,7 +19349,7 @@
       "rubro": "VINOS FINOS",
       "precio": 24635.031,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 5465,
@@ -21179,7 +21245,7 @@
     },
     {
       "id": 6108,
-      "nombre": "KIT CERVEZAS ESPECIALES",
+      "nombre": "KIT CERVEZAESPECIALES",
       "unidadesBulto": 1,
       "codBarra": "7891155048756",
       "familia": "OTROS",
@@ -22044,7 +22110,7 @@
       "rubro": "PRODUCTOS NAVIDEÑOS",
       "precio": 20720.04,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 6228,
@@ -22498,6 +22564,17 @@
       "stock": 37
     },
     {
+      "id": 7475,
+      "nombre": "PASO DL TOROS POM  6*1500CC",
+      "unidadesBulto": 6,
+      "codBarra": "7791813421382",
+      "familia": "GASEOSAS.",
+      "rubro": "GASEOSAS",
+      "precio": 16590,
+      "descuento": 0,
+      "stock": 40
+    },
+    {
       "id": 7476,
       "nombre": "PASO DL TOROS TONICA 6 * 1500 CC",
       "unidadesBulto": 6,
@@ -22506,7 +22583,7 @@
       "rubro": "GASEOSAS",
       "precio": 16590,
       "descuento": 0,
-      "stock": 17
+      "stock": 27
     },
     {
       "id": 7478,
@@ -22528,7 +22605,7 @@
       "rubro": "GASEOSAS",
       "precio": 8681.5,
       "descuento": 50,
-      "stock": 13
+      "stock": 23
     },
     {
       "id": 7486,
@@ -22539,7 +22616,7 @@
       "rubro": "GASEOSAS",
       "precio": 14158.8,
       "descuento": 15,
-      "stock": 12
+      "stock": 20
     },
     {
       "id": 7634,
@@ -22715,7 +22792,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10149.226,
       "descuento": 0,
-      "stock": 142
+      "stock": 141
     },
     {
       "id": 17091,
@@ -22726,7 +22803,7 @@
       "rubro": "CERVEZAS",
       "precio": 44279.997,
       "descuento": 0,
-      "stock": 159
+      "stock": 158
     },
     {
       "id": 17518,
@@ -23078,7 +23155,7 @@
       "rubro": "ALFAJORES",
       "precio": 9000.004,
       "descuento": 0,
-      "stock": 4
+      "stock": 2
     },
     {
       "id": 2139,
@@ -23089,7 +23166,7 @@
       "rubro": "GOLOSINAS",
       "precio": 17798.556,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 2215,
@@ -23158,17 +23235,6 @@
       "stock": 26
     },
     {
-      "id": 2522,
-      "nombre": "BELDENT MTA FUERTE 1*20U",
-      "unidadesBulto": 20,
-      "codBarra": "7622202310416",
-      "familia": "GOLOSINAS.",
-      "rubro": "GOLOSINAS",
-      "precio": 12255.003,
-      "descuento": 5,
-      "stock": 2
-    },
-    {
       "id": 2523,
       "nombre": "BELDENT MENTA 1*20 U",
       "unidadesBulto": 20,
@@ -23189,17 +23255,6 @@
       "precio": 12255.003,
       "descuento": 5,
       "stock": 2
-    },
-    {
-      "id": 2526,
-      "nombre": "DOVE CLIN ORIG 12*150CC",
-      "unidadesBulto": 12,
-      "codBarra": "7791293049618",
-      "familia": "HIGIENE",
-      "rubro": "DESODORANTES CORPORALES",
-      "precio": 77827.2,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 2769,
@@ -23408,7 +23463,7 @@
       "rubro": "VINOS FINOS",
       "precio": 32151.05,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 4916,
@@ -23554,6 +23609,17 @@
       "stock": 1
     },
     {
+      "id": 2526,
+      "nombre": "DOVE CLIN ORIG 12*150CC",
+      "unidadesBulto": 12,
+      "codBarra": "7791293049618",
+      "familia": "HIGIENE",
+      "rubro": "DESODORANTES CORPORALES",
+      "precio": 77827.2,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
       "id": 2532,
       "nombre": "SIERRA DE PADRES SAB NJA 6*500CC",
       "unidadesBulto": 6,
@@ -23563,28 +23629,6 @@
       "precio": 2835,
       "descuento": 30,
       "stock": 20
-    },
-    {
-      "id": 2533,
-      "nombre": "SIERRA DE PADRES SAB POM 6*500CC",
-      "unidadesBulto": 6,
-      "codBarra": "7798065730354",
-      "familia": "OTRAS BEBIDAS",
-      "rubro": "AGUA SABORIZADA",
-      "precio": 2835,
-      "descuento": 30,
-      "stock": 56
-    },
-    {
-      "id": 2534,
-      "nombre": "AGUA SIERRA DE PADRES 12*600CC",
-      "unidadesBulto": 12,
-      "codBarra": "7798065733454",
-      "familia": "OTRAS BEBIDAS",
-      "rubro": "AGUA",
-      "precio": 6840.001,
-      "descuento": 0,
-      "stock": 21
     },
     {
       "id": 2544,
@@ -23683,7 +23727,7 @@
       "rubro": "LIMPIEZA",
       "precio": 27929.999,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 2591,
@@ -23716,7 +23760,7 @@
       "rubro": "GOLOSINAS",
       "precio": 182160.001,
       "descuento": 0,
-      "stock": 4
+      "stock": 1
     },
     {
       "id": 2798,
@@ -24057,7 +24101,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 55300.001,
       "descuento": 0,
-      "stock": 564
+      "stock": 563
     },
     {
       "id": 1045,
@@ -24203,6 +24247,28 @@
       "stock": 15
     },
     {
+      "id": 2533,
+      "nombre": "SIERRA DE PADRES SAB POM 6*500CC",
+      "unidadesBulto": 6,
+      "codBarra": "7798065730354",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "AGUA SABORIZADA",
+      "precio": 2835,
+      "descuento": 30,
+      "stock": 56
+    },
+    {
+      "id": 2534,
+      "nombre": "AGUA SIERRA DE PADRES 12*600CC",
+      "unidadesBulto": 12,
+      "codBarra": "7798065733454",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "AGUA",
+      "precio": 6840.001,
+      "descuento": 0,
+      "stock": 21
+    },
+    {
       "id": 2535,
       "nombre": "AGUA SIERRA DE PADRES 6*1500 CC",
       "unidadesBulto": 6,
@@ -24321,7 +24387,7 @@
       "rubro": "PRODUCTOS NAVIDEÑOS",
       "precio": 20720.04,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 2595,
@@ -24515,8 +24581,8 @@
       "nombre": "BRANCA MUNDIAL 6*750 CC",
       "unidadesBulto": 6,
       "codBarra": "7790290101817",
-      "familia": "",
-      "rubro": "",
+      "familia": "APERITIVOS.",
+      "rubro": "FERNET Y APERITIVOS",
       "precio": 105600,
       "descuento": 0,
       "stock": 24
