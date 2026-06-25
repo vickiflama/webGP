@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-06-25T11:59:05.447Z",
-  "total": 2253,
+  "ultima_actualizacion": "2026-06-25T12:06:06.170Z",
+  "total": 2257,
   "productos": [
     {
       "id": 1,
@@ -6048,7 +6048,7 @@
       "codBarra": "7791704401134",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
-      "precio": 63600.001,
+      "precio": 66499.893,
       "descuento": 0,
       "stock": 1
     },
@@ -9372,7 +9372,18 @@
       "rubro": "GOLOSINAS",
       "precio": 14985.003,
       "descuento": 0,
-      "stock": 2
+      "stock": 6
+    },
+    {
+      "id": 2642,
+      "nombre": "CHOCMAN BLACK 15*68 G",
+      "unidadesBulto": 15,
+      "codBarra": "7792360096580",
+      "familia": "GOLOSINAS.",
+      "rubro": "GOLOSINAS",
+      "precio": 14985.003,
+      "descuento": 0,
+      "stock": 5
     },
     {
       "id": 2650,
@@ -11264,7 +11275,7 @@
       "rubro": "VINOS FINOS",
       "precio": 25343.995,
       "descuento": 0,
-      "stock": 7
+      "stock": 5
     },
     {
       "id": 3324,
@@ -16811,6 +16822,17 @@
       "stock": 2
     },
     {
+      "id": 4806,
+      "nombre": "OKEBON LECHE 24*165G",
+      "unidadesBulto": 24,
+      "codBarra": "7790263110839",
+      "familia": "GOLOSINAS.",
+      "rubro": "GALLETAS",
+      "precio": 21113.664,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
       "id": 4808,
       "nombre": "OKEBON LECHE 18*273G",
       "unidadesBulto": 18,
@@ -22003,6 +22025,28 @@
       "stock": 6
     },
     {
+      "id": 6218,
+      "nombre": "BUDIN BONAFIDE VAIN C/DDL  8*300 G",
+      "unidadesBulto": 8,
+      "codBarra": "7792360097907",
+      "familia": "OTROS",
+      "rubro": "PRODUCTOS NAVIDEÑOS",
+      "precio": 20720.04,
+      "descuento": 0,
+      "stock": 3
+    },
+    {
+      "id": 6219,
+      "nombre": "BUDIN BONAFIDE NARANJA C/CASC 8*300G",
+      "unidadesBulto": 8,
+      "codBarra": "7792360098034",
+      "familia": "OTROS",
+      "rubro": "PRODUCTOS NAVIDEÑOS",
+      "precio": 20720.04,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
       "id": 6228,
       "nombre": "OBLITA FRUTILLA 48 * 50 G",
       "unidadesBulto": 48,
@@ -24277,7 +24321,7 @@
       "rubro": "PRODUCTOS NAVIDEÑOS",
       "precio": 20720.04,
       "descuento": 0,
-      "stock": 1
+      "stock": 3
     },
     {
       "id": 2595,
@@ -24288,7 +24332,7 @@
       "rubro": "PRODUCTOS NAVIDEÑOS",
       "precio": 20720.04,
       "descuento": 0,
-      "stock": 1
+      "stock": 3
     },
     {
       "id": 2596,
