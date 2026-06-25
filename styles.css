@@ -118,7 +118,12 @@ body {
   cursor: pointer;
   letter-spacing: 1px;
 }
- 
+ .btn-login:hover {
+  background: var(--orange);
+  color: var(--white);
+ }
+
+
 .btn-login .fa-user-circle { font-size: 16px; }
  
 .cart-wrap {
@@ -1045,3 +1050,69 @@ body {
 .search-dropdown-item:hover { background: #fff5ef; color: #F47920; }
 .search-dropdown-item i { color: #aaa; font-size: 0.8rem; }
 .search-dropdown-item:hover i { color: #F47920; }
+
+/* ===== CATEGORÍAS DROPDOWN ===== */
+.categorias-wrap { position: relative; }
+
+.btn-categorias {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--white);
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  padding: 10px 16px;
+  border-radius: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn-categorias:hover { background: var(--orange); color: var(--white); }
+#icon-categorias { transition: transform 0.2s; }
+
+.categorias-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  z-index: 1000;
+  min-width: 220px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.categorias-dropdown.activo { display: block; }
+
+.categoria-item {
+  display: block;
+  padding: 10px 16px;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.15s;
+}
+.categoria-item:last-child { border-bottom: none; }
+.categoria-item:hover { background: #fff5ef; color: #F47920; }
+
+/* ===== BADGE OFERTA ===== */
+.producto-card { position: relative; }
+
+.badge-oferta {
+    position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #e00;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+}
