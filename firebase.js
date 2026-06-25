@@ -51,15 +51,17 @@ async function registrarUsuario() {
             displayName: `${nombre} ${apellido}`
         });
 
+        const { sendEmailVerification } = await import("https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js");
+await sendEmailVerification(userCredential.user);
+
         await setDoc(doc(db, 'usuarios', userCredential.user.uid), {
             celular, dni, fechaNacimiento: fecha, provincia, localidad
         });
 
-        localStorage.setItem('usuarioNombre', `${nombre} ${apellido}`);
         ocultarLoading();
-        document.getElementById('exito-email').textContent = email;
-        window.cerrarModal('modal-registro');
-        window.abrirModal('modal-exito');
+document.getElementById('exito-email').textContent = email;
+window.cerrarModal('modal-registro');
+window.abrirModal('modal-exito');
 
     } catch (error) {
         ocultarLoading();
@@ -91,6 +93,15 @@ async function loginUsuario() {
     mostrarLoading('Ingresando...');
     try {
         const userCredential = await signInWithEmailAndPassword(auth, emailVal, passwordVal);
+
+        if (!userCredential.user.emailVerified) {
+            await signOut(auth);
+            ocultarLoading();
+            errorBanner.textContent = 'Debés verificar tu email antes de ingresar. Revisá tu casilla de correo.';
+            errorBanner.style.display = 'block';
+            return;
+        }
+
         const nombre = userCredential.user.displayName;
         localStorage.setItem('usuarioNombre', nombre);
         window.location.href = 'index.html';

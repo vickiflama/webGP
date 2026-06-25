@@ -8,11 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="perfil.css">
-    <title>Mail enviado - Gran Prix Mayorista</title>
+    <title>Mail confirmado - Gran Prix Mayorista</title>
 </head>
 
 <body class="login-page">
@@ -38,8 +37,6 @@
                     Sumate al canal de WhatsApp
                 </a>
             </button>
-
-            <!-- MENU USUARIO -->
             <div class="user-menu-wrap">
                 <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
                     <i class="fa-regular fa-circle-user"></i>
@@ -49,11 +46,9 @@
                     <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
                     <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
                     <hr>
-                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
-                        sesión</a>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
                 </div>
             </div>
-
             <div class="cart-wrap">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <span class="cart-badge">0</span>
@@ -64,17 +59,39 @@
     <!-- MENSAJE ÉXITO -->
     <section class="login-section">
         <div class="mail-enviado-box">
-            <h2 class="mail-enviado-titulo">El mail fue enviado con éxito</h2>
-            <p class="mail-enviado-subtitulo">Ingrese a su correo electrónico y siga los pasos para recuperar su
-                contraseña</p>
+            <h2 class="mail-enviado-titulo">¡Cuenta creada con éxito!</h2>
+            <p class="mail-enviado-subtitulo">Confirmá tu cuenta haciendo click en el enlace que te enviamos. Luego podés ingresar acá.</p>
+        </div>
+    </section>
+
+    <!-- FORMULARIO LOGIN -->
+    <section class="login-section">
+        <div class="login-box">
+
+            <div class="login-error" id="login-error" style="display:none">
+                <span>¡Ups! <i class="fa-solid fa-circle-xmark"></i></span>
+                <p>Tu correo electrónico o contraseña fueron ingresados incorrectamente. Inténtalo nuevamente</p>
+            </div>
+
+            <p class="login-titulo">Ingresá tus datos:</p>
+            <input type="email" placeholder="Correo electrónico" class="input-field" id="login-email">
+            <input type="password" placeholder="Contraseña" class="input-field" id="login-password">
+
+            <a href="recuperarcontraseña.html" class="login-olvide">
+                ¿Olvidaste tu <strong>contraseña</strong>?
+            </a>
+
+            <div class="login-botones">
+                <button class="btn-registrar" onclick="loginUsuario()">ACCESO</button>
+            </div>
         </div>
     </section>
 
     <!-- LOADING -->
-<div class="loading-overlay" id="loading">
-    <div class="spinner"></div>
-    <p class="loading-texto">Cargando...</p>
-</div>
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
 
     <script src="javascript.js"></script>
     <script type="module" src="firebase.js"></script>

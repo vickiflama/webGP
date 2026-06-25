@@ -1,3 +1,16 @@
+:root {
+  --orange:     #F47920;
+  --navy:       #1A3D6B;
+  --navy-light: #2857A4;
+  --green:      #3DB549;
+  --hero-bg:    #16376A;
+  --card-bg:    #DEDEDE;
+  --card-mid:   #CACACA;
+  --btn-dark:   #4D4D4D;
+  --white:      #FFFFFF;
+  --font:       'Poppins', sans-serif;
+}
+
 .comocomprar-section {
     max-width: 800px;
     margin: 40px auto;
@@ -187,4 +200,17 @@
 .cta-botones .btn-atras:hover {
     background: white;
     color: #1A3D6B;
+}
+
+.btn-verofertas, .btn-registrarme{
+    padding-top: 10px;
+    border: var(--white) 2px solid;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.btn-verofertas:hover, .btn-registrarme:hover{
+    background: var(--white);
+    color: var(--hero-bg);
 }
