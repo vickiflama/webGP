@@ -44,7 +44,7 @@ function renderizarProductos(lista) {
 
 grid.innerHTML = visibles.map(p => `
     <div class="producto-card" data-familia="${p.familia}">
-      ${p.descuento > 0 ? `<div class="badge-oferta">OFERTA</div>` : ''}
+      ${p.descuento > 0 ? `<div class="badge-oferta">${Math.round(p.descuento)}%<br>OFF</div>` : ''}
       <img src="https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.familia || 'GP')}"
            alt="${p.nombre}" class="producto-img">
       <p class="producto-nombre">${p.nombre}</p>
