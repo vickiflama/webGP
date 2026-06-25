@@ -142,9 +142,13 @@ async function main() {
   ]);
 
   const precioMap = {};
-  for (const p of precios) {
-    if (!p.Anulado) precioMap[p.id_articulo] = p.Precio_Final;
+const bonificacionMap = {};
+for (const p of precios) {
+  if (!p.Anulado) {
+    precioMap[p.id_articulo] = p.Precio_Final;
+    bonificacionMap[p.id_articulo] = p.Precio_Bonificacion || 0;
   }
+}
 
   const productos = articulos
    .filter(a =>
@@ -155,16 +159,17 @@ async function main() {
   !PRODUCTOS_EXCLUIDOS.has(a.idArticulo)
 )
 
-    .map(a => ({
-      id: a.idArticulo,
-      nombre: a.desArticulo,
-      unidadesBulto: a.unidadesBulto,
-      codBarra: a.codBarraUnidad || '',
-      familia: getAgrupacion(a.eAgrupaciones, 'FAMILIAS'),
-      rubro: getAgrupacion(a.eAgrupaciones, 'RUBROS'),
-      precio: precioMap[a.idArticulo] || 0,
-      stock: stockMap[a.idArticulo] || 0
-    }));
+   .map(a => ({
+  id: a.idArticulo,
+  nombre: a.desArticulo,
+  unidadesBulto: a.unidadesBulto,
+  codBarra: a.codBarraUnidad || '',
+  familia: getAgrupacion(a.eAgrupaciones, 'FAMILIAS'),
+  rubro: getAgrupacion(a.eAgrupaciones, 'RUBROS'),
+  precio: precioMap[a.idArticulo] || 0,
+  descuento: bonificacionMap[a.idArticulo] || 0,  // ← nuevo
+  stock: stockMap[a.idArticulo] || 0
+}));
 
   console.log(`✅ Productos con precio y stock: ${productos.length}`);
 

@@ -430,6 +430,50 @@ async function cargarSliderMasVendidos() {
   }
 }
 
+// ==================== AUTOCOMPLETE ====================
+let productosCache = null;
+
+async function cargarProductosCache() {
+  if (productosCache) return productosCache;
+  try {
+    const res = await fetch('data/productos.json');
+    const data = await res.json();
+    productosCache = data.productos;
+    return productosCache;
+  } catch { return []; }
+}
+
+function mostrarSugerencias(lista, input) {
+  let dropdown = document.getElementById('search-dropdown');
+  if (!dropdown) {
+    dropdown = document.createElement('div');
+    dropdown.id = 'search-dropdown';
+    dropdown.className = 'search-dropdown';
+    input.closest('.search-wrap').appendChild(dropdown);
+  }
+  if (lista.length === 0) {
+    dropdown.classList.remove('activo');
+    return;
+  }
+  dropdown.innerHTML = lista.slice(0, 8).map(p => `
+    <div class="search-dropdown-item" data-nombre="${p.nombre.replace(/"/g, '&quot;')}">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <span>${p.nombre}</span>
+    </div>
+  `).join('');
+  dropdown.classList.add('activo');
+  dropdown.querySelectorAll('.search-dropdown-item').forEach(item => {
+    item.addEventListener('click', () => {
+      window.location.href = `catalogo.html?buscar=${encodeURIComponent(item.dataset.nombre)}`;
+    });
+  });
+}
+
+function cerrarDropdown() {
+  const dropdown = document.getElementById('search-dropdown');
+  if (dropdown) dropdown.classList.remove('activo');
+}
+
 // ==================== DOM CONTENT LOADED ====================
 document.addEventListener("DOMContentLoaded", async function () {
   await cargarSliderMasVendidos();

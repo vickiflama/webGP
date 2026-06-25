@@ -413,3 +413,17 @@
   padding: 0 4px;
   color: #aaa;
 }
+
+.producto-card { position: relative; }
+
+.badge-oferta {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #e00;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 20px;
+}

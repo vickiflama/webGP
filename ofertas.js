@@ -13,7 +13,7 @@ async function cargarProductos() {
     const res = await fetch(PRODUCTOS_URL);
     if (!res.ok) throw new Error('No se pudo cargar el catálogo');
     const data = await res.json();
-    todosLosProductos = data.productos;
+todosLosProductos = data.productos.filter(p => p.descuento > 0);
     generarFiltrosCategorias();
     aplicarFiltros();
   } catch (err) {
@@ -42,8 +42,9 @@ function renderizarProductos(lista) {
   const fin = inicio + PRODUCTOS_POR_PAGINA;
   const visibles = lista.slice(inicio, fin);
 
-  grid.innerHTML = visibles.map(p => `
+grid.innerHTML = visibles.map(p => `
     <div class="producto-card" data-familia="${p.familia}">
+      ${p.descuento > 0 ? `<div class="badge-oferta">OFERTA</div>` : ''}
       <img src="https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.familia || 'GP')}"
            alt="${p.nombre}" class="producto-img">
       <p class="producto-nombre">${p.nombre}</p>
@@ -252,3 +253,4 @@ window.addEventListener('load', () => {
     r.addEventListener('change', aplicarFiltros)
   );
 });
+

@@ -1010,3 +1010,38 @@ body {
     font-size: 12px;
     color: #999;
 }
+
+/* ===== AUTOCOMPLETE BUSCADOR ===== */
+.search-wrap { position: relative; }
+
+.search-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  z-index: 1000;
+  max-height: 320px;
+  overflow-y: auto;
+}
+.search-dropdown.activo { display: block; }
+
+.search-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #333;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.15s;
+}
+.search-dropdown-item:last-child { border-bottom: none; }
+.search-dropdown-item:hover { background: #fff5ef; color: #F47920; }
+.search-dropdown-item i { color: #aaa; font-size: 0.8rem; }
+.search-dropdown-item:hover i { color: #F47920; }
