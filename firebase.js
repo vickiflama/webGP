@@ -52,7 +52,9 @@ async function registrarUsuario() {
         });
 
         const { sendEmailVerification } = await import("https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js");
-await sendEmailVerification(userCredential.user);
+        await sendEmailVerification(userCredential.user, {
+  url: 'https://vickiflama.github.io/webGP/mailconfirmado.html'
+});
 
         await setDoc(doc(db, 'usuarios', userCredential.user.uid), {
             celular, dni, fechaNacimiento: fecha, provincia, localidad
