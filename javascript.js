@@ -432,8 +432,8 @@ async function cargarSliderMasVendidos() {
 
 // ==================== DOM CONTENT LOADED ====================
 document.addEventListener("DOMContentLoaded", async function () {
-  await cargarSliderMasVendidos(); 
-  iniciarSliderProductos();      
+  await cargarSliderMasVendidos();
+  iniciarSliderProductos();
   actualizarPanelCarrito();
 
   const cartWrap = document.querySelector(".cart-wrap");
@@ -449,33 +449,41 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     document.addEventListener("click", function (e) {
       if (e.target.closest(".carrito-item-eliminar")) return;
+      if (!e.target.closest('.search-wrap')) cerrarDropdown();
       if (!cartWrap.contains(e.target) && !panel.contains(e.target)) {
         panel.classList.remove("activo");
       }
     });
   }
 
-  // Buscador navbar → redirige a catalogo.html
-const searchInput = document.querySelector('.search-box input');
-const searchIcon = document.querySelector('.search-box i');
+  // Buscador navbar con autocomplete
+  const searchInput = document.querySelector('.search-box input');
+  const searchIcon = document.querySelector('.search-box i');
 
-if (searchInput) {
-  const irACatalogo = () => {
-    const texto = searchInput.value.trim();
-    if (texto) {
-      window.location.href = `catalogo.html?buscar=${encodeURIComponent(texto)}`;
-    }
-  };
+  if (searchInput) {
+    const irACatalogo = () => {
+      const texto = searchInput.value.trim();
+      cerrarDropdown();
+      if (texto) window.location.href = `catalogo.html?buscar=${encodeURIComponent(texto)}`;
+    };
 
-  searchInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') irACatalogo();
-  });
+    searchInput.addEventListener('input', async () => {
+      const texto = searchInput.value.trim().toLowerCase();
+      if (texto.length < 2) { cerrarDropdown(); return; }
+      const productos = await cargarProductosCache();
+      const sugerencias = productos.filter(p => p.nombre.toLowerCase().includes(texto));
+      mostrarSugerencias(sugerencias, searchInput);
+    });
 
-  searchIcon.addEventListener('click', irACatalogo);
-}
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') irACatalogo();
+      if (e.key === 'Escape') cerrarDropdown();
+    });
+
+    if (searchIcon) searchIcon.addEventListener('click', irACatalogo);
+  }
 
 });
-
 
 // ==================== SUSCRIPCIÓN ====================
 function suscribirse() {
