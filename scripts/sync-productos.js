@@ -12,7 +12,7 @@ const FAMILIAS_EXCLUIDAS = new Set([
   'VARIOS',
   'OTROS.',
   'FINANCIERO',
-  'MATERIAL POP'  
+  'MATERIAL POP', 
 ]);
 
 // IDs de productos específicos que no deben aparecer
@@ -25,6 +25,23 @@ const PRODUCTOS_EXCLUIDOS = new Set([
   10105,
   1070
 ]);
+
+// ==================== CORRECCIONES DE NOMBRES ====================
+const CORRECCIONES_NOMBRES = {
+  'ADHERESOS': 'ADEREZOS',
+  'APERITIVOS.':'APERITIVOS',
+  'ARROZ.':'ARROZ',
+  'CERVEZAS.':'CERVEZA',
+  'GASEOSAS.':'GASEOSAS',
+};
+
+function corregirNombre(nombre) {
+  let resultado = nombre;
+  for (const [error, correcto] of Object.entries(CORRECCIONES_NOMBRES)) {
+    resultado = resultado.replace(new RegExp(error, 'gi'), correcto);
+  }
+  return resultado;
+}
 
 function request(options, body = null) {
   return new Promise((resolve, reject) => {
@@ -161,7 +178,7 @@ for (const p of precios) {
 
    .map(a => ({
   id: a.idArticulo,
-  nombre: a.desArticulo,
+  nombre: corregirNombre(a.desArticulo),
   unidadesBulto: a.unidadesBulto,
   codBarra: a.codBarraUnidad || '',
   familia: getAgrupacion(a.eAgrupaciones, 'FAMILIAS'),

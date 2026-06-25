@@ -490,15 +490,23 @@ document.addEventListener("DOMContentLoaded", async function () {
         panel.classList.toggle("activo");
       }
     });
+  }
 
-    document.addEventListener("click", function (e) {
-      if (e.target.closest(".carrito-item-eliminar")) return;
-      if (!e.target.closest('.search-wrap')) cerrarDropdown();
+  document.addEventListener("click", function (e) {
+    if (e.target.closest(".carrito-item-eliminar")) return;
+    if (!e.target.closest('.search-wrap')) cerrarDropdown();
+    if (!e.target.closest('.categorias-wrap')) {
+      const dd = document.getElementById('categorias-dropdown');
+      const icon = document.getElementById('icon-categorias');
+      if (dd) dd.classList.remove('activo');
+      if (icon) icon.style.transform = '';
+    }
+    if (cartWrap && panel) {
       if (!cartWrap.contains(e.target) && !panel.contains(e.target)) {
         panel.classList.remove("activo");
       }
-    });
-  }
+    }
+  });
 
   // Buscador navbar con autocomplete
   const searchInput = document.querySelector('.search-box input');
@@ -525,6 +533,28 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
 
     if (searchIcon) searchIcon.addEventListener('click', irACatalogo);
+  }
+
+  // Menú categorías
+  const btnCategorias = document.getElementById('btn-categorias');
+  const dropdownCategorias = document.getElementById('categorias-dropdown');
+
+  if (btnCategorias && dropdownCategorias) {
+    cargarProductosCache().then(productos => {
+      const familias = [...new Set(productos.map(p => p.familia).filter(Boolean))].sort();
+      dropdownCategorias.innerHTML = familias.map(f => `
+        <a href="catalogo.html?categoria=${encodeURIComponent(f)}" class="categoria-item">
+          ${f}
+        </a>
+      `).join('');
+    });
+
+    btnCategorias.addEventListener('click', (e) => {
+      e.stopPropagation();
+      dropdownCategorias.classList.toggle('activo');
+      const icon = document.getElementById('icon-categorias');
+      if (icon) icon.style.transform = dropdownCategorias.classList.contains('activo') ? 'rotate(180deg)' : '';
+    });
   }
 
 });

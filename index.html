@@ -28,42 +28,52 @@
             </a>
         </div>
 
+        <!--SEARCH-->
         <div class="search-wrap">
             <div class="search-box">
                 <input type="text" placeholder="Buscador">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
-
-        <div class="nav-right">
-            <button class="btn-whatsapp">
-                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
-                    rel="noopener noreferrer">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    Sumate al canal de WhatsApp
-                </a>
-            </button>
-
-            <!-- MENU USUARIO -->
-            <div class="user-menu-wrap">
-                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
-                    <i class="fa-regular fa-circle-user"></i>
-                    <span id="nombre-usuario">LOGIN</span>
+            <!-- BOTÓN CATEGORÍAS -->
+            <div class="categorias-wrap">
+                <button class="btn-categorias" id="btn-categorias">
+                    <i class="fa-solid fa-bars"></i>
+                    Categorías
+                    <i class="fa-solid fa-chevron-down" id="icon-categorias"></i>
                 </button>
-                <div class="user-dropdown" id="user-dropdown">
-                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
-                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
-                    <hr>
-                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
-                        sesión</a>
+                <div class="categorias-dropdown" id="categorias-dropdown"> </div>
+            </div>
+
+            <div class="nav-right">
+                <button class="btn-whatsapp">
+                    <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Sumate al canal de WhatsApp
+                    </a>
+                </button>
+
+                <!-- MENU USUARIO -->
+                <div class="user-menu-wrap">
+                    <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                        <i class="fa-regular fa-circle-user"></i>
+                        <span id="nombre-usuario">LOGIN</span>
+                    </button>
+                    <div class="user-dropdown" id="user-dropdown">
+                        <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                        <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                        <hr>
+                        <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
+                            sesión</a>
+                    </div>
+                </div>
+
+                <div class="cart-wrap">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-badge" id="cart-badge">0</span>
                 </div>
             </div>
-
-            <div class="cart-wrap">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span class="cart-badge" id="cart-badge">0</span>
-            </div>
-        </div>
     </header>
 
     <!-- HERO SLIDER -->
@@ -113,36 +123,36 @@
                 <div class="icard-title">Promos<br>bancarias</div>
                 <i class="fa-solid fa-credit-card icard-icon"></i>
             </div>
-           <a href="promobancaria.html"><button class="icard-btn">Ver promociones</button></a> 
+            <a href="promobancaria.html"><button class="icard-btn">Ver promociones</button></a>
         </div>
     </section>
 
-   <!-- LOS MÁS VENDIDOS -->
-<section class="mas-vendidos">
-    <h2 class="mas-vendidos-titulo">LOS MÁS VENDIDOS</h2>
+    <!-- LOS MÁS VENDIDOS -->
+    <section class="mas-vendidos">
+        <h2 class="mas-vendidos-titulo">LOS MÁS VENDIDOS</h2>
 
-    <div class="mas-vendidos-wrap">
-        <button class="mv-arrow mv-prev" onclick="moverSliderProductos(-1)">
-            <i class="fa-solid fa-chevron-left"></i>
-        </button>
+        <div class="mas-vendidos-wrap">
+            <button class="mv-arrow mv-prev" onclick="moverSliderProductos(-1)">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
 
-        <div class="mv-slider-wrap">
-            <div class="mv-slider" id="mv-slider">
-                <!-- Se llena desde javascript.js con datos del JSON -->
+            <div class="mv-slider-wrap">
+                <div class="mv-slider" id="mv-slider">
+                    <!-- Se llena desde javascript.js con datos del JSON -->
+                </div>
             </div>
+
+            <button class="mv-arrow mv-next" onclick="moverSliderProductos(1)">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
         </div>
-
-        <button class="mv-arrow mv-next" onclick="moverSliderProductos(1)">
-            <i class="fa-solid fa-chevron-right"></i>
-        </button>
-    </div>
-
-    <!-- Dots -->
-    <div class="mv-dots" id="mv-dots"></div>
-</section>
 
         <!-- Dots -->
         <div class="mv-dots" id="mv-dots"></div>
+    </section>
+
+    <!-- Dots -->
+    <div class="mv-dots" id="mv-dots"></div>
 
     </section>
 
@@ -224,8 +234,10 @@
             <div class="footer-col footer-redes">
                 <h4 class="footer-titulo">SEGUINOS</h4>
                 <div class="footer-social">
-                    <a href="https://www.facebook.com/Granprixmayorista" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/granprixmayorista" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/Granprixmayorista" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/granprixmayorista" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
                     <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"><i
                             class="fa-brands fa-whatsapp"></i></a>
                 </div>
