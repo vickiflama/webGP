@@ -37,6 +37,9 @@ const CORRECCIONES_FAMILIAS = {
   'ARROZ.': 'ARROZ',
   'CERVEZAS.': 'CERVEZAS',
   'GASEOSAS.': 'GASEOSAS',
+  'GOLOSINAS.': 'GOLOSINAS',
+  'INFUSIONES.': 'INFUSIONES',
+  'LACTEOS.': 'LACTEOS',
 };
 
 function corregirFamilia(familia) {
