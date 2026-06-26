@@ -35,6 +35,18 @@ const CORRECCIONES_NOMBRES = {
   'GASEOSAS.':'GASEOSAS',
 };
 
+const CORRECCIONES_FAMILIAS = {
+  'ADHERESOS': 'ADEREZOS',
+  'APERITIVOS.': 'APERITIVOS',
+  'ARROZ.': 'ARROZ',
+  'CERVEZAS.': 'CERVEZAS',
+  'GASEOSAS.': 'GASEOSAS',
+};
+
+function corregirFamilia(familia) {
+  return CORRECCIONES_FAMILIAS[familia] || familia;
+}
+
 function corregirNombre(nombre) {
   let resultado = nombre;
   for (const [error, correcto] of Object.entries(CORRECCIONES_NOMBRES)) {
