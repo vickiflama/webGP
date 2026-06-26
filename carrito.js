@@ -300,6 +300,13 @@ function armarResumen() {
 
 // ==================== CONFIRMAR ====================
 async function confirmarPedido() {
+    // Verificar si está logueado
+    const nombre = localStorage.getItem('usuarioNombre');
+    if (!nombre) {
+        window.abrirModal('modal-login-requerido');
+        return;
+    }
+
     window.mostrarLoading('Guardando pedido...');
 
     try {

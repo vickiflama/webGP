@@ -364,7 +364,9 @@ async function cargarSliderMasVendidos() {
             <button onclick="cambiarCantidad(this, 1)">+</button>
           </div>
           <button class="btn-comprar"
-            onclick="agregarAlCarrito(${JSON.stringify(p.nombre)}, ${p.precio}, this)">COMPRAR</button>
+  data-nombre="${p.nombre.replace(/"/g, '&quot;').replace(/'/g, '&#39;')}"
+  data-precio="${p.precio}"
+  onclick="agregarAlCarrito(this.dataset.nombre, parseFloat(this.dataset.precio), this)">COMPRAR</button>
         </div>
       </div>
     `).join('');

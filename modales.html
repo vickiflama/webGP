@@ -104,6 +104,25 @@
     </div>
 </div>
 
+<!-- MODAL LOGIN REQUERIDO -->
+<div class="modal-overlay" id="modal-login-requerido">
+    <div class="modal modal-salir">
+        <button class="modal-cerrar" onclick="cerrarModal('modal-login-requerido')">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h2 class="modal-titulo">¡Necesitás iniciar sesión!</h2>
+        <p class="modal-subtitulo">Para confirmar tu pedido por favor iniciar sesión o registrarte.</p>
+        <div class="form-botones">
+            <button class="btn-registrar" onclick="cerrarModal('modal-login-requerido'); abrirModal('modal-registro')">
+                REGISTRARME
+            </button>
+            <button class="btn-ya-tengo" onclick="window.location.href='login.html'">
+                YA TENGO CUENTA
+            </button>
+        </div>
+    </div>
+</div>
+
 <!-- LOADING -->
 <div class="loading-overlay" id="loading">
     <div class="spinner"></div>
