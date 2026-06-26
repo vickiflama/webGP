@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-06-26T18:40:53.489Z",
-  "total": 2243,
+  "ultima_actualizacion": "2026-06-26T18:45:51.883Z",
+  "total": 2242,
   "productos": [
     {
       "id": 1,
@@ -3212,7 +3212,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 7982.043,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 1002,
@@ -8502,17 +8502,6 @@
       "familia": "CONSERVAS",
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26700.005,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 2335,
-      "nombre": "BIZC 9 DE ORO CLASICO 24 * 200 G",
-      "unidadesBulto": 24,
-      "codBarra": "7792200000159",
-      "familia": "GOLOSINAS.",
-      "rubro": "GALLETAS",
-      "precio": 23976,
       "descuento": 0,
       "stock": 1
     },
@@ -23444,17 +23433,6 @@
       "stock": 1
     },
     {
-      "id": 2532,
-      "nombre": "SIERRA DE PADRES SAB NJA 6*500CC",
-      "unidadesBulto": 6,
-      "codBarra": "7798065730330",
-      "familia": "OTRAS BEBIDAS",
-      "rubro": "AGUA SABORIZADA",
-      "precio": 2835,
-      "descuento": 30,
-      "stock": 15
-    },
-    {
       "id": 2562,
       "nombre": "CHIZITOS JULICROC 14*65 G",
       "unidadesBulto": 14,
@@ -24038,6 +24016,17 @@
       "stock": 14
     },
     {
+      "id": 2532,
+      "nombre": "SIERRA DE PADRES SAB NJA 6*500CC",
+      "unidadesBulto": 6,
+      "codBarra": "7798065730330",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "AGUA SABORIZADA",
+      "precio": 2835,
+      "descuento": 30,
+      "stock": 14
+    },
+    {
       "id": 2533,
       "nombre": "SIERRA DE PADRES SAB POM 6*500CC",
       "unidadesBulto": 6,
@@ -24046,7 +24035,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 2835,
       "descuento": 30,
-      "stock": 52
+      "stock": 51
     },
     {
       "id": 2534,
