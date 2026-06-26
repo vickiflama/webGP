@@ -28,11 +28,7 @@ const PRODUCTOS_EXCLUIDOS = new Set([
 
 // ==================== CORRECCIONES DE NOMBRES ====================
 const CORRECCIONES_NOMBRES = {
-  'ADHERESOS': 'ADEREZOS',
-  'APERITIVOS.':'APERITIVOS',
-  'ARROZ.':'ARROZ',
-  'CERVEZAS.':'CERVEZA',
-  'GASEOSAS.':'GASEOSAS',
+  
 };
 
 const CORRECCIONES_FAMILIAS = {
@@ -193,7 +189,7 @@ for (const p of precios) {
   nombre: corregirNombre(a.desArticulo),
   unidadesBulto: a.unidadesBulto,
   codBarra: a.codBarraUnidad || '',
-  familia: getAgrupacion(a.eAgrupaciones, 'FAMILIAS'),
+ familia: corregirFamilia(getAgrupacion(a.eAgrupaciones, 'FAMILIAS')),
   rubro: getAgrupacion(a.eAgrupaciones, 'RUBROS'),
   precio: precioMap[a.idArticulo] || 0,
   descuento: bonificacionMap[a.idArticulo] || 0,  // ← nuevo
