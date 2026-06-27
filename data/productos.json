@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-06-26T18:45:51.883Z",
-  "total": 2242,
+  "ultima_actualizacion": "2026-06-27T10:54:20.610Z",
+  "total": 2227,
   "productos": [
     {
       "id": 1,
@@ -216,7 +216,7 @@
       "nombre": "YERBA N/GAUCHA SELECCION 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070507273",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 17737.729,
       "descuento": 0,
@@ -227,7 +227,7 @@
       "nombre": "N. GAUCHA SUAVE 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070509109",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 16754.434,
       "descuento": 0,
@@ -238,10 +238,10 @@
       "nombre": "YERBA SUAVE N/GAUCHA  6 * 1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790070509116",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 11396.69,
-      "descuento": 40,
+      "precio": 18994.483,
+      "descuento": 0,
       "stock": 30
     },
     {
@@ -249,7 +249,7 @@
       "nombre": "MATE COCIDO N. GAUCHA 10 * 25 U",
       "unidadesBulto": 10,
       "codBarra": "7790070508805",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 9984.642,
       "descuento": 0,
@@ -260,7 +260,7 @@
       "nombre": "YERBA CHAMIGO S/TACC 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070509123",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 16943.642,
       "descuento": 0,
@@ -271,7 +271,7 @@
       "nombre": "YERBA CHAMIGO 6 * 1 K",
       "unidadesBulto": 6,
       "codBarra": "7790070509017",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 17569.915,
       "descuento": 10,
@@ -282,7 +282,7 @@
       "nombre": "N GAUCHA CIMARRON 6 * 1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790070100382",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 20405.077,
       "descuento": 0,
@@ -539,7 +539,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 16534.42,
       "descuento": 0,
-      "stock": 24
+      "stock": 23
     },
     {
       "id": 160,
@@ -869,7 +869,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 17077.674,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 225,
@@ -902,7 +902,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 18948.624,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 230,
@@ -924,7 +924,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
       "descuento": 0,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 235,
@@ -1001,7 +1001,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
       "descuento": 0,
-      "stock": 27
+      "stock": 26
     },
     {
       "id": 246,
@@ -1144,7 +1144,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 40148.974,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 329,
@@ -1221,7 +1221,7 @@
       "rubro": "GELIFICABLES",
       "precio": 14110.984,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 365,
@@ -1437,7 +1437,7 @@
       "nombre": "YERBA C/ MALTA SELECCION 6 * 1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790070507266",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 25323.824,
       "descuento": 0,
@@ -1448,7 +1448,7 @@
       "nombre": "C DE MALTA MANZANILLA S/TACC 10*500G",
       "unidadesBulto": 10,
       "codBarra": "7790070509079",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 19005.615,
       "descuento": 0,
@@ -1459,7 +1459,7 @@
       "nombre": "CRUZ/MALTA BDO/MTA S/TACC 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070509062",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 19005.615,
       "descuento": 0,
@@ -1492,7 +1492,7 @@
       "nombre": "YERBA CRUZ/MALTA SELECCION 10*500G",
       "unidadesBulto": 10,
       "codBarra": "7790070507389",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 22119.066,
       "descuento": 0,
@@ -1503,7 +1503,7 @@
       "nombre": "YERBA CRUZ/MALTA S/TACC 6 * 1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790070509055",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 20958.059,
       "descuento": 0,
@@ -1514,7 +1514,7 @@
       "nombre": "CAFE SEL  ARLISTAN 12 * 50 G",
       "unidadesBulto": 12,
       "codBarra": "7790070933652",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 30734.182,
       "descuento": 0,
@@ -1525,7 +1525,7 @@
       "nombre": "CAFE  ARLISTAN FRASC LIV  12*100 G",
       "unidadesBulto": 12,
       "codBarra": "7790070933645",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 53343.758,
       "descuento": 0,
@@ -1536,7 +1536,7 @@
       "nombre": "CAFE ARLISTAN SUSTEN 12*170 G",
       "unidadesBulto": 12,
       "codBarra": "7790070933638",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 86712.145,
       "descuento": 0,
@@ -1580,7 +1580,7 @@
       "nombre": "YERBA NATURA SUAVE 6*1 KG",
       "unidadesBulto": 6,
       "codBarra": "7792198006669",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 15120.003,
       "descuento": 0,
@@ -1591,7 +1591,7 @@
       "nombre": "LECHE LV 0% LACT ILOLAY12*1 LT",
       "unidadesBulto": 12,
       "codBarra": "7790787960767",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 26160,
       "descuento": 0,
@@ -1602,7 +1602,7 @@
       "nombre": "LECHE LV DESC ILOLAY 12*1 TL",
       "unidadesBulto": 12,
       "codBarra": "7790787002535",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 24960.001,
       "descuento": 0,
@@ -1613,7 +1613,7 @@
       "nombre": "LECHE LV ENT ILOLAY 12*1 LT",
       "unidadesBulto": 12,
       "codBarra": "7790787002528",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 24960.001,
       "descuento": 0,
@@ -1624,18 +1624,18 @@
       "nombre": "QUESO RALLADO ILOLAY 20*40 G",
       "unidadesBulto": 20,
       "codBarra": "7790787251780",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 30900,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 479,
       "nombre": "LECHE PVO DES ILOLAY 8*30*5G",
       "unidadesBulto": 8,
       "codBarra": "7790787201297",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 68160.002,
       "descuento": 0,
@@ -1646,7 +1646,7 @@
       "nombre": "DCE DE LECHE ILOLAY 24*200G",
       "unidadesBulto": 24,
       "codBarra": "7790787153657",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 32376,
       "descuento": 0,
@@ -1657,11 +1657,11 @@
       "nombre": "DCE DE LECHE ILOLAY 24*400G",
       "unidadesBulto": 24,
       "codBarra": "7790787153664",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 59495.879,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 485,
@@ -1679,7 +1679,7 @@
       "nombre": "LECHE PVO ENT ILOLAY 12*800G",
       "unidadesBulto": 12,
       "codBarra": "7790787201228",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 116016,
       "descuento": 0,
@@ -1690,7 +1690,7 @@
       "nombre": "LECHE PVO DES ILOLAY 12*800G",
       "unidadesBulto": 12,
       "codBarra": "7790787201303",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 129720.001,
       "descuento": 0,
@@ -1701,7 +1701,7 @@
       "nombre": "QUESO RALLADO ILOLAY 40*120G",
       "unidadesBulto": 40,
       "codBarra": "7790787002931",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 170600.005,
       "descuento": 0,
@@ -1892,7 +1892,7 @@
       "rubro": "SAL",
       "precio": 14318.865,
       "descuento": 10,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 565,
@@ -2057,7 +2057,7 @@
       "rubro": "REPOSTERIA",
       "precio": 11550.001,
       "descuento": 0,
-      "stock": 370
+      "stock": 367
     },
     {
       "id": 613,
@@ -2075,7 +2075,7 @@
       "nombre": "DONUTS BONAFIDE LECHE 24 * 78 G",
       "unidadesBulto": 24,
       "codBarra": "7792360096818",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 40440.003,
       "descuento": 0,
@@ -2086,7 +2086,7 @@
       "nombre": "DONUTS BONAFIDE BLANCA 24 * 78 G",
       "unidadesBulto": 24,
       "codBarra": "7792360096825",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 40440.003,
       "descuento": 0,
@@ -2123,7 +2123,7 @@
       "rubro": "ARROZ",
       "precio": 6700,
       "descuento": 0,
-      "stock": 316
+      "stock": 315
     },
     {
       "id": 622,
@@ -2134,7 +2134,7 @@
       "rubro": "ARROZ",
       "precio": 12300.001,
       "descuento": 0,
-      "stock": 268
+      "stock": 266
     },
     {
       "id": 627,
@@ -2244,7 +2244,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 13885.206,
       "descuento": 0,
-      "stock": 131
+      "stock": 130
     },
     {
       "id": 655,
@@ -2266,7 +2266,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26460.005,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 657,
@@ -2438,7 +2438,7 @@
       "nombre": "VIZZIO ALMENDRA 24 * 80 G",
       "unidadesBulto": 24,
       "codBarra": "7792360098003",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "PRODUCTOS NAVIDEÑOS",
       "precio": 70319.999,
       "descuento": 0,
@@ -2475,7 +2475,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 30600,
       "descuento": 0,
-      "stock": 184
+      "stock": 183
     },
     {
       "id": 711,
@@ -2493,7 +2493,7 @@
       "nombre": "LECHE DESLACTO TREGAR 12*1000CC",
       "unidadesBulto": 12,
       "codBarra": "7793913013009",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 28740.005,
       "descuento": 0,
@@ -2526,29 +2526,29 @@
       "nombre": "LECHE ENTERA TREGAR 12 * 1000 CC",
       "unidadesBulto": 12,
       "codBarra": "7793913001822",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 197
+      "stock": 195
     },
     {
       "id": 721,
       "nombre": "LECHE LV DESC TREGAR 12*1000 CC",
       "unidadesBulto": 12,
       "codBarra": "7793913012996",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 125
+      "stock": 124
     },
     {
       "id": 725,
       "nombre": "GRISIN CLASICO VENEZIANA 15 * 180 G",
       "unidadesBulto": 15,
       "codBarra": "7791708001361",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18975.002,
       "descuento": 0,
@@ -2559,7 +2559,7 @@
       "nombre": "GRISIN SALVADO VENEZIANA 15 * 180 G",
       "unidadesBulto": 15,
       "codBarra": "7791708001392",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18975.008,
       "descuento": 0,
@@ -2574,14 +2574,14 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 25080,
       "descuento": 0,
-      "stock": 26
+      "stock": 25
     },
     {
       "id": 730,
       "nombre": "YERBA SVE INDUMAR 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7798373140012",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 14450.002,
       "descuento": 0,
@@ -2592,7 +2592,7 @@
       "nombre": "QUESO RALLADO TREGAR 20 * 40 G",
       "unidadesBulto": 20,
       "codBarra": "7793913000139",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 26190.004,
       "descuento": 10,
@@ -2603,7 +2603,7 @@
       "nombre": "QUESO RALLADO TREGAR 24 * 120 G",
       "unidadesBulto": 24,
       "codBarra": "7793913013511",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 87600,
       "descuento": 0,
@@ -2614,7 +2614,7 @@
       "nombre": "QUESO RALLADO LA QUESERA 20 * 40 G",
       "unidadesBulto": 20,
       "codBarra": "7792882029448",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 14382.002,
       "descuento": 6,
@@ -2625,7 +2625,7 @@
       "nombre": "QUESO RALLADO LA QUESERA 50 * 100 G",
       "unidadesBulto": 50,
       "codBarra": "7792882028830",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 84552.997,
       "descuento": 6,
@@ -2636,11 +2636,11 @@
       "nombre": "DULCE DE LECHE TREGAR 12 * 400 G",
       "unidadesBulto": 12,
       "codBarra": "7793913000931",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 32640.004,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 750,
@@ -2680,7 +2680,7 @@
       "nombre": "TOSTADAS CLAS VENEZIANA 12 * 200 G",
       "unidadesBulto": 12,
       "codBarra": "7791708001569",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 21300,
       "descuento": 0,
@@ -2702,7 +2702,7 @@
       "nombre": "DULCE DE LECHE TREGAR 12*200 G",
       "unidadesBulto": 12,
       "codBarra": "7793913001945",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 18900,
       "descuento": 0,
@@ -2794,7 +2794,7 @@
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 17133.41,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 814,
@@ -2899,12 +2899,12 @@
       "id": 843,
       "nombre": "ACEITUNAS 00 1* 1 KG",
       "unidadesBulto": 1,
-      "codBarra": "7794703862135",
+      "codBarra": "7798468140125",
       "familia": "CONSERVAS",
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 14560,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 847,
@@ -2992,7 +2992,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 15403.08,
       "descuento": 0,
-      "stock": 31
+      "stock": 30
     },
     {
       "id": 883,
@@ -3098,7 +3098,7 @@
       "nombre": "CACHAMATE AMARILLA 10 * 1 KG",
       "unidadesBulto": 10,
       "codBarra": "7792280005709",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 28531.074,
       "descuento": 0,
@@ -3109,7 +3109,7 @@
       "nombre": "PALITOS CROC INTEGRAL 14*120G",
       "unidadesBulto": 14,
       "codBarra": "7798125390108",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 14910,
       "descuento": 0,
@@ -3120,7 +3120,7 @@
       "nombre": "PALITOS CROC JAM SERR 14*120 G",
       "unidadesBulto": 14,
       "codBarra": "7798125390023",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15960,
       "descuento": 0,
@@ -3131,7 +3131,7 @@
       "nombre": "PALITOS CROC QSO PARM 14*120 G",
       "unidadesBulto": 14,
       "codBarra": "7798125390054",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15960,
       "descuento": 0,
@@ -3142,7 +3142,7 @@
       "nombre": "PALITOS CROC PIZZA 14*120 G",
       "unidadesBulto": 14,
       "codBarra": "7798125390085",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15960,
       "descuento": 0,
@@ -3153,7 +3153,7 @@
       "nombre": "PALITOS CROC CLASICOS 14*120 G",
       "unidadesBulto": 14,
       "codBarra": "7798125390061",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15960,
       "descuento": 0,
@@ -3164,7 +3164,7 @@
       "nombre": "GALLETA MARINA CLAS 12*200 G",
       "unidadesBulto": 12,
       "codBarra": "656750748411",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16788,
       "descuento": 0,
@@ -3175,7 +3175,7 @@
       "nombre": "GALLETA MARINA SEMILLAS 12*200G",
       "unidadesBulto": 12,
       "codBarra": "656750748428",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16788,
       "descuento": 0,
@@ -3186,7 +3186,7 @@
       "nombre": "PALITOS CROC SEMILLAS 14*120 G",
       "unidadesBulto": 14,
       "codBarra": "7798125390030",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15960,
       "descuento": 0,
@@ -3197,7 +3197,7 @@
       "nombre": "PALITOS CROC CHEDAR 14*120G",
       "unidadesBulto": 14,
       "codBarra": "656750748435",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15960,
       "descuento": 0,
@@ -3212,7 +3212,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 7982.043,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 1002,
@@ -3234,7 +3234,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 37454.534,
       "descuento": 0,
-      "stock": 50
+      "stock": 49
     },
     {
       "id": 1004,
@@ -3245,7 +3245,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 43887.305,
       "descuento": 0,
-      "stock": 22
+      "stock": 21
     },
     {
       "id": 1005,
@@ -3278,7 +3278,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 19040.633,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 1009,
@@ -3388,7 +3388,7 @@
       "rubro": "AGUA",
       "precio": 4470.797,
       "descuento": 0,
-      "stock": 178
+      "stock": 177
     },
     {
       "id": 1030,
@@ -3597,7 +3597,7 @@
       "rubro": "GASEOSAS",
       "precio": 20640,
       "descuento": 0,
-      "stock": 146
+      "stock": 136
     },
     {
       "id": 1060,
@@ -3608,7 +3608,7 @@
       "rubro": "GASEOSAS",
       "precio": 23994.001,
       "descuento": 0,
-      "stock": 106
+      "stock": 102
     },
     {
       "id": 1061,
@@ -3652,7 +3652,7 @@
       "rubro": "ENERGIZANTES",
       "precio": 16890.003,
       "descuento": 0,
-      "stock": 118
+      "stock": 111
     },
     {
       "id": 1066,
@@ -3674,7 +3674,7 @@
       "rubro": "GASEOSAS",
       "precio": 20640,
       "descuento": 0,
-      "stock": 58
+      "stock": 55
     },
     {
       "id": 1071,
@@ -3696,7 +3696,7 @@
       "rubro": "GASEOSAS",
       "precio": 20580,
       "descuento": 0,
-      "stock": 31
+      "stock": 26
     },
     {
       "id": 1077,
@@ -3707,7 +3707,7 @@
       "rubro": "GASEOSAS",
       "precio": 8309.999,
       "descuento": 0,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 1078,
@@ -3751,7 +3751,7 @@
       "rubro": "PAPELERA",
       "precio": 25511.248,
       "descuento": 0,
-      "stock": 12
+      "stock": 10
     },
     {
       "id": 1083,
@@ -3762,7 +3762,7 @@
       "rubro": "PAPELERA",
       "precio": 33763.499,
       "descuento": 0,
-      "stock": 70
+      "stock": 69
     },
     {
       "id": 1084,
@@ -3795,7 +3795,7 @@
       "rubro": "PAPELERA",
       "precio": 16280.738,
       "descuento": 0,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 1087,
@@ -3828,7 +3828,7 @@
       "rubro": "PAPELERA",
       "precio": 22537.534,
       "descuento": 0,
-      "stock": 14
+      "stock": 13
     },
     {
       "id": 1090,
@@ -3839,7 +3839,7 @@
       "rubro": "PAPELERA",
       "precio": 15566.709,
       "descuento": 0,
-      "stock": 21
+      "stock": 20
     },
     {
       "id": 1092,
@@ -3861,7 +3861,7 @@
       "rubro": "PAPELERA",
       "precio": 23042.222,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 1094,
@@ -3872,7 +3872,7 @@
       "rubro": "PAPELERA",
       "precio": 24433.92,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 1095,
@@ -3927,7 +3927,7 @@
       "rubro": "GASEOSAS",
       "precio": 15882.802,
       "descuento": 20,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 1108,
@@ -4033,7 +4033,7 @@
       "nombre": "GALL SALVADO GRANIX 8*3*240 G",
       "unidadesBulto": 8,
       "codBarra": "7790045826231",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 36320.001,
       "descuento": 0,
@@ -4044,7 +4044,7 @@
       "nombre": "FRUTIGRAM AV/PASAS 24*250 G",
       "unidadesBulto": 24,
       "codBarra": "7790045001188",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 46800,
       "descuento": 0,
@@ -4055,7 +4055,7 @@
       "nombre": "FRUTIGRAM CHIPS CHOC 24*255 G",
       "unidadesBulto": 24,
       "codBarra": "7790045824893",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 57959.999,
       "descuento": 0,
@@ -4066,7 +4066,7 @@
       "nombre": "GALL GRANAGUA SANDWICH 8*600G",
       "unidadesBulto": 8,
       "codBarra": "7790045001379",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 27800.004,
       "descuento": 0,
@@ -4114,7 +4114,7 @@
       "rubro": "BAGGIO",
       "precio": 7639.847,
       "descuento": 30,
-      "stock": 12
+      "stock": 9
     },
     {
       "id": 1134,
@@ -4268,7 +4268,7 @@
       "rubro": "GASEOSAS",
       "precio": 10050.002,
       "descuento": 0,
-      "stock": 5
+      "stock": 3
     },
     {
       "id": 1171,
@@ -4279,7 +4279,7 @@
       "rubro": "VINOS FINOS",
       "precio": 22238.965,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 1177,
@@ -4444,7 +4444,7 @@
       "rubro": "GASEOSAS",
       "precio": 22840.001,
       "descuento": 0,
-      "stock": 193
+      "stock": 189
     },
     {
       "id": 1221,
@@ -4737,7 +4737,7 @@
       "nombre": "GOMITAS JELLY ROLL 6 * 1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790580640101",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 53700,
       "descuento": 0,
@@ -4950,7 +4950,7 @@
       "rubro": "LIMPIEZA",
       "precio": 43428.193,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 1306,
@@ -6057,7 +6057,7 @@
       "nombre": "POLVORITA CHOCOL 36*152G",
       "unidadesBulto": 36,
       "codBarra": "7790040146143",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 34919.995,
       "descuento": 0,
@@ -6255,7 +6255,7 @@
       "nombre": "SURTIDO LIA 21*400 G",
       "unidadesBulto": 21,
       "codBarra": "7790040149021",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 44625.006,
       "descuento": 0,
@@ -6266,7 +6266,7 @@
       "nombre": "POLVORITA VAIN/VAIN 36*152 G",
       "unidadesBulto": 36,
       "codBarra": "7790040139190",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 34919.995,
       "descuento": 0,
@@ -6288,7 +6288,7 @@
       "nombre": "POLVORITA VAIN/VAIN 40*81 G",
       "unidadesBulto": 40,
       "codBarra": "7790040139169",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 21400,
       "descuento": 0,
@@ -6299,7 +6299,7 @@
       "nombre": "POLVORITA VAIN/FRUT 40*81 G",
       "unidadesBulto": 40,
       "codBarra": "7790040139176",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 21400,
       "descuento": 0,
@@ -6310,7 +6310,7 @@
       "nombre": "POLVORITA CHOC/VAIN 40*81 G",
       "unidadesBulto": 40,
       "codBarra": "7790040139183",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 21400,
       "descuento": 0,
@@ -6413,7 +6413,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 7950,
       "descuento": 0,
-      "stock": 86
+      "stock": 84
     },
     {
       "id": 1651,
@@ -6446,7 +6446,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 4545,
       "descuento": 0,
-      "stock": 66
+      "stock": 65
     },
     {
       "id": 1654,
@@ -6493,17 +6493,6 @@
       "stock": 1
     },
     {
-      "id": 2772,
-      "nombre": "AYUDIN ANTIHONGO  DP 16*450 CC",
-      "unidadesBulto": 16,
-      "codBarra": "7793253005467",
-      "familia": "HIGIENE",
-      "rubro": "LIMPIEZA",
-      "precio": 40480.006,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 1739,
       "nombre": "REXONA DEO M A/BODY ACT 12*150",
       "unidadesBulto": 12,
@@ -6523,7 +6512,7 @@
       "rubro": "CALDOS",
       "precio": 13449.997,
       "descuento": 0,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 1754,
@@ -6556,7 +6545,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 25188.001,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 1787,
@@ -6699,7 +6688,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 65
+      "stock": 59
     },
     {
       "id": 1819,
@@ -6710,7 +6699,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 97
+      "stock": 96
     },
     {
       "id": 1820,
@@ -6860,7 +6849,7 @@
       "nombre": "YERBA LA MERCED CAMPO 6*500 G",
       "unidadesBulto": 6,
       "codBarra": "7790387015607",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 26399.998,
       "descuento": 0,
@@ -6952,7 +6941,7 @@
       "rubro": "BAGGIO",
       "precio": 13498.821,
       "descuento": 0,
-      "stock": 19
+      "stock": 18
     },
     {
       "id": 1867,
@@ -7124,7 +7113,7 @@
       "nombre": "MEDIATARDE SANDW 16*321G",
       "unidadesBulto": 16,
       "codBarra": "7790040143005",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 26848,
       "descuento": 0,
@@ -7222,23 +7211,23 @@
       "id": 1928,
       "nombre": "REXONA DEO AER MEN V8 12*90",
       "unidadesBulto": 12,
-      "codBarra": "7791293049489",
+      "codBarra": "7791293022567",
       "familia": "HIGIENE",
       "rubro": "DESODORANTES CORPORALES",
       "precio": 39120.002,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 1929,
       "nombre": "REXONA DEO AER MEN INMVIS 12*90 G",
       "unidadesBulto": 12,
-      "codBarra": "7791293049465",
+      "codBarra": "7791293022635",
       "familia": "HIGIENE",
       "rubro": "DESODORANTES CORPORALES",
       "precio": 39120.002,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 1964,
@@ -7278,7 +7267,7 @@
       "nombre": "YERBA LA MERCED BARBACUA 6*500 G",
       "unidadesBulto": 6,
       "codBarra": "7790387015621",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 26399.998,
       "descuento": 0,
@@ -7630,7 +7619,7 @@
       "nombre": "TURRON DE MANI MISKY 50 * 25 G",
       "unidadesBulto": 50,
       "codBarra": "77940148",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 9949.999,
       "descuento": 0,
@@ -7645,7 +7634,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 68041.652,
       "descuento": 0,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 2060,
@@ -7711,7 +7700,7 @@
       "rubro": "LIMPIEZA",
       "precio": 48468.099,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 2074,
@@ -7872,7 +7861,7 @@
       "nombre": "COFLER BLOCK 1*1 KG",
       "unidadesBulto": 1,
       "codBarra": "7790580115579",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 36770,
       "descuento": 0,
@@ -7883,7 +7872,7 @@
       "nombre": "MACUCAS 36*110G",
       "unidadesBulto": 36,
       "codBarra": "7790040145337",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 37800.001,
       "descuento": 0,
@@ -7916,7 +7905,7 @@
       "nombre": "CHOC MILKA BLANCO 21*55 G",
       "unidadesBulto": 21,
       "codBarra": "7622210745583",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 63823.202,
       "descuento": 20,
@@ -7927,7 +7916,7 @@
       "nombre": "SHOT TABLETA 20*170 G",
       "unidadesBulto": 20,
       "codBarra": "7622300424084",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 122000.005,
       "descuento": 0,
@@ -7938,20 +7927,9 @@
       "nombre": "OREO S/GLUTEN 24 * 95 G",
       "unidadesBulto": 24,
       "codBarra": "7622202038099",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 58560,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 2178,
-      "nombre": "ALF TRIP MILKA TORTA OREO 36*61G",
-      "unidadesBulto": 36,
-      "codBarra": "7622300835620",
-      "familia": "SALUDABLES",
-      "rubro": "ALFAJORES",
-      "precio": 52920.003,
       "descuento": 0,
       "stock": 1
     },
@@ -8052,7 +8030,7 @@
       "rubro": "GALLETAS",
       "precio": 14690.005,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 2214,
@@ -8147,7 +8125,7 @@
       "nombre": "GALL SALVADO MAURI 12*400 G",
       "unidadesBulto": 12,
       "codBarra": "7790628000133",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 29520,
       "descuento": 0,
@@ -8207,17 +8185,6 @@
       "precio": 19200.002,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 2256,
-      "nombre": "SOPA KNORR CR CHOC/PUERRO 10*98G",
-      "unidadesBulto": 10,
-      "codBarra": "7794000008687",
-      "familia": "ADEREZOS",
-      "rubro": "SOPAS",
-      "precio": 11520.001,
-      "descuento": 40,
-      "stock": 1
     },
     {
       "id": 2257,
@@ -8466,7 +8433,7 @@
       "nombre": "MALTA EL POCILLO DP 12*190 G",
       "unidadesBulto": 12,
       "codBarra": "7791118013312",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 34920,
       "descuento": 0,
@@ -8477,7 +8444,7 @@
       "nombre": "MALTA EL POCILLO FORT DP 12*115 G",
       "unidadesBulto": 12,
       "codBarra": "7791118013206",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 23460,
       "descuento": 0,
@@ -8488,7 +8455,7 @@
       "nombre": "MALTA EL POCILLO FR 12 * 170 G",
       "unidadesBulto": 12,
       "codBarra": "7791118000503",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 38820,
       "descuento": 0,
@@ -8510,7 +8477,7 @@
       "nombre": "BIZC 9 DE ORO AGRIDULCE 20 * 200 G",
       "unidadesBulto": 20,
       "codBarra": "7792200000128",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 19980.004,
       "descuento": 0,
@@ -8521,7 +8488,7 @@
       "nombre": "PASEO SALVADO 14 * 300 G",
       "unidadesBulto": 14,
       "codBarra": "7792180006455",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 22190,
       "descuento": 0,
@@ -8532,7 +8499,7 @@
       "nombre": "PASEO 5 SEMILLAS 14 * 300 G",
       "unidadesBulto": 14,
       "codBarra": "7792180007315",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 19110.002,
       "descuento": 0,
@@ -8543,7 +8510,7 @@
       "nombre": "PASEO SESAMO 14 * 300 G",
       "unidadesBulto": 14,
       "codBarra": "7792180007285",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 19110.002,
       "descuento": 0,
@@ -8554,11 +8521,11 @@
       "nombre": "PASEO CRACKERS AGUA 14 * 300 G",
       "unidadesBulto": 14,
       "codBarra": "7792180006448",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 17850,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 2342,
@@ -8587,7 +8554,7 @@
       "nombre": "VAINILLAS MAURI 36 * 80 G",
       "unidadesBulto": 36,
       "codBarra": "7790628102684",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 20772,
       "descuento": 0,
@@ -8598,7 +8565,7 @@
       "nombre": "VAINILLAS MAURI 32 * 160 G",
       "unidadesBulto": 32,
       "codBarra": "7790628102639",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 39872,
       "descuento": 0,
@@ -8609,7 +8576,7 @@
       "nombre": "VAINILLAS MAURI 16 * 320 G",
       "unidadesBulto": 16,
       "codBarra": "7790628102646",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 37920,
       "descuento": 0,
@@ -8620,7 +8587,7 @@
       "nombre": "VAINILLAS MAURI 6 * 800 G",
       "unidadesBulto": 6,
       "codBarra": "7790628102653",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 35760.001,
       "descuento": 0,
@@ -8686,7 +8653,7 @@
       "nombre": "BIZC 9 DE ORO AZUCARADO 28 * 210 G",
       "unidadesBulto": 28,
       "codBarra": "7792200000319",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 27972,
       "descuento": 0,
@@ -8697,7 +8664,7 @@
       "nombre": "PASEO MULTICEREAL 14 * 300 G",
       "unidadesBulto": 14,
       "codBarra": "7792180007346",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 22190,
       "descuento": 0,
@@ -8741,7 +8708,7 @@
       "nombre": "AGUANTADORA C/PALO 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790326001302",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18606.546,
       "descuento": 0,
@@ -8752,11 +8719,11 @@
       "nombre": "SINCERIDAD C/P 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790326000626",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18606.546,
       "descuento": 0,
-      "stock": 27
+      "stock": 26
     },
     {
       "id": 2380,
@@ -8767,17 +8734,6 @@
       "rubro": "CUIDADO FEMENINO",
       "precio": 62850.002,
       "descuento": 0,
-      "stock": 2
-    },
-    {
-      "id": 2383,
-      "nombre": "REXONA EFFICIENT TALCO 12*200 G",
-      "unidadesBulto": 12,
-      "codBarra": "7791293044491",
-      "familia": "HIGIENE",
-      "rubro": "HIGIENE PERSONAL",
-      "precio": 59988.001,
-      "descuento": 0,
       "stock": 1
     },
     {
@@ -8785,29 +8741,29 @@
       "nombre": "CBSE HIERBAS SERRANAS 12 * 500 G",
       "unidadesBulto": 12,
       "codBarra": "7790710334535",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 19504.801,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 2401,
       "nombre": "CBSE HIERBAS SERRANAS 12 * 1 KG",
       "unidadesBulto": 12,
       "codBarra": "7790710334573",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 36794.64,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 2402,
       "nombre": "CBSE HIERBAS CUYANAS 12 * 500 G",
       "unidadesBulto": 12,
       "codBarra": "7790710334689",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18483.379,
       "descuento": 0,
@@ -8818,7 +8774,7 @@
       "nombre": "CBSE MIEL CORMILLOT 12 * 500 G",
       "unidadesBulto": 12,
       "codBarra": "7790710334658",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18483.379,
       "descuento": 0,
@@ -8829,7 +8785,7 @@
       "nombre": "CBSE SILUETA CORMILLOT 12 * 500 G",
       "unidadesBulto": 12,
       "codBarra": "7790710334634",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18483.379,
       "descuento": 0,
@@ -8840,7 +8796,7 @@
       "nombre": "CBSE NARANJA 12 * 500 G",
       "unidadesBulto": 12,
       "codBarra": "7790710334580",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18483.379,
       "descuento": 0,
@@ -8851,7 +8807,7 @@
       "nombre": "CBSE POMELO 12 * 500 G",
       "unidadesBulto": 12,
       "codBarra": "7790710334610",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18483.379,
       "descuento": 0,
@@ -8862,7 +8818,7 @@
       "nombre": "CBSE HIERBAS LITORAL 12 * 500 G",
       "unidadesBulto": 12,
       "codBarra": "7790710334672",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18483.379,
       "descuento": 0,
@@ -8873,7 +8829,7 @@
       "nombre": "CBSE ENDULIFE CORMILLOT 12*500G",
       "unidadesBulto": 12,
       "codBarra": "7790710334665",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18483.379,
       "descuento": 0,
@@ -8884,7 +8840,7 @@
       "nombre": "YERBA MATEANDO 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7790710334757",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 16329.603,
       "descuento": 10,
@@ -8965,7 +8921,7 @@
       "rubro": "AGUA",
       "precio": 15900.006,
       "descuento": 0,
-      "stock": 68
+      "stock": 67
     },
     {
       "id": 2457,
@@ -9016,7 +8972,7 @@
       "nombre": "AGUANTADORA C/P 6*1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790326000558",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 21541.245,
       "descuento": 0,
@@ -9027,18 +8983,18 @@
       "nombre": "SINCERIDAD C/P 6 * 1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790326000794",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 21541.245,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 2502,
       "nombre": "AGUANTADORA SVE 6 * 1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790326003214",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 22618.812,
       "descuento": 0,
@@ -9049,7 +9005,7 @@
       "nombre": "AGUANTADORA S/P 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790326000039",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 20155.782,
       "descuento": 0,
@@ -9060,7 +9016,7 @@
       "nombre": "AGUANTADORA C/P 6 * 2 KG",
       "unidadesBulto": 6,
       "codBarra": "7790326000176",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 38858.795,
       "descuento": 8,
@@ -9071,7 +9027,7 @@
       "nombre": "SINCERIDAD C/P 6 * 2 KG",
       "unidadesBulto": 6,
       "codBarra": "7790326000138",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 42237.821,
       "descuento": 0,
@@ -9082,18 +9038,18 @@
       "nombre": "AGUANTADORA SVE 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790326003078",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 19536.852,
       "descuento": 0,
-      "stock": 23
+      "stock": 21
     },
     {
       "id": 2509,
       "nombre": "AGUANTADORA C/P 14*250 G",
       "unidadesBulto": 14,
       "codBarra": "7790326000312",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 14715.115,
       "descuento": 0,
@@ -9104,18 +9060,18 @@
       "nombre": "AGUANTADORA ESPEC 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7790326002057",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 30848.458,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 2512,
       "nombre": "AGUANTADORA M/COCIDO C/S 12*25U",
       "unidadesBulto": 12,
       "codBarra": "7790326000435",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 17654.609,
       "descuento": 0,
@@ -9126,7 +9082,7 @@
       "nombre": "YERBA TARAGUI FLEX 10 * 1 KG",
       "unidadesBulto": 10,
       "codBarra": "7790387013610",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 37750,
       "descuento": 0,
@@ -9137,7 +9093,7 @@
       "nombre": "YERBA UNION 10 * 1 KG",
       "unidadesBulto": 10,
       "codBarra": "7790387014617",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 37750,
       "descuento": 0,
@@ -9148,18 +9104,18 @@
       "nombre": "PLAYADITO C/PALO 5*1 KG",
       "unidadesBulto": 5,
       "codBarra": "7793704000928",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 19704.366,
       "descuento": 0,
-      "stock": 40
+      "stock": 39
     },
     {
       "id": 2551,
       "nombre": "PLAYADITO C/P 20*250 G",
       "unidadesBulto": 20,
       "codBarra": "7793704000249",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 23468.942,
       "descuento": 0,
@@ -9170,7 +9126,7 @@
       "nombre": "PLAYADITO HIERBAS 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7793704000508",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 24276.956,
       "descuento": 0,
@@ -9181,7 +9137,7 @@
       "nombre": "PLAYADITO Y.M 5*2000GR",
       "unidadesBulto": 5,
       "codBarra": "7793704000041",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 36791.889,
       "descuento": 0,
@@ -9192,7 +9148,7 @@
       "nombre": "YERBA LIEBIG ORIG 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7793704000805",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 24561.596,
       "descuento": 0,
@@ -9203,7 +9159,7 @@
       "nombre": "PLAYADITO S/PALO 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7793704000881",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 26140.876,
       "descuento": 0,
@@ -9225,7 +9181,7 @@
       "nombre": "VIZZIO MANI CROCANTE 24 * 80 G",
       "unidadesBulto": 24,
       "codBarra": "7792360097976",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 54600.004,
       "descuento": 0,
@@ -9269,18 +9225,18 @@
       "nombre": "BONAFIDE MECANO 8*24*19G",
       "unidadesBulto": 8,
       "codBarra": "7792360072430",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 133440,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 2632,
       "nombre": "CAFE SUAVE BONAFIDE 12 * 125G",
       "unidadesBulto": 12,
       "codBarra": "7792360002147",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 33360.003,
       "descuento": 0,
@@ -9291,7 +9247,7 @@
       "nombre": "CAFE INTENSO BONAFIDE 12 * 125G",
       "unidadesBulto": 12,
       "codBarra": "7792360002154",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 33360.003,
       "descuento": 0,
@@ -9302,7 +9258,7 @@
       "nombre": "CAFE SUAVE BONAFIDE 8 * 250G",
       "unidadesBulto": 8,
       "codBarra": "7792360002123",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 43480.007,
       "descuento": 0,
@@ -9313,7 +9269,7 @@
       "nombre": "CAFE SENSAC INT. BONAFIDE 8 * 250 G",
       "unidadesBulto": 8,
       "codBarra": "7792360002079",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 43480,
       "descuento": 0,
@@ -9324,7 +9280,7 @@
       "nombre": "CAFE SAQ INT BONAFIDE  24*18*5G",
       "unidadesBulto": 24,
       "codBarra": "7792360094968",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 86400.002,
       "descuento": 0,
@@ -9335,7 +9291,7 @@
       "nombre": "CHOCMAN SEMIAMARGO 15*68 G",
       "unidadesBulto": 15,
       "codBarra": "7792360096658",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 14985.003,
       "descuento": 0,
@@ -9346,7 +9302,7 @@
       "nombre": "CHOCMAN BLACK 15*68 G",
       "unidadesBulto": 15,
       "codBarra": "7792360096580",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 14985.003,
       "descuento": 0,
@@ -9357,7 +9313,7 @@
       "nombre": "TABL BONAFIDE MANI 10*160 G",
       "unidadesBulto": 10,
       "codBarra": "7792360098256",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 25550.001,
       "descuento": 0,
@@ -9368,7 +9324,7 @@
       "nombre": "VIZZIO CHOC CACAO 12*90 G",
       "unidadesBulto": 12,
       "codBarra": "7792360095040",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 41760,
       "descuento": 0,
@@ -9390,7 +9346,7 @@
       "nombre": "CHOCMAN CLASICO 18*35G",
       "unidadesBulto": 18,
       "codBarra": "7792360096634",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 10782,
       "descuento": 0,
@@ -9401,7 +9357,7 @@
       "nombre": "CHOCMAN BLACK 18*35 G",
       "unidadesBulto": 18,
       "codBarra": "7792360096597",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 10782.001,
       "descuento": 0,
@@ -9412,7 +9368,7 @@
       "nombre": "TABL BONAFIDE LECH/MANI 20*30G",
       "unidadesBulto": 20,
       "codBarra": "7792360952657",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 11980.004,
       "descuento": 0,
@@ -9423,11 +9379,11 @@
       "nombre": "TABL BONAFIDE LECH/MANI 14*90G",
       "unidadesBulto": 14,
       "codBarra": "7792360097709",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 21560.001,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 2730,
@@ -9456,7 +9412,7 @@
       "nombre": "LA MORENITA INST SVE  6*170G",
       "unidadesBulto": 6,
       "codBarra": "7790170905108",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 42960,
       "descuento": 0,
@@ -9507,22 +9463,11 @@
       "stock": 3
     },
     {
-      "id": 2832,
-      "nombre": "SALADIX PIZZA 24*100G",
-      "unidadesBulto": 24,
-      "codBarra": "7790580697303",
-      "familia": "OTROS",
-      "rubro": "SNACKS",
-      "precio": 36545.981,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 2834,
       "nombre": "SALADIX DUO 24*80G",
       "unidadesBulto": 24,
       "codBarra": "7790040374607",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "SNACKS",
       "precio": 36545.981,
       "descuento": 0,
@@ -9533,7 +9478,7 @@
       "nombre": "ALF CHOCOTORTA 21*73G",
       "unidadesBulto": 21,
       "codBarra": "7790040150072",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "ALFAJORES",
       "precio": 30901.498,
       "descuento": 0,
@@ -9544,7 +9489,7 @@
       "nombre": "ALF MINITORTA BROWNIE 21*60G",
       "unidadesBulto": 21,
       "codBarra": "7790040133594",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "ALFAJORES",
       "precio": 30901.498,
       "descuento": 0,
@@ -9566,18 +9511,18 @@
       "nombre": "LECHE ENT LATTE BAGGIO 8*1500 CC",
       "unidadesBulto": 8,
       "codBarra": "7790036007267",
-      "familia": "LACTEOS.",
+      "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 16960.001,
       "descuento": 0,
-      "stock": 16
+      "stock": 12
     },
     {
       "id": 2864,
       "nombre": "RAMEN ARCOR CARNE 24*70 G",
       "unidadesBulto": 24,
       "codBarra": "7790580149970",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 34320.004,
       "descuento": 0,
@@ -9775,7 +9720,7 @@
       "nombre": "TRAVIATA CRACK REX 12*3 U",
       "unidadesBulto": 12,
       "codBarra": "7790040143920",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 24703.261,
       "descuento": 7,
@@ -9786,7 +9731,7 @@
       "nombre": "KESITAS 15 * 250 G",
       "unidadesBulto": 15,
       "codBarra": "7790040144033",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 42827.321,
       "descuento": 0,
@@ -9797,7 +9742,7 @@
       "nombre": "REX 15 * 225 G",
       "unidadesBulto": 15,
       "codBarra": "7790040144125",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 42827.321,
       "descuento": 0,
@@ -9819,7 +9764,7 @@
       "nombre": "TRAVIATA 16 * 540 G",
       "unidadesBulto": 16,
       "codBarra": "7790040144095",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 46399.508,
       "descuento": 0,
@@ -9830,7 +9775,7 @@
       "nombre": "GALLETA COFLER 30 * 120G",
       "unidadesBulto": 30,
       "codBarra": "7790040127944",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 44924.075,
       "descuento": 0,
@@ -9841,7 +9786,7 @@
       "nombre": "TOP LINE 7 MENTHOL 16*14G",
       "unidadesBulto": 16,
       "codBarra": "7790580123345",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 13099.645,
       "descuento": 0,
@@ -9852,7 +9797,7 @@
       "nombre": "TOP LINE 7 *PLS MINT 16*14G",
       "unidadesBulto": 16,
       "codBarra": "7790580317607",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 13099.645,
       "descuento": 0,
@@ -9863,7 +9808,7 @@
       "nombre": "MOGUL ANILLOS 6*1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790580309602",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 48762.636,
       "descuento": 30,
@@ -9874,7 +9819,7 @@
       "nombre": "GALL CM AV/PASAS 25*207 G",
       "unidadesBulto": 25,
       "codBarra": "7790040135741",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 49728.36,
       "descuento": 0,
@@ -9907,7 +9852,7 @@
       "nombre": "TE LV HERBO FLUIR 6*25",
       "unidadesBulto": 6,
       "codBarra": "7790150370018",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 11219.229,
       "descuento": 0,
@@ -9918,7 +9863,7 @@
       "nombre": "TE LV HERBO INSPIRAR 6*25",
       "unidadesBulto": 6,
       "codBarra": "7790150370100",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 11219.229,
       "descuento": 0,
@@ -9940,7 +9885,7 @@
       "nombre": "TE LV HERBO DETO* 6*25",
       "unidadesBulto": 6,
       "codBarra": "7790150370308",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 11219.229,
       "descuento": 0,
@@ -9955,7 +9900,7 @@
       "rubro": "APERITIVOS",
       "precio": 92138.299,
       "descuento": 0,
-      "stock": 25
+      "stock": 24
     },
     {
       "id": 3010,
@@ -10153,7 +10098,7 @@
       "rubro": "APERITIVOS",
       "precio": 51173.47,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 3033,
@@ -10270,7 +10215,7 @@
       "nombre": "CAFE INST LA VIRG SEL TOST 6*170G",
       "unidadesBulto": 6,
       "codBarra": "7790150150252",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 53993.999,
       "descuento": 0,
@@ -10351,7 +10296,7 @@
       "rubro": "BAJO GRADO",
       "precio": 49893.408,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 3098,
@@ -10362,7 +10307,7 @@
       "rubro": "BAJO GRADO",
       "precio": 49893.408,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 3110,
@@ -10527,7 +10472,7 @@
       "rubro": "BAJO GRADO",
       "precio": 45899.437,
       "descuento": 0,
-      "stock": 76
+      "stock": 75
     },
     {
       "id": 3171,
@@ -10600,7 +10545,7 @@
       "nombre": "YERBA LITORAL C SOBRE 10*25SAQ",
       "unidadesBulto": 10,
       "codBarra": "7790150260142",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 13587.066,
       "descuento": 0,
@@ -10648,7 +10593,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 25332.408,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 3212,
@@ -11018,7 +10963,7 @@
       "nombre": "TUY STEVIA PVO EQUIL 10*100 SOB",
       "unidadesBulto": 10,
       "codBarra": "7790150812761",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "EDULCORANTE",
       "precio": 31900,
       "descuento": 0,
@@ -11055,7 +11000,7 @@
       "rubro": "VINOS FINOS",
       "precio": 26136,
       "descuento": 0,
-      "stock": 83
+      "stock": 82
     },
     {
       "id": 3303,
@@ -11435,7 +11380,7 @@
       "id": 3358,
       "nombre": "CALLIA ESPUM DULCE 6 * 750 CC",
       "unidadesBulto": 6,
-      "codBarra": "7798108839501",
+      "codBarra": "7798108834490",
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
       "precio": 33659.998,
@@ -11524,7 +11469,7 @@
       "nombre": "MOLINO NAT AVENA/PASAS 16*232G",
       "unidadesBulto": 16,
       "codBarra": "7790263119641",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 27071.616,
       "descuento": 0,
@@ -11535,7 +11480,7 @@
       "nombre": "MOLINO NAT SEMILLAS 16*231G",
       "unidadesBulto": 16,
       "codBarra": "7790263119658",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 27071.616,
       "descuento": 0,
@@ -11568,7 +11513,7 @@
       "nombre": "MATE COCIDO LITORAL S/SOBRE 10*50 U",
       "unidadesBulto": 10,
       "codBarra": "7790150260661",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 22795.783,
       "descuento": 0,
@@ -11579,7 +11524,7 @@
       "nombre": "CAFE INST CLAS LA VIRGINIA 6 * 170 G",
       "unidadesBulto": 6,
       "codBarra": "7790150100486",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 43759.517,
       "descuento": 0,
@@ -11590,7 +11535,7 @@
       "nombre": "CAPUCC VAINILLA LA VIRGINIA 10*155 G",
       "unidadesBulto": 10,
       "codBarra": "7790150161128",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 27600,
       "descuento": 0,
@@ -11612,7 +11557,7 @@
       "nombre": "CAFE LV EXP MOL TOST 12*250G",
       "unidadesBulto": 12,
       "codBarra": "7790150037041",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 106020,
       "descuento": 0,
@@ -11656,7 +11601,7 @@
       "nombre": "CAFE LA VIRG INST SVE ESP 6 * 36*1.7G",
       "unidadesBulto": 6,
       "codBarra": "7790150101087",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 30567.601,
       "descuento": 0,
@@ -11667,7 +11612,7 @@
       "nombre": "CAFE INST LA MORENITA TI FCO 6 *170 G",
       "unidadesBulto": 6,
       "codBarra": "7790170904668",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 42346.842,
       "descuento": 0,
@@ -11678,7 +11623,7 @@
       "nombre": "LA VIRG INST CLAS ESPUM DP 10*170 G",
       "unidadesBulto": 10,
       "codBarra": "7790150100462",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 54990,
       "descuento": 0,
@@ -11689,7 +11634,7 @@
       "nombre": "LA VIRG INST CLAS ESPUM DP 10*100 G",
       "unidadesBulto": 10,
       "codBarra": "7790150100806",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 35150,
       "descuento": 0,
@@ -11711,7 +11656,7 @@
       "nombre": "TE COMUN LA MORENITA 10*25SAQ",
       "unidadesBulto": 10,
       "codBarra": "7790170914018",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 7703.163,
       "descuento": 0,
@@ -11722,7 +11667,7 @@
       "nombre": "CAFE LM MOL BRASIL 12*250 G",
       "unidadesBulto": 12,
       "codBarra": "7790170949201",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 95196,
       "descuento": 0,
@@ -11744,7 +11689,7 @@
       "nombre": "MILKA LECHE  20 * 20 G",
       "unidadesBulto": 20,
       "codBarra": "7622210795625",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 21980.001,
       "descuento": 0,
@@ -11766,7 +11711,7 @@
       "nombre": "TE NEG LA VIRG INTENSO 6*1*20 SAQ",
       "unidadesBulto": 6,
       "codBarra": "7790150210000",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 4880.838,
       "descuento": 0,
@@ -11777,7 +11722,7 @@
       "nombre": "MILKA OREO BCO 20 * 20 G",
       "unidadesBulto": 20,
       "codBarra": "7622210795908",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 21980.001,
       "descuento": 0,
@@ -11799,7 +11744,7 @@
       "nombre": "TE COMÚN LA VIRGINIA NAT INT 20*50 U",
       "unidadesBulto": 20,
       "codBarra": "7790150211939",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 33186.15,
       "descuento": 0,
@@ -11810,7 +11755,7 @@
       "nombre": "MATE COC LITORAL C/SOBRE 10*50U",
       "unidadesBulto": 10,
       "codBarra": "7790150260241",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 27174.483,
       "descuento": 0,
@@ -11821,7 +11766,7 @@
       "nombre": "TE LA VIRGINIA MTA PEPERINA 6 * 25 U",
       "unidadesBulto": 6,
       "codBarra": "7790150340165",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 8068.873,
       "descuento": 0,
@@ -11887,7 +11832,7 @@
       "nombre": "CAFE INST CLASICO LA VIRG 6 * 100 G",
       "unidadesBulto": 6,
       "codBarra": "7790150100783",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 27825.39,
       "descuento": 0,
@@ -11898,7 +11843,7 @@
       "nombre": "CAFE L/VIRG MOL TOST  12*250 G",
       "unidadesBulto": 12,
       "codBarra": "7790150007501",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 69480,
       "descuento": 0,
@@ -11909,18 +11854,18 @@
       "nombre": "CAFE LA MORENITA INTENS SAQ 10*20*5 G",
       "unidadesBulto": 10,
       "codBarra": "7790170903937",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 40891.018,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 3505,
       "nombre": "CAFE LA VIRGINIA SQTO PURO 10*20*7G",
       "unidadesBulto": 10,
       "codBarra": "7790150080146",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 66935.579,
       "descuento": 0,
@@ -11931,7 +11876,7 @@
       "nombre": "TE COMUN LA VIRGINIA NAT 10 * 25 SAQ",
       "unidadesBulto": 10,
       "codBarra": "7790150211908",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 8379.311,
       "descuento": 0,
@@ -11964,7 +11909,7 @@
       "nombre": "CAFE MOL TORR LA VIRG 12*125 G",
       "unidadesBulto": 12,
       "codBarra": "7790150006306",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 35294.684,
       "descuento": 0,
@@ -11975,7 +11920,7 @@
       "nombre": "CAPPUCCINO LA VIRG TRAD DPK 10*125G",
       "unidadesBulto": 10,
       "codBarra": "7790150160725",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 27150.001,
       "descuento": 0,
@@ -11986,7 +11931,7 @@
       "nombre": "TE LA VIRG MANZANILLA C/ANIS 6 * 25 U",
       "unidadesBulto": 6,
       "codBarra": "7790150331088",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 10003.276,
       "descuento": 0,
@@ -11997,7 +11942,7 @@
       "nombre": "TE LA VIRGINA CEDRON 6 * 25 U",
       "unidadesBulto": 6,
       "codBarra": "7790150350171",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 9635.847,
       "descuento": 0,
@@ -12008,7 +11953,7 @@
       "nombre": "TE LA VIRG ESPECIAL VERDE 6 * 20 U",
       "unidadesBulto": 6,
       "codBarra": "7790150355084",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 7952.64,
       "descuento": 0,
@@ -12019,7 +11964,7 @@
       "nombre": "TE LA VIRG ESP VERDE CITRUS 6 * 20 U",
       "unidadesBulto": 6,
       "codBarra": "7790150355244",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 10301.396,
       "descuento": 0,
@@ -12030,7 +11975,7 @@
       "nombre": "TE LA VIRG MEZCLA HIERBAS 6  * 25 U",
       "unidadesBulto": 6,
       "codBarra": "7790150360262",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 9078.521,
       "descuento": 0,
@@ -12118,7 +12063,7 @@
       "nombre": "LA MORENITA NST SVE 6*100 G",
       "unidadesBulto": 6,
       "codBarra": "7790170905009",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 27750,
       "descuento": 0,
@@ -12129,7 +12074,7 @@
       "nombre": "CAFE SAQ LA VIRG EQUILIB 10 * 20 * 5G",
       "unidadesBulto": 10,
       "codBarra": "7790150079904",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 42364.375,
       "descuento": 0,
@@ -12140,7 +12085,7 @@
       "nombre": "MATE COCIDO LITORAL 10 * 25 U.",
       "unidadesBulto": 10,
       "codBarra": "7790150260821",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 11217.62,
       "descuento": 0,
@@ -12151,7 +12096,7 @@
       "nombre": "TE BOLDO LA VIRGINIA 6 * 25 U.",
       "unidadesBulto": 6,
       "codBarra": "7790150310267",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 10048.663,
       "descuento": 0,
@@ -12162,7 +12107,7 @@
       "nombre": "TE MANZANILLA LA VIRGINIA 6 * 25 U",
       "unidadesBulto": 6,
       "codBarra": "7790150330166",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 8052.078,
       "descuento": 0,
@@ -12184,7 +12129,7 @@
       "nombre": "LA MORENITA COL. MOL TOST  12 * 250G",
       "unidadesBulto": 12,
       "codBarra": "7790170949027",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 107988,
       "descuento": 0,
@@ -12195,7 +12140,7 @@
       "nombre": "TE COMUN LA MORENITA 10*50SAQ",
       "unidadesBulto": 10,
       "codBarra": "7790170914032",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 15404.813,
       "descuento": 0,
@@ -12206,7 +12151,7 @@
       "nombre": "CAPUCCINO LA VIRGINIA D/LECHE 10*155G",
       "unidadesBulto": 10,
       "codBarra": "7790150161227",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 27600,
       "descuento": 0,
@@ -12217,7 +12162,7 @@
       "nombre": "TE LA VIRGINIA LIMON C/VIT C 6 * 20 U",
       "unidadesBulto": 6,
       "codBarra": "7790150240175",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 9788.634,
       "descuento": 0,
@@ -12239,7 +12184,7 @@
       "nombre": "TE LA VIRGINIA CANELA 6 * 20 U",
       "unidadesBulto": 6,
       "codBarra": "7790150250150",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 9788.634,
       "descuento": 0,
@@ -12268,22 +12213,11 @@
       "stock": 12
     },
     {
-      "id": 3555,
-      "nombre": "SABORIZ ALICANTE VERDURA 10*12*7G",
-      "unidadesBulto": 10,
-      "codBarra": "7790150433416",
-      "familia": "ADEREZOS",
-      "rubro": "CONDIM Y ESPECIAS",
-      "precio": 31421.946,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 3560,
       "nombre": "TE LA VIRG FR/TROP 6*20 SAQ",
       "unidadesBulto": 6,
       "codBarra": "7790150240526",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 11292.228,
       "descuento": 0,
@@ -12294,7 +12228,7 @@
       "nombre": "CAFE LA VIRGINIA TORR EQUILIB 12 * 250 G",
       "unidadesBulto": 12,
       "codBarra": "7790150006320",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 59039.999,
       "descuento": 0,
@@ -12305,7 +12239,7 @@
       "nombre": "CAFE LA VIRGINIA INST CLASICO 6 * 50 G",
       "unidadesBulto": 6,
       "codBarra": "7790150100677",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 15538.59,
       "descuento": 0,
@@ -12316,7 +12250,7 @@
       "nombre": "CAFE LA VIRGINIA INST SUAVE 6 * 50 G",
       "unidadesBulto": 6,
       "codBarra": "7790150101667",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 15538.59,
       "descuento": 0,
@@ -12327,7 +12261,7 @@
       "nombre": "CAFE LA VIRGINIA INST SUAVE 6 * 100 G",
       "unidadesBulto": 6,
       "codBarra": "7790150101773",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 27825.39,
       "descuento": 0,
@@ -12393,7 +12327,7 @@
       "nombre": "TE LA VIRGINIA TILO 6 * 25 U",
       "unidadesBulto": 6,
       "codBarra": "7790150320266",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 16112.481,
       "descuento": 0,
@@ -12404,7 +12338,7 @@
       "nombre": "TE LA VIRGINIA TILO/MANZ/CEDR 6*25U",
       "unidadesBulto": 6,
       "codBarra": "7790150321065",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 11583.015,
       "descuento": 0,
@@ -12470,7 +12404,7 @@
       "nombre": "OREO TRIPACK 12 * 354 G",
       "unidadesBulto": 12,
       "codBarra": "7622201735258",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 56388,
       "descuento": 0,
@@ -12481,7 +12415,7 @@
       "nombre": "PEPITOS TRIPACK 20*357 G",
       "unidadesBulto": 20,
       "codBarra": "7622201735883",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 93979.999,
       "descuento": 0,
@@ -12492,7 +12426,7 @@
       "nombre": "GALLETAS PEPITOS 60 * 119 G",
       "unidadesBulto": 60,
       "codBarra": "7622201735906",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 86352,
       "descuento": 20,
@@ -12503,7 +12437,7 @@
       "nombre": "MANTECOL 40 * 111 G",
       "unidadesBulto": 40,
       "codBarra": "7622201812652",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 111960,
       "descuento": 0,
@@ -12514,7 +12448,7 @@
       "nombre": "MOLINO NAT AVE/CACAO 16*240G",
       "unidadesBulto": 16,
       "codBarra": "7790263119634",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 27071.616,
       "descuento": 0,
@@ -12580,7 +12514,7 @@
       "nombre": "MOLINO NAT NJA/CHIPS 16*238G",
       "unidadesBulto": 16,
       "codBarra": "7790263119665",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 27071.616,
       "descuento": 0,
@@ -12602,7 +12536,7 @@
       "nombre": "SHOT TABLETAS 36 * 90 G",
       "unidadesBulto": 36,
       "codBarra": "7622202333255",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 140364,
       "descuento": 0,
@@ -12613,7 +12547,7 @@
       "nombre": "MILKA ALMENDRAS 21 * 55 G",
       "unidadesBulto": 21,
       "codBarra": "7622210745620",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 79779,
       "descuento": 0,
@@ -12624,7 +12558,7 @@
       "nombre": "MILKA CHOCO PAUSE OREO 24 * 45 G",
       "unidadesBulto": 24,
       "codBarra": "7622201492465",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 43080,
       "descuento": 0,
@@ -12635,7 +12569,7 @@
       "nombre": "MILKA CHOCO PAUSE 24 * 45 G",
       "unidadesBulto": 24,
       "codBarra": "7622201492717",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 43080,
       "descuento": 0,
@@ -12646,7 +12580,7 @@
       "nombre": "MILKA LECHE 21 * 55 G",
       "unidadesBulto": 21,
       "codBarra": "7622202328947",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 63823.202,
       "descuento": 20,
@@ -12690,7 +12624,7 @@
       "nombre": "MILKA LEGER ALMENDRAS 28*50 G",
       "unidadesBulto": 28,
       "codBarra": "7622201818975",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 49910.001,
       "descuento": 50,
@@ -12705,14 +12639,14 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 78846.903,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 3689,
       "nombre": "GALLETITAS OREO GOLDEN 36 * 118 G",
       "unidadesBulto": 36,
       "codBarra": "7622201806552",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 57240.018,
       "descuento": 0,
@@ -12745,7 +12679,7 @@
       "nombre": "CAFE LA MORENITA INTENSO FR 6*100G",
       "unidadesBulto": 6,
       "codBarra": "7790170904798",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 26925.876,
       "descuento": 0,
@@ -12756,7 +12690,7 @@
       "nombre": "CAPUCC LA MORENITA DP 10*125 G",
       "unidadesBulto": 10,
       "codBarra": "7790170907478",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 27450,
       "descuento": 0,
@@ -12767,11 +12701,11 @@
       "nombre": "CAFE INST SELECC TOST LA VIRG 6 * 100 G",
       "unidadesBulto": 6,
       "codBarra": "7790150150573",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 39215.241,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3700,
@@ -13211,7 +13145,7 @@
       "rubro": "VINOS FINOS",
       "precio": 80006.942,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 3771,
@@ -13449,7 +13383,7 @@
       "nombre": "YERBA TARAGUI FLEX 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790387013627",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18449.995,
       "descuento": 0,
@@ -13460,7 +13394,7 @@
       "nombre": "YERBA UNION ORIGINAL 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790387014624",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 18450,
       "descuento": 0,
@@ -13471,7 +13405,7 @@
       "nombre": "YERBA LA MERCED CAMPO SUR 6*500 G",
       "unidadesBulto": 6,
       "codBarra": "7790387015645",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 26399.998,
       "descuento": 0,
@@ -13482,7 +13416,7 @@
       "nombre": "YERBA LA MERCED CAMPO/MONTE 6*500G",
       "unidadesBulto": 6,
       "codBarra": "7790387015638",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 26399.998,
       "descuento": 0,
@@ -13497,7 +13431,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 42876.949,
       "descuento": 0,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 3880,
@@ -13548,7 +13482,7 @@
       "nombre": "PLAYADITO C/P 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7793704000911",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 21072.465,
       "descuento": 0,
@@ -13657,12 +13591,12 @@
       "id": 3964,
       "nombre": "REXONA AER MEN ANTIBAC 12 * 90 CC",
       "unidadesBulto": 12,
-      "codBarra": "7791293049458",
+      "codBarra": "7791293025537",
       "familia": "HIGIENE",
       "rubro": "DESODORANTES CORPORALES",
       "precio": 39120.002,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 3969,
@@ -13735,7 +13669,7 @@
       "nombre": "CHOCOLINAS 25*250G",
       "unidadesBulto": 25,
       "codBarra": "7790040143234",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 57475,
       "descuento": 0,
@@ -13753,17 +13687,6 @@
       "stock": 2
     },
     {
-      "id": 4007,
-      "nombre": "MEMBRILLO ARCOR 12*500 G",
-      "unidadesBulto": 12,
-      "codBarra": "7790580504601",
-      "familia": "OTROS",
-      "rubro": "REPOSTERIA",
-      "precio": 32040.001,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 4012,
       "nombre": "PURE DE LA HUERTA 8 * 1030 CC",
       "unidadesBulto": 8,
@@ -13772,7 +13695,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 12607.305,
       "descuento": 0,
-      "stock": 80
+      "stock": 76
     },
     {
       "id": 4019,
@@ -13795,17 +13718,6 @@
       "precio": 60076.766,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 4022,
-      "nombre": "MELITAS ARCOR 32*159 G",
-      "unidadesBulto": 32,
-      "codBarra": "7790040139770",
-      "familia": "GOLOSINAS.",
-      "rubro": "GALLETAS",
-      "precio": 30962.496,
-      "descuento": 20,
-      "stock": 1
     },
     {
       "id": 4025,
@@ -13847,8 +13759,8 @@
       "codBarra": "7790040331303",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
-      "precio": 18678.243,
-      "descuento": 15,
+      "precio": 21974.403,
+      "descuento": 0,
       "stock": 1
     },
     {
@@ -13856,7 +13768,7 @@
       "nombre": "MANA C/LECHE 36*136 G",
       "unidadesBulto": 36,
       "codBarra": "7790040137813",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 41114.228,
       "descuento": 0,
@@ -13867,7 +13779,7 @@
       "nombre": "MANÁ VAINILLA 36 * 136 G",
       "unidadesBulto": 36,
       "codBarra": "7790040137837",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 41114.228,
       "descuento": 0,
@@ -13878,7 +13790,7 @@
       "nombre": "CARAM ARCOR MINI CHERRY 6*800 G",
       "unidadesBulto": 6,
       "codBarra": "7790580128524",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 58181.625,
       "descuento": 0,
@@ -13900,7 +13812,7 @@
       "nombre": "FORMIS CHOC/DDL 36 *90 G",
       "unidadesBulto": 36,
       "codBarra": "7790040153448",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 44540.413,
       "descuento": 0,
@@ -13933,7 +13845,7 @@
       "nombre": "ROCKLETS 24 * 20 G",
       "unidadesBulto": 24,
       "codBarra": "7790580126148",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 17527.205,
       "descuento": 0,
@@ -13944,7 +13856,7 @@
       "nombre": "CHOCOLATE LECHE COFLER  10 * 55G",
       "unidadesBulto": 10,
       "codBarra": "7790580103484",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 32427.504,
       "descuento": 0,
@@ -13955,7 +13867,7 @@
       "nombre": "CHOCOLATE BCO&COOK COFLER 10*55G",
       "unidadesBulto": 10,
       "codBarra": "7790580103538",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 32427.504,
       "descuento": 0,
@@ -13966,7 +13878,7 @@
       "nombre": "FORMIS NVA CHO/VAI 36*102 GRS",
       "unidadesBulto": 36,
       "codBarra": "7790040139978",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 44540.413,
       "descuento": 0,
@@ -13990,8 +13902,8 @@
       "codBarra": "7790040331204",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
-      "precio": 18678.243,
-      "descuento": 15,
+      "precio": 21974.403,
+      "descuento": 0,
       "stock": 1
     },
     {
@@ -13999,7 +13911,7 @@
       "nombre": "MERENGADAS FRUTI 36 * 93 G",
       "unidadesBulto": 36,
       "codBarra": "7790040139657",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 42771.924,
       "descuento": 5.507,
@@ -14010,7 +13922,7 @@
       "nombre": "SONRISAS FRAMBUESA 36 * 108 G",
       "unidadesBulto": 36,
       "codBarra": "7790040133488",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 42771.924,
       "descuento": 5.507,
@@ -14021,7 +13933,7 @@
       "nombre": "CHOCOLINAS 40 * 170 G",
       "unidadesBulto": 40,
       "codBarra": "7790040143227",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 69200.002,
       "descuento": 0,
@@ -14032,7 +13944,7 @@
       "nombre": "OPERA SIMPLE 28 * 92 G",
       "unidadesBulto": 28,
       "codBarra": "77903518",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 30645.868,
       "descuento": 0,
@@ -14043,7 +13955,7 @@
       "nombre": "SALVADO BAGLEY 12 * 3 U",
       "unidadesBulto": 12,
       "codBarra": "7790040136243",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 45682.476,
       "descuento": 0,
@@ -14054,18 +13966,18 @@
       "nombre": "MANÁ LIVIANA TRIPACK 12*3*131 G",
       "unidadesBulto": 12,
       "codBarra": "7790040137844",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 35403.919,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 4113,
       "nombre": "MANÁ RELLENA VAIN/FRUT 36 * 152 G",
       "unidadesBulto": 36,
       "codBarra": "7790040133266",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 47008.564,
       "descuento": 10,
@@ -14076,18 +13988,18 @@
       "nombre": "SERRANAS SANDWICH 16 * 3*115 G",
       "unidadesBulto": 16,
       "codBarra": "7790040704909",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 28932.776,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 4116,
       "nombre": "SERRANITAS ARCOR 14 * 3*100 G",
       "unidadesBulto": 14,
       "codBarra": "7790040143616",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 23240.001,
       "descuento": 0,
@@ -14098,7 +14010,7 @@
       "nombre": "REX ESTUCHE 16 * 125 G",
       "unidadesBulto": 16,
       "codBarra": "7790040719804",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 28784.696,
       "descuento": 7,
@@ -14109,7 +14021,7 @@
       "nombre": "KESITAS ESTUCHE 16 * 125 G",
       "unidadesBulto": 16,
       "codBarra": "7790040173200",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 28784.696,
       "descuento": 7,
@@ -14124,14 +14036,14 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10620.08,
       "descuento": 8.669,
-      "stock": 71
+      "stock": 69
     },
     {
       "id": 4121,
       "nombre": "OPERA 56 * 55 G",
       "unidadesBulto": 56,
       "codBarra": "77903501",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 42637.518,
       "descuento": 0,
@@ -14142,7 +14054,7 @@
       "nombre": "COQUITAS 40 * 177 G",
       "unidadesBulto": 40,
       "codBarra": "7790040143258",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 69212,
       "descuento": 0,
@@ -14153,7 +14065,7 @@
       "nombre": "TRAVIATA 16 * 3*108 G",
       "unidadesBulto": 16,
       "codBarra": "7790040144088",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 32720,
       "descuento": 0,
@@ -14164,7 +14076,7 @@
       "nombre": "CRIOLLITAS 22 * 3 * 100 G",
       "unidadesBulto": 22,
       "codBarra": "7790040377806",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 39051.54,
       "descuento": 0,
@@ -14175,29 +14087,18 @@
       "nombre": "SURTIDO BAGLEY 21 * 398 G",
       "unidadesBulto": 21,
       "codBarra": "7790040147720",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 55851.6,
       "descuento": 20,
       "stock": 38
     },
     {
-      "id": 4126,
-      "nombre": "GALLETA BLOCK 30*124G",
-      "unidadesBulto": 30,
-      "codBarra": "7790040116955",
-      "familia": "GOLOSINAS.",
-      "rubro": "GALLETAS",
-      "precio": 44924.075,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 4128,
       "nombre": "ROCKLETS 18 * 40 G",
       "unidadesBulto": 18,
       "codBarra": "7790580327415",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 24653.288,
       "descuento": 0,
@@ -14208,7 +14109,7 @@
       "nombre": "SURTIDO DIVERSION 21 * 390 G",
       "unidadesBulto": 21,
       "codBarra": "7790040143364",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 46451.822,
       "descuento": 17,
@@ -14223,14 +14124,14 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 9749.956,
       "descuento": 23.926,
-      "stock": 44
+      "stock": 43
     },
     {
       "id": 4132,
       "nombre": "MANÁ RELLENA CHOC/VAIN 36 * 152 G",
       "unidadesBulto": 36,
       "codBarra": "7790040133235",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 47008.564,
       "descuento": 10,
@@ -14252,7 +14153,7 @@
       "nombre": "TOSTADA CRIOLLITA CLASICA 18 * 195G",
       "unidadesBulto": 18,
       "codBarra": "7790040124509",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 31332.119,
       "descuento": 0,
@@ -14263,21 +14164,10 @@
       "nombre": "COFLER BLOCK 12 * 110 G",
       "unidadesBulto": 12,
       "codBarra": "77922120",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 48448.975,
       "descuento": 5,
-      "stock": 1
-    },
-    {
-      "id": 4152,
-      "nombre": "COFLER C/ALMENDRAS AIR  10 * 55 G",
-      "unidadesBulto": 10,
-      "codBarra": "7790580103439",
-      "familia": "GOLOSINAS.",
-      "rubro": "GOLOSINAS",
-      "precio": 37300,
-      "descuento": 0,
       "stock": 1
     },
     {
@@ -14296,7 +14186,7 @@
       "nombre": "MELLIZAS 36 * 108 G",
       "unidadesBulto": 36,
       "codBarra": "7790040143548",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 42771.645,
       "descuento": 16.775,
@@ -14329,7 +14219,7 @@
       "nombre": "KESITAS 32 * 75 G",
       "unidadesBulto": 32,
       "codBarra": "7790040003606",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 39156.176,
       "descuento": 0,
@@ -14441,8 +14331,8 @@
       "codBarra": "8445290595447",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 25315.983,
-      "descuento": 50,
+      "precio": 50631.966,
+      "descuento": 0,
       "stock": 5
     },
     {
@@ -14496,8 +14386,8 @@
       "codBarra": "8445290068507",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 39792.06,
-      "descuento": 50,
+      "precio": 79584.12,
+      "descuento": 0,
       "stock": 1
     },
     {
@@ -14696,7 +14586,7 @@
       "rubro": "VINOS FINOS",
       "precio": 25200.005,
       "descuento": 0,
-      "stock": 33
+      "stock": 32
     },
     {
       "id": 4386,
@@ -14938,7 +14828,7 @@
       "rubro": "VINOS FINOS",
       "precio": 25051.709,
       "descuento": 0,
-      "stock": 29
+      "stock": 26
     },
     {
       "id": 4456,
@@ -15088,18 +14978,18 @@
       "nombre": "MAGDALENA GAONA RELL/CHOC 10*200 G",
       "unidadesBulto": 10,
       "codBarra": "7798126073918",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16512.369,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4501,
       "nombre": "MAGDALENA GAONA VAIN/CHIPS 10*180G",
       "unidadesBulto": 10,
       "codBarra": "7798126073864",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16512.369,
       "descuento": 0,
@@ -15110,7 +15000,7 @@
       "nombre": "MASITAS LIMON GAONA 16*210 G",
       "unidadesBulto": 16,
       "codBarra": "7798126074809",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18576,
       "descuento": 0,
@@ -15121,7 +15011,7 @@
       "nombre": "MASITAS VAINILLA GAONA 16*210 G",
       "unidadesBulto": 16,
       "codBarra": "7798126074793",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18576,
       "descuento": 0,
@@ -15132,7 +15022,7 @@
       "nombre": "CHIPS GAONA 18 * 230 G",
       "unidadesBulto": 18,
       "codBarra": "7798126071150",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 22652.071,
       "descuento": 0,
@@ -15143,7 +15033,7 @@
       "nombre": "MAGDALENA GAONA RELL/D/LECHE 10*200 G",
       "unidadesBulto": 10,
       "codBarra": "7798126073901",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16512.369,
       "descuento": 0,
@@ -15154,7 +15044,7 @@
       "nombre": "GAONA RECREO 14*300 G",
       "unidadesBulto": 18,
       "codBarra": "7798126073857",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 19041.977,
       "descuento": 0,
@@ -15165,7 +15055,7 @@
       "nombre": "BIZC AZUCARADO GAONA 24 * 180 G",
       "unidadesBulto": 24,
       "codBarra": "7798126073062",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 17999.625,
       "descuento": 0,
@@ -15176,7 +15066,7 @@
       "nombre": "MAGDALENA GAONA MARMOL 10*200 G",
       "unidadesBulto": 10,
       "codBarra": "7798126072980",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16512.369,
       "descuento": 0,
@@ -15187,7 +15077,7 @@
       "nombre": "MAGDALENA GAONA CHOC/D/LECHE 10*215 G",
       "unidadesBulto": 10,
       "codBarra": "7798126073024",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16512.369,
       "descuento": 0,
@@ -15198,7 +15088,7 @@
       "nombre": "MAGDALENA GAONA COCO/D/LECHE 10*215 G",
       "unidadesBulto": 10,
       "codBarra": "7798126073031",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16512.369,
       "descuento": 0,
@@ -15209,7 +15099,7 @@
       "nombre": "SINFONIA GAONA 10*4*50 G",
       "unidadesBulto": 10,
       "codBarra": "7798126072805",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 13543.201,
       "descuento": 0,
@@ -15220,18 +15110,18 @@
       "nombre": "TRIANGULO HOJALDRE MAFALDA 18*150 G",
       "unidadesBulto": 18,
       "codBarra": "7798172410118",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 17280,
       "descuento": 0,
-      "stock": 68
+      "stock": 67
     },
     {
       "id": 4530,
       "nombre": "LARGUITA HOJALDRE MAFALDA 18*150 G",
       "unidadesBulto": 18,
       "codBarra": "7798172410095",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 17280,
       "descuento": 0,
@@ -15242,7 +15132,7 @@
       "nombre": "MAGDALENA GAONA NJA C/CHIPS 10*180 G",
       "unidadesBulto": 10,
       "codBarra": "7798126073871",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16512.369,
       "descuento": 0,
@@ -15253,7 +15143,7 @@
       "nombre": "TOSTADAS MESA GAONA 12*200 G",
       "unidadesBulto": 12,
       "codBarra": "7798126073970",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15238.666,
       "descuento": 0,
@@ -15264,7 +15154,7 @@
       "nombre": "TOSTADAS LIGHT GAONA 12*200G",
       "unidadesBulto": 12,
       "codBarra": "7798126074007",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15238.666,
       "descuento": 0,
@@ -15275,7 +15165,7 @@
       "nombre": "MAGDALENA LIMON GAONA 10*200G",
       "unidadesBulto": 10,
       "codBarra": "7798126073093",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16512.369,
       "descuento": 0,
@@ -15286,7 +15176,7 @@
       "nombre": "PEPAS GAONA 14*300 G",
       "unidadesBulto": 14,
       "codBarra": "7798126073536",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 17618.276,
       "descuento": 0,
@@ -15297,7 +15187,7 @@
       "nombre": "PEPAS GAONA 24*180",
       "unidadesBulto": 24,
       "codBarra": "7798126071082",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 19830.096,
       "descuento": 0,
@@ -15308,18 +15198,18 @@
       "nombre": "TOSTADAS ARROZ GAONA 12*150 G",
       "unidadesBulto": 12,
       "codBarra": "7798126074045",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 19814.843,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 4552,
       "nombre": "GAONA SAB/VIDA AV/PASAS 35*160 G",
       "unidadesBulto": 35,
       "codBarra": "7798126074458",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 36704.745,
       "descuento": 0,
@@ -15330,7 +15220,7 @@
       "nombre": "CRUNCHICHIPS GAONA 35*132 G",
       "unidadesBulto": 35,
       "codBarra": "7798126074182",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 36704.745,
       "descuento": 0,
@@ -15363,7 +15253,7 @@
       "nombre": "SINFONIA FRUTILLA 28*100G",
       "unidadesBulto": 28,
       "codBarra": "7798126070948",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 20287.714,
       "descuento": 0,
@@ -15374,7 +15264,7 @@
       "nombre": "SINFONIA CLASICA 42*50G",
       "unidadesBulto": 42,
       "codBarra": "7798126072331",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18419.108,
       "descuento": 0,
@@ -16613,17 +16503,6 @@
       "stock": 1
     },
     {
-      "id": 4793,
-      "nombre": "SUAVE FEDERAL VIOLETAS 4*3 LTS",
-      "unidadesBulto": 4,
-      "codBarra": "7790990000588",
-      "familia": "HIGIENE",
-      "rubro": "JABONES Y SUAV P/ ROPA",
-      "precio": 29395.583,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 4796,
       "nombre": "ARIEL PVO LP BE 20*800G",
       "unidadesBulto": 20,
@@ -16661,7 +16540,7 @@
       "nombre": "PANAL VAINILLA 16*222G",
       "unidadesBulto": 16,
       "codBarra": "7790263119689",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 11247.808,
       "descuento": 50,
@@ -16672,7 +16551,7 @@
       "nombre": "PANAL CHOLOCATE 16*247G",
       "unidadesBulto": 16,
       "codBarra": "7790263119702",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 13497.369,
       "descuento": 40,
@@ -16683,7 +16562,7 @@
       "nombre": "GIROTONDO CHOCO 16*245G",
       "unidadesBulto": 16,
       "codBarra": "7790263119733",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15746.931,
       "descuento": 30,
@@ -16694,7 +16573,7 @@
       "nombre": "OKEBON LECHE 24*165G",
       "unidadesBulto": 24,
       "codBarra": "7790263110839",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 21113.664,
       "descuento": 0,
@@ -16705,7 +16584,7 @@
       "nombre": "OKEBON LECHE 18*273G",
       "unidadesBulto": 18,
       "codBarra": "7790263119597",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 12138.984,
       "descuento": 50,
@@ -16716,7 +16595,7 @@
       "nombre": "OKEBON LECHE C/DDL 18*273G",
       "unidadesBulto": 18,
       "codBarra": "7790263119610",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 12138.984,
       "descuento": 50,
@@ -17204,7 +17083,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 51828.656,
       "descuento": 0,
-      "stock": 106
+      "stock": 102
     },
     {
       "id": 5084,
@@ -17600,7 +17479,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 130980.001,
       "descuento": 0,
-      "stock": 85
+      "stock": 84
     },
     {
       "id": 5152,
@@ -17743,7 +17622,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 196080,
       "descuento": 0,
-      "stock": 92
+      "stock": 90
     },
     {
       "id": 5176,
@@ -17985,7 +17864,7 @@
       "rubro": "VINOS FINOS",
       "precio": 25410.001,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 5241,
@@ -18106,7 +17985,7 @@
       "rubro": "VINOS FINOS",
       "precio": 27653.195,
       "descuento": 0,
-      "stock": 138
+      "stock": 137
     },
     {
       "id": 5276,
@@ -18381,7 +18260,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 203513.997,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 5337,
@@ -18579,7 +18458,7 @@
       "rubro": "VINOS FINOS",
       "precio": 26226.788,
       "descuento": 0,
-      "stock": 51
+      "stock": 50
     },
     {
       "id": 5363,
@@ -18711,7 +18590,7 @@
       "rubro": "VINOS FINOS",
       "precio": 45188.556,
       "descuento": 0,
-      "stock": 36
+      "stock": 33
     },
     {
       "id": 5386,
@@ -19294,7 +19173,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 110492.457,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 5505,
@@ -19723,7 +19602,7 @@
       "rubro": "VINOS FINOS",
       "precio": 30450,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 5601,
@@ -19876,17 +19755,6 @@
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
       "precio": 1265308.205,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 5652,
-      "nombre": "BARON B BRUT ROSE 6 * 750 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790975194417",
-      "familia": "CHAMPAGNES",
-      "rubro": "CHAMPAGNE",
-      "precio": 252900.176,
       "descuento": 0,
       "stock": 1
     },
@@ -20324,7 +20192,7 @@
       "nombre": "GALLETITAS MIX VARIEDAD 20*390 G",
       "unidadesBulto": 20,
       "codBarra": "7622201745561",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 37782,
       "descuento": 10,
@@ -20786,7 +20654,7 @@
       "nombre": "GAONA ANILLO COCO 16*220G",
       "unidadesBulto": 16,
       "codBarra": "7798126074762",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18101.319,
       "descuento": 0,
@@ -20922,7 +20790,7 @@
       "rubro": "BAZAR",
       "precio": 11869.193,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 6095,
@@ -21010,7 +20878,7 @@
       "rubro": "BAZAR",
       "precio": 4282.559,
       "descuento": 0,
-      "stock": 7
+      "stock": 4
     },
     {
       "id": 6103,
@@ -21769,7 +21637,7 @@
       "rubro": "BAZAR",
       "precio": 2537.884,
       "descuento": 0,
-      "stock": 28
+      "stock": 25
     },
     {
       "id": 6190,
@@ -21842,7 +21710,7 @@
       "nombre": "OBLITA VAINILLA 48 * 50 G",
       "unidadesBulto": 48,
       "codBarra": "7793123160012",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18295.201,
       "descuento": 0,
@@ -21853,7 +21721,7 @@
       "nombre": "OBLITA MIX FRUTAL 48 * 50 G",
       "unidadesBulto": 48,
       "codBarra": "7793123013431",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18295.2,
       "descuento": 0,
@@ -21864,7 +21732,7 @@
       "nombre": "OBLITA LIMON 48 * 50 G",
       "unidadesBulto": 48,
       "codBarra": "7793123160043",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18295.2,
       "descuento": 0,
@@ -21875,7 +21743,7 @@
       "nombre": "OBLITA VAINILLA 48 * 100 G",
       "unidadesBulto": 48,
       "codBarra": "7793123160265",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
@@ -21886,7 +21754,7 @@
       "nombre": "OBLITA FRUTILLA 48 * 100 G",
       "unidadesBulto": 48,
       "codBarra": "7793123160272",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
@@ -21897,7 +21765,7 @@
       "nombre": "OBLITA MIX FRUTAL 48 * 100 G",
       "unidadesBulto": 48,
       "codBarra": "7793123160753",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
@@ -21908,7 +21776,7 @@
       "nombre": "OBLITA DULCE/LECHE  48 * 100 G",
       "unidadesBulto": 48,
       "codBarra": "7793123160289",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
@@ -21919,7 +21787,7 @@
       "nombre": "OBLITA LIMON  48 * 100 G",
       "unidadesBulto": 48,
       "codBarra": "7793123160548",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
@@ -21934,14 +21802,14 @@
       "rubro": "PRODUCTOS NAVIDEÑOS",
       "precio": 20720.04,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 6228,
       "nombre": "OBLITA FRUTILLA 48 * 50 G",
       "unidadesBulto": 48,
       "codBarra": "7793123160029",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18295.2,
       "descuento": 0,
@@ -21952,7 +21820,7 @@
       "nombre": "OBLITA DULCE/LECHE 48 * 50 G",
       "unidadesBulto": 48,
       "codBarra": "7793123160036",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18295.2,
       "descuento": 0,
@@ -21963,7 +21831,7 @@
       "nombre": "OBLITA PREMIUM CHOC 12*118 G",
       "unidadesBulto": 12,
       "codBarra": "7793123014988",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16500,
       "descuento": 0,
@@ -21974,18 +21842,18 @@
       "nombre": "TURROC OBLITA 48 * 21G",
       "unidadesBulto": 48,
       "codBarra": "7793123010201",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 8038.801,
       "descuento": 0,
-      "stock": 46
+      "stock": 44
     },
     {
       "id": 6240,
       "nombre": "OBLITA CHOCOLATE 48U*50G",
       "unidadesBulto": 48,
       "codBarra": "7793123160050",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 18295.2,
       "descuento": 0,
@@ -21996,7 +21864,7 @@
       "nombre": "OBLITA CHOCOLATE 48*100G",
       "unidadesBulto": 48,
       "codBarra": "7793123160296",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
@@ -22077,7 +21945,7 @@
       "rubro": "CERVEZAS",
       "precio": 118200,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 7017,
@@ -22088,7 +21956,7 @@
       "rubro": "CERVEZAS",
       "precio": 67800,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 7018,
@@ -22110,7 +21978,7 @@
       "rubro": "CERVEZAS",
       "precio": 39840.004,
       "descuento": 0,
-      "stock": 44
+      "stock": 43
     },
     {
       "id": 7021,
@@ -22132,7 +22000,7 @@
       "rubro": "CERVEZAS",
       "precio": 36600,
       "descuento": 0,
-      "stock": 121
+      "stock": 120
     },
     {
       "id": 7028,
@@ -22143,7 +22011,7 @@
       "rubro": "CERVEZAS",
       "precio": 29652.658,
       "descuento": 6.35,
-      "stock": 692
+      "stock": 690
     },
     {
       "id": 7030,
@@ -22396,7 +22264,7 @@
       "rubro": "GASEOSAS",
       "precio": 16590,
       "descuento": 0,
-      "stock": 36
+      "stock": 35
     },
     {
       "id": 7476,
@@ -22407,7 +22275,7 @@
       "rubro": "GASEOSAS",
       "precio": 16590,
       "descuento": 0,
-      "stock": 24
+      "stock": 19
     },
     {
       "id": 7478,
@@ -22429,7 +22297,7 @@
       "rubro": "GASEOSAS",
       "precio": 5992.61,
       "descuento": 67,
-      "stock": 5
+      "stock": 2
     },
     {
       "id": 7486,
@@ -22451,7 +22319,7 @@
       "rubro": "CERVEZAS",
       "precio": 47400.003,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 7635,
@@ -22616,7 +22484,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10149.226,
       "descuento": 0,
-      "stock": 125
+      "stock": 124
     },
     {
       "id": 17091,
@@ -22627,7 +22495,7 @@
       "rubro": "CERVEZAS",
       "precio": 44279.997,
       "descuento": 0,
-      "stock": 139
+      "stock": 138
     },
     {
       "id": 17518,
@@ -22638,7 +22506,7 @@
       "rubro": "CERVEZAS",
       "precio": 36840.002,
       "descuento": 0,
-      "stock": 150
+      "stock": 148
     },
     {
       "id": 18744,
@@ -22887,7 +22755,7 @@
       "nombre": "INST LV SUAVE ESPUMA INST FRCO 6*170G",
       "unidadesBulto": 6,
       "codBarra": "7790150101490",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 43759.517,
       "descuento": 0,
@@ -22931,7 +22799,7 @@
       "nombre": "N GAUCHA SERENA 10*500G+50G",
       "unidadesBulto": 10,
       "codBarra": "7790070103024",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 19915.063,
       "descuento": 0,
@@ -22964,7 +22832,7 @@
       "nombre": "ALFAJORES AUSONIA 1*12U",
       "unidadesBulto": 1,
       "codBarra": "0790757834965",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "ALFAJORES",
       "precio": 9000.004,
       "descuento": 0,
@@ -22975,7 +22843,7 @@
       "nombre": "TURROCKLETS 50*25 G",
       "unidadesBulto": 50,
       "codBarra": "77993540",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 17798.556,
       "descuento": 0,
@@ -23052,7 +22920,7 @@
       "nombre": "BELDENT MENTA 1*20 U",
       "unidadesBulto": 20,
       "codBarra": "762220311628",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 12255,
       "descuento": 5,
@@ -23063,7 +22931,7 @@
       "nombre": "BELDENT MENTOL 1*20 U",
       "unidadesBulto": 20,
       "codBarra": "7622202311598",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 12255.003,
       "descuento": 5,
@@ -23077,17 +22945,6 @@
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
       "precio": 30231.6,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 2816,
-      "nombre": "BONOBON SUPREME 12*36G",
-      "unidadesBulto": 12,
-      "codBarra": "7790580124557",
-      "familia": "GOLOSINAS.",
-      "rubro": "GOLOSINAS",
-      "precio": 20640,
       "descuento": 0,
       "stock": 1
     },
@@ -23166,7 +23023,7 @@
       "rubro": "VINOS FINOS",
       "precio": 17406.835,
       "descuento": 0,
-      "stock": 8
+      "stock": 4
     },
     {
       "id": 4903,
@@ -23243,7 +23100,7 @@
       "rubro": "VINOS FINOS",
       "precio": 32270.458,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 4910,
@@ -23400,17 +23257,6 @@
       "stock": 1
     },
     {
-      "id": 2490,
-      "nombre": "PRESTOPRONTA 4QSO 42*250G",
-      "unidadesBulto": 42,
-      "codBarra": "7790580155025",
-      "familia": "HARINAS",
-      "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 57852.572,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 2491,
       "nombre": "PRESTOPRONTA VEGET 42*250 G",
       "unidadesBulto": 42,
@@ -23431,28 +23277,6 @@
       "precio": 77827.2,
       "descuento": 0,
       "stock": 1
-    },
-    {
-      "id": 2562,
-      "nombre": "CHIZITOS JULICROC 14*65 G",
-      "unidadesBulto": 14,
-      "codBarra": "7793706000971",
-      "familia": "GOLOSINAS.",
-      "rubro": "SNACKS",
-      "precio": 13580.002,
-      "descuento": 0,
-      "stock": 2
-    },
-    {
-      "id": 2563,
-      "nombre": "PALITOS SALDOS JULICROC 36*120G",
-      "unidadesBulto": 36,
-      "codBarra": "7793706000278",
-      "familia": "GOLOSINAS.",
-      "rubro": "SNACKS",
-      "precio": 43164.003,
-      "descuento": 0,
-      "stock": 2
     },
     {
       "id": 2586,
@@ -23514,7 +23338,7 @@
       "nombre": "MILKA CASTAÑAS C/CAR 21*55G",
       "unidadesBulto": 21,
       "codBarra": "7622210745293",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 67515.005,
       "descuento": 0,
@@ -23525,7 +23349,7 @@
       "nombre": "MILKA OREO BLANCO 21*55 G",
       "unidadesBulto": 21,
       "codBarra": "7622210745132",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 67515.005,
       "descuento": 0,
@@ -23536,7 +23360,7 @@
       "nombre": "BONOBON LECHE 12*1*30 U",
       "unidadesBulto": 12,
       "codBarra": "7790580119133",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 182160.001,
       "descuento": 0,
@@ -23558,7 +23382,7 @@
       "nombre": "RAMEN ARCOR POLLO PIC 24*70 G",
       "unidadesBulto": 24,
       "codBarra": "7790580150341",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "PASTAS SECAS",
       "precio": 34320.004,
       "descuento": 0,
@@ -23569,7 +23393,7 @@
       "nombre": "PEPAS TRIO ALEMANAS 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7791787100726",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 26990,
       "descuento": 0,
@@ -23587,15 +23411,15 @@
       "stock": 3
     },
     {
-      "id": 3102,
-      "nombre": "TRES TORRES BCO 12*1500 CC",
-      "unidadesBulto": 12,
-      "codBarra": "7790950003437",
-      "familia": "OTRAS BEBIDAS",
-      "rubro": "AMARGO",
-      "precio": 15810.792,
+      "id": 3106,
+      "nombre": "COLON  ROSE  6 X 750",
+      "unidadesBulto": 6,
+      "codBarra": "7790168904014",
+      "familia": "VINOS",
+      "rubro": "VINOS FINOS",
+      "precio": 24999.999,
       "descuento": 0,
-      "stock": 4
+      "stock": 2
     },
     {
       "id": 3848,
@@ -23701,7 +23525,7 @@
       "nombre": "TABL BONAFIDE CRISPY 20*25 GG",
       "unidadesBulto": 20,
       "codBarra": "7792360098201",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 11800.005,
       "descuento": 0,
@@ -23712,7 +23536,7 @@
       "nombre": "TABL BONAFIDE CRISPY 14*72 G",
       "unidadesBulto": 14,
       "codBarra": "7792360098225",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 21560,
       "descuento": 0,
@@ -23723,7 +23547,7 @@
       "nombre": "CAFE BONAFIDE TOST EQUIL 6*200 G",
       "unidadesBulto": 6,
       "codBarra": "7792360097747",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 38160,
       "descuento": 0,
@@ -23734,7 +23558,7 @@
       "nombre": "CAFE BONAFIDE TOST INT 6*200 G",
       "unidadesBulto": 6,
       "codBarra": "7792360097754",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 38160.012,
       "descuento": 0,
@@ -23745,7 +23569,7 @@
       "nombre": "OBLITA VAINILLA 60*34 G",
       "unidadesBulto": 60,
       "codBarra": "7793123013103",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 15600,
       "descuento": 0,
@@ -23756,7 +23580,7 @@
       "nombre": "OBLITA FRUTILLA 60*34 G",
       "unidadesBulto": 60,
       "codBarra": "7793123013127",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 12480,
       "descuento": 20,
@@ -23844,7 +23668,7 @@
       "nombre": "PEPAS TRIO 20*180 G",
       "unidadesBulto": 20,
       "codBarra": "7791787000422",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 19400,
       "descuento": 0,
@@ -23855,7 +23679,7 @@
       "nombre": "PEPAS TRIO C/CHOC 20*180G",
       "unidadesBulto": 20,
       "codBarra": "7791787000682",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 19400.003,
       "descuento": 0,
@@ -23870,7 +23694,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 55300.001,
       "descuento": 0,
-      "stock": 562
+      "stock": 561
     },
     {
       "id": 1045,
@@ -23881,7 +23705,7 @@
       "rubro": "AGUA",
       "precio": 5637.412,
       "descuento": 0,
-      "stock": 45
+      "stock": 38
     },
     {
       "id": 1173,
@@ -23899,7 +23723,7 @@
       "nombre": "MASTICABLE SURT MISKY 10*800G",
       "unidadesBulto": 10,
       "codBarra": "7790580178109",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 90990,
       "descuento": 0,
@@ -23943,29 +23767,29 @@
       "nombre": "ALF MARLEY SIMP NEG 20*75G",
       "unidadesBulto": 20,
       "codBarra": "7798359560445",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "ALFAJORES",
       "precio": 15200.001,
       "descuento": 20,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 2487,
       "nombre": "ALF MARLEY SIMP BCO 20*75G",
       "unidadesBulto": 20,
       "codBarra": "7798359560452",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "ALFAJORES",
       "precio": 15200.001,
       "descuento": 20,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 2488,
       "nombre": "ALF MARLEY TRIP NEGRO 16*100G",
       "unidadesBulto": 16,
       "codBarra": "7798359560469",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "ALFAJORES",
       "precio": 21360.001,
       "descuento": 0,
@@ -23976,7 +23800,7 @@
       "nombre": "ALF MARLEY TRIP BCO 16*100G",
       "unidadesBulto": 16,
       "codBarra": "7798359560476",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "ALFAJORES",
       "precio": 21360.004,
       "descuento": 0,
@@ -24002,7 +23826,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 5256,
       "descuento": 20,
-      "stock": 47
+      "stock": 46
     },
     {
       "id": 2531,
@@ -24101,7 +23925,7 @@
       "rubro": "SODA",
       "precio": 5640,
       "descuento": 20,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 2542,
@@ -24152,11 +23976,33 @@
       "nombre": "PLAYADITO TERERE 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7793704000690",
-      "familia": "INFUSIONES.",
+      "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 21072.465,
       "descuento": 0,
       "stock": 1
+    },
+    {
+      "id": 2562,
+      "nombre": "CHIZITOS JULICROC 14*65 G",
+      "unidadesBulto": 14,
+      "codBarra": "7793706000971",
+      "familia": "GOLOSINAS",
+      "rubro": "SNACKS",
+      "precio": 13580.002,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2563,
+      "nombre": "PALITOS SALDOS JULICROC 36*120G",
+      "unidadesBulto": 36,
+      "codBarra": "7793706000278",
+      "familia": "GOLOSINAS",
+      "rubro": "SNACKS",
+      "precio": 43164.003,
+      "descuento": 0,
+      "stock": 2
     },
     {
       "id": 2564,
@@ -24207,33 +24053,11 @@
       "nombre": "PEPAS TRIO TRICHOC 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7791787100382",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 26990,
       "descuento": 0,
-      "stock": 3
-    },
-    {
-      "id": 2846,
-      "nombre": "KIT BALDE CIF",
-      "unidadesBulto": 1,
-      "codBarra": "",
-      "familia": "HIGIENE",
-      "rubro": "LIMPIEZA",
-      "precio": 20490,
-      "descuento": 0,
-      "stock": 10
-    },
-    {
-      "id": 2847,
-      "nombre": "HARPIC PASTILLA PINO 36*20G",
-      "unidadesBulto": 36,
-      "codBarra": "7791130003582",
-      "familia": "HIGIENE",
-      "rubro": "LIMPIEZA",
-      "precio": 42660.002,
-      "descuento": 0,
-      "stock": 1
+      "stock": 2
     },
     {
       "id": 3030,
@@ -24252,6 +24076,17 @@
       "unidadesBulto": 12,
       "codBarra": "7790950003444",
       "familia": "AMARGOS",
+      "rubro": "AMARGO",
+      "precio": 15810.792,
+      "descuento": 0,
+      "stock": 4
+    },
+    {
+      "id": 3102,
+      "nombre": "TRES TORRES BCO 12*1500 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790950003437",
+      "familia": "OTRAS BEBIDAS",
       "rubro": "AMARGO",
       "precio": 15810.792,
       "descuento": 0,
@@ -24365,18 +24200,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 105600,
       "descuento": 0,
-      "stock": 23
-    },
-    {
-      "id": 5486,
-      "nombre": "RUTINI CABERNET FRANC  6*750 CC",
-      "unidadesBulto": 6,
-      "codBarra": "",
-      "familia": "VINOS",
-      "rubro": "VINOS FINOS",
-      "precio": 126091.351,
-      "descuento": 0,
-      "stock": 1
+      "stock": 22
     },
     {
       "id": 6074,
@@ -24438,7 +24262,7 @@
       "nombre": "MANI SALADO EL RULO 10*140G",
       "unidadesBulto": 10,
       "codBarra": "7794973000220",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "SNACKS",
       "precio": 14250.001,
       "descuento": 0,
@@ -24449,7 +24273,7 @@
       "nombre": "MANI TOSTADO EL RULO 10*140 G",
       "unidadesBulto": 10,
       "codBarra": "7794973000213",
-      "familia": "GOLOSINAS.",
+      "familia": "GOLOSINAS",
       "rubro": "SNACKS",
       "precio": 12250.04,
       "descuento": 0,
@@ -24533,6 +24357,28 @@
       "stock": 1
     },
     {
+      "id": 2846,
+      "nombre": "KIT BALDE CIF",
+      "unidadesBulto": 1,
+      "codBarra": "",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 20490,
+      "descuento": 0,
+      "stock": 10
+    },
+    {
+      "id": 2847,
+      "nombre": "HARPIC PASTILLA PINO 36*20G",
+      "unidadesBulto": 36,
+      "codBarra": "7791130003582",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 42660.002,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
       "id": 3831,
       "nombre": "SIDRA LAS PERDICES PERA 3*750CC",
       "unidadesBulto": 3,
@@ -24542,17 +24388,6 @@
       "precio": 43691.394,
       "descuento": 0,
       "stock": 4
-    },
-    {
-      "id": 4823,
-      "nombre": "PLUSBELLE ESE SH BRILLO P 12*700CC",
-      "unidadesBulto": 12,
-      "codBarra": "7790740001889",
-      "familia": "HIGIENE",
-      "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39732.915,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 4824,
