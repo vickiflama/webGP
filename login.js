@@ -21,7 +21,7 @@ function validarLogin() {
     }
 }
 
-function enviarRecuperar() {
+async function enviarRecuperar() {
     const email = document.getElementById('recuperar-email');
     email.classList.remove('input-error');
 
@@ -30,8 +30,18 @@ function enviarRecuperar() {
         return;
     }
 
-    // Redirige a la página de éxito
-    window.location.href = 'mailconfirmado.html';
+    try {
+        window.mostrarLoading('Enviando...');
+        const { getAuth, sendPasswordResetEmail } = await import("https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js");
+        const auth = getAuth();
+        await sendPasswordResetEmail(auth, email.value.trim());
+        window.ocultarLoading();
+        window.location.href = 'mailconfirmado.html';
+    } catch (error) {
+        window.ocultarLoading();
+        console.error(error);
+        email.classList.add('input-error');
+    }
 }
 
 document.addEventListener('keydown', function(e) {
