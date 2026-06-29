@@ -34,15 +34,16 @@ function ocultarLoading() {
 async function registrarUsuario() {
     if (!window.validarFormulario()) return;
 
-    const nombre = document.querySelector('input[placeholder="Nombre*"]').value;
-    const apellido = document.querySelector('input[placeholder="Apellido*"]').value;
-    const email = document.querySelector('input[placeholder="Correo electrónico*"]').value;
-    const password = document.querySelector('input[placeholder="Contraseña*"]').value;
-    const celular = document.querySelector('input[placeholder="Celular*"]').value;
-    const dni = document.querySelector('input[placeholder="DNI o CUIT*"]').value;
-    const fecha = document.querySelector('input[type="date"]').value;
-    const provincia = document.getElementById('select-provincia').value;
-    const localidad = document.getElementById('select-localidad').value;
+    const modal = document.getElementById('modal-registro');
+    const nombre = modal.querySelector('input[placeholder="Nombre*"]').value;
+    const apellido = modal.querySelector('input[placeholder="Apellido*"]').value;
+    const email = document.getElementById('registro-email').value;
+    const password = modal.querySelector('input[placeholder="Contraseña*"]').value;
+    const celular = modal.querySelector('input[placeholder="Celular*"]').value;
+    const dni = modal.querySelector('input[placeholder="DNI o CUIT*"]').value;
+    const fecha = modal.querySelector('input[type="date"]').value;
+    const provincia = modal.querySelector('#select-provincia').value;
+    const localidad = modal.querySelector('#select-localidad').value;
 
     mostrarLoading('Creando tu cuenta...');
     try {

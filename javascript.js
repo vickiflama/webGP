@@ -117,9 +117,11 @@ function cargarLocalidades() {
 
 // ==================== VALIDACIÓN ====================
 function validarFormulario() {
+  const modal = document.getElementById('modal-registro');
   let valido = true;
-  document.querySelectorAll(".input-error").forEach((el) => el.classList.remove("input-error"));
-  document.querySelectorAll(".msg-error").forEach((el) => el.remove());
+
+  modal.querySelectorAll(".input-error").forEach((el) => el.classList.remove("input-error"));
+  modal.querySelectorAll(".msg-error").forEach((el) => el.remove());
 
   const campos = [
     { selector: 'input[placeholder="Nombre*"]', msg: "El nombre es obligatorio" },
@@ -132,26 +134,26 @@ function validarFormulario() {
   ];
 
   campos.forEach(({ selector, msg }) => {
-    const campo = document.querySelector(selector);
+    const campo = modal.querySelector(selector);
     if (campo && campo.value.trim() === "") {
       marcarError(campo, msg);
       valido = false;
     }
   });
 
-  const provincia = document.getElementById("select-provincia");
+  const provincia = modal.getElementById ? modal.querySelector('#select-provincia') : document.getElementById("select-provincia");
   if (provincia && provincia.value === "") {
     marcarError(provincia, "Seleccioná una provincia");
     valido = false;
   }
 
-  const localidad = document.getElementById("select-localidad");
+  const localidad = modal.querySelector ? modal.querySelector('#select-localidad') : document.getElementById("select-localidad");
   if (localidad && localidad.value === "") {
     marcarError(localidad, "Seleccioná una localidad");
     valido = false;
   }
 
-  const terminos = document.querySelector('.form-checks input[type="checkbox"]');
+  const terminos = modal.querySelector('.form-checks input[type="checkbox"]');
   if (terminos && !terminos.checked) {
     mostrarMensaje(terminos.parentElement, "Debes ACEPTAR los términos y condiciones para registrarse");
     valido = false;
