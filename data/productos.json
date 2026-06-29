@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-06-28T11:01:58.218Z",
-  "total": 2215,
+  "ultima_actualizacion": "2026-06-29T13:00:22.223Z",
+  "total": 2213,
   "productos": [
     {
       "id": 1,
@@ -550,7 +550,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 16534.42,
       "descuento": 0,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 167,
@@ -1628,7 +1628,7 @@
       "rubro": "LACTEOS",
       "precio": 30900,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 479,
@@ -1881,7 +1881,7 @@
       "rubro": "SAL",
       "precio": 14318.865,
       "descuento": 10,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 565,
@@ -2046,7 +2046,7 @@
       "rubro": "REPOSTERIA",
       "precio": 11550.001,
       "descuento": 0,
-      "stock": 352
+      "stock": 351
     },
     {
       "id": 613,
@@ -3388,7 +3388,7 @@
       "rubro": "GASEOSAS",
       "precio": 10750.925,
       "descuento": 0,
-      "stock": 14
+      "stock": 15
     },
     {
       "id": 1032,
@@ -3443,7 +3443,7 @@
       "rubro": "GASEOSAS",
       "precio": 10750.925,
       "descuento": 0,
-      "stock": 7
+      "stock": 8
     },
     {
       "id": 1037,
@@ -4290,7 +4290,7 @@
       "rubro": "PAPELERA",
       "precio": 13800.908,
       "descuento": 0,
-      "stock": 37
+      "stock": 36
     },
     {
       "id": 1185,
@@ -6380,7 +6380,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 7950,
       "descuento": 0,
-      "stock": 81
+      "stock": 80
     },
     {
       "id": 1651,
@@ -6655,7 +6655,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 51
+      "stock": 50
     },
     {
       "id": 1819,
@@ -6666,7 +6666,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 87
+      "stock": 85
     },
     {
       "id": 1820,
@@ -6677,7 +6677,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 24
+      "stock": 22
     },
     {
       "id": 1821,
@@ -6699,7 +6699,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 44
+      "stock": 43
     },
     {
       "id": 1827,
@@ -7667,7 +7667,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 20963.964,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 2080,
@@ -8899,7 +8899,7 @@
       "rubro": "YERBAS",
       "precio": 21541.245,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 2502,
@@ -13797,17 +13797,6 @@
       "stock": 2
     },
     {
-      "id": 4113,
-      "nombre": "MANÁ RELLENA VAIN/FRUT 36 * 152 G",
-      "unidadesBulto": 36,
-      "codBarra": "7790040133266",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 47008.564,
-      "descuento": 10,
-      "stock": 1
-    },
-    {
       "id": 4115,
       "nombre": "SERRANAS SANDWICH 16 * 3*115 G",
       "unidadesBulto": 16,
@@ -13970,7 +13959,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 39449.933,
       "descuento": 12.275,
-      "stock": 71
+      "stock": 70
     },
     {
       "id": 4136,
@@ -22297,7 +22286,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10149.226,
       "descuento": 0,
-      "stock": 121
+      "stock": 120
     },
     {
       "id": 17091,
@@ -23871,17 +23860,6 @@
       "precio": 43164.003,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 2564,
-      "nombre": "PEPAS TRIO 10*500 G",
-      "unidadesBulto": 10,
-      "codBarra": "7791787000040",
-      "familia": "HARINAS",
-      "rubro": "GALLETAS",
-      "precio": 26990,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 2565,
