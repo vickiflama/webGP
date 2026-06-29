@@ -106,18 +106,26 @@
     margin-bottom: 8px;
 }
 
-.paso-link {
+.paso-link, .paso-link2 {
     display: inline-flex;
     align-items: center;
     gap: 6px;
     color: #fe6902;
     font-size: 14px;
     font-weight: 600;
-    text-decoration: none;
     margin-top: 4px;
 }
 
-.paso-link:hover {
+.paso-link2{
+    margin-left: 20px;
+}
+
+.link-comocomprar{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.paso-link:hover, .paso-link2:hover {
     text-decoration: underline;
 }
 

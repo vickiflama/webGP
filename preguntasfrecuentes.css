@@ -1,0 +1,25 @@
+:root {
+  --orange:     #F47920;
+  --navy:       #1A3D6B;
+  --navy-light: #2857A4;
+  --green:      #3DB549;
+  --hero-bg:    #16376A;
+  --card-bg:    #DEDEDE;
+  --card-mid:   #CACACA;
+  --btn-dark:   #4D4D4D;
+  --white:      #FFFFFF;
+  --font:       'Poppins', sans-serif;
+}
+
+.pfheader{
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--navy);
+    margin-bottom: 10px;
+}
+
+.pfrecuentes{
+
+}

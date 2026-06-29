@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,13 +13,12 @@
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="ofertas.css">
     <link rel="stylesheet" href="carrito.css">
+    <link rel="stylesheet" href="preguntasfrecuentes.css">
 
-    <title>Gran Prix Mayorista</title>
+    <title>Preguntas frecuentes</title>
 </head>
-
 <body>
-
-    <!-- NAVBAR -->
+     <!-- NAVBAR -->
     <header class="navbar">
         <div class="logo-header">
             <a href="index.html">
@@ -76,118 +74,13 @@
         </div>
     </header>
 
-    <!-- HERO SLIDER -->
-    <section class="hero">
-        <div class="slides">
-            <img src="img/Promo Galicia(1920 x 455 px).png" alt="Promoción Banco Galicia" class="promo-galicia slide">
-            <img src="img/Promo Bica (1920 x 455 px).png" alt="Promoción Banco Bica" class="promo-bica slide">
-            <img src="img/Promo Lucchetti(1920 x 455 px).png" alt="Promoción Lucchetti" class="promo-lucchetti slide">
-        </div>
-
-        <button class="arrow-btn arrow-prev" aria-label="Anterior">
-            <i class="fa-solid fa-chevron-left"></i>
-        </button>
-        <button class="arrow-btn arrow-next" aria-label="Siguiente">
-            <i class="fa-solid fa-chevron-right"></i>
-        </button>
-
-        <div class="hero-dots">
-            <div class="dot active"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-        </div>
+    <section>
+        <h1  class="pfheader">
+            Preguntas frecuentes
+        </h1>
+        <p class="pfrecuentes"></p>
     </section>
-
-    <!-- INFO CARDS -->
-    <section class="info-section">
-        <div class="icard">
-            <div class="icard-body">
-                <div class="icard-title">¿Cómo<br>comprar?</div>
-                <i class="fa-solid fa-cart-shopping icard-icon"></i>
-            </div>
-            <a href="comocomprar.html"> <button class="icard-btn">Ver los pasos</button></a>
-        </div>
-
-        <div class="icard featured">
-            <div class="icard-body">
-                <div class="icard-title">Ofertas</div>
-                <div class="icon-badge">
-                    <i class="fa-solid fa-percent"></i>
-                </div>
-            </div>
-            <a href="ofertas.html"><button class="icard-btn">Ver ofertas</button></a>
-        </div>
-
-        <div class="icard">
-            <div class="icard-body">
-                <div class="icard-title">Promos<br>bancarias</div>
-                <i class="fa-solid fa-credit-card icard-icon"></i>
-            </div>
-            <a href="promobancaria.html"><button class="icard-btn">Ver promociones</button></a>
-        </div>
-    </section>
-
-    <!-- LOS MÁS VENDIDOS -->
-    <section class="mas-vendidos">
-        <h2 class="mas-vendidos-titulo">LOS MÁS VENDIDOS</h2>
-
-        <div class="mas-vendidos-wrap">
-            <button class="mv-arrow mv-prev" onclick="moverSliderProductos(-1)">
-                <i class="fa-solid fa-chevron-left"></i>
-            </button>
-
-            <div class="mv-slider-wrap">
-                <div class="mv-slider" id="mv-slider">
-                    <!-- Se llena desde javascript.js con datos del JSON -->
-                </div>
-            </div>
-
-            <button class="mv-arrow mv-next" onclick="moverSliderProductos(1)">
-                <i class="fa-solid fa-chevron-right"></i>
-            </button>
-        </div>
-
-        <!-- Dots -->
-        <div class="mv-dots" id="mv-dots"></div>
-    </section>
-
-    <!-- SUSCRIPCIÓN -->
-    <section class="suscripcion-section">
-        <div class="suscripcion-wrap">
-            <div class="suscripcion-titulo-wrap">
-                <i class="fa-solid fa-bullhorn"></i>
-                <h2 class="suscripcion-titulo">¿Querés recibir las ofertas antes que nadie?</h2>
-            </div>
-
-            <div class="suscripcion-form">
-                <div class="form-row">
-                    <input type="text" placeholder="Nombre*" class="input-field" id="sus-nombre">
-                    <input type="text" placeholder="Apellido*" class="input-field" id="sus-apellido">
-                </div>
-                <div class="form-row">
-                    <input type="text" placeholder="CUIT/DNI*" class="input-field" id="sus-dni">
-                    <input type="tel" placeholder="Celular*" class="input-field" id="sus-celular">
-                </div>
-                <div class="form-row">
-                    <input type="email" placeholder="Correo electrónico*" class="input-field" id="sus-email">
-                    <input type="date" placeholder="Cumpleaños" class="input-field" id="sus-cumple">
-                </div>
-
-                <p class="campos-obligatorios">*Campos obligatorios</p>
-
-                <div class="alerta-error" id="alerta-suscripcion">
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                    <span id="alerta-suscripcion-texto"></span>
-                </div>
-
-                <div class="suscripcion-btn-wrap">
-                    <button class="btn-suscribir" onclick="suscribirse()">SUSCRIBIRME</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
+     <!-- FOOTER -->
     <footer class="footer">
         <div class="footer-wrap">
 
@@ -269,5 +162,4 @@
     <script src="modales.js"></script>
     <script type="module" src="firebase.js"></script>
 </body>
-
 </html>

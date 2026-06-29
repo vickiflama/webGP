@@ -81,7 +81,11 @@
                 <div class="paso-contenido">
                     <h3>Registrate o ingresá</h3>
                     <p>Creá tu cuenta con tus datos personales o iniciá sesión si ya tenés una. Es rápido y gratuito.</p>
-                    <a href="login.html" class="paso-link">Ir al login <i class="fa-solid fa-arrow-right"></i></a>
+                    <div class="link-comocomprar">
+                    <a href="#" class="paso-link" onclick="abrirModal('modal-registro')"> Registrarme <i class="fa-solid fa-arrow-right"></i></a>
+                    <br>
+                    <a href="login.html" class="paso-link2"> Ir al login <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
 
@@ -191,15 +195,15 @@
 
         <!-- CTA FINAL -->
         <div class="comocomprar-cta">
-            <h2>¿Listo para empezar a ahorrar con <br> Gran Prix Mayorista?</h2>
+            <h2>¿Listo/a para empezar a ahorrar con <br> Gran Prix Mayorista?</h2>
             <p>Registrate y empezá a comprar hoy</p>
             <div class="cta-botones">
                 <a href="ofertas.html" class="btn-verofertas">
                     <i class="fa-solid fa-cart-shopping"></i> Ver ofertas
                 </a>
-                <a href="login.html" class="btn-registrarme">
-                    <i class="fa-regular fa-circle-user"></i> Registrarme
-                </a>
+                <a href="#" onclick="abrirModal('modal-registro')" class="btn-registrarme">
+    <i class="fa-regular fa-circle-user"></i> Registrarme
+</a>
             </div>
         </div>
 
