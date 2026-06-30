@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-06-29T13:00:22.223Z",
-  "total": 2213,
+  "ultima_actualizacion": "2026-06-30T11:40:38.888Z",
+  "total": 2194,
   "productos": [
     {
       "id": 1,
@@ -33,7 +33,7 @@
       "rubro": "ACEITES ESPECIALES",
       "precio": 43521.958,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 17,
@@ -388,17 +388,6 @@
       "stock": 7
     },
     {
-      "id": 129,
-      "nombre": "SPAGHETTI MTZZO LIBRE/GLUTEN 20*500G",
-      "unidadesBulto": 20,
-      "codBarra": "7790070336002",
-      "familia": "PASTAS",
-      "rubro": "PASTAS SECAS",
-      "precio": 62153.937,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 130,
       "nombre": "DEDALITOS TERRABUSI 15 * 500 G",
       "unidadesBulto": 15,
@@ -418,7 +407,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 26076.94,
       "descuento": 0,
-      "stock": 25
+      "stock": 24
     },
     {
       "id": 137,
@@ -484,7 +473,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 32879.802,
       "descuento": 0,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 151,
@@ -693,7 +682,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
       "descuento": 0,
-      "stock": 24
+      "stock": 23
     },
     {
       "id": 195,
@@ -770,7 +759,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
       "descuento": 0,
-      "stock": 21
+      "stock": 20
     },
     {
       "id": 202,
@@ -803,7 +792,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 212,
@@ -913,7 +902,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
       "descuento": 0,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 231,
@@ -1067,7 +1056,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 18948.624,
       "descuento": 0,
-      "stock": 21
+      "stock": 20
     },
     {
       "id": 256,
@@ -1088,17 +1077,6 @@
       "familia": "ADEREZOS",
       "rubro": "CONDIM Y ESPECIAS",
       "precio": 91799.675,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 275,
-      "nombre": "PIMENTON CONDILIST 10*200G",
-      "unidadesBulto": 10,
-      "codBarra": "7790150565469",
-      "familia": "ADEREZOS",
-      "rubro": "CONDIM Y ESPECIAS",
-      "precio": 40555.461,
       "descuento": 0,
       "stock": 1
     },
@@ -1221,7 +1199,7 @@
       "rubro": "GELIFICABLES",
       "precio": 14110.984,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 365,
@@ -1276,7 +1254,7 @@
       "rubro": "GELIFICABLES",
       "precio": 13438.962,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 370,
@@ -1386,7 +1364,7 @@
       "rubro": "ARROZ",
       "precio": 20976.959,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 410,
@@ -1499,17 +1477,6 @@
       "stock": 15
     },
     {
-      "id": 443,
-      "nombre": "YERBA CRUZ/MALTA S/TACC 6 * 1 KG",
-      "unidadesBulto": 6,
-      "codBarra": "7790070509055",
-      "familia": "INFUSIONES",
-      "rubro": "YERBAS",
-      "precio": 20958.059,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 445,
       "nombre": "CAFE SEL  ARLISTAN 12 * 50 G",
       "unidadesBulto": 12,
@@ -1617,7 +1584,7 @@
       "rubro": "LACTEOS",
       "precio": 24960.001,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 478,
@@ -1628,7 +1595,7 @@
       "rubro": "LACTEOS",
       "precio": 30900,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 479,
@@ -1640,17 +1607,6 @@
       "precio": 68160.002,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 483,
-      "nombre": "DCE DE LECHE ILOLAY 24*200G",
-      "unidadesBulto": 24,
-      "codBarra": "7790787153657",
-      "familia": "LACTEOS",
-      "rubro": "LACTEOS",
-      "precio": 32376,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 484,
@@ -1672,7 +1628,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 11726.207,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 491,
@@ -1694,7 +1650,7 @@
       "rubro": "LACTEOS",
       "precio": 170600.005,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 496,
@@ -1873,17 +1829,6 @@
       "stock": 1
     },
     {
-      "id": 564,
-      "nombre": "SAL ENTREFINA  RESERO 10*1 KG",
-      "unidadesBulto": 10,
-      "codBarra": "7792900006710",
-      "familia": "ADEREZOS",
-      "rubro": "SAL",
-      "precio": 14318.865,
-      "descuento": 10,
-      "stock": 3
-    },
-    {
       "id": 565,
       "nombre": "SAL FINA ESTUCHE 24 * 500 G",
       "unidadesBulto": 24,
@@ -2046,7 +1991,7 @@
       "rubro": "REPOSTERIA",
       "precio": 11550.001,
       "descuento": 0,
-      "stock": 351
+      "stock": 339
     },
     {
       "id": 613,
@@ -2112,7 +2057,7 @@
       "rubro": "ARROZ",
       "precio": 6700,
       "descuento": 0,
-      "stock": 312
+      "stock": 307
     },
     {
       "id": 622,
@@ -2123,7 +2068,7 @@
       "rubro": "ARROZ",
       "precio": 12300.001,
       "descuento": 0,
-      "stock": 264
+      "stock": 260
     },
     {
       "id": 627,
@@ -2178,7 +2123,7 @@
       "rubro": "VARIOS",
       "precio": 86800.003,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 637,
@@ -2310,7 +2255,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 22175.999,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 664,
@@ -2420,7 +2365,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12699.998,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 699,
@@ -2464,7 +2409,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 30600,
       "descuento": 0,
-      "stock": 183
+      "stock": 182
     },
     {
       "id": 711,
@@ -2475,7 +2420,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 45360.001,
       "descuento": 0,
-      "stock": 177
+      "stock": 176
     },
     {
       "id": 717,
@@ -2497,7 +2442,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 29867.999,
       "descuento": 5,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 719,
@@ -2519,7 +2464,7 @@
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 183
+      "stock": 179
     },
     {
       "id": 721,
@@ -2530,7 +2475,7 @@
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 120
+      "stock": 118
     },
     {
       "id": 725,
@@ -2552,7 +2497,7 @@
       "rubro": "GALLETAS",
       "precio": 18975.008,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 727,
@@ -2574,7 +2519,7 @@
       "rubro": "YERBAS",
       "precio": 14450.002,
       "descuento": 0,
-      "stock": 67
+      "stock": 66
     },
     {
       "id": 740,
@@ -2596,7 +2541,7 @@
       "rubro": "LACTEOS",
       "precio": 87600,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 742,
@@ -2630,17 +2575,6 @@
       "precio": 32640.004,
       "descuento": 0,
       "stock": 3
-    },
-    {
-      "id": 750,
-      "nombre": "ACEITUNAS VANOLI DP 28*300 G",
-      "unidadesBulto": 28,
-      "codBarra": "7790127000269",
-      "familia": "CONSERVAS",
-      "rubro": "CONSERVAS Y COMESTIBLES",
-      "precio": 44706.905,
-      "descuento": 8.5,
-      "stock": 1
     },
     {
       "id": 751,
@@ -2805,7 +2739,7 @@
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 22158.215,
       "descuento": 0,
-      "stock": 17
+      "stock": 15
     },
     {
       "id": 821,
@@ -2827,7 +2761,7 @@
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 39800.131,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 824,
@@ -2948,7 +2882,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12379.999,
       "descuento": 0,
-      "stock": 62
+      "stock": 61
     },
     {
       "id": 859,
@@ -3003,7 +2937,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26387.999,
       "descuento": 0,
-      "stock": 177
+      "stock": 176
     },
     {
       "id": 889,
@@ -3026,6 +2960,39 @@
       "precio": 34800.001,
       "descuento": 0,
       "stock": 2
+    },
+    {
+      "id": 894,
+      "nombre": "OLIVA GOURMET ALTAVIA 12*500CC",
+      "unidadesBulto": 12,
+      "codBarra": "7792900092973",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 153000,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 895,
+      "nombre": "OLIVA VIDR ALTAVIA 12*250CC",
+      "unidadesBulto": 12,
+      "codBarra": "7792900093871",
+      "familia": "ACEITES",
+      "rubro": "ACEITES ESPECIALES",
+      "precio": 81480,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 915,
+      "nombre": "MOSTAZA NATURA 4*3 KG",
+      "unidadesBulto": 4,
+      "codBarra": "7791866000459",
+      "familia": "ADEREZOS",
+      "rubro": "MAYONESAS Y ADEREZOS",
+      "precio": 33199.242,
+      "descuento": 0,
+      "stock": 4
     },
     {
       "id": 917,
@@ -3190,7 +3157,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 13616.82,
       "descuento": 0,
-      "stock": 9
+      "stock": 7
     },
     {
       "id": 1001,
@@ -3212,7 +3179,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 18963.12,
       "descuento": 0,
-      "stock": 23
+      "stock": 21
     },
     {
       "id": 1003,
@@ -3245,7 +3212,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 66743.975,
       "descuento": 0,
-      "stock": 14
+      "stock": 13
     },
     {
       "id": 1006,
@@ -3289,7 +3256,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 12745.124,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 1013,
@@ -3322,7 +3289,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 23362.353,
       "descuento": 0,
-      "stock": 22
+      "stock": 21
     },
     {
       "id": 1023,
@@ -3333,7 +3300,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 56250,
       "descuento": 0,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 1025,
@@ -3344,7 +3311,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 78800.04,
       "descuento": 0,
-      "stock": 23
+      "stock": 22
     },
     {
       "id": 1027,
@@ -3377,7 +3344,7 @@
       "rubro": "AGUA",
       "precio": 4470.797,
       "descuento": 0,
-      "stock": 173
+      "stock": 175
     },
     {
       "id": 1030,
@@ -3389,17 +3356,6 @@
       "precio": 10750.925,
       "descuento": 0,
       "stock": 15
-    },
-    {
-      "id": 1032,
-      "nombre": "CUNNINGTON TONICA 6 * 1500 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790639003574",
-      "familia": "GASEOSAS",
-      "rubro": "GASEOSAS",
-      "precio": 3834.858,
-      "descuento": 50,
-      "stock": 1
     },
     {
       "id": 1033,
@@ -3586,7 +3542,7 @@
       "rubro": "GASEOSAS",
       "precio": 20640,
       "descuento": 0,
-      "stock": 129
+      "stock": 130
     },
     {
       "id": 1060,
@@ -3597,7 +3553,7 @@
       "rubro": "GASEOSAS",
       "precio": 23994.001,
       "descuento": 0,
-      "stock": 88
+      "stock": 86
     },
     {
       "id": 1061,
@@ -3608,7 +3564,7 @@
       "rubro": "GASEOSAS",
       "precio": 19330.8,
       "descuento": 20,
-      "stock": 8
+      "stock": 6
     },
     {
       "id": 1062,
@@ -3663,7 +3619,7 @@
       "rubro": "GASEOSAS",
       "precio": 20640,
       "descuento": 0,
-      "stock": 53
+      "stock": 56
     },
     {
       "id": 1071,
@@ -3685,7 +3641,7 @@
       "rubro": "GASEOSAS",
       "precio": 20580,
       "descuento": 0,
-      "stock": 22
+      "stock": 17
     },
     {
       "id": 1077,
@@ -3696,7 +3652,7 @@
       "rubro": "GASEOSAS",
       "precio": 8309.999,
       "descuento": 0,
-      "stock": 12
+      "stock": 9
     },
     {
       "id": 1078,
@@ -3740,7 +3696,7 @@
       "rubro": "PAPELERA",
       "precio": 25511.248,
       "descuento": 0,
-      "stock": 7
+      "stock": 2
     },
     {
       "id": 1083,
@@ -3784,7 +3740,7 @@
       "rubro": "PAPELERA",
       "precio": 16280.738,
       "descuento": 0,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 1087,
@@ -3817,7 +3773,7 @@
       "rubro": "PAPELERA",
       "precio": 22537.534,
       "descuento": 0,
-      "stock": 12
+      "stock": 10
     },
     {
       "id": 1090,
@@ -3872,7 +3828,7 @@
       "rubro": "PAPELERA",
       "precio": 24010.727,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 1097,
@@ -3993,7 +3949,7 @@
       "rubro": "PAPELERA",
       "precio": 15348.382,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 1119,
@@ -4015,7 +3971,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 27680,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 1122,
@@ -4092,7 +4048,7 @@
       "rubro": "BAGGIO",
       "precio": 7639.847,
       "descuento": 30,
-      "stock": 6
+      "stock": 2
     },
     {
       "id": 1134,
@@ -4158,7 +4114,7 @@
       "rubro": "PAPELERA",
       "precio": 18236.24,
       "descuento": 15,
-      "stock": 174
+      "stock": 173
     },
     {
       "id": 1147,
@@ -4290,7 +4246,7 @@
       "rubro": "PAPELERA",
       "precio": 13800.908,
       "descuento": 0,
-      "stock": 36
+      "stock": 35
     },
     {
       "id": 1185,
@@ -4367,7 +4323,7 @@
       "rubro": "PAPELERA",
       "precio": 17182.316,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 1200,
@@ -4389,7 +4345,7 @@
       "rubro": "VINO DE MESA TETRA",
       "precio": 22230,
       "descuento": 5,
-      "stock": 144
+      "stock": 142
     },
     {
       "id": 1207,
@@ -4400,7 +4356,7 @@
       "rubro": "GASEOSAS",
       "precio": 10140,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 1211,
@@ -4422,7 +4378,7 @@
       "rubro": "GASEOSAS",
       "precio": 22840.001,
       "descuento": 0,
-      "stock": 175
+      "stock": 172
     },
     {
       "id": 1221,
@@ -4433,7 +4389,7 @@
       "rubro": "GASEOSAS",
       "precio": 10140,
       "descuento": 0,
-      "stock": 26
+      "stock": 25
     },
     {
       "id": 1222,
@@ -4563,7 +4519,7 @@
       "codBarra": "7790520029096",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 67981.177,
+      "precio": 69133.048,
       "descuento": 0,
       "stock": 6
     },
@@ -4607,7 +4563,7 @@
       "codBarra": "3779052001046",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 41740.423,
+      "precio": 42447.683,
       "descuento": 0,
       "stock": 20
     },
@@ -4618,7 +4574,7 @@
       "codBarra": "7790520031433",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 43428.193,
+      "precio": 48044.115,
       "descuento": 0,
       "stock": 5
     },
@@ -4629,7 +4585,7 @@
       "codBarra": "7790520025739",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 61770.243,
+      "precio": 65123.489,
       "descuento": 50,
       "stock": 14
     },
@@ -4640,7 +4596,7 @@
       "codBarra": "7790520998255",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 20331.1,
+      "precio": 18680.041,
       "descuento": 0,
       "stock": 5
     },
@@ -4651,7 +4607,7 @@
       "codBarra": "7790520031778",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 22433.142,
+      "precio": 20611.37,
       "descuento": 0,
       "stock": 1
     },
@@ -4662,7 +4618,7 @@
       "codBarra": "7790520031785",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 22433.142,
+      "precio": 20611.37,
       "descuento": 0,
       "stock": 1
     },
@@ -4706,7 +4662,7 @@
       "codBarra": "7790520997432",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 77856.457,
+      "precio": 76002.726,
       "descuento": 0,
       "stock": 3
     },
@@ -4739,7 +4695,7 @@
       "codBarra": "7790520018618",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 35433.33,
+      "precio": 34589.677,
       "descuento": 0,
       "stock": 3
     },
@@ -4750,7 +4706,7 @@
       "codBarra": "7790520998200",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 20331.1,
+      "precio": 18680.041,
       "descuento": 0,
       "stock": 1
     },
@@ -4772,7 +4728,7 @@
       "codBarra": "7790520010445",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 59617.591,
+      "precio": 60627.752,
       "descuento": 0,
       "stock": 27
     },
@@ -4827,7 +4783,7 @@
       "codBarra": "7790520995384",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 123606.272,
+      "precio": 120663.257,
       "descuento": 0,
       "stock": 5
     },
@@ -4838,7 +4794,7 @@
       "codBarra": "7790520028990",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 39563.815,
+      "precio": 38621.821,
       "descuento": 0,
       "stock": 2
     },
@@ -4860,7 +4816,7 @@
       "codBarra": "7790520027023",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 139029.532,
+      "precio": 135719.299,
       "descuento": 0,
       "stock": 1
     },
@@ -4871,7 +4827,7 @@
       "codBarra": "7790520999429",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 55639.21,
+      "precio": 54314.468,
       "descuento": 0,
       "stock": 4
     },
@@ -4882,7 +4838,7 @@
       "codBarra": "7790520999436",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 37788.304,
+      "precio": 39839.662,
       "descuento": 26.65,
       "stock": 3
     },
@@ -4893,7 +4849,7 @@
       "codBarra": "7790520998187",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 20331.1,
+      "precio": 18680.041,
       "descuento": 0,
       "stock": 3
     },
@@ -4904,7 +4860,7 @@
       "codBarra": "7790520028747",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 70642.126,
+      "precio": 68960.175,
       "descuento": 0,
       "stock": 3
     },
@@ -4915,7 +4871,7 @@
       "codBarra": "7790520028044",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 46704.749,
+      "precio": 45592.727,
       "descuento": 0,
       "stock": 1
     },
@@ -4926,7 +4882,7 @@
       "codBarra": "7790520995285",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 43428.193,
+      "precio": 48044.115,
       "descuento": 0,
       "stock": 8
     },
@@ -4937,7 +4893,7 @@
       "codBarra": "7790520995315",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 43428.193,
+      "precio": 48044.115,
       "descuento": 0,
       "stock": 9
     },
@@ -4948,7 +4904,7 @@
       "codBarra": "7790520999320",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 41350.811,
+      "precio": 40366.278,
       "descuento": 0,
       "stock": 2
     },
@@ -4959,7 +4915,7 @@
       "codBarra": "7790520012531",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 65403.409,
+      "precio": 63846.195,
       "descuento": 0,
       "stock": 2
     },
@@ -4970,7 +4926,7 @@
       "codBarra": "7790520998934",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 68089.144,
+      "precio": 59816.532,
       "descuento": 0,
       "stock": 18
     },
@@ -4981,7 +4937,7 @@
       "codBarra": "7790520028679",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 63198.577,
+      "precio": 70134.45,
       "descuento": 25,
       "stock": 1
     },
@@ -4992,7 +4948,7 @@
       "codBarra": "7790520997654",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 74888.111,
+      "precio": 73105.066,
       "descuento": 0,
       "stock": 4
     },
@@ -5003,7 +4959,7 @@
       "codBarra": "7790520025715",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 92674.412,
+      "precio": 90467.876,
       "descuento": 0,
       "stock": 1
     },
@@ -5014,7 +4970,7 @@
       "codBarra": "7790520009746",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 132906.725,
+      "precio": 129742.274,
       "descuento": 0,
       "stock": 3
     },
@@ -5025,9 +4981,9 @@
       "codBarra": "7790520025869",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 59644.766,
+      "precio": 58224.656,
       "descuento": 0,
-      "stock": 28
+      "stock": 27
     },
     {
       "id": 1320,
@@ -5036,7 +4992,7 @@
       "codBarra": "7790520998194",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 20331.1,
+      "precio": 18680.041,
       "descuento": 0,
       "stock": 3
     },
@@ -5047,7 +5003,7 @@
       "codBarra": "7790520998262",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 20331.1,
+      "precio": 18680.041,
       "descuento": 0,
       "stock": 5
     },
@@ -5058,7 +5014,7 @@
       "codBarra": "7790520998279",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 20331.1,
+      "precio": 18680.041,
       "descuento": 0,
       "stock": 5
     },
@@ -5069,7 +5025,7 @@
       "codBarra": "7790520026170",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 38201.865,
+      "precio": 40536.537,
       "descuento": 0,
       "stock": 2
     },
@@ -5091,7 +5047,7 @@
       "codBarra": "7790520998880",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 40355.311,
+      "precio": 39394.466,
       "descuento": 0,
       "stock": 1
     },
@@ -5102,7 +5058,7 @@
       "codBarra": "7790520009906",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 88190.017,
+      "precio": 92977.475,
       "descuento": 55,
       "stock": 1
     },
@@ -5124,7 +5080,7 @@
       "codBarra": "7790520025401",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 124501.06,
+      "precio": 121536.756,
       "descuento": 0,
       "stock": 25
     },
@@ -5135,7 +5091,7 @@
       "codBarra": "7790520995360",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 132283.393,
+      "precio": 129133.777,
       "descuento": 0,
       "stock": 10
     },
@@ -5146,7 +5102,7 @@
       "codBarra": "7790520025845",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 109187.812,
+      "precio": 106588.101,
       "descuento": 0,
       "stock": 19
     },
@@ -5157,7 +5113,7 @@
       "codBarra": "7790520998965",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 117940.642,
+      "precio": 115132.529,
       "descuento": 0,
       "stock": 20
     },
@@ -5168,7 +5124,7 @@
       "codBarra": "7790520028716",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 57889.355,
+      "precio": 59483.842,
       "descuento": 0,
       "stock": 3
     },
@@ -5179,7 +5135,7 @@
       "codBarra": "7790520006479",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 58689.16,
+      "precio": 57291.806,
       "descuento": 0,
       "stock": 2
     },
@@ -5190,7 +5146,7 @@
       "codBarra": "7790520999269",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 44226.042,
+      "precio": 43173.03,
       "descuento": 0,
       "stock": 2
     },
@@ -5201,7 +5157,7 @@
       "codBarra": "7790520995568",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 60843.152,
+      "precio": 59394.496,
       "descuento": 0,
       "stock": 2
     },
@@ -5212,7 +5168,7 @@
       "codBarra": "7790520995551",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 60843.152,
+      "precio": 59394.496,
       "descuento": 0,
       "stock": 2
     },
@@ -5223,7 +5179,7 @@
       "codBarra": "7790520994356",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 119606.764,
+      "precio": 129742.274,
       "descuento": 0,
       "stock": 2
     },
@@ -5245,7 +5201,7 @@
       "codBarra": "7790520026088",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 77057.642,
+      "precio": 75222.929,
       "descuento": 0,
       "stock": 2
     },
@@ -5256,7 +5212,7 @@
       "codBarra": "7790520029003",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 77057.642,
+      "precio": 75222.929,
       "descuento": 0,
       "stock": 2
     },
@@ -5267,7 +5223,7 @@
       "codBarra": "7790520031044",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 50972.308,
+      "precio": 52867.247,
       "descuento": 0,
       "stock": 1
     },
@@ -5278,7 +5234,7 @@
       "codBarra": "7790520026132",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 65873.189,
+      "precio": 64304.772,
       "descuento": 0,
       "stock": 2
     },
@@ -5289,7 +5245,7 @@
       "codBarra": "7790520031020",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 50972.308,
+      "precio": 52867.247,
       "descuento": 0,
       "stock": 1
     },
@@ -5300,7 +5256,7 @@
       "codBarra": "7790520995292",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 43428.193,
+      "precio": 48044.115,
       "descuento": 0,
       "stock": 1
     },
@@ -5333,7 +5289,7 @@
       "codBarra": "7790520992574",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 72520.928,
+      "precio": 70794.244,
       "descuento": 0,
       "stock": 1
     },
@@ -5344,7 +5300,7 @@
       "codBarra": "77980755",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 71510.309,
+      "precio": 69807.683,
       "descuento": 0,
       "stock": 11
     },
@@ -5355,7 +5311,7 @@
       "codBarra": "7790520028877",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 70642.126,
+      "precio": 68960.175,
       "descuento": 0,
       "stock": 2
     },
@@ -5366,7 +5322,7 @@
       "codBarra": "7790520995667",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 86128.161,
+      "precio": 84077.491,
       "descuento": 0,
       "stock": 3
     },
@@ -5377,7 +5333,7 @@
       "codBarra": "7790520995650",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 61757.189,
+      "precio": 60286.774,
       "descuento": 0,
       "stock": 3
     },
@@ -5388,7 +5344,7 @@
       "codBarra": "7790520023353",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 82754.285,
+      "precio": 80783.944,
       "descuento": 0,
       "stock": 4
     },
@@ -5399,7 +5355,7 @@
       "codBarra": "7790520009494",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 41571.51,
+      "precio": 64928.854,
       "descuento": 0,
       "stock": 59
     },
@@ -5421,7 +5377,7 @@
       "codBarra": "7790520025777",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 62182.653,
+      "precio": 65558.278,
       "descuento": 50,
       "stock": 1
     },
@@ -5432,7 +5388,7 @@
       "codBarra": "7790520986160",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 51285.486,
+      "precio": 50064.403,
       "descuento": 0,
       "stock": 2
     },
@@ -5443,7 +5399,7 @@
       "codBarra": "7790520025746",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 62265.109,
+      "precio": 65645.216,
       "descuento": 50,
       "stock": 3
     },
@@ -5454,7 +5410,7 @@
       "codBarra": "7790520025753",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 136273.982,
+      "precio": 133029.36,
       "descuento": 0,
       "stock": 2
     },
@@ -5465,7 +5421,7 @@
       "codBarra": "7790520995308",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 43428.193,
+      "precio": 48044.115,
       "descuento": 0,
       "stock": 4
     },
@@ -5476,7 +5432,7 @@
       "codBarra": "7790520996404",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 33742.447,
+      "precio": 32939.056,
       "descuento": 0,
       "stock": 2
     },
@@ -5487,7 +5443,7 @@
       "codBarra": "7790520996381",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 33742.447,
+      "precio": 32939.056,
       "descuento": 0,
       "stock": 4
     },
@@ -5498,7 +5454,7 @@
       "codBarra": "7790520996435",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 33742.447,
+      "precio": 32939.056,
       "descuento": 0,
       "stock": 3
     },
@@ -5509,7 +5465,7 @@
       "codBarra": "7790520028419",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 41851.972,
+      "precio": 40855.505,
       "descuento": 0,
       "stock": 2
     },
@@ -5520,7 +5476,7 @@
       "codBarra": "7790520028426",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 41851.972,
+      "precio": 40855.505,
       "descuento": 0,
       "stock": 3
     },
@@ -5531,7 +5487,7 @@
       "codBarra": "7790520026293",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 64646.89,
+      "precio": 63107.683,
       "descuento": 0,
       "stock": 2
     },
@@ -5542,7 +5498,7 @@
       "codBarra": "7790520996428",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 33742.447,
+      "precio": 32939.056,
       "descuento": 0,
       "stock": 4
     },
@@ -5608,7 +5564,7 @@
       "codBarra": "7790520012524",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 52322.735,
+      "precio": 51076.956,
       "descuento": 0,
       "stock": 2
     },
@@ -5619,7 +5575,7 @@
       "codBarra": "7790520025913",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 106957.132,
+      "precio": 104410.537,
       "descuento": 0,
       "stock": 1
     },
@@ -5630,7 +5586,7 @@
       "codBarra": "7790520028433",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 41851.972,
+      "precio": 40855.505,
       "descuento": 0,
       "stock": 3
     },
@@ -5652,7 +5608,7 @@
       "codBarra": "7790520014863",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 83600.984,
+      "precio": 88710.194,
       "descuento": 0,
       "stock": 2
     },
@@ -5663,7 +5619,7 @@
       "codBarra": "7790520028921",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 64647.106,
+      "precio": 63951.368,
       "descuento": 0,
       "stock": 1
     },
@@ -5674,7 +5630,7 @@
       "codBarra": "7790520031501",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 64615.865,
+      "precio": 63077.397,
       "descuento": 0,
       "stock": 1
     },
@@ -5696,7 +5652,7 @@
       "codBarra": "7790520998927",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 102254.834,
+      "precio": 99820.196,
       "descuento": 0,
       "stock": 1
     },
@@ -5762,7 +5718,7 @@
       "codBarra": "7790520996411",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 33742.447,
+      "precio": 32939.056,
       "descuento": 0,
       "stock": 3
     },
@@ -5773,7 +5729,7 @@
       "codBarra": "7790520028860",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 20331.1,
+      "precio": 18680.041,
       "descuento": 0,
       "stock": 5
     },
@@ -5806,9 +5762,9 @@
       "codBarra": "7790520028709",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 57889.355,
+      "precio": 59483.842,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 1435,
@@ -5817,8 +5773,8 @@
       "codBarra": "7501032927202",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 47987.688,
-      "descuento": 59.312,
+      "precio": 46847.426,
+      "descuento": 59.31,
       "stock": 19
     },
     {
@@ -5828,7 +5784,7 @@
       "codBarra": "7790520028723",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 57889.355,
+      "precio": 59483.842,
       "descuento": 0,
       "stock": 2
     },
@@ -5839,7 +5795,7 @@
       "codBarra": "7790520026149",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 65873.189,
+      "precio": 64304.772,
       "descuento": 0,
       "stock": 1
     },
@@ -5850,7 +5806,7 @@
       "codBarra": "7790520025425",
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
-      "precio": 124461.966,
+      "precio": 121498.593,
       "descuento": 0,
       "stock": 4
     },
@@ -5949,7 +5905,7 @@
       "codBarra": "77917805",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
-      "precio": 13200,
+      "precio": 13283.271,
       "descuento": 0,
       "stock": 4
     },
@@ -5960,7 +5916,7 @@
       "codBarra": "77917812",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
-      "precio": 13200,
+      "precio": 13283.271,
       "descuento": 0,
       "stock": 7
     },
@@ -5971,7 +5927,7 @@
       "codBarra": "77908742",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
-      "precio": 13200,
+      "precio": 13283.271,
       "descuento": 0,
       "stock": 3
     },
@@ -5982,7 +5938,7 @@
       "codBarra": "7791704401134",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
-      "precio": 66499.893,
+      "precio": 66499.894,
       "descuento": 0,
       "stock": 1
     },
@@ -5993,7 +5949,7 @@
       "codBarra": "7790520024930",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 31312.057,
+      "precio": 30566.524,
       "descuento": 0,
       "stock": 1
     },
@@ -6017,7 +5973,7 @@
       "rubro": "BAZAR",
       "precio": 143782.739,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 1525,
@@ -6092,7 +6048,7 @@
       "codBarra": "7790520026729",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 31728.108,
+      "precio": 29151.502,
       "descuento": 0,
       "stock": 2
     },
@@ -6378,9 +6334,9 @@
       "codBarra": "7798037850011",
       "familia": "HARINAS",
       "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 7950,
+      "precio": 9600,
       "descuento": 0,
-      "stock": 80
+      "stock": 78
     },
     {
       "id": 1651,
@@ -6389,9 +6345,9 @@
       "codBarra": "7798037850035",
       "familia": "HARINAS",
       "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 9500,
+      "precio": 11400,
       "descuento": 0,
-      "stock": 80
+      "stock": 78
     },
     {
       "id": 1652,
@@ -6400,9 +6356,9 @@
       "codBarra": "7798037850127",
       "familia": "HARINAS",
       "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 9500,
+      "precio": 11400,
       "descuento": 0,
-      "stock": 43
+      "stock": 42
     },
     {
       "id": 1653,
@@ -6411,9 +6367,9 @@
       "codBarra": "7798037850042",
       "familia": "HARINAS",
       "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 4545,
+      "precio": 5470,
       "descuento": 0,
-      "stock": 64
+      "stock": 62
     },
     {
       "id": 1654,
@@ -6422,9 +6378,9 @@
       "codBarra": "7798037850028",
       "familia": "HARINAS",
       "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 3790,
+      "precio": 4565,
       "descuento": 0,
-      "stock": 19
+      "stock": 18
     },
     {
       "id": 1659,
@@ -6567,7 +6523,7 @@
       "rubro": "BAGGIO",
       "precio": 17241.738,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 1806,
@@ -6589,7 +6545,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 4253.46,
       "descuento": 20,
-      "stock": 27
+      "stock": 24
     },
     {
       "id": 1808,
@@ -6600,7 +6556,7 @@
       "rubro": "BAGGIO",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 23
+      "stock": 22
     },
     {
       "id": 1809,
@@ -6633,7 +6589,7 @@
       "rubro": "BAGGIO",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 16
+      "stock": 9
     },
     {
       "id": 1813,
@@ -6644,7 +6600,7 @@
       "rubro": "BAGGIO",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 53
+      "stock": 48
     },
     {
       "id": 1818,
@@ -6655,7 +6611,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 50
+      "stock": 55
     },
     {
       "id": 1819,
@@ -6666,7 +6622,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 85
+      "stock": 88
     },
     {
       "id": 1820,
@@ -6677,7 +6633,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 22
+      "stock": 21
     },
     {
       "id": 1821,
@@ -6875,7 +6831,7 @@
       "rubro": "BAGGIO",
       "precio": 17241.738,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 1864,
@@ -6897,7 +6853,7 @@
       "rubro": "BAGGIO",
       "precio": 13498.821,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 1867,
@@ -6908,7 +6864,7 @@
       "rubro": "BAGGIO",
       "precio": 13498.821,
       "descuento": 0,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 1868,
@@ -6953,6 +6909,17 @@
       "precio": 41332.342,
       "descuento": 0,
       "stock": 4
+    },
+    {
+      "id": 1888,
+      "nombre": "SEDAL SH LUMINOUS UV 12*190 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7791293051420",
+      "familia": "HIGIENE",
+      "rubro": "CUIDADO DEL CABELLO",
+      "precio": 31188.281,
+      "descuento": 17.115,
+      "stock": 3
     },
     {
       "id": 1896,
@@ -7082,7 +7049,7 @@
       "codBarra": "7790520028945",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 42338.079,
+      "precio": 41330.031,
       "descuento": 0,
       "stock": 2
     },
@@ -7093,7 +7060,7 @@
       "codBarra": "7790520026194",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 38201.865,
+      "precio": 40536.537,
       "descuento": 0,
       "stock": 2
     },
@@ -7203,7 +7170,7 @@
       "codBarra": "7790520025814",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 64040.176,
+      "precio": 62515.412,
       "descuento": 0,
       "stock": 7
     },
@@ -7214,7 +7181,7 @@
       "codBarra": "7790520995339",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 43428.193,
+      "precio": 48044.115,
       "descuento": 0,
       "stock": 1
     },
@@ -7227,7 +7194,7 @@
       "rubro": "YERBAS",
       "precio": 26399.998,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 1971,
@@ -7302,7 +7269,7 @@
       "codBarra": "7790520995452",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 35787.966,
+      "precio": 34935.87,
       "descuento": 0,
       "stock": 4
     },
@@ -7313,7 +7280,7 @@
       "codBarra": "7790520026309",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 64646.89,
+      "precio": 63107.683,
       "descuento": 0,
       "stock": 1
     },
@@ -7325,17 +7292,6 @@
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
       "precio": 12959.995,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 1991,
-      "nombre": "ESPONJA CUID MORTIMER 12*20G",
-      "unidadesBulto": 12,
-      "codBarra": "7793253000370",
-      "familia": "HIGIENE",
-      "rubro": "LIMPIEZA",
-      "precio": 18959.998,
       "descuento": 0,
       "stock": 1
     },
@@ -7403,7 +7359,7 @@
       "rubro": "LIMPIEZA",
       "precio": 19600.004,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 2014,
@@ -7513,7 +7469,7 @@
       "rubro": "LIMPIEZA",
       "precio": 22484.994,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 2048,
@@ -7579,7 +7535,7 @@
       "rubro": "GOLOSINAS",
       "precio": 9949.999,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 2059,
@@ -7623,7 +7579,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 27955.356,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 2064,
@@ -7722,7 +7678,7 @@
       "rubro": "LIMPIEZA",
       "precio": 12073.041,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 2092,
@@ -7920,7 +7876,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 87200.284,
       "descuento": 0,
-      "stock": 3
+      "stock": 4
     },
     {
       "id": 2201,
@@ -7986,7 +7942,7 @@
       "rubro": "CERVEZAS",
       "precio": 39856.423,
       "descuento": 17,
-      "stock": 73
+      "stock": 72
     },
     {
       "id": 2220,
@@ -8074,7 +8030,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 22079.995,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 2249,
@@ -8195,7 +8151,7 @@
       "rubro": "CUIDADO FEMENINO",
       "precio": 36200.006,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 2306,
@@ -8360,7 +8316,7 @@
       "rubro": "CAFE",
       "precio": 34920,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 2331,
@@ -8393,7 +8349,7 @@
       "rubro": "GALLETAS",
       "precio": 19980.004,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 2337,
@@ -8448,7 +8404,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 8350,
       "descuento": 0,
-      "stock": 19
+      "stock": 18
     },
     {
       "id": 2343,
@@ -8459,7 +8415,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 15100.002,
       "descuento": 0,
-      "stock": 25
+      "stock": 24
     },
     {
       "id": 2344,
@@ -8492,7 +8448,7 @@
       "rubro": "GALLETAS",
       "precio": 37920,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 2347,
@@ -8613,7 +8569,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 12300.009,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 2378,
@@ -8624,7 +8580,7 @@
       "rubro": "YERBAS",
       "precio": 18606.546,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 2379,
@@ -8635,7 +8591,7 @@
       "rubro": "YERBAS",
       "precio": 18606.546,
       "descuento": 0,
-      "stock": 25
+      "stock": 23
     },
     {
       "id": 2380,
@@ -8655,7 +8611,7 @@
       "codBarra": "7790710334535",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 19504.801,
+      "precio": 20905.92,
       "descuento": 0,
       "stock": 5
     },
@@ -8666,7 +8622,7 @@
       "codBarra": "7790710334573",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 36794.64,
+      "precio": 39599.96,
       "descuento": 0,
       "stock": 6
     },
@@ -8677,7 +8633,7 @@
       "codBarra": "7790710334689",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 18483.379,
+      "precio": 20905.92,
       "descuento": 0,
       "stock": 1
     },
@@ -8688,7 +8644,7 @@
       "codBarra": "7790710334658",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 18483.379,
+      "precio": 20905.92,
       "descuento": 0,
       "stock": 5
     },
@@ -8699,7 +8655,7 @@
       "codBarra": "7790710334634",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 18483.379,
+      "precio": 20905.92,
       "descuento": 0,
       "stock": 3
     },
@@ -8710,7 +8666,7 @@
       "codBarra": "7790710334580",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 18483.379,
+      "precio": 20905.92,
       "descuento": 0,
       "stock": 6
     },
@@ -8721,7 +8677,7 @@
       "codBarra": "7790710334610",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 18483.379,
+      "precio": 20905.92,
       "descuento": 0,
       "stock": 1
     },
@@ -8732,7 +8688,7 @@
       "codBarra": "7790710334672",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 18483.379,
+      "precio": 20905.92,
       "descuento": 0,
       "stock": 5
     },
@@ -8743,7 +8699,7 @@
       "codBarra": "7790710334665",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 18483.379,
+      "precio": 20905.92,
       "descuento": 0,
       "stock": 4
     },
@@ -8754,9 +8710,9 @@
       "codBarra": "7790710334757",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
-      "precio": 16329.603,
+      "precio": 16910.253,
       "descuento": 10,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 2425,
@@ -8767,7 +8723,7 @@
       "rubro": "AGUA",
       "precio": 7099.987,
       "descuento": 11.228,
-      "stock": 14
+      "stock": 12
     },
     {
       "id": 2428,
@@ -8800,7 +8756,7 @@
       "rubro": "AGUA",
       "precio": 11219.999,
       "descuento": 0,
-      "stock": 56
+      "stock": 55
     },
     {
       "id": 2431,
@@ -8910,7 +8866,7 @@
       "rubro": "YERBAS",
       "precio": 22618.812,
       "descuento": 0,
-      "stock": 43
+      "stock": 42
     },
     {
       "id": 2503,
@@ -8932,7 +8888,7 @@
       "rubro": "YERBAS",
       "precio": 38858.795,
       "descuento": 8,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 2506,
@@ -8943,7 +8899,7 @@
       "rubro": "YERBAS",
       "precio": 42237.821,
       "descuento": 0,
-      "stock": 23
+      "stock": 22
     },
     {
       "id": 2507,
@@ -8976,7 +8932,7 @@
       "rubro": "YERBAS",
       "precio": 30848.458,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 2512,
@@ -9020,7 +8976,7 @@
       "rubro": "YERBAS",
       "precio": 19704.366,
       "descuento": 0,
-      "stock": 39
+      "stock": 38
     },
     {
       "id": 2551,
@@ -9207,7 +9163,7 @@
       "rubro": "GOLOSINAS",
       "precio": 14985.003,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 2642,
@@ -9229,7 +9185,7 @@
       "rubro": "GOLOSINAS",
       "precio": 25550.001,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 2658,
@@ -9416,7 +9372,7 @@
       "rubro": "LACTEOS",
       "precio": 16960.001,
       "descuento": 0,
-      "stock": 12
+      "stock": 13
     },
     {
       "id": 2864,
@@ -9482,7 +9438,7 @@
       "rubro": "LIMPIEZA",
       "precio": 16440.004,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 2888,
@@ -9845,7 +9801,7 @@
       "rubro": "AMARGO",
       "precio": 26269.645,
       "descuento": 0,
-      "stock": 22
+      "stock": 21
     },
     {
       "id": 3016,
@@ -9944,7 +9900,7 @@
       "rubro": "VINOS FINOS",
       "precio": 19560.001,
       "descuento": 0,
-      "stock": 15
+      "stock": 17
     },
     {
       "id": 3026,
@@ -10332,17 +10288,6 @@
       "stock": 2
     },
     {
-      "id": 3157,
-      "nombre": "JACK DANIELS 12*1000CC",
-      "unidadesBulto": 12,
-      "codBarra": "082184090442",
-      "familia": "APERITIVOS",
-      "rubro": "BEBIDAS BLANCAS Y LICORES",
-      "precio": 603648.255,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 3160,
       "nombre": "VODKA GREY GOOSE  6 * 750 CC",
       "unidadesBulto": 6,
@@ -10450,7 +10395,7 @@
       "rubro": "YERBAS",
       "precio": 13587.066,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 3204,
@@ -10635,9 +10580,9 @@
       "codBarra": "8445291478701",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 41392.89,
+      "precio": 42395.859,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 3246,
@@ -10668,7 +10613,7 @@
       "codBarra": "8445290944658",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 61527.411,
+      "precio": 62988.583,
       "descuento": 0,
       "stock": 3
     },
@@ -10679,7 +10624,7 @@
       "codBarra": "8445290977373",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 43147.432,
+      "precio": 44145.076,
       "descuento": 10,
       "stock": 8
     },
@@ -10690,7 +10635,7 @@
       "codBarra": "8445290609984",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 43034.558,
+      "precio": 44012.855,
       "descuento": 0,
       "stock": 9
     },
@@ -10701,7 +10646,7 @@
       "codBarra": "8445290988027",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 56852.334,
+      "precio": 58202.742,
       "descuento": 0,
       "stock": 9
     },
@@ -10712,7 +10657,7 @@
       "codBarra": "8445290068811",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 46896.152,
+      "precio": 47631.723,
       "descuento": 0,
       "stock": 1
     },
@@ -10723,7 +10668,7 @@
       "codBarra": "8445290057433",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 57629.88,
+      "precio": 58547.254,
       "descuento": 0,
       "stock": 4
     },
@@ -10734,7 +10679,7 @@
       "codBarra": "8445290585004",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 67127.049,
+      "precio": 68752.055,
       "descuento": 0,
       "stock": 1
     },
@@ -10745,7 +10690,7 @@
       "codBarra": "8445290068798",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 80668.764,
+      "precio": 81933.25,
       "descuento": 0,
       "stock": 3
     },
@@ -10756,7 +10701,7 @@
       "codBarra": "7613287613226",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 41913.977,
+      "precio": 42890.894,
       "descuento": 0,
       "stock": 1
     },
@@ -10767,7 +10712,7 @@
       "codBarra": "7613287613240",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 44889.56,
+      "precio": 45904.846,
       "descuento": 10,
       "stock": 2
     },
@@ -10778,7 +10723,7 @@
       "codBarra": "7613287613264",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 19319.405,
+      "precio": 19760.934,
       "descuento": 0,
       "stock": 4
     },
@@ -10789,7 +10734,7 @@
       "codBarra": "7613287613431",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 40805.483,
+      "precio": 41723.293,
       "descuento": 10,
       "stock": 1
     },
@@ -10800,7 +10745,7 @@
       "codBarra": "7613287613455",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 17537.256,
+      "precio": 17939.097,
       "descuento": 0,
       "stock": 2
     },
@@ -10811,7 +10756,7 @@
       "codBarra": "7613287614971",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 30520.314,
+      "precio": 31211.853,
       "descuento": 0,
       "stock": 14
     },
@@ -10822,9 +10767,9 @@
       "codBarra": "7613036507998",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 39192.566,
+      "precio": 35887.511,
       "descuento": 0,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 3296,
@@ -10833,7 +10778,7 @@
       "codBarra": "8445290585066",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 43916.648,
+      "precio": 44959.474,
       "descuento": 0,
       "stock": 4
     },
@@ -11176,7 +11121,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 66131.993,
       "descuento": 0,
-      "stock": 18
+      "stock": 19
     },
     {
       "id": 3342,
@@ -11715,7 +11660,7 @@
       "rubro": "CAFE",
       "precio": 40891.018,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 3505,
@@ -11737,7 +11682,7 @@
       "rubro": "TE",
       "precio": 8379.311,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 3510,
@@ -11814,7 +11759,7 @@
       "rubro": "TE",
       "precio": 7952.64,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3520,
@@ -11869,7 +11814,7 @@
       "rubro": "CONDIM Y ESPECIAS",
       "precio": 10059.456,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 3528,
@@ -11968,7 +11913,7 @@
       "rubro": "TE",
       "precio": 8052.078,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 3542,
@@ -12345,17 +12290,6 @@
       "stock": 1
     },
     {
-      "id": 3660,
-      "nombre": "ZORRO PVO EVOL/QUITAM 6*3KG",
-      "unidadesBulto": 6,
-      "codBarra": "7790990001912",
-      "familia": "HIGIENE",
-      "rubro": "JABONES Y SUAV P/ ROPA",
-      "precio": 47453.078,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 3664,
       "nombre": "MOLINO NAT NJA/CHIPS 16*238G",
       "unidadesBulto": 16,
@@ -12562,7 +12496,7 @@
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
       "descuento": 0,
-      "stock": 8
+      "stock": 14
     },
     {
       "id": 3702,
@@ -12606,7 +12540,7 @@
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
       "descuento": 0,
-      "stock": 17
+      "stock": 19
     },
     {
       "id": 3706,
@@ -12969,7 +12903,7 @@
       "rubro": "ACEITES ESPECIALES",
       "precio": 150271.207,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 3768,
@@ -13046,7 +12980,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 22500.142,
       "descuento": 8.98,
-      "stock": 31
+      "stock": 30
     },
     {
       "id": 3783,
@@ -13321,7 +13255,7 @@
       "rubro": "YERBAS",
       "precio": 21072.465,
       "descuento": 0,
-      "stock": 34
+      "stock": 33
     },
     {
       "id": 3914,
@@ -13333,17 +13267,6 @@
       "precio": 31188.281,
       "descuento": 17.115,
       "stock": 1
-    },
-    {
-      "id": 3915,
-      "nombre": "SEDAL SH LUMINOUS UV 12*190CC",
-      "unidadesBulto": 12,
-      "codBarra": "",
-      "familia": "HIGIENE",
-      "rubro": "CUIDADO DEL CABELLO",
-      "precio": 30594.842,
-      "descuento": 0,
-      "stock": 3
     },
     {
       "id": 3917,
@@ -13497,7 +13420,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 8900.929,
       "descuento": 0,
-      "stock": 137
+      "stock": 136
     },
     {
       "id": 4004,
@@ -13508,7 +13431,7 @@
       "rubro": "GALLETAS",
       "precio": 57475,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4006,
@@ -13530,7 +13453,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 12607.305,
       "descuento": 0,
-      "stock": 75
+      "stock": 72
     },
     {
       "id": 4019,
@@ -13584,17 +13507,6 @@
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
       "precio": 30901.498,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 4037,
-      "nombre": "ALFAJOR TATIN BCO 56*33 G",
-      "unidadesBulto": 56,
-      "codBarra": "7790040331303",
-      "familia": "SALUDABLES",
-      "rubro": "ALFAJORES",
-      "precio": 21974.403,
       "descuento": 0,
       "stock": 1
     },
@@ -13720,17 +13632,6 @@
       "stock": 2
     },
     {
-      "id": 4099,
-      "nombre": "ALFAJOR TATIN NEGRO  56 * 33 G",
-      "unidadesBulto": 56,
-      "codBarra": "7790040331204",
-      "familia": "SALUDABLES",
-      "rubro": "ALFAJORES",
-      "precio": 21974.403,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 4100,
       "nombre": "MERENGADAS FRUTI 36 * 93 G",
       "unidadesBulto": 36,
@@ -13805,7 +13706,7 @@
       "rubro": "GALLETAS",
       "precio": 28932.776,
       "descuento": 0,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 4116,
@@ -13816,7 +13717,7 @@
       "rubro": "GALLETAS",
       "precio": 23240.001,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 4117,
@@ -13849,7 +13750,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10620.08,
       "descuento": 8.669,
-      "stock": 69
+      "stock": 68
     },
     {
       "id": 4121,
@@ -13893,7 +13794,7 @@
       "rubro": "GALLETAS",
       "precio": 39051.54,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 4125,
@@ -13962,17 +13863,6 @@
       "stock": 70
     },
     {
-      "id": 4136,
-      "nombre": "TOSTADA CRIOLLITA CLASICA 18 * 195G",
-      "unidadesBulto": 18,
-      "codBarra": "7790040124509",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 31332.119,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 4138,
       "nombre": "COFLER BLOCK 12 * 110 G",
       "unidadesBulto": 12,
@@ -13995,17 +13885,6 @@
       "stock": 7
     },
     {
-      "id": 4174,
-      "nombre": "MELLIZAS 36 * 108 G",
-      "unidadesBulto": 36,
-      "codBarra": "7790040143548",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 42771.645,
-      "descuento": 16.775,
-      "stock": 1
-    },
-    {
       "id": 4178,
       "nombre": "ALFAJOR MINITORTA CLASICA 21*69G",
       "unidadesBulto": 21,
@@ -14025,17 +13904,6 @@
       "rubro": "ALFAJORES",
       "precio": 13230.42,
       "descuento": 15,
-      "stock": 1
-    },
-    {
-      "id": 4189,
-      "nombre": "KESITAS 32 * 75 G",
-      "unidadesBulto": 32,
-      "codBarra": "7790040003606",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 39156.176,
-      "descuento": 0,
       "stock": 1
     },
     {
@@ -14067,7 +13935,7 @@
       "codBarra": "8445290945020",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 64394.204,
+      "precio": 65927.733,
       "descuento": 0,
       "stock": 1
     },
@@ -14078,7 +13946,7 @@
       "codBarra": "8445290977632",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 52360.862,
+      "precio": 53614.312,
       "descuento": 10,
       "stock": 3
     },
@@ -14089,7 +13957,7 @@
       "codBarra": "8445290977687",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 23563.238,
+      "precio": 24121.568,
       "descuento": 0,
       "stock": 3
     },
@@ -14100,7 +13968,7 @@
       "codBarra": "8445290986597",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 53822.192,
+      "precio": 55100.653,
       "descuento": 0,
       "stock": 7
     },
@@ -14122,7 +13990,7 @@
       "codBarra": "8445290067623",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 46896.152,
+      "precio": 47631.723,
       "descuento": 0,
       "stock": 3
     },
@@ -14133,7 +14001,7 @@
       "codBarra": "8445290944184",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 46958.061,
+      "precio": 48079.415,
       "descuento": 10,
       "stock": 2
     },
@@ -14144,7 +14012,7 @@
       "codBarra": "8445290595447",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 50631.966,
+      "precio": 51871.309,
       "descuento": 0,
       "stock": 5
     },
@@ -14155,7 +14023,7 @@
       "codBarra": "8445290068682",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 57629.88,
+      "precio": 58547.254,
       "descuento": 0,
       "stock": 5
     },
@@ -14166,7 +14034,7 @@
       "codBarra": "8445290068705",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 109633.986,
+      "precio": 111358.962,
       "descuento": 0,
       "stock": 2
     },
@@ -14177,7 +14045,7 @@
       "codBarra": "8445290067630",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 80668.764,
+      "precio": 81933.25,
       "descuento": 0,
       "stock": 3
     },
@@ -14188,7 +14056,7 @@
       "codBarra": "8445290069481",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 66189.828,
+      "precio": 67229.714,
       "descuento": 25,
       "stock": 3
     },
@@ -14199,7 +14067,7 @@
       "codBarra": "8445290068507",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 79584.12,
+      "precio": 80881.119,
       "descuento": 0,
       "stock": 1
     },
@@ -14300,7 +14168,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 47911.571,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 4326,
@@ -14323,17 +14191,6 @@
       "precio": 49496.696,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 4366,
-      "nombre": "COLGATE CEP DENT L/WHITE 12*2U",
-      "unidadesBulto": 12,
-      "codBarra": "7509546055152",
-      "familia": "HIGIENE",
-      "rubro": "HIGIENE BUCAL",
-      "precio": 65037.077,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 4380,
@@ -14432,7 +14289,7 @@
       "rubro": "VINOS FINOS",
       "precio": 18311.995,
       "descuento": 0,
-      "stock": 13
+      "stock": 11
     },
     {
       "id": 4389,
@@ -14586,7 +14443,7 @@
       "rubro": "VINOS FINOS",
       "precio": 20480,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 4433,
@@ -14641,7 +14498,7 @@
       "rubro": "VINOS FINOS",
       "precio": 25051.709,
       "descuento": 0,
-      "stock": 23
+      "stock": 21
     },
     {
       "id": 4456,
@@ -14842,28 +14699,6 @@
       "stock": 7
     },
     {
-      "id": 4508,
-      "nombre": "MAGDALENA GAONA RELL/D/LECHE 10*200 G",
-      "unidadesBulto": 10,
-      "codBarra": "7798126073901",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 16512.369,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 4513,
-      "nombre": "GAONA RECREO 14*300 G",
-      "unidadesBulto": 18,
-      "codBarra": "7798126073857",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 19041.977,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 4521,
       "nombre": "BIZC AZUCARADO GAONA 24 * 180 G",
       "unidadesBulto": 24,
@@ -14960,7 +14795,7 @@
       "rubro": "GALLETAS",
       "precio": 15238.666,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 4534,
@@ -15202,7 +15037,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 35011.205,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 4660,
@@ -15513,6 +15348,17 @@
       "stock": 2
     },
     {
+      "id": 4698,
+      "nombre": "PLUSBELLE J/ESP P/SENC DP 12*230CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790740000790",
+      "familia": "HIGIENE",
+      "rubro": "HIGIENE PERSONAL",
+      "precio": 21707.364,
+      "descuento": 0,
+      "stock": 6
+    },
+    {
       "id": 4699,
       "nombre": "JAB LIQ RECONEX BOT 12*250CC",
       "unidadesBulto": 12,
@@ -15598,7 +15444,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 46731.991,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4708,
@@ -15609,7 +15455,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 46731.991,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4712,
@@ -15620,7 +15466,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 20136.639,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 4713,
@@ -15719,7 +15565,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 20136.639,
       "descuento": 0,
-      "stock": 3
+      "stock": 1
     },
     {
       "id": 4724,
@@ -15730,7 +15576,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 20136.639,
       "descuento": 0,
-      "stock": 1
+      "stock": 2
     },
     {
       "id": 4725,
@@ -15740,17 +15586,6 @@
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 20136.639,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 4726,
-      "nombre": "PLUSBELLE ESE AC NUT INT 12*700CC",
-      "unidadesBulto": 12,
-      "codBarra": "7790740001797",
-      "familia": "HIGIENE",
-      "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39733.92,
       "descuento": 0,
       "stock": 1
     },
@@ -15774,7 +15609,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39733.92,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 4730,
@@ -15819,6 +15654,17 @@
       "precio": 16856.819,
       "descuento": 50,
       "stock": 3
+    },
+    {
+      "id": 4741,
+      "nombre": "ZORRO PVO CLAS LAV MANO 36*400",
+      "unidadesBulto": 36,
+      "codBarra": "7790990002223",
+      "familia": "HIGIENE",
+      "rubro": "JABONES Y SUAV P/ ROPA",
+      "precio": 39230.947,
+      "descuento": 0,
+      "stock": 1
     },
     {
       "id": 4742,
@@ -15950,7 +15796,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 41236.171,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4755,
@@ -16071,7 +15917,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 19945.289,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4769,
@@ -16371,28 +16217,6 @@
       "stock": 2
     },
     {
-      "id": 4808,
-      "nombre": "OKEBON LECHE 18*273G",
-      "unidadesBulto": 18,
-      "codBarra": "7790263119597",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 12138.984,
-      "descuento": 50,
-      "stock": 1
-    },
-    {
-      "id": 4810,
-      "nombre": "OKEBON LECHE C/DDL 18*273G",
-      "unidadesBulto": 18,
-      "codBarra": "7790263119610",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 12138.984,
-      "descuento": 50,
-      "stock": 1
-    },
-    {
       "id": 4811,
       "nombre": "ZORRO PVO EV Q/MANCH 20*800G",
       "unidadesBulto": 20,
@@ -16434,7 +16258,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 31511.316,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 4816,
@@ -16477,17 +16301,6 @@
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
       "precio": 78846.903,
-      "descuento": 0,
-      "stock": 3
-    },
-    {
-      "id": 4820,
-      "nombre": "PLUSB JAB F/ROSAS 27*3*120G",
-      "unidadesBulto": 27,
-      "codBarra": "7790990004104",
-      "familia": "HIGIENE",
-      "rubro": "HIGIENE PERSONAL",
-      "precio": 76936.906,
       "descuento": 0,
       "stock": 2
     },
@@ -17292,7 +17105,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 130020,
       "descuento": 0,
-      "stock": 11
+      "stock": 12
     },
     {
       "id": 5155,
@@ -17325,7 +17138,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 5199.999,
       "descuento": 0,
-      "stock": 171
+      "stock": 170
     },
     {
       "id": 5160,
@@ -17424,7 +17237,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 196080,
       "descuento": 0,
-      "stock": 89
+      "stock": 90
     },
     {
       "id": 5176,
@@ -17468,7 +17281,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 55157.421,
       "descuento": 0,
-      "stock": 148
+      "stock": 147
     },
     {
       "id": 5192,
@@ -18118,6 +17931,17 @@
       "precio": 266670,
       "descuento": 0,
       "stock": 1
+    },
+    {
+      "id": 5344,
+      "nombre": "EL ENEMIGO MALBEC 6 * 750",
+      "unidadesBulto": 6,
+      "codBarra": "7794450000972",
+      "familia": "VINOS",
+      "rubro": "VINOS FINOS",
+      "precio": 118785.095,
+      "descuento": 0,
+      "stock": 5
     },
     {
       "id": 5345,
@@ -19283,7 +19107,7 @@
       "rubro": "VINOS FINOS",
       "precio": 30450,
       "descuento": 0,
-      "stock": 2
+      "stock": 5
     },
     {
       "id": 5564,
@@ -19924,17 +19748,6 @@
       "stock": 10
     },
     {
-      "id": 5742,
-      "nombre": "OLD SMUGGLER 24*200 CC",
-      "unidadesBulto": 24,
-      "codBarra": "7798131200637",
-      "familia": "APERITIVOS",
-      "rubro": "BEBIDAS BLANCAS Y LICORES",
-      "precio": 58056.539,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 5750,
       "nombre": "ELITE PH 10 *  6 * 30 M HS",
       "unidadesBulto": 10,
@@ -19998,7 +19811,7 @@
       "rubro": "GALLETAS",
       "precio": 37782,
       "descuento": 10,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 5765,
@@ -20064,7 +19877,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 35012.814,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 5775,
@@ -20328,7 +20141,7 @@
       "rubro": "CONDIM Y ESPECIAS",
       "precio": 11228.8,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 6022,
@@ -21714,7 +21527,7 @@
       "rubro": "CERVEZAS",
       "precio": 33550,
       "descuento": 0,
-      "stock": 189
+      "stock": 188
     },
     {
       "id": 7011,
@@ -21725,7 +21538,7 @@
       "rubro": "CERVEZAS",
       "precio": 42000.051,
       "descuento": 6.417,
-      "stock": 58
+      "stock": 57
     },
     {
       "id": 7013,
@@ -21813,7 +21626,7 @@
       "rubro": "CERVEZAS",
       "precio": 29652.658,
       "descuento": 6.35,
-      "stock": 687
+      "stock": 683
     },
     {
       "id": 7030,
@@ -21824,7 +21637,7 @@
       "rubro": "CERVEZAS",
       "precio": 38400,
       "descuento": 0,
-      "stock": 39
+      "stock": 38
     },
     {
       "id": 7033,
@@ -22066,7 +21879,7 @@
       "rubro": "GASEOSAS",
       "precio": 16590,
       "descuento": 0,
-      "stock": 28
+      "stock": 25
     },
     {
       "id": 7476,
@@ -22091,17 +21904,6 @@
       "stock": 3
     },
     {
-      "id": 7481,
-      "nombre": "PEPSI PET 6 * 1500 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7791813888413",
-      "familia": "GASEOSAS",
-      "rubro": "GASEOSAS",
-      "precio": 16590,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 7486,
       "nombre": "7-UP PET 6 * 1500 CC",
       "unidadesBulto": 6,
@@ -22110,7 +21912,7 @@
       "rubro": "GASEOSAS",
       "precio": 14158.8,
       "descuento": 15,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 7634,
@@ -22275,7 +22077,7 @@
       "rubro": "CERVEZAS",
       "precio": 47400.003,
       "descuento": 0,
-      "stock": 26
+      "stock": 25
     },
     {
       "id": 14001,
@@ -22286,7 +22088,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10149.226,
       "descuento": 0,
-      "stock": 120
+      "stock": 114
     },
     {
       "id": 17091,
@@ -22297,7 +22099,7 @@
       "rubro": "CERVEZAS",
       "precio": 44279.997,
       "descuento": 0,
-      "stock": 136
+      "stock": 141
     },
     {
       "id": 17518,
@@ -22352,7 +22154,7 @@
       "rubro": "CERVEZAS",
       "precio": 40800.002,
       "descuento": 0,
-      "stock": 34
+      "stock": 35
     },
     {
       "id": 53281,
@@ -22396,7 +22198,7 @@
       "rubro": "CERVEZAS",
       "precio": 64252.523,
       "descuento": 11.637,
-      "stock": 120
+      "stock": 121
     },
     {
       "id": 61680,
@@ -22506,7 +22308,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39427.814,
       "descuento": 0,
-      "stock": 4
+      "stock": 5
     },
     {
       "id": 61696,
@@ -22548,7 +22350,7 @@
       "codBarra": "8445290585226",
       "familia": "BALANCEADOS",
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
-      "precio": 43916.648,
+      "precio": 44959.474,
       "descuento": 0,
       "stock": 8
     },
@@ -22614,7 +22416,7 @@
       "codBarra": "7790520031570",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 20331.1,
+      "precio": 18680.041,
       "descuento": 0,
       "stock": 1
     },
@@ -22625,7 +22427,7 @@
       "codBarra": "7790520031426",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 43428.193,
+      "precio": 48044.115,
       "descuento": 0,
       "stock": 2
     },
@@ -22718,17 +22520,6 @@
       "stock": 26
     },
     {
-      "id": 2523,
-      "nombre": "BELDENT MENTA 1*20 U",
-      "unidadesBulto": 20,
-      "codBarra": "762220311628",
-      "familia": "GOLOSINAS",
-      "rubro": "GOLOSINAS",
-      "precio": 12255,
-      "descuento": 5,
-      "stock": 1
-    },
-    {
       "id": 2524,
       "nombre": "BELDENT MENTOL 1*20 U",
       "unidadesBulto": 20,
@@ -22746,7 +22537,7 @@
       "codBarra": "7790520027269",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 30231.6,
+      "precio": 45361.375,
       "descuento": 0,
       "stock": 1
     },
@@ -22792,7 +22583,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 78846.903,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 4900,
@@ -22902,7 +22693,7 @@
       "rubro": "VINOS FINOS",
       "precio": 32270.458,
       "descuento": 0,
-      "stock": 6
+      "stock": 14
     },
     {
       "id": 4910,
@@ -22913,7 +22704,7 @@
       "rubro": "VINOS FINOS",
       "precio": 22972.674,
       "descuento": 0,
-      "stock": 9
+      "stock": 17
     },
     {
       "id": 4911,
@@ -23034,7 +22825,7 @@
       "rubro": "AGUA",
       "precio": 3594,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 2445,
@@ -23133,7 +22924,7 @@
       "rubro": "LIMPIEZA",
       "precio": 27965.001,
       "descuento": 0,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 2590,
@@ -23230,7 +23021,7 @@
       "codBarra": "7790168904328",
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
-      "precio": 25000,
+      "precio": 25200.005,
       "descuento": 0,
       "stock": 11
     },
@@ -23241,7 +23032,7 @@
       "codBarra": "7790168904373",
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
-      "precio": 25000,
+      "precio": 25200.005,
       "descuento": 0,
       "stock": 11
     },
@@ -23252,18 +23043,18 @@
       "codBarra": "7790168904502",
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
-      "precio": 25000,
+      "precio": 25200.005,
       "descuento": 0,
       "stock": 12
     },
     {
       "id": 3106,
-      "nombre": "COLON  ROSE  6 X 750",
+      "nombre": "COLON  ROSE  6*750 CC",
       "unidadesBulto": 6,
       "codBarra": "7790168904014",
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
-      "precio": 39999.976,
+      "precio": 33360.003,
       "descuento": 0,
       "stock": 2
     },
@@ -23274,7 +23065,7 @@
       "codBarra": "7790168904649",
       "familia": "VINOS",
       "rubro": "VINOS FINOS",
-      "precio": 39999.976,
+      "precio": 33360.003,
       "descuento": 0,
       "stock": 9
     },
@@ -23551,7 +23342,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 55300.001,
       "descuento": 0,
-      "stock": 561
+      "stock": 560
     },
     {
       "id": 1045,
@@ -23562,7 +23353,7 @@
       "rubro": "AGUA",
       "precio": 5637.412,
       "descuento": 0,
-      "stock": 33
+      "stock": 34
     },
     {
       "id": 1173,
@@ -23606,7 +23397,7 @@
       "rubro": "MAQUINAS Y SISTEMA DE AFEITAR",
       "precio": 7980,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 2422,
@@ -23628,7 +23419,7 @@
       "rubro": "ALFAJORES",
       "precio": 15200.001,
       "descuento": 20,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 2487,
@@ -23639,7 +23430,7 @@
       "rubro": "ALFAJORES",
       "precio": 15200.001,
       "descuento": 20,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 2488,
@@ -23738,7 +23529,7 @@
       "rubro": "AGUA",
       "precio": 5790,
       "descuento": 0,
-      "stock": 12
+      "stock": 10
     },
     {
       "id": 2536,
@@ -23771,7 +23562,7 @@
       "rubro": "SODA",
       "precio": 2937,
       "descuento": 50,
-      "stock": 12
+      "stock": 10
     },
     {
       "id": 2540,
@@ -23782,7 +23573,7 @@
       "rubro": "SODA",
       "precio": 5640,
       "descuento": 20,
-      "stock": 5
+      "stock": 3
     },
     {
       "id": 2542,
@@ -23980,7 +23771,7 @@
       "rubro": "GALLETAS",
       "precio": 33615.599,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4562,
@@ -24211,7 +24002,7 @@
       "rubro": "LIMPIEZA",
       "precio": 20490,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 2847,
