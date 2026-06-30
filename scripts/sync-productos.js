@@ -136,7 +136,9 @@ function corregirFamilia(familia) {
 function corregirNombre(nombre) {
   let resultado = nombre;
   for (const [error, correcto] of Object.entries(CORRECCIONES_NOMBRES)) {
-    resultado = resultado.replace(new RegExp(error, 'gi'), correcto);
+    const escapado = error.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(?<![A-Za-zÀ-ÿ])${escapado}(?![A-Za-zÀ-ÿ])`, 'gi');
+    resultado = resultado.replace(regex, correcto);
   }
   return resultado;
 }
