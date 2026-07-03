@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-07-02T11:28:16.425Z",
-  "total": 2189,
+  "ultima_actualizacion": "2026-07-03T11:27:49.233Z",
+  "total": 2213,
   "productos": [
     {
       "id": 1,
@@ -11,7 +11,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 67788.447,
       "descuento": 0,
-      "stock": 50
+      "stock": 48
     },
     {
       "id": 4,
@@ -91,17 +91,6 @@
       "stock": 5
     },
     {
-      "id": 32,
-      "nombre": "LIMON MINERVA BOT  12 * 500 CC",
-      "unidadesBulto": 12,
-      "codBarra": "7790070507341",
-      "familia": "OTRAS BEBIDAS",
-      "rubro": "JUGO",
-      "precio": 27162.54,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 34,
       "nombre": "LIMON MINERVA BOT 12* 250 CC",
       "unidadesBulto": 12,
@@ -132,7 +121,7 @@
       "rubro": "ARROZ",
       "precio": 8997.475,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 51,
@@ -187,7 +176,7 @@
       "rubro": "HORNEABLES",
       "precio": 33979.982,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 80,
@@ -242,7 +231,7 @@
       "rubro": "YERBAS",
       "precio": 9984.642,
       "descuento": 0,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 100,
@@ -331,17 +320,6 @@
       "precio": 49742.858,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 124,
-      "nombre": "PREMEZCLA LUCCHETTI PIZZA 10 * 850 G",
-      "unidadesBulto": 10,
-      "codBarra": "7790070562128",
-      "familia": "HARINAS",
-      "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 22455.954,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 127,
@@ -638,7 +616,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 19274.32,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 187,
@@ -715,7 +693,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 27324.232,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 200,
@@ -792,7 +770,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 56115.25,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 216,
@@ -836,7 +814,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 17077.674,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 225,
@@ -869,7 +847,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 18948.624,
       "descuento": 0,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 230,
@@ -891,7 +869,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 235,
@@ -913,7 +891,7 @@
       "rubro": "EDULCORANTE",
       "precio": 9858.778,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 237,
@@ -968,7 +946,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
       "descuento": 0,
-      "stock": 25
+      "stock": 24
     },
     {
       "id": 246,
@@ -1254,7 +1232,7 @@
       "rubro": "GELIFICABLES",
       "precio": 14122.116,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 373,
@@ -1551,7 +1529,7 @@
       "rubro": "LACTEOS",
       "precio": 30900,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 479,
@@ -1595,7 +1573,7 @@
       "rubro": "LACTEOS",
       "precio": 59495.879,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 485,
@@ -1627,17 +1605,6 @@
       "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 135450.002,
-      "descuento": 0,
-      "stock": 2
-    },
-    {
-      "id": 489,
-      "nombre": "LECHE POLVO ENT ILOLAY 12*800G",
-      "unidadesBulto": 12,
-      "codBarra": "7790787201228",
-      "familia": "LACTEOS",
-      "rubro": "LACTEOS",
-      "precio": 116016,
       "descuento": 0,
       "stock": 1
     },
@@ -1870,7 +1837,7 @@
       "rubro": "SAL",
       "precio": 14318.865,
       "descuento": 10,
-      "stock": 36
+      "stock": 33
     },
     {
       "id": 565,
@@ -1947,7 +1914,7 @@
       "rubro": "VINAGRES",
       "precio": 16140,
       "descuento": 0,
-      "stock": 18
+      "stock": 16
     },
     {
       "id": 574,
@@ -1969,7 +1936,7 @@
       "rubro": "SNACKS",
       "precio": 11850.002,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 588,
@@ -2046,7 +2013,7 @@
       "rubro": "REPOSTERIA",
       "precio": 11550.001,
       "descuento": 0,
-      "stock": 308
+      "stock": 295
     },
     {
       "id": 613,
@@ -2068,7 +2035,7 @@
       "rubro": "GALLETAS",
       "precio": 40440.003,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 617,
@@ -2112,7 +2079,7 @@
       "rubro": "ARROZ",
       "precio": 6700,
       "descuento": 0,
-      "stock": 290
+      "stock": 287
     },
     {
       "id": 622,
@@ -2123,7 +2090,7 @@
       "rubro": "ARROZ",
       "precio": 12300.001,
       "descuento": 0,
-      "stock": 254
+      "stock": 250
     },
     {
       "id": 627,
@@ -2145,7 +2112,7 @@
       "rubro": "REPOSTERIA",
       "precio": 26250,
       "descuento": 0,
-      "stock": 30
+      "stock": 29
     },
     {
       "id": 632,
@@ -2192,17 +2159,6 @@
       "stock": 1
     },
     {
-      "id": 640,
-      "nombre": "PULPA F/BOSQUE BAHIA BOT 12*820CC",
-      "unidadesBulto": 12,
-      "codBarra": "7795933205907",
-      "familia": "CONSERVAS",
-      "rubro": "CONSERVAS Y COMESTIBLES",
-      "precio": 71002.703,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 648,
       "nombre": "CHAMPIGNON ENT BAHIA 24*184 G",
       "unidadesBulto": 24,
@@ -2233,7 +2189,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 13885.206,
       "descuento": 0,
-      "stock": 129
+      "stock": 128
     },
     {
       "id": 655,
@@ -2255,7 +2211,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26460.005,
       "descuento": 0,
-      "stock": 19
+      "stock": 18
     },
     {
       "id": 657,
@@ -2266,7 +2222,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 17891.994,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 658,
@@ -2332,7 +2288,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 43610.106,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 666,
@@ -2365,7 +2321,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 57153.08,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 678,
@@ -2442,7 +2398,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 42509.251,
       "descuento": 0,
-      "stock": 152
+      "stock": 151
     },
     {
       "id": 703,
@@ -2464,7 +2420,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 30600,
       "descuento": 0,
-      "stock": 181
+      "stock": 180
     },
     {
       "id": 711,
@@ -2508,7 +2464,7 @@
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 153
+      "stock": 145
     },
     {
       "id": 721,
@@ -2519,7 +2475,7 @@
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 104
+      "stock": 100
     },
     {
       "id": 725,
@@ -2530,7 +2486,7 @@
       "rubro": "GALLETAS",
       "precio": 18975.002,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 726,
@@ -2574,7 +2530,7 @@
       "rubro": "LACTEOS",
       "precio": 26190.004,
       "descuento": 10,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 741,
@@ -2728,7 +2684,7 @@
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 17891.444,
       "descuento": 0,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 809,
@@ -2772,7 +2728,7 @@
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 19331.773,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 816,
@@ -2882,7 +2838,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 21000.911,
       "descuento": 15,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 856,
@@ -2929,6 +2885,39 @@
       "stock": 7
     },
     {
+      "id": 870,
+      "nombre": "TRAPO PISO CH BLANCO 144* 50*60CM",
+      "unidadesBulto": 144,
+      "codBarra": "7798082630095",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 126000,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 871,
+      "nombre": "TRAPO PISO GDE BLANCO 144* 60*70CM",
+      "unidadesBulto": 144,
+      "codBarra": "7798082630101",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 165600,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 872,
+      "nombre": "TRAPO PISO RAYA G 144* 60*70CM",
+      "unidadesBulto": 144,
+      "codBarra": "7798082630163",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 170640,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
       "id": 873,
       "nombre": "REJILLA COCINERO DOB 432* 40*45CM",
       "unidadesBulto": 432,
@@ -2940,6 +2929,17 @@
       "stock": 1
     },
     {
+      "id": 876,
+      "nombre": "TRAPO PISO NIDO GRIS 144* 60*60CM",
+      "unidadesBulto": 144,
+      "codBarra": "7798082630323",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 179856,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
       "id": 881,
       "nombre": "TOMATE TRIT ABETO 12*500 CC",
       "unidadesBulto": 12,
@@ -2948,7 +2948,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 15403.08,
       "descuento": 0,
-      "stock": 28
+      "stock": 27
     },
     {
       "id": 883,
@@ -2959,7 +2959,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 13419.115,
       "descuento": 0,
-      "stock": 56
+      "stock": 54
     },
     {
       "id": 884,
@@ -2970,7 +2970,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26387.999,
       "descuento": 0,
-      "stock": 172
+      "stock": 170
     },
     {
       "id": 889,
@@ -3179,7 +3179,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 7982.043,
       "descuento": 0,
-      "stock": 33
+      "stock": 28
     },
     {
       "id": 1002,
@@ -3190,7 +3190,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 18963.12,
       "descuento": 0,
-      "stock": 18
+      "stock": 16
     },
     {
       "id": 1003,
@@ -3201,7 +3201,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 37454.534,
       "descuento": 0,
-      "stock": 45
+      "stock": 43
     },
     {
       "id": 1004,
@@ -3223,7 +3223,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 66743.975,
       "descuento": 0,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 1006,
@@ -3245,7 +3245,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 19040.633,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 1009,
@@ -3289,7 +3289,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 18072.548,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 1015,
@@ -3322,7 +3322,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 78800.04,
       "descuento": 0,
-      "stock": 19
+      "stock": 18
     },
     {
       "id": 1027,
@@ -3344,7 +3344,7 @@
       "rubro": "AGUA",
       "precio": 4723.716,
       "descuento": 0,
-      "stock": 200
+      "stock": 197
     },
     {
       "id": 1029,
@@ -3355,7 +3355,7 @@
       "rubro": "AGUA",
       "precio": 4470.797,
       "descuento": 0,
-      "stock": 172
+      "stock": 168
     },
     {
       "id": 1030,
@@ -3476,7 +3476,7 @@
       "rubro": "GASEOSAS",
       "precio": 10750.925,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 1043,
@@ -3564,7 +3564,7 @@
       "rubro": "GASEOSAS",
       "precio": 20640,
       "descuento": 0,
-      "stock": 124
+      "stock": 103
     },
     {
       "id": 1060,
@@ -3575,7 +3575,7 @@
       "rubro": "GASEOSAS",
       "precio": 23994.001,
       "descuento": 0,
-      "stock": 79
+      "stock": 72
     },
     {
       "id": 1061,
@@ -3586,7 +3586,7 @@
       "rubro": "GASEOSAS",
       "precio": 19330.8,
       "descuento": 20,
-      "stock": 4
+      "stock": 19
     },
     {
       "id": 1062,
@@ -3608,7 +3608,7 @@
       "rubro": "ENERGIZANTES",
       "precio": 16890.003,
       "descuento": 0,
-      "stock": 20
+      "stock": 19
     },
     {
       "id": 1064,
@@ -3620,6 +3620,17 @@
       "precio": 16890.003,
       "descuento": 0,
       "stock": 110
+    },
+    {
+      "id": 1065,
+      "nombre": "COCA COLA ZERO 6*1500 CC",
+      "unidadesBulto": 6,
+      "codBarra": "7790895067556",
+      "familia": "GASEOSAS",
+      "rubro": "GASEOSAS",
+      "precio": 20640,
+      "descuento": 0,
+      "stock": 10
     },
     {
       "id": 1066,
@@ -3641,7 +3652,7 @@
       "rubro": "GASEOSAS",
       "precio": 20640,
       "descuento": 0,
-      "stock": 53
+      "stock": 40
     },
     {
       "id": 1071,
@@ -3652,7 +3663,7 @@
       "rubro": "GASEOSAS",
       "precio": 8310,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 1074,
@@ -3663,7 +3674,7 @@
       "rubro": "GASEOSAS",
       "precio": 20580,
       "descuento": 0,
-      "stock": 8
+      "stock": 23
     },
     {
       "id": 1077,
@@ -3674,7 +3685,7 @@
       "rubro": "GASEOSAS",
       "precio": 8309.999,
       "descuento": 0,
-      "stock": 5
+      "stock": 9
     },
     {
       "id": 1078,
@@ -3696,7 +3707,7 @@
       "rubro": "PAPELERA",
       "precio": 17924.496,
       "descuento": 0,
-      "stock": 16
+      "stock": 13
     },
     {
       "id": 1081,
@@ -3707,7 +3718,7 @@
       "rubro": "PAPELERA",
       "precio": 21995.122,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 1083,
@@ -3718,7 +3729,7 @@
       "rubro": "PAPELERA",
       "precio": 33763.499,
       "descuento": 0,
-      "stock": 60
+      "stock": 58
     },
     {
       "id": 1084,
@@ -3729,7 +3740,7 @@
       "rubro": "PAPELERA",
       "precio": 17373.861,
       "descuento": 0,
-      "stock": 11
+      "stock": 9
     },
     {
       "id": 1085,
@@ -3740,7 +3751,7 @@
       "rubro": "PAPELERA",
       "precio": 15566.709,
       "descuento": 0,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 1086,
@@ -3784,7 +3795,7 @@
       "rubro": "PAPELERA",
       "precio": 22537.534,
       "descuento": 0,
-      "stock": 17
+      "stock": 15
     },
     {
       "id": 1090,
@@ -3817,7 +3828,7 @@
       "rubro": "PAPELERA",
       "precio": 23042.222,
       "descuento": 0,
-      "stock": 12
+      "stock": 10
     },
     {
       "id": 1094,
@@ -3839,7 +3850,7 @@
       "rubro": "PAPELERA",
       "precio": 24010.727,
       "descuento": 0,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 1097,
@@ -3949,7 +3960,7 @@
       "rubro": "PAPELERA",
       "precio": 19089.963,
       "descuento": 0,
-      "stock": 126
+      "stock": 125
     },
     {
       "id": 1116,
@@ -3960,7 +3971,7 @@
       "rubro": "PAPELERA",
       "precio": 14756.62,
       "descuento": 0,
-      "stock": 21
+      "stock": 20
     },
     {
       "id": 1117,
@@ -3982,7 +3993,7 @@
       "rubro": "PAPELERA",
       "precio": 15348.382,
       "descuento": 0,
-      "stock": 24
+      "stock": 23
     },
     {
       "id": 1119,
@@ -4037,7 +4048,7 @@
       "rubro": "GALLETAS",
       "precio": 36960.001,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 1125,
@@ -4070,7 +4081,7 @@
       "rubro": "BAGGIO",
       "precio": 16021.55,
       "descuento": 0,
-      "stock": 34
+      "stock": 33
     },
     {
       "id": 1129,
@@ -4114,7 +4125,7 @@
       "rubro": "BAGGIO",
       "precio": 7639.847,
       "descuento": 30,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 1134,
@@ -4191,7 +4202,7 @@
       "rubro": "PAPELERA",
       "precio": 18236.24,
       "descuento": 15,
-      "stock": 108
+      "stock": 107
     },
     {
       "id": 1152,
@@ -4260,17 +4271,6 @@
       "stock": 75
     },
     {
-      "id": 1163,
-      "nombre": "COCA COLA ZERO 6*600 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790895650840",
-      "familia": "GASEOSAS",
-      "rubro": "GASEOSAS",
-      "precio": 10050.002,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 1171,
       "nombre": "BODEGA PRIVADA COLEC MBC 6 * 750 CC",
       "unidadesBulto": 6,
@@ -4290,7 +4290,7 @@
       "rubro": "VINOS FINOS",
       "precio": 21613.298,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 1183,
@@ -4312,7 +4312,7 @@
       "rubro": "PAPELERA",
       "precio": 13800.908,
       "descuento": 0,
-      "stock": 30
+      "stock": 28
     },
     {
       "id": 1185,
@@ -4334,7 +4334,7 @@
       "rubro": "PAPELERA",
       "precio": 27293.976,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 1187,
@@ -4422,7 +4422,7 @@
       "rubro": "VINO DE MESA TETRA",
       "precio": 22230,
       "descuento": 5,
-      "stock": 140
+      "stock": 139
     },
     {
       "id": 1207,
@@ -4455,7 +4455,7 @@
       "rubro": "GASEOSAS",
       "precio": 22840.001,
       "descuento": 0,
-      "stock": 169
+      "stock": 166
     },
     {
       "id": 1221,
@@ -4475,9 +4475,9 @@
       "codBarra": "7790895647796",
       "familia": "OTRAS BEBIDAS",
       "rubro": "SODA",
-      "precio": 10350.001,
+      "precio": 11460,
       "descuento": 0,
-      "stock": 4
+      "stock": 23
     },
     {
       "id": 1224,
@@ -4488,7 +4488,7 @@
       "rubro": "GASEOSAS",
       "precio": 16400,
       "descuento": 0,
-      "stock": 137
+      "stock": 134
     },
     {
       "id": 1225,
@@ -4521,7 +4521,7 @@
       "rubro": "GASEOSAS",
       "precio": 16400,
       "descuento": 0,
-      "stock": 47
+      "stock": 83
     },
     {
       "id": 1231,
@@ -4554,7 +4554,7 @@
       "rubro": "AGUA",
       "precio": 3600.003,
       "descuento": 0,
-      "stock": 1
+      "stock": 21
     },
     {
       "id": 1242,
@@ -4851,7 +4851,7 @@
       "rubro": "VINOS FINOS",
       "precio": 29849.999,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 1291,
@@ -5786,7 +5786,7 @@
       "rubro": "ISOTONICAS",
       "precio": 25794.006,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 1422,
@@ -5938,7 +5938,7 @@
       "codBarra": "7798126372776",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 37200,
+      "precio": 41600,
       "descuento": 0,
       "stock": 10
     },
@@ -6006,7 +6006,7 @@
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 11
+      "stock": 6
     },
     {
       "id": 1489,
@@ -6017,7 +6017,7 @@
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 11
+      "stock": 5
     },
     {
       "id": 1495,
@@ -6028,7 +6028,7 @@
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 12
+      "stock": 10
     },
     {
       "id": 1497,
@@ -6116,7 +6116,7 @@
       "rubro": "LAMPARAS",
       "precio": 44000.05,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 1542,
@@ -6446,7 +6446,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 11400,
       "descuento": 0,
-      "stock": 77
+      "stock": 75
     },
     {
       "id": 1652,
@@ -6457,7 +6457,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 11400,
       "descuento": 0,
-      "stock": 41
+      "stock": 39
     },
     {
       "id": 1653,
@@ -6468,7 +6468,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 5470,
       "descuento": 0,
-      "stock": 56
+      "stock": 55
     },
     {
       "id": 1654,
@@ -6622,7 +6622,7 @@
       "rubro": "BAGGIO",
       "precio": 17241.738,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 1806,
@@ -6644,7 +6644,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 4253.46,
       "descuento": 20,
-      "stock": 24
+      "stock": 23
     },
     {
       "id": 1808,
@@ -6655,7 +6655,7 @@
       "rubro": "BAGGIO",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 22
+      "stock": 21
     },
     {
       "id": 1809,
@@ -6688,7 +6688,7 @@
       "rubro": "BAGGIO",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 1813,
@@ -6699,7 +6699,7 @@
       "rubro": "BAGGIO",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 44
+      "stock": 41
     },
     {
       "id": 1818,
@@ -6710,7 +6710,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 42
+      "stock": 37
     },
     {
       "id": 1819,
@@ -6721,7 +6721,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 80
+      "stock": 77
     },
     {
       "id": 1820,
@@ -6743,7 +6743,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 39
+      "stock": 38
     },
     {
       "id": 1823,
@@ -6754,7 +6754,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 41
+      "stock": 39
     },
     {
       "id": 1827,
@@ -6776,7 +6776,7 @@
       "rubro": "JUGO",
       "precio": 6871.787,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 1839,
@@ -6809,18 +6809,7 @@
       "rubro": "EDULCORANTE",
       "precio": 17670.743,
       "descuento": 0,
-      "stock": 3
-    },
-    {
-      "id": 1849,
-      "nombre": "SI DIET 6 * 200 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790036948188",
-      "familia": "ADEREZOS",
-      "rubro": "EDULCORANTE",
-      "precio": 6931.255,
-      "descuento": 0,
-      "stock": 1
+      "stock": 2
     },
     {
       "id": 1853,
@@ -6864,7 +6853,7 @@
       "rubro": "AGUA",
       "precio": 3364.587,
       "descuento": 0,
-      "stock": 41
+      "stock": 40
     },
     {
       "id": 1968,
@@ -6886,7 +6875,7 @@
       "rubro": "AGUA",
       "precio": 4895.563,
       "descuento": 0,
-      "stock": 13
+      "stock": 8
     },
     {
       "id": 1860,
@@ -6919,7 +6908,7 @@
       "rubro": "BAGGIO",
       "precio": 17241.738,
       "descuento": 0,
-      "stock": 14
+      "stock": 13
     },
     {
       "id": 1864,
@@ -6974,7 +6963,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 15080.278,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 1880,
@@ -7040,7 +7029,7 @@
       "rubro": "BAGGIO",
       "precio": 5853.194,
       "descuento": 0,
-      "stock": 48
+      "stock": 47
     },
     {
       "id": 1899,
@@ -7150,7 +7139,7 @@
       "rubro": "LIMPIEZA",
       "precio": 41330.031,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 1916,
@@ -7337,7 +7326,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 36600.225,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 1983,
@@ -7348,7 +7337,7 @@
       "rubro": "MAQUINAS Y SISTEMA DE AFEITAR",
       "precio": 9000.001,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 1986,
@@ -7359,7 +7348,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 182100,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 1987,
@@ -7390,9 +7379,9 @@
       "codBarra": "7793253038106",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 12959.995,
+      "precio": 15588,
       "descuento": 0,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 1991,
@@ -7401,9 +7390,31 @@
       "codBarra": "7793253000370",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 18959.998,
+      "precio": 19896.001,
       "descuento": 0,
       "stock": 4
+    },
+    {
+      "id": 1992,
+      "nombre": "ESPONJA BRONCE MORTIMER 12*20G",
+      "unidadesBulto": 12,
+      "codBarra": "7793253385712",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 19500.001,
+      "descuento": 0,
+      "stock": 20
+    },
+    {
+      "id": 1993,
+      "nombre": "ESPONJA PLATA MORTIMER 12*20G",
+      "unidadesBulto": 12,
+      "codBarra": "7793253386160",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 15300,
+      "descuento": 0,
+      "stock": 19
     },
     {
       "id": 1995,
@@ -7458,7 +7469,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 36296.491,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 2012,
@@ -7491,7 +7502,7 @@
       "rubro": "MAQUINAS Y SISTEMA DE AFEITAR",
       "precio": 12750,
       "descuento": 0,
-      "stock": 36
+      "stock": 35
     },
     {
       "id": 2040,
@@ -7568,7 +7579,7 @@
       "rubro": "LIMPIEZA",
       "precio": 18975.002,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 2047,
@@ -7645,7 +7656,7 @@
       "rubro": "GOLOSINAS",
       "precio": 9949.999,
       "descuento": 0,
-      "stock": 15
+      "stock": 10
     },
     {
       "id": 2059,
@@ -7854,7 +7865,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 32004.488,
       "descuento": 0,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 2106,
@@ -7864,6 +7875,17 @@
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
       "precio": 13306.673,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 2111,
+      "nombre": "MERM FRUT ARCOR 12*454G",
+      "unidadesBulto": 12,
+      "codBarra": "7790580132187",
+      "familia": "CONSERVAS",
+      "rubro": "CONSERVAS Y COMESTIBLES",
+      "precio": 51071.58,
       "descuento": 0,
       "stock": 1
     },
@@ -8041,7 +8063,7 @@
       "rubro": "CERVEZAS",
       "precio": 39856.423,
       "descuento": 17,
-      "stock": 71
+      "stock": 70
     },
     {
       "id": 2220,
@@ -8231,17 +8253,6 @@
       "stock": 2
     },
     {
-      "id": 2303,
-      "nombre": "CALIPSO PD NORMAL ANAT  40*20U",
-      "unidadesBulto": 40,
-      "codBarra": "7790770602186",
-      "familia": "HIGIENE",
-      "rubro": "CUIDADO FEMENINO",
-      "precio": 31200,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 2304,
       "nombre": "CALIPSO PD  ANAT C/PERF  40*20U",
       "unidadesBulto": 40,
@@ -8429,15 +8440,26 @@
       "stock": 2
     },
     {
+      "id": 2335,
+      "nombre": "BIZC 9 DE ORO CLASICO 24 * 200 G",
+      "unidadesBulto": 24,
+      "codBarra": "7792200000159",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 26376.004,
+      "descuento": 0,
+      "stock": 52
+    },
+    {
       "id": 2336,
       "nombre": "BIZC 9 DE ORO AGRIDULCE 20 * 200 G",
       "unidadesBulto": 20,
       "codBarra": "7792200000128",
       "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
-      "precio": 19980.004,
+      "precio": 21980.001,
       "descuento": 0,
-      "stock": 12
+      "stock": 37
     },
     {
       "id": 2337,
@@ -8459,7 +8481,7 @@
       "rubro": "GALLETAS",
       "precio": 19110.002,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 2339,
@@ -8481,7 +8503,7 @@
       "rubro": "GALLETAS",
       "precio": 17850,
       "descuento": 0,
-      "stock": 8
+      "stock": 6
     },
     {
       "id": 2342,
@@ -8492,7 +8514,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 8350,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 2343,
@@ -8503,7 +8525,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 15100.002,
       "descuento": 0,
-      "stock": 23
+      "stock": 22
     },
     {
       "id": 2344,
@@ -8569,7 +8591,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 17990,
       "descuento": 0,
-      "stock": 26
+      "stock": 23
     },
     {
       "id": 2353,
@@ -8603,6 +8625,17 @@
       "precio": 63120.001,
       "descuento": 0,
       "stock": 1
+    },
+    {
+      "id": 2365,
+      "nombre": "BIZC 9 DE ORO AZUCARADO 28 * 210 G",
+      "unidadesBulto": 28,
+      "codBarra": "7792200000319",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 30772.006,
+      "descuento": 0,
+      "stock": 26
     },
     {
       "id": 2366,
@@ -8657,7 +8690,7 @@
       "rubro": "YERBAS",
       "precio": 18606.546,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 2379,
@@ -8668,7 +8701,7 @@
       "rubro": "YERBAS",
       "precio": 18606.546,
       "descuento": 0,
-      "stock": 21
+      "stock": 19
     },
     {
       "id": 2380,
@@ -8701,7 +8734,7 @@
       "rubro": "YERBAS",
       "precio": 39599.96,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 2402,
@@ -8811,7 +8844,7 @@
       "rubro": "AGUA",
       "precio": 9450.003,
       "descuento": 0,
-      "stock": 40
+      "stock": 39
     },
     {
       "id": 2429,
@@ -8822,7 +8855,7 @@
       "rubro": "AGUA",
       "precio": 15179.995,
       "descuento": 0,
-      "stock": 76
+      "stock": 75
     },
     {
       "id": 2430,
@@ -8833,7 +8866,7 @@
       "rubro": "AGUA",
       "precio": 11219.999,
       "descuento": 0,
-      "stock": 55
+      "stock": 52
     },
     {
       "id": 2431,
@@ -8921,7 +8954,7 @@
       "rubro": "YERBAS",
       "precio": 21541.245,
       "descuento": 0,
-      "stock": 22
+      "stock": 21
     },
     {
       "id": 2501,
@@ -8932,7 +8965,7 @@
       "rubro": "YERBAS",
       "precio": 21541.245,
       "descuento": 0,
-      "stock": 5
+      "stock": 3
     },
     {
       "id": 2502,
@@ -8943,7 +8976,7 @@
       "rubro": "YERBAS",
       "precio": 22618.812,
       "descuento": 0,
-      "stock": 40
+      "stock": 39
     },
     {
       "id": 2503,
@@ -8987,7 +9020,7 @@
       "rubro": "YERBAS",
       "precio": 19536.852,
       "descuento": 0,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 2509,
@@ -8998,7 +9031,7 @@
       "rubro": "YERBAS",
       "precio": 14715.115,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 2510,
@@ -9053,7 +9086,7 @@
       "rubro": "YERBAS",
       "precio": 19704.366,
       "descuento": 0,
-      "stock": 36
+      "stock": 35
     },
     {
       "id": 2551,
@@ -9064,7 +9097,7 @@
       "rubro": "YERBAS",
       "precio": 23468.942,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 2552,
@@ -9130,7 +9163,7 @@
       "rubro": "GOLOSINAS",
       "precio": 54600.004,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 2617,
@@ -9141,7 +9174,7 @@
       "rubro": "CACAOS",
       "precio": 44388.003,
       "descuento": 0,
-      "stock": 28
+      "stock": 27
     },
     {
       "id": 2618,
@@ -9273,7 +9306,7 @@
       "rubro": "GOLOSINAS",
       "precio": 25550.001,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 2658,
@@ -9306,7 +9339,7 @@
       "rubro": "GOLOSINAS",
       "precio": 10782,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 2682,
@@ -9328,7 +9361,7 @@
       "rubro": "GOLOSINAS",
       "precio": 11980.004,
       "descuento": 0,
-      "stock": 16
+      "stock": 14
     },
     {
       "id": 2688,
@@ -9339,7 +9372,7 @@
       "rubro": "GOLOSINAS",
       "precio": 21560.001,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 2730,
@@ -9408,13 +9441,24 @@
       "stock": 3
     },
     {
-      "id": 2852,
-      "nombre": "ALF MINITORTA BROWNIE 21*60G",
-      "unidadesBulto": 21,
-      "codBarra": "7790040133594",
+      "id": 2832,
+      "nombre": "SALADIX PIZZA 24*100G",
+      "unidadesBulto": 24,
+      "codBarra": "7790580697303",
+      "familia": "OTROS",
+      "rubro": "SNACKS",
+      "precio": 36545.981,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 2833,
+      "nombre": "SALADIX JAMON 24*100G",
+      "unidadesBulto": 24,
+      "codBarra": "7790580716707",
       "familia": "GOLOSINAS",
-      "rubro": "ALFAJORES",
-      "precio": 30901.498,
+      "rubro": "SNACKS",
+      "precio": 36545.981,
       "descuento": 0,
       "stock": 1
     },
@@ -9427,7 +9471,7 @@
       "rubro": "CERVEZAS",
       "precio": 60480.004,
       "descuento": 0,
-      "stock": 82
+      "stock": 81
     },
     {
       "id": 2863,
@@ -9562,17 +9606,6 @@
       "stock": 7
     },
     {
-      "id": 2914,
-      "nombre": "VIRULANA PAÑO TWIST 10*1*3U",
-      "unidadesBulto": 10,
-      "codBarra": "7794440005116",
-      "familia": "HIGIENE",
-      "rubro": "LIMPIEZA",
-      "precio": 26400,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 2916,
       "nombre": "GUANTE VIRULANA TM 10*1U",
       "unidadesBulto": 10,
@@ -9592,7 +9625,7 @@
       "rubro": "LIMPIEZA",
       "precio": 18890,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 2918,
@@ -9680,7 +9713,7 @@
       "rubro": "GALLETAS",
       "precio": 46399.508,
       "descuento": 0,
-      "stock": 3
+      "stock": 5
     },
     {
       "id": 2986,
@@ -9922,7 +9955,7 @@
       "rubro": "AMARGO",
       "precio": 26269.645,
       "descuento": 0,
-      "stock": 32
+      "stock": 31
     },
     {
       "id": 3023,
@@ -9966,7 +9999,7 @@
       "rubro": "VINOS FINOS",
       "precio": 25410.001,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3028,
@@ -10156,17 +10189,6 @@
       "stock": 1
     },
     {
-      "id": 3085,
-      "nombre": "DON VALENTIN LACRDO BLANCO 6 * 750CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790703204982",
-      "familia": "VINOS",
-      "rubro": "VINOS FINOS",
-      "precio": 19560.001,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 3095,
       "nombre": "DR LEMON MOJITO 24 * 473 CC",
       "unidadesBulto": 24,
@@ -10351,7 +10373,7 @@
       "rubro": "BAJO GRADO",
       "precio": 45899.437,
       "descuento": 0,
-      "stock": 74
+      "stock": 73
     },
     {
       "id": 3171,
@@ -10406,7 +10428,7 @@
       "rubro": "BAJO GRADO",
       "precio": 59876.09,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 3186,
@@ -10670,7 +10692,7 @@
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 44012.855,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 3257,
@@ -10681,7 +10703,7 @@
       "rubro": "ALIMENTOS P/ PERROS Y GATOS",
       "precio": 58202.742,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
     },
     {
       "id": 3262,
@@ -11011,7 +11033,7 @@
       "rubro": "VINOS FINOS",
       "precio": 25343.995,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3322,
@@ -11176,7 +11198,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 69300.003,
       "descuento": 0,
-      "stock": 25
+      "stock": 23
     },
     {
       "id": 3344,
@@ -11198,7 +11220,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 66131.993,
       "descuento": 0,
-      "stock": 11
+      "stock": 9
     },
     {
       "id": 3353,
@@ -11322,17 +11344,6 @@
       "stock": 1
     },
     {
-      "id": 3371,
-      "nombre": "MOLINO NAT SEMILLAS 16*231G",
-      "unidadesBulto": 16,
-      "codBarra": "7790263119658",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 27071.616,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 3372,
       "nombre": "SABORIZADOR CARNE 10*12*7G",
       "unidadesBulto": 10,
@@ -11352,7 +11363,7 @@
       "rubro": "CONDIM Y ESPECIAS",
       "precio": 13344.788,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 3379,
@@ -11451,18 +11462,7 @@
       "rubro": "CAFE",
       "precio": 30567.601,
       "descuento": 0,
-      "stock": 3
-    },
-    {
-      "id": 3395,
-      "nombre": "LA VIRGINIA INST CLASICO ESPUMANTE DP 10*170 G",
-      "unidadesBulto": 10,
-      "codBarra": "7790150100462",
-      "familia": "INFUSIONES",
-      "rubro": "CAFE",
-      "precio": 54990,
-      "descuento": 0,
-      "stock": 1
+      "stock": 2
     },
     {
       "id": 3409,
@@ -11506,7 +11506,7 @@
       "rubro": "TE",
       "precio": 4880.838,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3476,
@@ -11516,17 +11516,6 @@
       "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
       "precio": 21980.001,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 3486,
-      "nombre": "GIACOMO VERDURA 18*250 G",
-      "unidadesBulto": 18,
-      "codBarra": "7792390620762",
-      "familia": "PASTAS",
-      "rubro": "PASTAS SECAS",
-      "precio": 37782,
       "descuento": 0,
       "stock": 1
     },
@@ -11671,7 +11660,7 @@
       "rubro": "TE",
       "precio": 8379.311,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 3510,
@@ -11682,7 +11671,7 @@
       "rubro": "CACAOS",
       "precio": 22861.474,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 3511,
@@ -11847,7 +11836,7 @@
       "rubro": "CAFE",
       "precio": 42364.375,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 3539,
@@ -11858,7 +11847,7 @@
       "rubro": "YERBAS",
       "precio": 11217.62,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 3540,
@@ -11990,7 +11979,7 @@
       "rubro": "CAFE",
       "precio": 15538.59,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 3571,
@@ -12013,17 +12002,6 @@
       "precio": 27825.39,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 3575,
-      "nombre": "LAUREL HOJA ALICANTE S/TACC 12*10G",
-      "unidadesBulto": 12,
-      "codBarra": "7790150531181",
-      "familia": "ADEREZOS",
-      "rubro": "CONDIM Y ESPECIAS",
-      "precio": 18674.317,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 3581,
@@ -12155,7 +12133,7 @@
       "rubro": "GALLETAS",
       "precio": 51516.016,
       "descuento": 10,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 3607,
@@ -12323,17 +12301,6 @@
       "stock": 1
     },
     {
-      "id": 3679,
-      "nombre": "ALFAJOR TRIP MILKA MOUSSE36*55G",
-      "unidadesBulto": 36,
-      "codBarra": "77903785",
-      "familia": "SALUDABLES",
-      "rubro": "ALFAJORES",
-      "precio": 52920.003,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 3680,
       "nombre": "ALFAJOR TRIP PEPITOS 36*55 G",
       "unidadesBulto": 36,
@@ -12411,17 +12378,6 @@
       "stock": 4
     },
     {
-      "id": 3696,
-      "nombre": "CAPUCC LA MORENITA DP 10*125 G",
-      "unidadesBulto": 10,
-      "codBarra": "7790170907478",
-      "familia": "INFUSIONES",
-      "rubro": "CAFE",
-      "precio": 27450,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 3698,
       "nombre": "CAFE INST SELECC TOST LA VIRGINIA 6 * 100 G",
       "unidadesBulto": 6,
@@ -12441,7 +12397,7 @@
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
       "descuento": 0,
-      "stock": 12
+      "stock": 9
     },
     {
       "id": 3702,
@@ -12496,7 +12452,7 @@
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
       "descuento": 0,
-      "stock": 11
+      "stock": 12
     },
     {
       "id": 3709,
@@ -12507,7 +12463,7 @@
       "rubro": "VINOS FINOS",
       "precio": 47026.977,
       "descuento": 0,
-      "stock": 18
+      "stock": 17
     },
     {
       "id": 3710,
@@ -12925,7 +12881,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 22500.142,
       "descuento": 8.98,
-      "stock": 29
+      "stock": 28
     },
     {
       "id": 3783,
@@ -13013,7 +12969,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 57541.172,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 3822,
@@ -13069,17 +13025,6 @@
       "precio": 39120.002,
       "descuento": 0,
       "stock": 3
-    },
-    {
-      "id": 3861,
-      "nombre": "GORDON´S GIN 6 * 700 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7791250002267",
-      "familia": "APERITIVOS",
-      "rubro": "BEBIDAS BLANCAS Y LICORES",
-      "precio": 81900,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 3864,
@@ -13200,7 +13145,7 @@
       "rubro": "YERBAS",
       "precio": 21072.465,
       "descuento": 0,
-      "stock": 33
+      "stock": 32
     },
     {
       "id": 3914,
@@ -13277,7 +13222,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 57541.172,
       "descuento": 0,
-      "stock": 7
+      "stock": 3
     },
     {
       "id": 3939,
@@ -13321,7 +13266,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 31188.281,
       "descuento": 17.115,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 3971,
@@ -13365,7 +13310,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 8900.929,
       "descuento": 0,
-      "stock": 129
+      "stock": 127
     },
     {
       "id": 4004,
@@ -13376,7 +13321,7 @@
       "rubro": "GALLETAS",
       "precio": 57475,
       "descuento": 0,
-      "stock": 1
+      "stock": 3
     },
     {
       "id": 4006,
@@ -13398,7 +13343,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 12607.305,
       "descuento": 0,
-      "stock": 68
+      "stock": 66
     },
     {
       "id": 4019,
@@ -13434,6 +13379,17 @@
       "stock": 1
     },
     {
+      "id": 4033,
+      "nombre": "CHOC TOFI AIR DDL 10*70G",
+      "unidadesBulto": 10,
+      "codBarra": "7790580116842",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 37300,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
       "id": 4038,
       "nombre": "MANA C/LECHE 36*136 G",
       "unidadesBulto": 36,
@@ -13452,6 +13408,17 @@
       "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 41114.228,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4047,
+      "nombre": "GALL.CM FRUT/CHIA 25*207 G",
+      "unidadesBulto": 25,
+      "codBarra": "7790040135765",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 49728.36,
       "descuento": 0,
       "stock": 1
     },
@@ -13478,13 +13445,13 @@
       "stock": 1
     },
     {
-      "id": 4053,
-      "nombre": "FORMIS CHOC/DDL 36 *90 G",
+      "id": 4054,
+      "nombre": "MANÁ ACARAMELADA 36*145 G",
       "unidadesBulto": 36,
-      "codBarra": "7790040153448",
+      "codBarra": "7790040151901",
       "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
-      "precio": 44540.413,
+      "precio": 41114.228,
       "descuento": 0,
       "stock": 1
     },
@@ -13496,6 +13463,17 @@
       "familia": "CONSERVAS",
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 30214.8,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4082,
+      "nombre": "CEREAL MIX YOG/FRUT LIGHT 20*23 G",
+      "unidadesBulto": 20,
+      "codBarra": "77965370",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 17946.918,
       "descuento": 0,
       "stock": 2
     },
@@ -13555,6 +13533,17 @@
       "stock": 2
     },
     {
+      "id": 4098,
+      "nombre": "CARAMELOS MENTA CRISTAL 6*810 G",
+      "unidadesBulto": 6,
+      "codBarra": "7790580118341",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 74582.806,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
       "id": 4100,
       "nombre": "MERENGADAS FRUTI 36 * 93 G",
       "unidadesBulto": 36,
@@ -13596,7 +13585,7 @@
       "rubro": "GALLETAS",
       "precio": 30645.868,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4104,
@@ -13618,6 +13607,17 @@
       "rubro": "GALLETAS",
       "precio": 35403.919,
       "descuento": 0,
+      "stock": 4
+    },
+    {
+      "id": 4114,
+      "nombre": "MANÁ RELLENA LIM/LIM 36 * 152 G",
+      "unidadesBulto": 36,
+      "codBarra": "7790040133259",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 47008.564,
+      "descuento": 10,
       "stock": 1
     },
     {
@@ -13627,9 +13627,9 @@
       "codBarra": "7790040704909",
       "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
-      "precio": 28932.776,
+      "precio": 30800.006,
       "descuento": 0,
-      "stock": 14
+      "stock": 33
     },
     {
       "id": 4116,
@@ -13640,7 +13640,7 @@
       "rubro": "GALLETAS",
       "precio": 23240.001,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 4117,
@@ -13651,7 +13651,7 @@
       "rubro": "GALLETAS",
       "precio": 28784.696,
       "descuento": 7,
-      "stock": 3
+      "stock": 4
     },
     {
       "id": 4118,
@@ -13673,7 +13673,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10620.08,
       "descuento": 8.669,
-      "stock": 66
+      "stock": 65
     },
     {
       "id": 4121,
@@ -13750,7 +13750,18 @@
       "rubro": "GALLETAS",
       "precio": 46451.822,
       "descuento": 17,
-      "stock": 36
+      "stock": 34
+    },
+    {
+      "id": 4130,
+      "nombre": "MANÁ RELLENA VAIN/CHOC 36 * 152 G",
+      "unidadesBulto": 36,
+      "codBarra": "7790040133242",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 47008.564,
+      "descuento": 10,
+      "stock": 1
     },
     {
       "id": 4131,
@@ -13761,7 +13772,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 9749.956,
       "descuento": 23.926,
-      "stock": 39
+      "stock": 36
     },
     {
       "id": 4132,
@@ -13783,7 +13794,29 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 39449.933,
       "descuento": 12.275,
-      "stock": 68
+      "stock": 67
+    },
+    {
+      "id": 4136,
+      "nombre": "TOSTADA CRIOLLITA CLASICA 18 * 195G",
+      "unidadesBulto": 18,
+      "codBarra": "7790040124509",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 31332.119,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4138,
+      "nombre": "COFLER BLOCK 12 * 110 G",
+      "unidadesBulto": 12,
+      "codBarra": "77922120",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 48448.975,
+      "descuento": 5,
+      "stock": 1
     },
     {
       "id": 4157,
@@ -13797,6 +13830,94 @@
       "stock": 7
     },
     {
+      "id": 4166,
+      "nombre": "TOSTADAS CRIOLLITAS SALV 18*195 G",
+      "unidadesBulto": 18,
+      "codBarra": "7790040124516",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 31332.119,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4168,
+      "nombre": "ALFAJOR B&N BLANCO 21 * 73.5 G",
+      "unidadesBulto": 21,
+      "codBarra": "7790040991910",
+      "familia": "SALUDABLES",
+      "rubro": "ALFAJORES",
+      "precio": 30921.448,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4176,
+      "nombre": "RUMBA 36 * 108 G",
+      "unidadesBulto": 36,
+      "codBarra": "7790040143517",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 51392.785,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4179,
+      "nombre": "COFLER LECH/ALM  10*55 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790580033507",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 32427.504,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4180,
+      "nombre": "CHOCOLATIN ARCOR LECHE 30 * 25 G",
+      "unidadesBulto": 30,
+      "codBarra": "7790580607210",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 34335.002,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4181,
+      "nombre": "CHOCOLATIN ARCOR BLANCO 30*25 G",
+      "unidadesBulto": 30,
+      "codBarra": "7790580607418",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 34335.002,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4187,
+      "nombre": "ALFAJOR TATIN BLANCO TRIPLE 21 * 60 G",
+      "unidadesBulto": 21,
+      "codBarra": "7790040405301",
+      "familia": "SALUDABLES",
+      "rubro": "ALFAJORES",
+      "precio": 15565.2,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 4188,
+      "nombre": "ALFAJOR TATIN NEGRO TRIPLE 21 * 60 G",
+      "unidadesBulto": 21,
+      "codBarra": "7790040405608",
+      "familia": "SALUDABLES",
+      "rubro": "ALFAJORES",
+      "precio": 15565.2,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
       "id": 4192,
       "nombre": "DULCE DE BATATA C/CH ARCOR * 5 KG",
       "unidadesBulto": 1,
@@ -13806,17 +13927,6 @@
       "precio": 13344.15,
       "descuento": 15,
       "stock": 3
-    },
-    {
-      "id": 4193,
-      "nombre": "DULCE DE BATATA  ARCOR * 5 KG",
-      "unidadesBulto": 1,
-      "codBarra": "1779058050120",
-      "familia": "CONSERVAS",
-      "rubro": "CONSERVAS Y COMESTIBLES",
-      "precio": 14914.05,
-      "descuento": 5,
-      "stock": 1
     },
     {
       "id": 4201,
@@ -13981,7 +14091,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 23220,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 4302,
@@ -14080,7 +14190,7 @@
       "rubro": "VINOS FINOS",
       "precio": 18224.996,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 4382,
@@ -14193,17 +14303,6 @@
       "stock": 8
     },
     {
-      "id": 4392,
-      "nombre": "CUATRO MONOS LOCOS 4*750CC",
-      "unidadesBulto": 4,
-      "codBarra": "7798162671314",
-      "familia": "VINOS",
-      "rubro": "VINOS FINOS",
-      "precio": 13159.996,
-      "descuento": 0,
-      "stock": 3
-    },
-    {
       "id": 4407,
       "nombre": "CASILLERO DEL DIABLO MBC 6*750CC",
       "unidadesBulto": 6,
@@ -14311,7 +14410,7 @@
       "rubro": "VINOS FINOS",
       "precio": 20480,
       "descuento": 0,
-      "stock": 8
+      "stock": 6
     },
     {
       "id": 4433,
@@ -14366,7 +14465,7 @@
       "rubro": "VINOS FINOS",
       "precio": 25051.709,
       "descuento": 0,
-      "stock": 15
+      "stock": 13
     },
     {
       "id": 4456,
@@ -14454,7 +14553,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 34618.584,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4470,
@@ -14586,7 +14685,7 @@
       "rubro": "GALLETAS",
       "precio": 13543.201,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 4529,
@@ -14663,7 +14762,7 @@
       "rubro": "GALLETAS",
       "precio": 17618.276,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 4542,
@@ -14674,7 +14773,7 @@
       "rubro": "GALLETAS",
       "precio": 19830.096,
       "descuento": 0,
-      "stock": 26
+      "stock": 25
     },
     {
       "id": 4545,
@@ -14707,7 +14806,7 @@
       "rubro": "GALLETAS",
       "precio": 36704.745,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4556,
@@ -15128,17 +15227,6 @@
       "stock": 2
     },
     {
-      "id": 4691,
-      "nombre": "CAMP VDES AROMAT HA 30*3*120G",
-      "unidadesBulto": 30,
-      "codBarra": "7790990000953",
-      "familia": "HIGIENE",
-      "rubro": "HIGIENE PERSONAL",
-      "precio": 65659.029,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 4692,
       "nombre": "PLUSBELLE JAB ESE P/RELAJ 81*120G",
       "unidadesBulto": 81,
@@ -15334,7 +15422,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 39732.915,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4715,
@@ -15752,7 +15840,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 19945.289,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 4769,
@@ -16126,7 +16214,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 31511.316,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 4816,
@@ -16247,7 +16335,7 @@
       "rubro": "VINOS FINOS",
       "precio": 43139.731,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 5019,
@@ -16500,7 +16588,7 @@
       "rubro": "VINOS FINOS",
       "precio": 37028.154,
       "descuento": 0,
-      "stock": 25
+      "stock": 24
     },
     {
       "id": 5077,
@@ -16544,7 +16632,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 95745.775,
       "descuento": 0,
-      "stock": 1
+      "stock": 4
     },
     {
       "id": 5083,
@@ -16896,7 +16984,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 48707.368,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 5140,
@@ -16962,7 +17050,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 130980.001,
       "descuento": 0,
-      "stock": 82
+      "stock": 77
     },
     {
       "id": 5152,
@@ -16984,7 +17072,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 130020,
       "descuento": 0,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 5155,
@@ -17017,7 +17105,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 5199.999,
       "descuento": 0,
-      "stock": 168
+      "stock": 167
     },
     {
       "id": 5160,
@@ -17116,7 +17204,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 196080,
       "descuento": 0,
-      "stock": 89
+      "stock": 87
     },
     {
       "id": 5176,
@@ -17325,7 +17413,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 68840.279,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 5225,
@@ -17369,7 +17457,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 58737.97,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 5241,
@@ -17567,7 +17655,7 @@
       "rubro": "LATAS Y ESTUCHES",
       "precio": 131240.073,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 5294,
@@ -17589,7 +17677,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 51350.11,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 5298,
@@ -17853,7 +17941,7 @@
       "rubro": "VINOS FINOS",
       "precio": 38289.24,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 5347,
@@ -17908,7 +17996,7 @@
       "rubro": "VINOS FINOS",
       "precio": 83820.001,
       "descuento": 0,
-      "stock": 19
+      "stock": 17
     },
     {
       "id": 5353,
@@ -17996,7 +18084,7 @@
       "rubro": "VINOS FINOS",
       "precio": 27566.22,
       "descuento": 0,
-      "stock": 48
+      "stock": 47
     },
     {
       "id": 5363,
@@ -18029,7 +18117,7 @@
       "rubro": "VINOS FINOS",
       "precio": 33142.849,
       "descuento": 0,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 5366,
@@ -18128,7 +18216,7 @@
       "rubro": "VINOS FINOS",
       "precio": 45188.556,
       "descuento": 0,
-      "stock": 23
+      "stock": 22
     },
     {
       "id": 5386,
@@ -18161,7 +18249,7 @@
       "rubro": "VINOS FINOS",
       "precio": 60076.766,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 5393,
@@ -18182,17 +18270,6 @@
       "familia": "APERITIVOS",
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 382800.004,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 5396,
-      "nombre": "J. WALKER RED LABEL 12 * 1000 CC",
-      "unidadesBulto": 12,
-      "codBarra": "5000267013602",
-      "familia": "APERITIVOS",
-      "rubro": "BEBIDAS BLANCAS Y LICORES",
-      "precio": 455099.997,
       "descuento": 0,
       "stock": 1
     },
@@ -18425,7 +18502,7 @@
       "rubro": "AGUA",
       "precio": 8380,
       "descuento": 0,
-      "stock": 34
+      "stock": 29
     },
     {
       "id": 5436,
@@ -18648,17 +18725,6 @@
       "stock": 1
     },
     {
-      "id": 5494,
-      "nombre": "SANTA JULIA CHENIN DULCE 6 * 750 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7791728247091",
-      "familia": "VINOS",
-      "rubro": "VINOS FINOS",
-      "precio": 34470,
-      "descuento": 0,
-      "stock": 29
-    },
-    {
       "id": 5500,
       "nombre": "CHANDON B NATURE ROSE 6 * 750CC",
       "unidadesBulto": 6,
@@ -18700,7 +18766,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 95745.775,
       "descuento": 0,
-      "stock": 1
+      "stock": 2
     },
     {
       "id": 5504,
@@ -18766,7 +18832,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 102039.691,
       "descuento": 5,
-      "stock": 22
+      "stock": 19
     },
     {
       "id": 5516,
@@ -18788,7 +18854,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 221124.421,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 5524,
@@ -18997,7 +19063,7 @@
       "rubro": "VINOS FINOS",
       "precio": 30450,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 5564,
@@ -19616,17 +19682,6 @@
       "stock": 2
     },
     {
-      "id": 5730,
-      "nombre": "SKYY INFUSIONS PASSION FRUIT * 700 CC",
-      "unidadesBulto": 12,
-      "codBarra": "7791200200613",
-      "familia": "APERITIVOS",
-      "rubro": "BEBIDAS BLANCAS Y LICORES",
-      "precio": 87226.289,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 5731,
       "nombre": "SKYY INFUSIONS COCONUT 12 * 700 CC",
       "unidadesBulto": 12,
@@ -19668,7 +19723,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 90191.067,
       "descuento": 0,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 5745,
@@ -19701,7 +19756,7 @@
       "rubro": "PAPELERA",
       "precio": 16842.764,
       "descuento": 0,
-      "stock": 14
+      "stock": 13
     },
     {
       "id": 5761,
@@ -19745,7 +19800,7 @@
       "rubro": "GALLETAS",
       "precio": 41980,
       "descuento": 0,
-      "stock": 40
+      "stock": 39
     },
     {
       "id": 5765,
@@ -19822,7 +19877,7 @@
       "rubro": "JABONES Y SUAV P/ ROPA",
       "precio": 35012.814,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 5775,
@@ -20086,7 +20141,7 @@
       "rubro": "CONDIM Y ESPECIAS",
       "precio": 11228.8,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 6022,
@@ -20119,7 +20174,7 @@
       "rubro": "VINOS FINOS",
       "precio": 32321.675,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 6029,
@@ -20537,7 +20592,7 @@
       "rubro": "BAZAR",
       "precio": 3529.879,
       "descuento": 0,
-      "stock": 36
+      "stock": 34
     },
     {
       "id": 6113,
@@ -20647,7 +20702,7 @@
       "rubro": "BAZAR",
       "precio": 6623.238,
       "descuento": 0,
-      "stock": 12
+      "stock": 7
     },
     {
       "id": 6125,
@@ -20812,7 +20867,7 @@
       "rubro": "BAZAR",
       "precio": 2356.469,
       "descuento": 0,
-      "stock": 101
+      "stock": 97
     },
     {
       "id": 6141,
@@ -21318,7 +21373,7 @@
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
-      "stock": 13
+      "stock": 12
     },
     {
       "id": 6207,
@@ -21351,7 +21406,7 @@
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 6218,
@@ -21395,7 +21450,7 @@
       "rubro": "GALLETAS",
       "precio": 16500,
       "descuento": 0,
-      "stock": 29
+      "stock": 28
     },
     {
       "id": 6235,
@@ -21406,7 +21461,7 @@
       "rubro": "GALLETAS",
       "precio": 8038.801,
       "descuento": 0,
-      "stock": 42
+      "stock": 40
     },
     {
       "id": 6240,
@@ -21472,7 +21527,7 @@
       "rubro": "CERVEZAS",
       "precio": 33550,
       "descuento": 0,
-      "stock": 183
+      "stock": 181
     },
     {
       "id": 7011,
@@ -21483,18 +21538,7 @@
       "rubro": "CERVEZAS",
       "precio": 42000.051,
       "descuento": 6.417,
-      "stock": 55
-    },
-    {
-      "id": 7013,
-      "nombre": "SIDRA 1888 6 * 750 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790119002370",
-      "familia": "CHAMPAGNES",
-      "rubro": "SIDRAS Y ANANA FIZZ",
-      "precio": 47400.003,
-      "descuento": 0,
-      "stock": 1
+      "stock": 54
     },
     {
       "id": 7015,
@@ -21516,7 +21560,7 @@
       "rubro": "CERVEZAS",
       "precio": 67800,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 7018,
@@ -21571,7 +21615,7 @@
       "rubro": "CERVEZAS",
       "precio": 29652.658,
       "descuento": 6.35,
-      "stock": 678
+      "stock": 677
     },
     {
       "id": 7030,
@@ -21582,7 +21626,7 @@
       "rubro": "CERVEZAS",
       "precio": 38400,
       "descuento": 0,
-      "stock": 36
+      "stock": 35
     },
     {
       "id": 7033,
@@ -21692,7 +21736,7 @@
       "rubro": "CERVEZAS",
       "precio": 60480,
       "descuento": 20,
-      "stock": 22
+      "stock": 18
     },
     {
       "id": 7063,
@@ -21725,7 +21769,7 @@
       "rubro": "CERVEZAS",
       "precio": 22368,
       "descuento": 60,
-      "stock": 12
+      "stock": 11
     },
     {
       "id": 7078,
@@ -21769,7 +21813,7 @@
       "rubro": "CERVEZAS",
       "precio": 71360.005,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 7092,
@@ -21802,7 +21846,18 @@
       "rubro": "CERVEZAS",
       "precio": 42400,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
+    },
+    {
+      "id": 7096,
+      "nombre": "LEVITE NARANJA 12*500 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7798062548655",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "AGUA SABORIZADA",
+      "precio": 12480.001,
+      "descuento": 0,
+      "stock": 1
     },
     {
       "id": 7099,
@@ -21824,7 +21879,7 @@
       "rubro": "GASEOSAS",
       "precio": 16590,
       "descuento": 0,
-      "stock": 22
+      "stock": 20
     },
     {
       "id": 7476,
@@ -21835,7 +21890,7 @@
       "rubro": "GASEOSAS",
       "precio": 16590,
       "descuento": 0,
-      "stock": 16
+      "stock": 23
     },
     {
       "id": 7478,
@@ -21849,6 +21904,17 @@
       "stock": 3
     },
     {
+      "id": 7481,
+      "nombre": "PEPSI PET 6 * 1500 CC",
+      "unidadesBulto": 6,
+      "codBarra": "7791813888413",
+      "familia": "GASEOSAS",
+      "rubro": "GASEOSAS",
+      "precio": 16590,
+      "descuento": 0,
+      "stock": 10
+    },
+    {
       "id": 7486,
       "nombre": "7-UP PET 6 * 1500 CC",
       "unidadesBulto": 6,
@@ -21857,7 +21923,7 @@
       "rubro": "GASEOSAS",
       "precio": 14158.8,
       "descuento": 15,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 7634,
@@ -21978,7 +22044,18 @@
       "rubro": "ENVASE",
       "precio": 12480.001,
       "descuento": 0,
-      "stock": 819
+      "stock": 857
+    },
+    {
+      "id": 11074,
+      "nombre": "GALLETITAS ROCKLET 30*118G",
+      "unidadesBulto": 30,
+      "codBarra": "7790040110748",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 44924.075,
+      "descuento": 0,
+      "stock": 2
     },
     {
       "id": 11313,
@@ -22033,7 +22110,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10149.226,
       "descuento": 0,
-      "stock": 101
+      "stock": 95
     },
     {
       "id": 17091,
@@ -22044,7 +22121,7 @@
       "rubro": "CERVEZAS",
       "precio": 44279.997,
       "descuento": 0,
-      "stock": 138
+      "stock": 137
     },
     {
       "id": 17518,
@@ -22069,6 +22146,17 @@
       "stock": 16
     },
     {
+      "id": 21698,
+      "nombre": "PASO DE LOS TOROS TONICA 24 * 269 CC",
+      "unidadesBulto": 24,
+      "codBarra": "7791813800774",
+      "familia": "GASEOSAS",
+      "rubro": "GASEOSAS",
+      "precio": 22346.703,
+      "descuento": 12.322,
+      "stock": 10
+    },
+    {
       "id": 21699,
       "nombre": "PASO DE LOS TOROS POMELO 24 * 269 CC",
       "unidadesBulto": 24,
@@ -22080,6 +22168,28 @@
       "stock": 6
     },
     {
+      "id": 21967,
+      "nombre": "PEPSI LATA 24 * 354 CC",
+      "unidadesBulto": 24,
+      "codBarra": "7791813888376",
+      "familia": "GASEOSAS",
+      "rubro": "GASEOSAS",
+      "precio": 32040,
+      "descuento": 0,
+      "stock": 6
+    },
+    {
+      "id": 21971,
+      "nombre": "7-UP LATA 24 * 354 CC",
+      "unidadesBulto": 24,
+      "codBarra": "7791813777021",
+      "familia": "GASEOSAS",
+      "rubro": "GASEOSAS",
+      "precio": 32040.001,
+      "descuento": 0,
+      "stock": 4
+    },
+    {
       "id": 22383,
       "nombre": "QUILMES 0.0% LATA 24 * 473 CC",
       "unidadesBulto": 24,
@@ -22088,7 +22198,7 @@
       "rubro": "CERVEZAS",
       "precio": 40800.002,
       "descuento": 0,
-      "stock": 35
+      "stock": 33
     },
     {
       "id": 53281,
@@ -22130,9 +22240,9 @@
       "codBarra": "7792798003709",
       "familia": "CERVEZAS",
       "rubro": "CERVEZAS",
-      "precio": 64252.523,
-      "descuento": 11.637,
-      "stock": 121
+      "precio": 67350.011,
+      "descuento": 6.97,
+      "stock": 117
     },
     {
       "id": 61680,
@@ -22143,7 +22253,7 @@
       "rubro": "GASEOSAS",
       "precio": 8256.039,
       "descuento": 8.606,
-      "stock": 1
+      "stock": 11
     },
     {
       "id": 61681,
@@ -22154,7 +22264,7 @@
       "rubro": "GASEOSAS",
       "precio": 8237.787,
       "descuento": 8.606,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 61685,
@@ -22344,6 +22454,17 @@
       "stock": 43
     },
     {
+      "id": 877,
+      "nombre": "TRAPO PISO CONS GRIS 144*1*60*70CM",
+      "unidadesBulto": 144,
+      "codBarra": "7798082630118",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 100656.004,
+      "descuento": 0,
+      "stock": 4
+    },
+    {
       "id": 1165,
       "nombre": "GLADE AER NAR/ORQ 6*360 CC",
       "unidadesBulto": 6,
@@ -22383,9 +22504,9 @@
       "codBarra": "77993540",
       "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
-      "precio": 17798.556,
-      "descuento": 0,
-      "stock": 3
+      "precio": 14400.099,
+      "descuento": 19.094,
+      "stock": 11
     },
     {
       "id": 2215,
@@ -22476,6 +22597,39 @@
       "stock": 5
     },
     {
+      "id": 2829,
+      "nombre": "POET DESINF SUAV BEBÉ 8*1800CC",
+      "unidadesBulto": 8,
+      "codBarra": "7793253003463",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 30792,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2830,
+      "nombre": "POET DESINF SUAV ALGOD 8*1800CC",
+      "unidadesBulto": 8,
+      "codBarra": "7793253003487",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 30792.003,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2831,
+      "nombre": "SALADIX CALABRESA 24*100G",
+      "unidadesBulto": 24,
+      "codBarra": "7790580716806",
+      "familia": "GOLOSINAS",
+      "rubro": "SNACKS",
+      "precio": 36545.981,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
       "id": 3109,
       "nombre": "DR LEMON SPICY 24*473 CC",
       "unidadesBulto": 24,
@@ -22539,7 +22693,7 @@
       "rubro": "VINOS FINOS",
       "precio": 17406.835,
       "descuento": 0,
-      "stock": 11
+      "stock": 9
     },
     {
       "id": 4903,
@@ -22660,7 +22814,7 @@
       "rubro": "VINOS FINOS",
       "precio": 17406.835,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 4916,
@@ -22729,6 +22883,17 @@
       "stock": 1
     },
     {
+      "id": 882,
+      "nombre": "TRAPO PISO NIDO BLANCO 144*1*60*60",
+      "unidadesBulto": 144,
+      "codBarra": "7798082630132",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 179856,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
       "id": 912,
       "nombre": "PILAS AA PISCELL 15*1*4U",
       "unidadesBulto": 15,
@@ -22762,6 +22927,17 @@
       "stock": 4
     },
     {
+      "id": 2423,
+      "nombre": "BOLSA RESIDUO MT 100*50*70 CM",
+      "unidadesBulto": 100,
+      "codBarra": "",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 59000.001,
+      "descuento": 0,
+      "stock": 5
+    },
+    {
       "id": 2445,
       "nombre": "REXONA DEO M A/BODY OCEAN 12*150CC",
       "unidadesBulto": 12,
@@ -22784,17 +22960,6 @@
       "stock": 3
     },
     {
-      "id": 2485,
-      "nombre": "TRAVIATA CRACK KESITA 12*3*96G",
-      "unidadesBulto": 12,
-      "codBarra": "7790040150270",
-      "familia": "OTROS",
-      "rubro": "GALLETAS",
-      "precio": 24703.261,
-      "descuento": 7,
-      "stock": 1
-    },
-    {
       "id": 2491,
       "nombre": "PRESTOPRONTA VEGET 42*250 G",
       "unidadesBulto": 42,
@@ -22804,6 +22969,17 @@
       "precio": 57852.572,
       "descuento": 0,
       "stock": 1
+    },
+    {
+      "id": 2519,
+      "nombre": "BOLSA RESIDUO MT 50* 60*90",
+      "unidadesBulto": 50,
+      "codBarra": "",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 44000.004,
+      "descuento": 0,
+      "stock": 10
     },
     {
       "id": 2524,
@@ -22828,6 +23004,17 @@
       "stock": 1
     },
     {
+      "id": 2585,
+      "nombre": "CONSORCIO NEG FUELLE 50*60*90",
+      "unidadesBulto": 50,
+      "codBarra": "7798197890025",
+      "familia": "PAPELERIA",
+      "rubro": "LIMPIEZA",
+      "precio": 43400,
+      "descuento": 0,
+      "stock": 4
+    },
+    {
       "id": 2586,
       "nombre": "CONSORCIO VDE FUELLE 50*60*90",
       "unidadesBulto": 50,
@@ -22836,7 +23023,7 @@
       "rubro": "LIMPIEZA",
       "precio": 47950,
       "descuento": 0,
-      "stock": 12
+      "stock": 7
     },
     {
       "id": 2587,
@@ -22883,61 +23070,6 @@
       "stock": 7
     },
     {
-      "id": 2591,
-      "nombre": "MILKA CASTAÑAS C/CARNE 21*55G",
-      "unidadesBulto": 21,
-      "codBarra": "7622210745293",
-      "familia": "GOLOSINAS",
-      "rubro": "GOLOSINAS",
-      "precio": 67515.005,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 2592,
-      "nombre": "MILKA OREO BLANCO 21*55 G",
-      "unidadesBulto": 21,
-      "codBarra": "7622210745132",
-      "familia": "GOLOSINAS",
-      "rubro": "GOLOSINAS",
-      "precio": 67515.005,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 2797,
-      "nombre": "BONOBON LECHE 12*1*30 U",
-      "unidadesBulto": 12,
-      "codBarra": "7790580119133",
-      "familia": "GOLOSINAS",
-      "rubro": "GOLOSINAS",
-      "precio": 182160.001,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
-      "id": 2798,
-      "nombre": "RAMEN ARCOR POLLO 24*70 G",
-      "unidadesBulto": 24,
-      "codBarra": "7790580149963",
-      "familia": "SALUDABLES",
-      "rubro": "PASTAS SECAS",
-      "precio": 34320.004,
-      "descuento": 0,
-      "stock": 2
-    },
-    {
-      "id": 2799,
-      "nombre": "RAMEN ARCOR POLLO PIC 24*70 G",
-      "unidadesBulto": 24,
-      "codBarra": "7790580150341",
-      "familia": "GOLOSINAS",
-      "rubro": "PASTAS SECAS",
-      "precio": 34320.004,
-      "descuento": 0,
-      "stock": 2
-    },
-    {
       "id": 2818,
       "nombre": "PEPAS TRIO ALEMANAS 10*500 G",
       "unidadesBulto": 10,
@@ -22947,6 +23079,83 @@
       "precio": 26990,
       "descuento": 0,
       "stock": 3
+    },
+    {
+      "id": 2824,
+      "nombre": "POET DESINF F/LAVANDA 12*900CC",
+      "unidadesBulto": 12,
+      "codBarra": "7793253003500",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 23580,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2825,
+      "nombre": "POET DESINF F/LAVANDA 8*1800CC",
+      "unidadesBulto": 8,
+      "codBarra": "7793253003517",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 30792,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2826,
+      "nombre": "POET DESINF F/PRIMAV 12*900CC",
+      "unidadesBulto": 12,
+      "codBarra": "7793253003548",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 23580,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2827,
+      "nombre": "POET DESINF F/PRIMAV 8*1800CC",
+      "unidadesBulto": 8,
+      "codBarra": "7793253003555",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 30792,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2828,
+      "nombre": "POET DESINF SUAV BEBÉ 12*900CC",
+      "unidadesBulto": 12,
+      "codBarra": "7793253003456",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 23580,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2848,
+      "nombre": "ALF GOAT NEGRO 21*75 G",
+      "unidadesBulto": 21,
+      "codBarra": "7790040154896",
+      "familia": "GOLOSINAS",
+      "rubro": "ALFAJORES",
+      "precio": 35070,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2874,
+      "nombre": "BAÑO REP AG SEMIAMARGO 12*150G",
+      "unidadesBulto": 12,
+      "codBarra": "7790580131487",
+      "familia": "OTROS",
+      "rubro": "REPOSTERIA",
+      "precio": 40788.001,
+      "descuento": 0,
+      "stock": 1
     },
     {
       "id": 3089,
@@ -23013,17 +23222,6 @@
       "precio": 33360.003,
       "descuento": 0,
       "stock": 8
-    },
-    {
-      "id": 3848,
-      "nombre": "REXONA DEO W ACT/EM 12*250CC",
-      "unidadesBulto": 12,
-      "codBarra": "7791293049588",
-      "familia": "HIGIENE",
-      "rubro": "DESODORANTES CORPORALES",
-      "precio": 59988.001,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 4476,
@@ -23122,7 +23320,7 @@
       "rubro": "GOLOSINAS",
       "precio": 11800.005,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 5851,
@@ -23133,7 +23331,7 @@
       "rubro": "GOLOSINAS",
       "precio": 21560,
       "descuento": 0,
-      "stock": 3
+      "stock": 2
     },
     {
       "id": 5852,
@@ -23155,7 +23353,7 @@
       "rubro": "CAFE",
       "precio": 38160.012,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 6246,
@@ -23232,7 +23430,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 12652.11,
       "descuento": 35,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 163,
@@ -23254,7 +23452,7 @@
       "rubro": "GALLETAS",
       "precio": 19400,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 713,
@@ -23276,7 +23474,7 @@
       "rubro": "ACEITES TRADICIONALES",
       "precio": 55300.001,
       "descuento": 0,
-      "stock": 559
+      "stock": 558
     },
     {
       "id": 1045,
@@ -23287,7 +23485,7 @@
       "rubro": "AGUA",
       "precio": 5637.412,
       "descuento": 0,
-      "stock": 30
+      "stock": 17
     },
     {
       "id": 1173,
@@ -23331,18 +23529,7 @@
       "rubro": "MAQUINAS Y SISTEMA DE AFEITAR",
       "precio": 7980,
       "descuento": 0,
-      "stock": 15
-    },
-    {
-      "id": 2422,
-      "nombre": "PAÑUELOS FELPITA DISNEY 24*6*10U",
-      "unidadesBulto": 24,
-      "codBarra": "7791828900094",
-      "familia": "PAPELERIA",
-      "rubro": "PAPELERA",
-      "precio": 57646.82,
-      "descuento": 0,
-      "stock": 5
+      "stock": 14
     },
     {
       "id": 2486,
@@ -23353,7 +23540,7 @@
       "rubro": "ALFAJORES",
       "precio": 15200.001,
       "descuento": 20,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 2487,
@@ -23397,7 +23584,7 @@
       "rubro": "PAPELERA",
       "precio": 24346.325,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 2530,
@@ -23430,7 +23617,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 2430,
       "descuento": 40,
-      "stock": 59
+      "stock": 54
     },
     {
       "id": 2533,
@@ -23441,7 +23628,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 2430,
       "descuento": 40,
-      "stock": 49
+      "stock": 46
     },
     {
       "id": 2534,
@@ -23496,7 +23683,7 @@
       "rubro": "SODA",
       "precio": 2937,
       "descuento": 50,
-      "stock": 15
+      "stock": 14
     },
     {
       "id": 2540,
@@ -23507,7 +23694,7 @@
       "rubro": "SODA",
       "precio": 5640,
       "descuento": 20,
-      "stock": 18
+      "stock": 13
     },
     {
       "id": 2542,
@@ -23598,24 +23785,57 @@
       "stock": 8
     },
     {
-      "id": 2594,
-      "nombre": "BUDIN BONAFIDE C/CHIPS CH 8*300G",
-      "unidadesBulto": 8,
-      "codBarra": "7792360097914",
-      "familia": "OTROS",
-      "rubro": "PRODUCTOS NAVIDEÑOS",
-      "precio": 20720.04,
+      "id": 2591,
+      "nombre": "MILKA CASTAÑAS C/CARNE 21*55G",
+      "unidadesBulto": 21,
+      "codBarra": "7622210745293",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 67515.005,
       "descuento": 0,
       "stock": 1
     },
     {
-      "id": 2595,
-      "nombre": "BUDIN BONAFIDE LIMON C/AM 8*300G",
-      "unidadesBulto": 8,
-      "codBarra": "7792360097921",
-      "familia": "OTROS",
-      "rubro": "PRODUCTOS NAVIDEÑOS",
-      "precio": 20720.04,
+      "id": 2592,
+      "nombre": "MILKA OREO BLANCO 21*55 G",
+      "unidadesBulto": 21,
+      "codBarra": "7622210745132",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 67515.005,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 2796,
+      "nombre": "COFLER 3 PLACERES 10*55 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790580106560",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 32427.504,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 2798,
+      "nombre": "RAMEN ARCOR POLLO 24*70 G",
+      "unidadesBulto": 24,
+      "codBarra": "7790580149963",
+      "familia": "SALUDABLES",
+      "rubro": "PASTAS SECAS",
+      "precio": 34320.004,
+      "descuento": 0,
+      "stock": 2
+    },
+    {
+      "id": 2799,
+      "nombre": "RAMEN ARCOR POLLO PIC 24*70 G",
+      "unidadesBulto": 24,
+      "codBarra": "7790580150341",
+      "familia": "GOLOSINAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 34320.004,
       "descuento": 0,
       "stock": 2
     },
@@ -23629,6 +23849,17 @@
       "precio": 26990,
       "descuento": 0,
       "stock": 2
+    },
+    {
+      "id": 2820,
+      "nombre": "RAMEN ARCOR CUP CARNE 12*65G",
+      "unidadesBulto": 12,
+      "codBarra": "7790580153380",
+      "familia": "ADEREZOS",
+      "rubro": "SOPAS",
+      "precio": 31620,
+      "descuento": 0,
+      "stock": 1
     },
     {
       "id": 3030,
@@ -23697,13 +23928,13 @@
       "stock": 3
     },
     {
-      "id": 4239,
-      "nombre": "CRIOLLITAS 12*5*98G",
+      "id": 3848,
+      "nombre": "REXONA DEO W ACT/EM 12*250CC",
       "unidadesBulto": 12,
-      "codBarra": "7790040139015",
-      "familia": "OTROS",
-      "rubro": "GALLETAS",
-      "precio": 33615.599,
+      "codBarra": "7791293049588",
+      "familia": "HIGIENE",
+      "rubro": "DESODORANTES CORPORALES",
+      "precio": 59988.001,
       "descuento": 0,
       "stock": 1
     },
@@ -23716,7 +23947,7 @@
       "rubro": "VINOS FINOS",
       "precio": 20480,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 4562,
@@ -23727,7 +23958,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 11175.003,
       "descuento": 0,
-      "stock": 52
+      "stock": 51
     },
     {
       "id": 4563,
@@ -23738,7 +23969,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 11175.003,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 4564,
@@ -23818,17 +24049,6 @@
       "stock": 19
     },
     {
-      "id": 867,
-      "nombre": "DON SATUR SALADO 30*200G",
-      "unidadesBulto": 30,
-      "codBarra": "7795735000328",
-      "familia": "OTROS",
-      "rubro": "GALLETAS",
-      "precio": 43200.001,
-      "descuento": 0,
-      "stock": 1
-    },
-    {
       "id": 868,
       "nombre": "DON SATUR DULCE 30*200G",
       "unidadesBulto": 30,
@@ -23838,17 +24058,6 @@
       "precio": 43200.013,
       "descuento": 0,
       "stock": 2
-    },
-    {
-      "id": 965,
-      "nombre": "MANI SALADO EL RULO 10*140G",
-      "unidadesBulto": 10,
-      "codBarra": "7794973000220",
-      "familia": "GOLOSINAS",
-      "rubro": "SNACKS",
-      "precio": 14250.001,
-      "descuento": 0,
-      "stock": 1
     },
     {
       "id": 966,
@@ -23925,7 +24134,40 @@
       "rubro": "LIMPIEZA",
       "precio": 13205.48,
       "descuento": 0,
-      "stock": 9
+      "stock": 8
+    },
+    {
+      "id": 2422,
+      "nombre": "PAÑUELOS FELPITA DISNEY 24*6*10U",
+      "unidadesBulto": 24,
+      "codBarra": "7791828900094",
+      "familia": "PAPELERIA",
+      "rubro": "PAPELERA",
+      "precio": 57646.82,
+      "descuento": 0,
+      "stock": 5
+    },
+    {
+      "id": 2594,
+      "nombre": "BUDIN BONAFIDE C/CHIPS CH 8*300G",
+      "unidadesBulto": 8,
+      "codBarra": "7792360097914",
+      "familia": "OTROS",
+      "rubro": "PRODUCTOS NAVIDEÑOS",
+      "precio": 20720.04,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 2595,
+      "nombre": "BUDIN BONAFIDE LIMON C/AM 8*300G",
+      "unidadesBulto": 8,
+      "codBarra": "7792360097921",
+      "familia": "OTROS",
+      "rubro": "PRODUCTOS NAVIDEÑOS",
+      "precio": 20720.04,
+      "descuento": 0,
+      "stock": 2
     },
     {
       "id": 2779,
@@ -23935,6 +24177,17 @@
       "familia": "",
       "rubro": "OTROS.",
       "precio": 999,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
+      "id": 2821,
+      "nombre": "RAMEN ARCOR CUP POLLO 12*65 G",
+      "unidadesBulto": 12,
+      "codBarra": "7790580153397",
+      "familia": "ADEREZOS",
+      "rubro": "SOPAS",
+      "precio": 31620.002,
       "descuento": 0,
       "stock": 1
     },
@@ -23970,6 +24223,17 @@
       "precio": 43691.394,
       "descuento": 0,
       "stock": 4
+    },
+    {
+      "id": 4240,
+      "nombre": "ALFAJOR MINITORTA COCO 21*69G",
+      "unidadesBulto": 21,
+      "codBarra": "7790040133600",
+      "familia": "SALUDABLES",
+      "rubro": "ALFAJORES",
+      "precio": 30901.498,
+      "descuento": 0,
+      "stock": 1
     },
     {
       "id": 4824,
