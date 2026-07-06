@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-07-05T11:00:00.736Z",
-  "total": 2175,
+  "ultima_actualizacion": "2026-07-06T12:39:31.498Z",
+  "total": 2174,
   "productos": [
     {
       "id": 1,
@@ -1518,7 +1518,7 @@
       "rubro": "LACTEOS",
       "precio": 30900,
       "descuento": 0,
-      "stock": 6
+      "stock": 5
     },
     {
       "id": 479,
@@ -1969,7 +1969,7 @@
       "rubro": "VINAGRES",
       "precio": 35988.002,
       "descuento": 0,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 576,
@@ -2035,7 +2035,7 @@
       "rubro": "REPOSTERIA",
       "precio": 11550.001,
       "descuento": 0,
-      "stock": 272
+      "stock": 271
     },
     {
       "id": 613,
@@ -3641,7 +3641,7 @@
       "rubro": "ENERGIZANTES",
       "precio": 16890.003,
       "descuento": 0,
-      "stock": 107
+      "stock": 92
     },
     {
       "id": 1065,
@@ -4147,7 +4147,7 @@
       "rubro": "BAGGIO",
       "precio": 7639.847,
       "descuento": 30,
-      "stock": 2
+      "stock": 1
     },
     {
       "id": 1134,
@@ -4257,7 +4257,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 6602.054,
       "descuento": 0,
-      "stock": 28
+      "stock": 26
     },
     {
       "id": 1158,
@@ -4290,7 +4290,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 4024.676,
       "descuento": 40,
-      "stock": 75
+      "stock": 73
     },
     {
       "id": 1163,
@@ -5368,7 +5368,7 @@
       "rubro": "ENERGIZANTES",
       "precio": 32160,
       "descuento": 0,
-      "stock": 12
+      "stock": 7
     },
     {
       "id": 1351,
@@ -9768,7 +9768,7 @@
       "rubro": "APERITIVOS",
       "precio": 92138.299,
       "descuento": 0,
-      "stock": 21
+      "stock": 20
     },
     {
       "id": 3010,
@@ -13145,7 +13145,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 8900.929,
       "descuento": 0,
-      "stock": 120
+      "stock": 119
     },
     {
       "id": 4004,
@@ -16764,7 +16764,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 130980.001,
       "descuento": 0,
-      "stock": 74
+      "stock": 62
     },
     {
       "id": 5152,
@@ -16918,7 +16918,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 196080,
       "descuento": 0,
-      "stock": 83
+      "stock": 81
     },
     {
       "id": 5176,
@@ -18403,7 +18403,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 95745.775,
       "descuento": 0,
-      "stock": 5
+      "stock": 3
     },
     {
       "id": 5502,
@@ -18414,7 +18414,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 95745.775,
       "descuento": 0,
-      "stock": 29
+      "stock": 27
     },
     {
       "id": 5504,
@@ -18436,7 +18436,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 95745.775,
       "descuento": 0,
-      "stock": 17
+      "stock": 15
     },
     {
       "id": 5506,
@@ -18469,7 +18469,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 102039.691,
       "descuento": 5,
-      "stock": 19
+      "stock": 16
     },
     {
       "id": 5516,
@@ -19239,7 +19239,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 57694.76,
       "descuento": 0,
-      "stock": 8
+      "stock": 6
     },
     {
       "id": 5704,
@@ -21219,7 +21219,7 @@
       "rubro": "CERVEZAS",
       "precio": 36600,
       "descuento": 0,
-      "stock": 119
+      "stock": 94
     },
     {
       "id": 7028,
@@ -21230,7 +21230,7 @@
       "rubro": "CERVEZAS",
       "precio": 29652.658,
       "descuento": 6.35,
-      "stock": 670
+      "stock": 669
     },
     {
       "id": 7030,
@@ -21483,7 +21483,7 @@
       "rubro": "GASEOSAS",
       "precio": 16590,
       "descuento": 0,
-      "stock": 17
+      "stock": 16
     },
     {
       "id": 7476,
@@ -21714,7 +21714,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10149.226,
       "descuento": 0,
-      "stock": 87
+      "stock": 86
     },
     {
       "id": 17091,
@@ -21846,7 +21846,7 @@
       "rubro": "CERVEZAS",
       "precio": 67350.011,
       "descuento": 6.97,
-      "stock": 114
+      "stock": 102
     },
     {
       "id": 61680,
@@ -23059,17 +23059,6 @@
       "stock": 556
     },
     {
-      "id": 1045,
-      "nombre": "CELLIER AGUA S/GAS 12*600CC",
-      "unidadesBulto": 12,
-      "codBarra": "7790639002560",
-      "familia": "OTRAS BEBIDAS",
-      "rubro": "AGUA",
-      "precio": 5637.412,
-      "descuento": 0,
-      "stock": 10
-    },
-    {
       "id": 1173,
       "nombre": "CELLIER MULTIFRUTA S/GAS 6*1500 CC",
       "unidadesBulto": 6,
@@ -23221,7 +23210,7 @@
       "rubro": "AGUA",
       "precio": 6840.001,
       "descuento": 0,
-      "stock": 19
+      "stock": 4
     },
     {
       "id": 2535,
