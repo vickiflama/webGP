@@ -355,7 +355,7 @@ async function cargarSliderMasVendidos() {
 
     slider.innerHTML = productos.map(p => `
       <div class="mv-card">
-        <img src="https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.familia || 'GP')}"
+        <img src="https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.rubro || 'GP')}"
              alt="${p.nombre}" class="mv-img">
         <p class="mv-nombre">${p.nombre}</p>
         <p class="mv-precio">${p.precio.toLocaleString('es-AR', { style: 'currency', currency: 'ARS', minimumFractionDigits: 2 })}</p>
@@ -491,7 +491,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   if (btnCategorias && dropdownCategorias) {
     cargarProductosCache().then(productos => {
-      const familias = [...new Set(productos.map(p => p.familia).filter(Boolean))].sort();
+      const familias = [...new Set(productos.map(p => p.rubro).filter(Boolean))].sort();
       dropdownCategorias.innerHTML = familias.map(f => `
         <a href="catalogo.html?categoria=${encodeURIComponent(f)}" class="categoria-item">
           ${f}
