@@ -281,13 +281,13 @@ for (const p of precios) {
 }
 
   const productos = articulos
-   .filter(a =>
+ .filter(a =>
   !a.anulado &&
   precioMap[a.idArticulo] > 0 &&
   (stockMap[a.idArticulo] || 0) > 0 &&
-  !FAMILIAS_EXCLUIDAS.has(getAgrupacion(a.eAgrupaciones, 'FAMILIAS')),
-  !RUBROS_EXCLUIDOS.has(getAgrupacion(a.eAgrupaciones, 'RUBROS')) &&
-  !PRODUCTOS_EXCLUIDOS.has(a.idArticulo)
+  !FAMILIAS_EXCLUIDAS.has(getAgrupacion(a.eAgrupaciones, 'FAMILIAS')) &&
+  !PRODUCTOS_EXCLUIDOS.has(a.idArticulo) &&
+  !RUBROS_EXCLUIDOS.has(getAgrupacion(a.eAgrupaciones, 'RUBROS'))
 )
 
    .map(a => ({
