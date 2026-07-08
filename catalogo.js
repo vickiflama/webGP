@@ -173,12 +173,12 @@ function formatearPrecio(precio) {
 
 // ==================== FILTROS DINÁMICOS ====================
 function generarFiltrosCategorias() {
-  const familias = [
-    ...new Set(todosLosProductos.map((p) => p.familia).filter(Boolean)),
+  const rubros = [
+    ...new Set(todosLosProductos.map((p) => p.rubro).filter(Boolean)),
   ].sort();
   const contenedor = document.getElementById("filtro-categoria");
-  contenedor.innerHTML = familias
-    .map((f) => `<label><input type="checkbox" value="${f}" onchange="aplicarFiltros()"> ${f}</label>`)
+  contenedor.innerHTML = rubros
+    .map((r) => `<label><input type="checkbox" value="${r}" onchange="aplicarFiltros()"> ${r}</label>`)
     .join("");
 }
 
@@ -194,7 +194,7 @@ function aplicarFiltros() {
   let resultado = [...todosLosProductos];
 
   if (categoriasSeleccionadas.length > 0) {
-    resultado = resultado.filter((p) => categoriasSeleccionadas.includes(p.familia));
+    resultado = resultado.filter(p => categoriasSeleccionadas.includes(p.rubro));
   }
   if (textoBusqueda) {
     resultado = resultado.filter((p) => p.nombre.toLowerCase().includes(textoBusqueda));

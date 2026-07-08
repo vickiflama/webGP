@@ -43,9 +43,9 @@ function renderizarProductos(lista) {
   const visibles = lista.slice(inicio, fin);
 
 grid.innerHTML = visibles.map(p => `
-    <div class="producto-card" data-familia="${p.familia}">
+    <div class="producto-card" data-familia="${p.rubro}">
       ${p.descuento > 0 ? `<div class="badge-oferta">${Math.round(p.descuento)}%<br>OFF</div>` : ''}
-      <img src="https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.familia || 'GP')}"
+      <img src="https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.rubro || 'GP')}"
            alt="${p.nombre}" class="producto-img">
       <p class="producto-nombre">${p.nombre}</p>
       <p class="producto-precio">${formatearPrecio(p.precio)}</p>
@@ -161,7 +161,7 @@ function formatearPrecio(precio) {
 
 // ==================== FILTROS DINÁMICOS ====================
 function generarFiltrosCategorias() {
-  const familias = [...new Set(todosLosProductos.map(p => p.familia).filter(Boolean))].sort();
+  const familias = [...new Set(todosLosProductos.map(p => p.rubro).filter(Boolean))].sort();
   const contenedor = document.getElementById('filtro-categoria');
   contenedor.innerHTML = familias.map(f =>
     `<label><input type="checkbox" value="${f}" onchange="aplicarFiltros()"> ${f}</label>`
@@ -179,7 +179,7 @@ function aplicarFiltros() {
   let resultado = [...todosLosProductos];
 
   if (categoriasSeleccionadas.length > 0) {
-    resultado = resultado.filter(p => categoriasSeleccionadas.includes(p.familia));
+    resultado = resultado.filter(p => categoriasSeleccionadas.includes(p.rubro));
   }
   if (textoBusqueda) {
     resultado = resultado.filter(p => p.nombre.toLowerCase().includes(textoBusqueda));
