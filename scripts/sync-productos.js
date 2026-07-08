@@ -43,7 +43,6 @@ const CORRECCIONES_NOMBRES = {
   'COND.': 'CONDIMENTO',
   'COND':'CONDIMENTO',
   'BCA': 'BLANCA',
-  'PQ': 'PAQUETE',
   'PAQ': 'PAQUETE',
   'ALC': 'ALCOHOL',
   'BILAM':'BILAMINADO',
@@ -90,7 +89,6 @@ const CORRECCIONES_NOMBRES = {
 'AD': 'ADULTOS',
 'ADUL': 'ADULTOS',
 'TR/PRT': 'TRIPLE PROTEINA',
-'PQ': 'PEQUEÑO',
 'CAR': 'CARNE',
 'B/CERO': 'BAJO CERO',
 'BUDW': 'BUDWEISER',
@@ -231,10 +229,10 @@ async function getStock(sessionId) {
 
   // Sumar cantBultos por idArticulo
   const stockMap = {};
-  for (const item of items) {
-    if (!stockMap[item.idArticulo]) stockMap[item.idArticulo] = 0;
-    stockMap[item.idArticulo] += item.cantBultos || 0;
-  }
+for (const item of items) {
+  if (!stockMap[item.idArticulo]) stockMap[item.idArticulo] = 0;
+  stockMap[item.idArticulo] += (item.cantBultos || 0) + (item.cantUnidades || 0);
+}
 
   const conStock = Object.values(stockMap).filter(v => v > 0).length;
   console.log(`✅ Artículos con stock > 0: ${conStock}`);
