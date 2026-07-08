@@ -298,7 +298,7 @@ for (const p of precios) {
  familia: corregirFamilia(getAgrupacion(a.eAgrupaciones, 'FAMILIAS')),
 rubro: corregirRubro(getAgrupacion(a.eAgrupaciones, 'RUBROS')),
   precio: precioMap[a.idArticulo] || 0,
-  descuento: bonificacionMap[a.idArticulo] || 0,  // ← nuevo
+  descuento: bonificacionMap[a.idArticulo] || 0, 
   stock: stockMap[a.idArticulo] || 0
 }));
 
