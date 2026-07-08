@@ -127,6 +127,21 @@ const CORRECCIONES_FAMILIAS = {
   'LACTEOS.': 'LACTEOS',
 };
 
+const CORRECCIONES_RUBROS = {
+  'ALIMENTOS P/PERROS Y GATOS': 'ALIMENTOS PARA MASCOTAS',
+  'CONDIM ESPECIAS': 'CONDIMENTOS Y ESPECIAS',
+  'JABONES Y SUAV P/ ROPA': 'JABONES Y SUAVIZANTES',
+};
+
+const RUBROS_EXCLUIDOS = new Set([
+  'MATERIAL POP',
+  'OTROS.',
+]);
+
+function corregirRubro(rubro) {
+  return CORRECCIONES_RUBROS[rubro] || rubro;
+}
+
 function corregirFamilia(familia) {
   return CORRECCIONES_FAMILIAS[familia] || familia;
 }
@@ -270,7 +285,8 @@ for (const p of precios) {
   !a.anulado &&
   precioMap[a.idArticulo] > 0 &&
   (stockMap[a.idArticulo] || 0) > 0 &&
-  !FAMILIAS_EXCLUIDAS.has(getAgrupacion(a.eAgrupaciones, 'FAMILIAS')) &&
+  !FAMILIAS_EXCLUIDAS.has(getAgrupacion(a.eAgrupaciones, 'FAMILIAS')),
+  !RUBROS_EXCLUIDOS.has(getAgrupacion(a.eAgrupaciones, 'RUBROS')) &&
   !PRODUCTOS_EXCLUIDOS.has(a.idArticulo)
 )
 
@@ -280,7 +296,7 @@ for (const p of precios) {
   unidadesBulto: a.unidadesBulto,
   codBarra: a.codBarraUnidad || '',
  familia: corregirFamilia(getAgrupacion(a.eAgrupaciones, 'FAMILIAS')),
-  rubro: getAgrupacion(a.eAgrupaciones, 'RUBROS'),
+rubro: corregirRubro(getAgrupacion(a.eAgrupaciones, 'RUBROS')),
   precio: precioMap[a.idArticulo] || 0,
   descuento: bonificacionMap[a.idArticulo] || 0,  // ← nuevo
   stock: stockMap[a.idArticulo] || 0
