@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-07-08T15:51:21.110Z",
-  "total": 2879,
+  "ultima_actualizacion": "2026-07-08T16:02:51.445Z",
+  "total": 2881,
   "productos": [
     {
       "id": 1,
@@ -3418,7 +3418,7 @@
       "unidadesBulto": 1,
       "codBarra": "7798092450034",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 1453.394,
       "descuento": 0,
       "stock": 64
@@ -3429,7 +3429,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594950822",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 26219.882,
       "descuento": 0,
       "stock": 21
@@ -3440,7 +3440,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594951140",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 36458.96,
       "descuento": 0,
       "stock": 22
@@ -3451,7 +3451,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594951188",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 31216.945,
       "descuento": 0,
       "stock": 32
@@ -3462,7 +3462,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594951270",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 17891.444,
       "descuento": 0,
       "stock": 13
@@ -3473,7 +3473,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594951287",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 32124.905,
       "descuento": 0,
       "stock": 4
@@ -3484,7 +3484,7 @@
       "unidadesBulto": 1,
       "codBarra": "779354950921",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 38376.131,
       "descuento": 0,
       "stock": 7
@@ -3495,7 +3495,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594950969",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 17133.41,
       "descuento": 0,
       "stock": 3
@@ -3506,7 +3506,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594951119",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 19331.773,
       "descuento": 0,
       "stock": 7
@@ -3517,7 +3517,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594000206",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 22158.215,
       "descuento": 0,
       "stock": 15
@@ -3528,7 +3528,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594951126",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 35746.957,
       "descuento": 0,
       "stock": 25
@@ -3539,7 +3539,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594000053",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 39800.131,
       "descuento": 0,
       "stock": 6
@@ -3550,7 +3550,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793694000077",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 47703.981,
       "descuento": 0,
       "stock": 1
@@ -3572,7 +3572,7 @@
       "unidadesBulto": 1,
       "codBarra": "",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 67963.313,
       "descuento": 0,
       "stock": 6
@@ -7197,6 +7197,17 @@
       "stock": 2
     },
     {
+      "id": 1488,
+      "nombre": "ALF TRI BLANCO LAS COLONIAS 24*65G",
+      "unidadesBulto": 24,
+      "codBarra": "77917805",
+      "familia": "SALUDABLES",
+      "rubro": "ALFAJORES",
+      "precio": 13283.271,
+      "descuento": 0,
+      "stock": 12
+    },
+    {
       "id": 1489,
       "nombre": "ALF TRI NEG LAS COLO 24*65G",
       "unidadesBulto": 24,
@@ -7205,7 +7216,7 @@
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 3
+      "stock": 15
     },
     {
       "id": 1495,
@@ -7216,7 +7227,7 @@
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 10
+      "stock": 22
     },
     {
       "id": 1497,
@@ -13472,7 +13483,7 @@
       "unidadesBulto": 20,
       "codBarra": "8445291478701",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 42395.859,
       "descuento": 0,
       "stock": 13
@@ -13527,7 +13538,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290944658",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 62988.583,
       "descuento": 0,
       "stock": 3
@@ -13538,7 +13549,7 @@
       "unidadesBulto": 9,
       "codBarra": "8445290977373",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 44145.076,
       "descuento": 10,
       "stock": 13
@@ -13549,7 +13560,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290609984",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 44012.855,
       "descuento": 0,
       "stock": 7
@@ -13560,7 +13571,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290988027",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 58202.742,
       "descuento": 0,
       "stock": 7
@@ -13571,7 +13582,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290068811",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 47631.723,
       "descuento": 0,
       "stock": 1
@@ -13582,7 +13593,7 @@
       "unidadesBulto": 8,
       "codBarra": "8445290057433",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 58547.254,
       "descuento": 0,
       "stock": 6
@@ -13593,7 +13604,7 @@
       "unidadesBulto": 6,
       "codBarra": "8445290585004",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 68752.055,
       "descuento": 0,
       "stock": 2
@@ -13604,7 +13615,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290068798",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 81933.25,
       "descuento": 0,
       "stock": 3
@@ -13615,7 +13626,7 @@
       "unidadesBulto": 9,
       "codBarra": "7613287613226",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 42890.894,
       "descuento": 0,
       "stock": 8
@@ -13626,7 +13637,7 @@
       "unidadesBulto": 6,
       "codBarra": "7613287613240",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 45904.846,
       "descuento": 10,
       "stock": 2
@@ -13637,7 +13648,7 @@
       "unidadesBulto": 1,
       "codBarra": "7613287613264",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 19760.934,
       "descuento": 0,
       "stock": 4
@@ -13648,7 +13659,7 @@
       "unidadesBulto": 9,
       "codBarra": "7613287613356",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 38770.796,
       "descuento": 0,
       "stock": 7
@@ -13659,7 +13670,7 @@
       "unidadesBulto": 6,
       "codBarra": "7613287613431",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 41723.293,
       "descuento": 10,
       "stock": 5
@@ -13670,7 +13681,7 @@
       "unidadesBulto": 1,
       "codBarra": "7613287613455",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 17939.097,
       "descuento": 0,
       "stock": 2
@@ -13681,7 +13692,7 @@
       "unidadesBulto": 1,
       "codBarra": "7613287614971",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 31211.853,
       "descuento": 0,
       "stock": 12
@@ -13692,7 +13703,7 @@
       "unidadesBulto": 1,
       "codBarra": "7613036507998",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 35887.511,
       "descuento": 0,
       "stock": 5
@@ -13703,7 +13714,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290585066",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 44959.474,
       "descuento": 0,
       "stock": 3
@@ -16731,7 +16742,7 @@
       "rubro": "LATAS Y ESTUCHES",
       "precio": 282725.999,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 3826,
@@ -17457,7 +17468,7 @@
       "rubro": "GALLETAS",
       "precio": 36269.75,
       "descuento": 0,
-      "stock": 7
+      "stock": 4
     },
     {
       "id": 4051,
@@ -17699,7 +17710,7 @@
       "rubro": "GOLOSINAS",
       "precio": 69660.909,
       "descuento": 0,
-      "stock": 4
+      "stock": 3
     },
     {
       "id": 4096,
@@ -17832,6 +17843,17 @@
       "precio": 30800.006,
       "descuento": 0,
       "stock": 37
+    },
+    {
+      "id": 4116,
+      "nombre": "SERRANITAS ARCOR 14 * 3*100 G",
+      "unidadesBulto": 14,
+      "codBarra": "7790040143616",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 23240.001,
+      "descuento": 0,
+      "stock": 1
     },
     {
       "id": 4117,
@@ -18411,7 +18433,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290945020",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 65927.733,
       "descuento": 0,
       "stock": 1
@@ -18422,7 +18444,7 @@
       "unidadesBulto": 6,
       "codBarra": "8445290977632",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 53614.312,
       "descuento": 10,
       "stock": 3
@@ -18433,7 +18455,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290977687",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 24121.568,
       "descuento": 0,
       "stock": 1
@@ -18444,7 +18466,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290986597",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 55100.653,
       "descuento": 0,
       "stock": 5
@@ -18455,7 +18477,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290067623",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 47631.723,
       "descuento": 0,
       "stock": 2
@@ -18466,7 +18488,7 @@
       "unidadesBulto": 9,
       "codBarra": "8445290944184",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 48079.415,
       "descuento": 10,
       "stock": 11
@@ -18477,7 +18499,7 @@
       "unidadesBulto": 9,
       "codBarra": "8445290595447",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 51871.309,
       "descuento": 0,
       "stock": 5
@@ -18488,7 +18510,7 @@
       "unidadesBulto": 8,
       "codBarra": "8445290068682",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 58547.254,
       "descuento": 0,
       "stock": 9
@@ -18499,7 +18521,7 @@
       "unidadesBulto": 6,
       "codBarra": "8445290068705",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 111358.962,
       "descuento": 0,
       "stock": 5
@@ -18510,7 +18532,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290667571",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 26041.172,
       "descuento": 0,
       "stock": 9
@@ -18521,7 +18543,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290067630",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 81933.25,
       "descuento": 0,
       "stock": 2
@@ -18532,7 +18554,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290069481",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 67229.714,
       "descuento": 25,
       "stock": 1
@@ -18543,7 +18565,7 @@
       "unidadesBulto": 20,
       "codBarra": "8445290068507",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 80881.119,
       "descuento": 0,
       "stock": 3
@@ -28960,7 +28982,7 @@
       "unidadesBulto": 1,
       "codBarra": "8445290585226",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 44959.474,
       "descuento": 0,
       "stock": 6
@@ -31061,7 +31083,7 @@
       "unidadesBulto": 1,
       "codBarra": "7793594951485",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 44736.729,
       "descuento": 0,
       "stock": 1
@@ -31072,7 +31094,7 @@
       "unidadesBulto": 1,
       "codBarra": "",
       "familia": "BALANCEADOS",
-      "rubro": "ALIMENTOS P/ PERROS Y GATOS",
+      "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 40835.08,
       "descuento": 0,
       "stock": 19
