@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-07-09T11:48:58.139Z",
+  "ultima_actualizacion": "2026-07-10T11:44:30.803Z",
   "total": 2874,
   "productos": [
     {
@@ -77,7 +77,7 @@
       "rubro": "ACEITES",
       "precio": 25351.702,
       "descuento": 0,
-      "stock": 5
+      "stock": 2
     },
     {
       "id": 31,
@@ -1089,7 +1089,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14211.462,
       "descuento": 0,
-      "stock": 5
+      "stock": 16
     },
     {
       "id": 235,
@@ -2387,7 +2387,7 @@
       "rubro": "SAL",
       "precio": 14318.865,
       "descuento": 10,
-      "stock": 32
+      "stock": 29
     },
     {
       "id": 565,
@@ -2409,7 +2409,7 @@
       "rubro": "SAL",
       "precio": 20442.439,
       "descuento": 0,
-      "stock": 24
+      "stock": 21
     },
     {
       "id": 569,
@@ -2464,7 +2464,7 @@
       "rubro": "VINAGRES",
       "precio": 16140,
       "descuento": 0,
-      "stock": 19
+      "stock": 16
     },
     {
       "id": 574,
@@ -2728,7 +2728,7 @@
       "rubro": "ARROZ",
       "precio": 8600,
       "descuento": 0,
-      "stock": 55
+      "stock": 52
     },
     {
       "id": 633,
@@ -2849,7 +2849,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 16102.8,
       "descuento": 0,
-      "stock": 13
+      "stock": 10
     },
     {
       "id": 656,
@@ -3102,7 +3102,7 @@
       "rubro": "ACEITES",
       "precio": 42509.251,
       "descuento": 0,
-      "stock": 150
+      "stock": 146
     },
     {
       "id": 703,
@@ -3113,7 +3113,7 @@
       "rubro": "ACEITES",
       "precio": 40800.002,
       "descuento": 0,
-      "stock": 32
+      "stock": 31
     },
     {
       "id": 710,
@@ -3718,7 +3718,7 @@
       "rubro": "LIMPIEZA",
       "precio": 301968.001,
       "descuento": 0,
-      "stock": 6
+      "stock": 4
     },
     {
       "id": 874,
@@ -3729,7 +3729,7 @@
       "rubro": "LIMPIEZA",
       "precio": 265680.003,
       "descuento": 0,
-      "stock": 290
+      "stock": 288
     },
     {
       "id": 875,
@@ -4202,7 +4202,7 @@
       "rubro": "ACEITES",
       "precio": 56250,
       "descuento": 0,
-      "stock": 14
+      "stock": 10
     },
     {
       "id": 1025,
@@ -4246,7 +4246,7 @@
       "rubro": "AGUA",
       "precio": 4470.797,
       "descuento": 0,
-      "stock": 162
+      "stock": 152
     },
     {
       "id": 1030,
@@ -4334,7 +4334,7 @@
       "rubro": "GASEOSAS",
       "precio": 7339.525,
       "descuento": 0,
-      "stock": 8
+      "stock": 5
     },
     {
       "id": 1039,
@@ -4455,7 +4455,7 @@
       "rubro": "GASEOSAS",
       "precio": 20640,
       "descuento": 0,
-      "stock": 50
+      "stock": 41
     },
     {
       "id": 1060,
@@ -4620,7 +4620,7 @@
       "rubro": "PAPELERA",
       "precio": 25511.248,
       "descuento": 0,
-      "stock": 32
+      "stock": 67
     },
     {
       "id": 1083,
@@ -5335,7 +5335,7 @@
       "rubro": "PAPELERA",
       "precio": 24433.92,
       "descuento": 0,
-      "stock": 6
+      "stock": 12
     },
     {
       "id": 1191,
@@ -5391,17 +5391,6 @@
       "precio": 22230,
       "descuento": 5,
       "stock": 134
-    },
-    {
-      "id": 1207,
-      "nombre": "COCA COLA LATA 6 * 354 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790895000232",
-      "familia": "GASEOSAS",
-      "rubro": "GASEOSAS",
-      "precio": 10140,
-      "descuento": 0,
-      "stock": 2
     },
     {
       "id": 1209,
@@ -5478,7 +5467,7 @@
       "rubro": "GASEOSAS",
       "precio": 16400,
       "descuento": 0,
-      "stock": 115
+      "stock": 112
     },
     {
       "id": 1225,
@@ -5511,7 +5500,7 @@
       "rubro": "GASEOSAS",
       "precio": 16400,
       "descuento": 0,
-      "stock": 81
+      "stock": 79
     },
     {
       "id": 1231,
@@ -5764,7 +5753,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 64625.35,
       "descuento": 0,
-      "stock": 11
+      "stock": 10
     },
     {
       "id": 1279,
@@ -8129,7 +8118,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 11
+      "stock": 5
     },
     {
       "id": 1819,
@@ -8140,7 +8129,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 56
+      "stock": 55
     },
     {
       "id": 1820,
@@ -8853,7 +8842,7 @@
       "codBarra": "7790990999851",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 38979.727,
+      "precio": 43542.721,
       "descuento": 0,
       "stock": 10
     },
@@ -8864,7 +8853,7 @@
       "codBarra": "7790990002810",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 36600.225,
+      "precio": 40884.4,
       "descuento": 0,
       "stock": 12
     },
@@ -9018,7 +9007,7 @@
       "codBarra": "7790990002827",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 41587.761,
+      "precio": 46454.042,
       "descuento": 0,
       "stock": 6
     },
@@ -9029,7 +9018,7 @@
       "codBarra": "7790990002865",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 36600.225,
+      "precio": 40884.4,
       "descuento": 0,
       "stock": 12
     },
@@ -9040,7 +9029,7 @@
       "codBarra": "7790990003954",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 36296.491,
+      "precio": 40540.53,
       "descuento": 0,
       "stock": 28
     },
@@ -9084,7 +9073,7 @@
       "codBarra": "7790990003022",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 45233.708,
+      "precio": 50526.817,
       "descuento": 0,
       "stock": 31
     },
@@ -9095,7 +9084,7 @@
       "codBarra": "7790990003121",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 45233.708,
+      "precio": 50526.817,
       "descuento": 0,
       "stock": 8
     },
@@ -9238,7 +9227,7 @@
       "codBarra": "7790990003039",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 68041.652,
+      "precio": 76005.739,
       "descuento": 0,
       "stock": 22
     },
@@ -9744,7 +9733,7 @@
       "codBarra": "7790740001865",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39732.915,
+      "precio": 44383.127,
       "descuento": 0,
       "stock": 5
     },
@@ -9843,7 +9832,7 @@
       "codBarra": "7790990001844",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 34959.998,
+      "precio": 39055.4,
       "descuento": 0,
       "stock": 3
     },
@@ -9854,7 +9843,7 @@
       "codBarra": "7790990001851",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 35012.814,
+      "precio": 39108.011,
       "descuento": 0,
       "stock": 3
     },
@@ -9865,7 +9854,7 @@
       "codBarra": "7790740000691",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 87200.284,
+      "precio": 97415.866,
       "descuento": 0,
       "stock": 16
     },
@@ -9876,7 +9865,7 @@
       "codBarra": "7790740000707",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 87200.284,
+      "precio": 97415.866,
       "descuento": 0,
       "stock": 47
     },
@@ -10582,7 +10571,7 @@
       "rubro": "CUIDADO FEMENINO",
       "precio": 43200.001,
       "descuento": 0,
-      "stock": 7
+      "stock": 4
     },
     {
       "id": 2369,
@@ -10591,7 +10580,7 @@
       "codBarra": "7790990004012",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 45233.708,
+      "precio": 50526.817,
       "descuento": 0,
       "stock": 22
     },
@@ -11341,7 +11330,7 @@
       "rubro": "GOLOSINAS",
       "precio": 11980.004,
       "descuento": 0,
-      "stock": 16
+      "stock": 13
     },
     {
       "id": 2688,
@@ -11352,7 +11341,7 @@
       "rubro": "GOLOSINAS",
       "precio": 21560.001,
       "descuento": 0,
-      "stock": 14
+      "stock": 20
     },
     {
       "id": 2708,
@@ -11515,7 +11504,7 @@
       "codBarra": "7790990001387",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 37492.019,
+      "precio": 41880.072,
       "descuento": 0,
       "stock": 21
     },
@@ -11627,7 +11616,7 @@
       "rubro": "CERVEZAS",
       "precio": 60480.004,
       "descuento": 0,
-      "stock": 77
+      "stock": 75
     },
     {
       "id": 2856,
@@ -12463,11 +12452,11 @@
       "rubro": "VINOS",
       "precio": 19560.001,
       "descuento": 0,
-      "stock": 13
+      "stock": 9
     },
     {
       "id": 3026,
-      "nombre": "MARLÓ BLANCO DULCE  6 * 750 CC",
+      "nombre": "MARL�� BLANCO DULCE  6 * 750 CC",
       "unidadesBulto": 6,
       "codBarra": "7790703205224",
       "familia": "VINOS",
@@ -12937,6 +12926,17 @@
       "precio": 391340.629,
       "descuento": 0,
       "stock": 2
+    },
+    {
+      "id": 3123,
+      "nombre": "JACK DANIELS HONEY 12 * 700 CC",
+      "unidadesBulto": 12,
+      "codBarra": "5099873001370",
+      "familia": "APERITIVOS",
+      "rubro": "BEBIDAS BLANCAS Y LICORES",
+      "precio": 438180.002,
+      "descuento": 0,
+      "stock": 11
     },
     {
       "id": 3125,
@@ -13453,7 +13453,7 @@
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 33768.305,
       "descuento": 0,
-      "stock": 4
+      "stock": 5
     },
     {
       "id": 3243,
@@ -14919,17 +14919,6 @@
       "stock": 12
     },
     {
-      "id": 3526,
-      "nombre": "CONDIMENTO ALICANTE P/PIZZA S/TACC 12 * 25 G",
-      "unidadesBulto": 12,
-      "codBarra": "7790150490334",
-      "familia": "ADEREZOS",
-      "rubro": "CONDIMENTOS Y ESPECIAS",
-      "precio": 10059.456,
-      "descuento": 0,
-      "stock": 3
-    },
-    {
       "id": 3528,
       "nombre": "OREGANO ALICANTE 20 * 25 G",
       "unidadesBulto": 20,
@@ -15403,6 +15392,17 @@
       "stock": 9
     },
     {
+      "id": 3590,
+      "nombre": "GIACOMO VERDURA 12 * 500 G",
+      "unidadesBulto": 12,
+      "codBarra": "7792390620748",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 56283.029,
+      "descuento": 0,
+      "stock": 1
+    },
+    {
       "id": 3591,
       "nombre": "TE LA VIRGINIA TILO 6 * 25 U",
       "unidadesBulto": 6,
@@ -15618,7 +15618,7 @@
       "codBarra": "7790990000878",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 76936.906,
+      "precio": 85936.16,
       "descuento": 0,
       "stock": 1
     },
@@ -15629,7 +15629,7 @@
       "codBarra": "7790990002162",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 31463.812,
+      "precio": 35149.629,
       "descuento": 0,
       "stock": 9
     },
@@ -15640,7 +15640,7 @@
       "codBarra": "7790990001790",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 84736.978,
+      "precio": 94645.305,
       "descuento": 0,
       "stock": 19
     },
@@ -15651,7 +15651,7 @@
       "codBarra": "7790990001769",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 84737.171,
+      "precio": 94645.305,
       "descuento": 0,
       "stock": 30
     },
@@ -15662,7 +15662,7 @@
       "codBarra": "7790990001912",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 47453.078,
+      "precio": 53009.58,
       "descuento": 0,
       "stock": 4
     },
@@ -15849,7 +15849,7 @@
       "codBarra": "7790990000830",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 78846.903,
+      "precio": 88079.639,
       "descuento": 0,
       "stock": 34
     },
@@ -15939,7 +15939,7 @@
       "rubro": "VINOS",
       "precio": 47026.977,
       "descuento": 0,
-      "stock": 35
+      "stock": 25
     },
     {
       "id": 3702,
@@ -15983,7 +15983,7 @@
       "rubro": "VINOS",
       "precio": 47026.977,
       "descuento": 0,
-      "stock": 19
+      "stock": 17
     },
     {
       "id": 3706,
@@ -16245,7 +16245,7 @@
       "codBarra": "7790990002711",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 36742.207,
+      "precio": 41041.228,
       "descuento": 0,
       "stock": 5
     },
@@ -16498,7 +16498,7 @@
       "codBarra": "7790740000752",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 80976.056,
+      "precio": 90445.467,
       "descuento": 0,
       "stock": 24
     },
@@ -16531,7 +16531,7 @@
       "codBarra": "7790740000721",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 80976.056,
+      "precio": 90445.467,
       "descuento": 0,
       "stock": 9
     },
@@ -17886,7 +17886,7 @@
       "rubro": "GALLETAS",
       "precio": 55851.6,
       "descuento": 20,
-      "stock": 46
+      "stock": 42
     },
     {
       "id": 4126,
@@ -18953,7 +18953,7 @@
       "rubro": "VINOS",
       "precio": 18224.996,
       "descuento": 0,
-      "stock": 30
+      "stock": 27
     },
     {
       "id": 4382,
@@ -19327,7 +19327,7 @@
       "rubro": "VINOS",
       "precio": 25051.709,
       "descuento": 0,
-      "stock": 60
+      "stock": 59
     },
     {
       "id": 4456,
@@ -19657,7 +19657,7 @@
       "rubro": "GALLETAS",
       "precio": 15238.666,
       "descuento": 0,
-      "stock": 3
+      "stock": 11
     },
     {
       "id": 4534,
@@ -19701,7 +19701,7 @@
       "rubro": "GALLETAS",
       "precio": 19830.096,
       "descuento": 0,
-      "stock": 34
+      "stock": 31
     },
     {
       "id": 4545,
@@ -19745,7 +19745,7 @@
       "rubro": "GALLETAS",
       "precio": 36704.745,
       "descuento": 0,
-      "stock": 22
+      "stock": 19
     },
     {
       "id": 4555,
@@ -19831,7 +19831,7 @@
       "codBarra": "7790990002919",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 43591.266,
+      "precio": 48694.466,
       "descuento": 0,
       "stock": 49
     },
@@ -19842,7 +19842,7 @@
       "codBarra": "7790990002926",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 45475.72,
+      "precio": 50799.394,
       "descuento": 0,
       "stock": 5
     },
@@ -19853,7 +19853,7 @@
       "codBarra": "7790990002902",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 47454.579,
+      "precio": 53009.58,
       "descuento": 0,
       "stock": 3
     },
@@ -19864,7 +19864,7 @@
       "codBarra": "7790990002933",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 43591.266,
+      "precio": 48694.466,
       "descuento": 0,
       "stock": 9
     },
@@ -19875,7 +19875,7 @@
       "codBarra": "7790990002940",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 45475.72,
+      "precio": 50799.394,
       "descuento": 0,
       "stock": 20
     },
@@ -19886,7 +19886,7 @@
       "codBarra": "7790990002957",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 47454.579,
+      "precio": 53009.58,
       "descuento": 0,
       "stock": 2
     },
@@ -19897,7 +19897,7 @@
       "codBarra": "7790990002858",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 84029.95,
+      "precio": 93853.795,
       "descuento": 0,
       "stock": 3
     },
@@ -19908,7 +19908,7 @@
       "codBarra": "7790990002964",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 29966.812,
+      "precio": 33474.408,
       "descuento": 0,
       "stock": 12
     },
@@ -19930,7 +19930,7 @@
       "codBarra": "7790990002988",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 35011.205,
+      "precio": 39102.554,
       "descuento": 0,
       "stock": 2
     },
@@ -19941,7 +19941,7 @@
       "codBarra": "7790990003008",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 42507.433,
+      "precio": 47484.212,
       "descuento": 0,
       "stock": 3
     },
@@ -19952,7 +19952,7 @@
       "codBarra": "7790990003459",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 38513.465,
+      "precio": 43018.791,
       "descuento": 0,
       "stock": 6
     },
@@ -19963,7 +19963,7 @@
       "codBarra": "7790990002834",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 99783.352,
+      "precio": 111467.051,
       "descuento": 0,
       "stock": 7
     },
@@ -19996,7 +19996,7 @@
       "codBarra": "7790990002797",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 39498.091,
+      "precio": 51109.674,
       "descuento": 0,
       "stock": 7
     },
@@ -20007,7 +20007,7 @@
       "codBarra": "7790990003237",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 45754.625,
+      "precio": 51109.674,
       "descuento": 0,
       "stock": 4
     },
@@ -20018,7 +20018,7 @@
       "codBarra": "7790990003190",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 36591.344,
+      "precio": 40877.212,
       "descuento": 0,
       "stock": 9
     },
@@ -20040,7 +20040,7 @@
       "codBarra": "7790990003220",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 41576.399,
+      "precio": 46444.64,
       "descuento": 0,
       "stock": 3
     },
@@ -20051,7 +20051,7 @@
       "codBarra": "7790990003787",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 61084.394,
+      "precio": 68234.042,
       "descuento": 0,
       "stock": 20
     },
@@ -20062,7 +20062,7 @@
       "codBarra": "7790990003268",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 54341.439,
+      "precio": 60695.548,
       "descuento": 0,
       "stock": 5
     },
@@ -20073,7 +20073,7 @@
       "codBarra": "7790990003374",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 54341.439,
+      "precio": 60695.548,
       "descuento": 0,
       "stock": 4
     },
@@ -20084,7 +20084,7 @@
       "codBarra": "7790990003275",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 83717.783,
+      "precio": 93518.698,
       "descuento": 0,
       "stock": 10
     },
@@ -20095,7 +20095,7 @@
       "codBarra": "7790990003381",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 83717.783,
+      "precio": 93518.698,
       "descuento": 0,
       "stock": 21
     },
@@ -20106,7 +20106,7 @@
       "codBarra": "7790990003046",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 91857.549,
+      "precio": 102609.029,
       "descuento": 0,
       "stock": 42
     },
@@ -20117,7 +20117,7 @@
       "codBarra": "7790990003145",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 91857.549,
+      "precio": 102609.029,
       "descuento": 0,
       "stock": 19
     },
@@ -20128,7 +20128,7 @@
       "codBarra": "7790990003282",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 113111.514,
+      "precio": 126353.56,
       "descuento": 0,
       "stock": 7
     },
@@ -20139,7 +20139,7 @@
       "codBarra": "7790990003398",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 113111.514,
+      "precio": 126353.56,
       "descuento": 0,
       "stock": 13
     },
@@ -20150,7 +20150,7 @@
       "codBarra": "7790990003053",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 84878.148,
+      "precio": 94812.817,
       "descuento": 0,
       "stock": 5
     },
@@ -20161,7 +20161,7 @@
       "codBarra": "7790990001950",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 57497.276,
+      "precio": 64230.515,
       "descuento": 0,
       "stock": 20
     },
@@ -20172,7 +20172,7 @@
       "codBarra": "7790990001967",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 57497.276,
+      "precio": 64230.515,
       "descuento": 0,
       "stock": 18
     },
@@ -20183,7 +20183,7 @@
       "codBarra": "7790990001974",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 57497.276,
+      "precio": 64230.515,
       "descuento": 0,
       "stock": 17
     },
@@ -20194,7 +20194,7 @@
       "codBarra": "7790990000960",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 73541.562,
+      "precio": 82156.084,
       "descuento": 0,
       "stock": 67
     },
@@ -20205,7 +20205,7 @@
       "codBarra": "7790990000977",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 73541.562,
+      "precio": 82156.084,
       "descuento": 0,
       "stock": 26
     },
@@ -20216,7 +20216,7 @@
       "codBarra": "7790990000991",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 73541.562,
+      "precio": 82156.084,
       "descuento": 0,
       "stock": 79
     },
@@ -20227,7 +20227,7 @@
       "codBarra": "7790990000939",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 65659.029,
+      "precio": 73344.15,
       "descuento": 0,
       "stock": 7
     },
@@ -20238,7 +20238,7 @@
       "codBarra": "7790990000946",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 65659.029,
+      "precio": 73344.15,
       "descuento": 0,
       "stock": 10
     },
@@ -20249,7 +20249,7 @@
       "codBarra": "7790990000953",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 65659.029,
+      "precio": 73344.15,
       "descuento": 0,
       "stock": 12
     },
@@ -20260,7 +20260,7 @@
       "codBarra": "7790740000714",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 87200.284,
+      "precio": 97415.866,
       "descuento": 0,
       "stock": 79
     },
@@ -20271,7 +20271,7 @@
       "codBarra": "7790740000738",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 80976.056,
+      "precio": 90445.467,
       "descuento": 0,
       "stock": 1
     },
@@ -20282,7 +20282,7 @@
       "codBarra": "7790740000769",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 30932.476,
+      "precio": 34549.699,
       "descuento": 0,
       "stock": 10
     },
@@ -20293,7 +20293,7 @@
       "codBarra": "7790740000776",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 30932.476,
+      "precio": 34549.699,
       "descuento": 0,
       "stock": 5
     },
@@ -20304,7 +20304,7 @@
       "codBarra": "7790740000783",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 21707.364,
+      "precio": 24245.811,
       "descuento": 0,
       "stock": 3
     },
@@ -20315,7 +20315,7 @@
       "codBarra": "7790740000790",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 21707.364,
+      "precio": 24245.811,
       "descuento": 0,
       "stock": 9
     },
@@ -20326,7 +20326,7 @@
       "codBarra": "7790740503710",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 31151.281,
+      "precio": 34800.011,
       "descuento": 0,
       "stock": 8
     },
@@ -20337,7 +20337,7 @@
       "codBarra": "7790740503727",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 31151.281,
+      "precio": 34800.011,
       "descuento": 0,
       "stock": 9
     },
@@ -20348,7 +20348,7 @@
       "codBarra": "7790740000806",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 22864.027,
+      "precio": 25541.539,
       "descuento": 0,
       "stock": 13
     },
@@ -20359,7 +20359,7 @@
       "codBarra": "7790740000813",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 22864.027,
+      "precio": 25541.539,
       "descuento": 0,
       "stock": 6
     },
@@ -20370,7 +20370,7 @@
       "codBarra": "7790740001872",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39733.92,
+      "precio": 44378.795,
       "descuento": 0,
       "stock": 9
     },
@@ -20381,7 +20381,7 @@
       "codBarra": "7790990003404",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 45233.708,
+      "precio": 50526.817,
       "descuento": 0,
       "stock": 16
     },
@@ -20392,7 +20392,7 @@
       "codBarra": "7790740001414",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46731.991,
+      "precio": 52199.569,
       "descuento": 0,
       "stock": 3
     },
@@ -20403,7 +20403,7 @@
       "codBarra": "7790740000431",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46731.991,
+      "precio": 52199.569,
       "descuento": 0,
       "stock": 12
     },
@@ -20414,7 +20414,7 @@
       "codBarra": "7790740000448",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46731.991,
+      "precio": 52199.569,
       "descuento": 0,
       "stock": 6
     },
@@ -20425,7 +20425,7 @@
       "codBarra": "7790740000455",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46731.991,
+      "precio": 52199.569,
       "descuento": 0,
       "stock": 6
     },
@@ -20436,7 +20436,7 @@
       "codBarra": "7790740000653",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 20136.639,
+      "precio": 22491.311,
       "descuento": 0,
       "stock": 11
     },
@@ -20447,7 +20447,7 @@
       "codBarra": "7790740000660",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 20136.639,
+      "precio": 22491.311,
       "descuento": 0,
       "stock": 7
     },
@@ -20458,7 +20458,7 @@
       "codBarra": "7790740001780",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39732.915,
+      "precio": 44383.127,
       "descuento": 0,
       "stock": 10
     },
@@ -20469,7 +20469,7 @@
       "codBarra": "7790740001803",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39732.915,
+      "precio": 44383.127,
       "descuento": 0,
       "stock": 3
     },
@@ -20480,7 +20480,7 @@
       "codBarra": "7790740001841",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39732.915,
+      "precio": 44383.127,
       "descuento": 0,
       "stock": 1
     },
@@ -20491,7 +20491,7 @@
       "codBarra": "7790740000424",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 3
     },
@@ -20502,7 +20502,7 @@
       "codBarra": "7790740001421",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46743.813,
+      "precio": 52204.53,
       "descuento": 0,
       "stock": 5
     },
@@ -20513,7 +20513,7 @@
       "codBarra": "7790740000479",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46743.813,
+      "precio": 52204.53,
       "descuento": 0,
       "stock": 3
     },
@@ -20524,7 +20524,7 @@
       "codBarra": "7790740000486",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46743.813,
+      "precio": 52204.53,
       "descuento": 0,
       "stock": 1
     },
@@ -20535,7 +20535,7 @@
       "codBarra": "7790740000493",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46743.813,
+      "precio": 52204.53,
       "descuento": 0,
       "stock": 1
     },
@@ -20546,7 +20546,7 @@
       "codBarra": "7790740001551",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 20136.639,
+      "precio": 22491.311,
       "descuento": 0,
       "stock": 8
     },
@@ -20557,7 +20557,7 @@
       "codBarra": "7790740000684",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 20136.639,
+      "precio": 22491.311,
       "descuento": 0,
       "stock": 2
     },
@@ -20568,7 +20568,7 @@
       "codBarra": "7790740000677",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 20136.639,
+      "precio": 22491.311,
       "descuento": 0,
       "stock": 8
     },
@@ -20579,7 +20579,7 @@
       "codBarra": "7790740001797",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39733.92,
+      "precio": 44378.795,
       "descuento": 0,
       "stock": 8
     },
@@ -20590,7 +20590,7 @@
       "codBarra": "7790740001810",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39733.92,
+      "precio": 44378.795,
       "descuento": 0,
       "stock": 10
     },
@@ -20601,7 +20601,7 @@
       "codBarra": "7790740001858",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39733.92,
+      "precio": 44378.795,
       "descuento": 0,
       "stock": 9
     },
@@ -20612,7 +20612,7 @@
       "codBarra": "7790740001827",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 42118.757,
+      "precio": 47034.999,
       "descuento": 0,
       "stock": 6
     },
@@ -20623,7 +20623,7 @@
       "codBarra": "7790740608248",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46096.245,
+      "precio": 51481.168,
       "descuento": 0,
       "stock": 6
     },
@@ -20634,7 +20634,7 @@
       "codBarra": "7790740608279",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46096.245,
+      "precio": 51481.168,
       "descuento": 0,
       "stock": 5
     },
@@ -20645,7 +20645,7 @@
       "codBarra": "7790740608286",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46096.245,
+      "precio": 51481.168,
       "descuento": 0,
       "stock": 4
     },
@@ -20656,7 +20656,7 @@
       "codBarra": "7790740608309",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 46096.245,
+      "precio": 51481.168,
       "descuento": 0,
       "stock": 3
     },
@@ -20667,7 +20667,7 @@
       "codBarra": "7790740500672",
       "familia": "HIGIENE",
       "rubro": "DESODORANTES CORPORALES",
-      "precio": 33713.637,
+      "precio": 37654.026,
       "descuento": 0,
       "stock": 6
     },
@@ -20678,7 +20678,7 @@
       "codBarra": "7790740500696",
       "familia": "HIGIENE",
       "rubro": "DESODORANTES CORPORALES",
-      "precio": 16856.819,
+      "precio": 18827.013,
       "descuento": 50,
       "stock": 4
     },
@@ -20689,7 +20689,7 @@
       "codBarra": "7790990002223",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 39230.947,
+      "precio": 43824.216,
       "descuento": 0,
       "stock": 11
     },
@@ -20700,7 +20700,7 @@
       "codBarra": "7790990003794",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 39230.947,
+      "precio": 43824.216,
       "descuento": 0,
       "stock": 24
     },
@@ -20711,7 +20711,7 @@
       "codBarra": "7790990002278",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 39230.947,
+      "precio": 43824.216,
       "descuento": 0,
       "stock": 6
     },
@@ -20722,7 +20722,7 @@
       "codBarra": "7790990002230",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 40928.492,
+      "precio": 45720.358,
       "descuento": 0,
       "stock": 18
     },
@@ -20733,7 +20733,7 @@
       "codBarra": "7790990003848",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 40928.492,
+      "precio": 45720.358,
       "descuento": 0,
       "stock": 9
     },
@@ -20744,7 +20744,7 @@
       "codBarra": "7790990003886",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 40928.492,
+      "precio": 45720.358,
       "descuento": 0,
       "stock": 9
     },
@@ -20755,7 +20755,7 @@
       "codBarra": "7790990002261",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 40928.492,
+      "precio": 45720.358,
       "descuento": 0,
       "stock": 15
     },
@@ -20766,7 +20766,7 @@
       "codBarra": "7790990002247",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 42708.015,
+      "precio": 47708.969,
       "descuento": 0,
       "stock": 4
     },
@@ -20777,7 +20777,7 @@
       "codBarra": "7790990003855",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 42708.015,
+      "precio": 47708.969,
       "descuento": 0,
       "stock": 9
     },
@@ -20788,7 +20788,7 @@
       "codBarra": "7790990003879",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 42708.015,
+      "precio": 47708.969,
       "descuento": 0,
       "stock": 5
     },
@@ -20799,7 +20799,7 @@
       "codBarra": "7790990002254",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 42708.015,
+      "precio": 47708.969,
       "descuento": 0,
       "stock": 5
     },
@@ -20810,7 +20810,7 @@
       "codBarra": "7790990001332",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 37492.019,
+      "precio": 41880.072,
       "descuento": 0,
       "stock": 9
     },
@@ -20821,7 +20821,7 @@
       "codBarra": "7790990001349",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 36974.515,
+      "precio": 41299.708,
       "descuento": 0,
       "stock": 5
     },
@@ -20832,7 +20832,7 @@
       "codBarra": "7790990001356",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 41236.171,
+      "precio": 46059.134,
       "descuento": 0,
       "stock": 5
     },
@@ -20843,7 +20843,7 @@
       "codBarra": "7790990001370",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 36974.515,
+      "precio": 41299.708,
       "descuento": 0,
       "stock": 11
     },
@@ -20854,7 +20854,7 @@
       "codBarra": "7790990001363",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 41236.171,
+      "precio": 46059.134,
       "descuento": 0,
       "stock": 6
     },
@@ -20876,7 +20876,7 @@
       "codBarra": "7790990001509",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 79904.952,
+      "precio": 89254.101,
       "descuento": 0,
       "stock": 9
     },
@@ -20887,7 +20887,7 @@
       "codBarra": "7790990000526",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 39348.498,
+      "precio": 43954.678,
       "descuento": 0,
       "stock": 2
     },
@@ -20898,7 +20898,7 @@
       "codBarra": "7790990002667",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 28552.092,
+      "precio": 31891.752,
       "descuento": 0,
       "stock": 12
     },
@@ -20909,7 +20909,7 @@
       "codBarra": "7790990002674",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 28747.555,
+      "precio": 32111.041,
       "descuento": 0,
       "stock": 2
     },
@@ -20920,7 +20920,7 @@
       "codBarra": "7790990003336",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 35180.932,
+      "precio": 39300.377,
       "descuento": 0,
       "stock": 1
     },
@@ -20931,7 +20931,7 @@
       "codBarra": "7790990003350",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 35180.932,
+      "precio": 39300.377,
       "descuento": 0,
       "stock": 1
     },
@@ -20942,7 +20942,7 @@
       "codBarra": "7790990003480",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 37193.162,
+      "precio": 41547.008,
       "descuento": 0,
       "stock": 5
     },
@@ -20953,7 +20953,7 @@
       "codBarra": "7790990001622",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 19945.289,
+      "precio": 22279.089,
       "descuento": 0,
       "stock": 13
     },
@@ -20964,7 +20964,7 @@
       "codBarra": "7790990999882",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 19945.289,
+      "precio": 22279.089,
       "descuento": 0,
       "stock": 10
     },
@@ -20975,7 +20975,7 @@
       "codBarra": "7790990999899",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 19945.289,
+      "precio": 22279.089,
       "descuento": 0,
       "stock": 6
     },
@@ -20986,7 +20986,7 @@
       "codBarra": "7790990999875",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 38979.727,
+      "precio": 43542.721,
       "descuento": 0,
       "stock": 19
     },
@@ -20997,7 +20997,7 @@
       "codBarra": "7790990999868",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 38979.727,
+      "precio": 43542.721,
       "descuento": 0,
       "stock": 2
     },
@@ -21008,7 +21008,7 @@
       "codBarra": "7790990999844",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 38979.727,
+      "precio": 43542.721,
       "descuento": 0,
       "stock": 11
     },
@@ -21019,7 +21019,7 @@
       "codBarra": "7790990003473",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 44951.282,
+      "precio": 50204.158,
       "descuento": 0,
       "stock": 14
     },
@@ -21030,7 +21030,7 @@
       "codBarra": "7790990002759",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 57470.293,
+      "precio": 64195.086,
       "descuento": 0,
       "stock": 10
     },
@@ -21041,7 +21041,7 @@
       "codBarra": "7790990002742",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 53269.814,
+      "precio": 59509.784,
       "descuento": 0,
       "stock": 1
     },
@@ -21052,7 +21052,7 @@
       "codBarra": "7790990000632",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 37570.875,
+      "precio": 41964.494,
       "descuento": 0,
       "stock": 4
     },
@@ -21063,7 +21063,7 @@
       "codBarra": "7790990000649",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 37570.875,
+      "precio": 41964.494,
       "descuento": 0,
       "stock": 13
     },
@@ -21074,7 +21074,7 @@
       "codBarra": "7790990000656",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 53154.647,
+      "precio": 59369.074,
       "descuento": 0,
       "stock": 6
     },
@@ -21085,7 +21085,7 @@
       "codBarra": "7790990000663",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 56246.898,
+      "precio": 59369.074,
       "descuento": 0,
       "stock": 8
     },
@@ -21096,7 +21096,7 @@
       "codBarra": "7790990000670",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 59051.908,
+      "precio": 65960.125,
       "descuento": 0,
       "stock": 15
     },
@@ -21107,7 +21107,7 @@
       "codBarra": "7790990001998",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 31337.04,
+      "precio": 38887.912,
       "descuento": 0,
       "stock": 6
     },
@@ -21118,7 +21118,7 @@
       "codBarra": "7790990002001",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 34818.125,
+      "precio": 38887.912,
       "descuento": 0,
       "stock": 8
     },
@@ -21129,7 +21129,7 @@
       "codBarra": "7790990002018",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 34818.125,
+      "precio": 38887.912,
       "descuento": 0,
       "stock": 20
     },
@@ -21140,7 +21140,7 @@
       "codBarra": "7790990002070",
       "familia": "HIGIENE",
       "rubro": "LIMPIEZA",
-      "precio": 38137.022,
+      "precio": 38887.912,
       "descuento": 0,
       "stock": 20
     },
@@ -21162,7 +21162,7 @@
       "codBarra": "7790990000397",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 57875.292,
+      "precio": 64649.332,
       "descuento": 0,
       "stock": 10
     },
@@ -21173,7 +21173,7 @@
       "codBarra": "7790990000625",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 28607.11,
+      "precio": 31954.805,
       "descuento": 0,
       "stock": 3
     },
@@ -21184,7 +21184,7 @@
       "codBarra": "7790990000618",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 28607.11,
+      "precio": 31954.805,
       "descuento": 0,
       "stock": 5
     },
@@ -21195,7 +21195,7 @@
       "codBarra": "7790990000601",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 28607.11,
+      "precio": 31954.805,
       "descuento": 0,
       "stock": 3
     },
@@ -21206,7 +21206,7 @@
       "codBarra": "7790990000595",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 28607.11,
+      "precio": 31954.805,
       "descuento": 0,
       "stock": 4
     },
@@ -21217,7 +21217,7 @@
       "codBarra": "7790990000588",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 29395.583,
+      "precio": 32833.29,
       "descuento": 0,
       "stock": 1
     },
@@ -21228,7 +21228,7 @@
       "codBarra": "7790740001834",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39282.396,
+      "precio": 43867.558,
       "descuento": 0,
       "stock": 2
     },
@@ -21239,7 +21239,7 @@
       "codBarra": "7790990002889",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 63594.454,
+      "precio": 71031.888,
       "descuento": 0,
       "stock": 8
     },
@@ -21250,7 +21250,7 @@
       "codBarra": "7790990002896",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 61436.177,
+      "precio": 68621.423,
       "descuento": 0,
       "stock": 8
     },
@@ -21261,7 +21261,7 @@
       "codBarra": "7790990001875",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 35842.088,
+      "precio": 35149.629,
       "descuento": 0,
       "stock": 7
     },
@@ -21349,7 +21349,7 @@
       "codBarra": "7790990001905",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 45475.043,
+      "precio": 50799.394,
       "descuento": 0,
       "stock": 4
     },
@@ -21360,7 +21360,7 @@
       "codBarra": "7790990001936",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 45475.043,
+      "precio": 50799.394,
       "descuento": 0,
       "stock": 19
     },
@@ -21371,7 +21371,7 @@
       "codBarra": "7790990003817",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 31463.812,
+      "precio": 35149.629,
       "descuento": 0,
       "stock": 14
     },
@@ -21382,7 +21382,7 @@
       "codBarra": "7790990003831",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 31511.316,
+      "precio": 35196.904,
       "descuento": 0,
       "stock": 4
     },
@@ -21393,7 +21393,7 @@
       "codBarra": "7790990003909",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 79904.952,
+      "precio": 89254.101,
       "descuento": 0,
       "stock": 10
     },
@@ -21404,7 +21404,7 @@
       "codBarra": "7790990004081",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 76936.906,
+      "precio": 85936.16,
       "descuento": 0,
       "stock": 6
     },
@@ -21415,7 +21415,7 @@
       "codBarra": "7790990004098",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 78846.903,
+      "precio": 88079.639,
       "descuento": 0,
       "stock": 38
     },
@@ -21426,7 +21426,7 @@
       "codBarra": "7790990004104",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 76936.906,
+      "precio": 85936.16,
       "descuento": 0,
       "stock": 8
     },
@@ -21437,7 +21437,7 @@
       "codBarra": "7790990004142",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 76936.906,
+      "precio": 85936.16,
       "descuento": 0,
       "stock": 1
     },
@@ -21604,7 +21604,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 74624.899,
       "descuento": 0,
-      "stock": 6
+      "stock": 4
     },
     {
       "id": 5029,
@@ -21813,7 +21813,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 188746.738,
       "descuento": 0,
-      "stock": 5
+      "stock": 3
     },
     {
       "id": 5055,
@@ -22451,7 +22451,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 130980.001,
       "descuento": 0,
-      "stock": 56
+      "stock": 54
     },
     {
       "id": 5152,
@@ -22473,7 +22473,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 130020,
       "descuento": 0,
-      "stock": 14
+      "stock": 13
     },
     {
       "id": 5155,
@@ -22605,7 +22605,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 196080,
       "descuento": 0,
-      "stock": 81
+      "stock": 79
     },
     {
       "id": 5176,
@@ -23617,7 +23617,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 203513.997,
       "descuento": 0,
-      "stock": 11
+      "stock": 19
     },
     {
       "id": 5337,
@@ -24024,7 +24024,7 @@
       "rubro": "VINOS",
       "precio": 45188.556,
       "descuento": 0,
-      "stock": 61
+      "stock": 51
     },
     {
       "id": 5386,
@@ -24607,7 +24607,7 @@
       "rubro": "VINOS",
       "precio": 45188.551,
       "descuento": 0,
-      "stock": 16
+      "stock": 13
     },
     {
       "id": 5482,
@@ -24695,7 +24695,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 95745.775,
       "descuento": 0,
-      "stock": 7
+      "stock": 5
     },
     {
       "id": 5502,
@@ -26079,7 +26079,7 @@
       "codBarra": "7790990002698",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 35761.562,
+      "precio": 39947.182,
       "descuento": 0,
       "stock": 10
     },
@@ -26090,7 +26090,7 @@
       "codBarra": "7790990002681",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 35761.562,
+      "precio": 39947.182,
       "descuento": 0,
       "stock": 12
     },
@@ -26101,7 +26101,7 @@
       "codBarra": "7790990002704",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 36742.207,
+      "precio": 41041.228,
       "descuento": 0,
       "stock": 5
     },
@@ -26123,7 +26123,7 @@
       "codBarra": "7790990001820",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 80640.728,
+      "precio": 98723.44,
       "descuento": 0,
       "stock": 13
     },
@@ -26134,7 +26134,7 @@
       "codBarra": "7790990002186",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 31511.316,
+      "precio": 35196.904,
       "descuento": 0,
       "stock": 6
     },
@@ -26145,7 +26145,7 @@
       "codBarra": "7790990001813",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 88375.133,
+      "precio": 98723.44,
       "descuento": 0,
       "stock": 13
     },
@@ -26156,7 +26156,7 @@
       "codBarra": "7790990001776",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 76940.197,
+      "precio": 85945.671,
       "descuento": 0,
       "stock": 15
     },
@@ -26167,7 +26167,7 @@
       "codBarra": "7790990001806",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 80247.261,
+      "precio": 89631.621,
       "descuento": 0,
       "stock": 20
     },
@@ -26200,7 +26200,7 @@
       "codBarra": "7790990001882",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 35012.814,
+      "precio": 39108.011,
       "descuento": 0,
       "stock": 6
     },
@@ -26211,7 +26211,7 @@
       "codBarra": "7790990001837",
       "familia": "HIGIENE",
       "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 88375.133,
+      "precio": 98723.44,
       "descuento": 0,
       "stock": 1
     },
@@ -26222,7 +26222,7 @@
       "codBarra": "7790990003138",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 68041.652,
+      "precio": 76005.739,
       "descuento": 0,
       "stock": 6
     },
@@ -28094,7 +28094,7 @@
       "rubro": "CERVEZAS",
       "precio": 29652.658,
       "descuento": 6.35,
-      "stock": 648
+      "stock": 645
     },
     {
       "id": 7030,
@@ -28105,7 +28105,7 @@
       "rubro": "CERVEZAS",
       "precio": 38400,
       "descuento": 0,
-      "stock": 45
+      "stock": 43
     },
     {
       "id": 7033,
@@ -28512,7 +28512,7 @@
       "rubro": "ENVASE",
       "precio": 12480.001,
       "descuento": 0,
-      "stock": 853
+      "stock": 848
     },
     {
       "id": 11074,
@@ -28600,7 +28600,7 @@
       "rubro": "CERVEZAS",
       "precio": 44279.997,
       "descuento": 0,
-      "stock": 139
+      "stock": 134
     },
     {
       "id": 17518,
@@ -28611,7 +28611,7 @@
       "rubro": "CERVEZAS",
       "precio": 36840.002,
       "descuento": 0,
-      "stock": 137
+      "stock": 134
     },
     {
       "id": 18744,
@@ -28655,7 +28655,7 @@
       "rubro": "GASEOSAS",
       "precio": 32040,
       "descuento": 0,
-      "stock": 16
+      "stock": 15
     },
     {
       "id": 21971,
@@ -28666,7 +28666,7 @@
       "rubro": "GASEOSAS",
       "precio": 32040.001,
       "descuento": 0,
-      "stock": 8
+      "stock": 7
     },
     {
       "id": 22383,
@@ -28752,7 +28752,7 @@
       "codBarra": "7790740000233",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 9
     },
@@ -28763,7 +28763,7 @@
       "codBarra": "7790740000240",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 5
     },
@@ -28774,7 +28774,7 @@
       "codBarra": "7790740000264",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 5
     },
@@ -28785,7 +28785,7 @@
       "codBarra": "7790740000288",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 3
     },
@@ -28796,7 +28796,7 @@
       "codBarra": "7790740000257",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 9
     },
@@ -28807,7 +28807,7 @@
       "codBarra": "7790740000318",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 3
     },
@@ -28818,7 +28818,7 @@
       "codBarra": "7790740000325",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 6
     },
@@ -28829,7 +28829,7 @@
       "codBarra": "7790740000332",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 5
     },
@@ -28840,7 +28840,7 @@
       "codBarra": "7790740001407",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 11
     },
@@ -28851,7 +28851,7 @@
       "codBarra": "7790740000349",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 2
     },
@@ -28862,7 +28862,7 @@
       "codBarra": "7790740000363",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 5
     },
@@ -28873,7 +28873,7 @@
       "codBarra": "7790740001391",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39427.814,
+      "precio": 44043.782,
       "descuento": 0,
       "stock": 1
     },
@@ -29071,7 +29071,7 @@
       "codBarra": "7790990004128",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 76936.906,
+      "precio": 85936.16,
       "descuento": 0,
       "stock": 15
     },
@@ -29082,7 +29082,7 @@
       "codBarra": "7790990004074",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 78846.903,
+      "precio": 88079.639,
       "descuento": 0,
       "stock": 43
     },
@@ -29214,7 +29214,7 @@
       "codBarra": "7790990004135",
       "familia": "HIGIENE",
       "rubro": "HIGIENE PERSONAL",
-      "precio": 78846.903,
+      "precio": 88079.639,
       "descuento": 0,
       "stock": 21
     },
@@ -29511,7 +29511,7 @@
       "codBarra": "7790990003411",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 68041.652,
+      "precio": 76005.739,
       "descuento": 0,
       "stock": 19
     },
@@ -29907,7 +29907,7 @@
       "codBarra": "7790990004241",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 81968.679,
+      "precio": 73153.962,
       "descuento": 0,
       "stock": 3
     },
@@ -29918,7 +29918,7 @@
       "codBarra": "7790990004258",
       "familia": "HIGIENE",
       "rubro": "LAVAVAJILLAS",
-      "precio": 70864.267,
+      "precio": 63243.699,
       "descuento": 0,
       "stock": 3
     },
@@ -30019,7 +30019,7 @@
       "rubro": "GOLOSINAS",
       "precio": 11800.005,
       "descuento": 0,
-      "stock": 17
+      "stock": 14
     },
     {
       "id": 5851,
@@ -30294,7 +30294,7 @@
       "rubro": "AGUA",
       "precio": 5637.412,
       "descuento": 0,
-      "stock": 116
+      "stock": 106
     },
     {
       "id": 1174,
@@ -30943,7 +30943,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 11175.003,
       "descuento": 0,
-      "stock": 58
+      "stock": 55
     },
     {
       "id": 4563,
@@ -31152,7 +31152,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 60396.376,
       "descuento": 0,
-      "stock": 7
+      "stock": 6
     },
     {
       "id": 1204,
@@ -31163,7 +31163,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 60396.364,
       "descuento": 0,
-      "stock": 5
+      "stock": 4
     },
     {
       "id": 2033,
@@ -31458,7 +31458,7 @@
       "codBarra": "7790740001889",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39732.915,
+      "precio": 44383.127,
       "descuento": 0,
       "stock": 10
     },
@@ -31469,7 +31469,7 @@
       "codBarra": "7790740001896",
       "familia": "HIGIENE",
       "rubro": "CUIDADO DEL CABELLO",
-      "precio": 39733.92,
+      "precio": 44378.795,
       "descuento": 0,
       "stock": 8
     },
