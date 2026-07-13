@@ -10,6 +10,20 @@
   --white:      #FFFFFF;
   --font:       'Poppins', sans-serif;
 }
+.pf-contenido h4{
+  font-size: 17px;
+    font-weight: 700;
+    color: #1A3D6B;
+    margin-bottom: 8px;
+}
+
+.pf-contenido p {
+font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
 
 .pfheader{
     text-align: center;
@@ -19,7 +33,47 @@
     color: var(--navy);
     margin-bottom: 10px;
 }
+.pf-section{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px 60px;
+}
 
-.pfrecuentes{
+.pf-card{
+ display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 24px 0;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
 
+.pf-wrap{
+   display: flex;
+    flex-direction: column;
+align-items: flex-start;
+    gap: 0;
+}
+
+
+.pf-contenido {
+    flex: 1;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.paso-numero {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fe6902;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
