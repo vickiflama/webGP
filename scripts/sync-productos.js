@@ -29,8 +29,11 @@ const PRODUCTOS_EXCLUIDOS = new Set([
   10107,
   10108,
   2730,
+  11071, 2781 
 
 ]);
+
+const ENVASES_IDS = new Set([2776, 11071, 2781]);
 
 // ==================== CORRECCIONES DE NOMBRES ====================
 const CORRECCIONES_NOMBRES = {
@@ -149,6 +152,34 @@ const RUBROS_EXCLUIDOS = new Set([
   'MATERIAL POP',
   'OTROS.',
 ]);
+
+const RETORNABLES = {
+  // Cerveza 1L → envase 2776, 12 unidades
+  7010:  { idEnvase: 2776, cantEnvases: 12 },
+  7028:  { idEnvase: 2776, cantEnvases: 12 },
+  7030:  { idEnvase: 2776, cantEnvases: 12 },
+  2854:  { idEnvase: 2776, cantEnvases: 12 },
+  7713:  { idEnvase: 2776, cantEnvases: 12 },
+  17518: { idEnvase: 2776, cantEnvases: 12 },
+  7017:  { idEnvase: 2776, cantEnvases: 12 },
+  7038:  { idEnvase: 2776, cantEnvases: 12 },
+  // Cerveza 340cc → envase 2781, 24 unidades
+  7029:  { idEnvase: 2781, cantEnvases: 24 },
+  21680: { idEnvase: 2781, cantEnvases: 24 },
+  6582:  { idEnvase: 2781, cantEnvases: 24 },
+  // Gaseosa 1L → envase 2776, 8 unidades
+  1230:  { idEnvase: 2776, cantEnvases: 8 },
+  1224:  { idEnvase: 2776, cantEnvases: 8 },
+  1011:  { idEnvase: 2776, cantEnvases: 8 },
+  // Gaseosa 1.5L → envase 11071, 8 unidades
+  1243:  { idEnvase: 11071, cantEnvases: 8 },
+  1214:  { idEnvase: 11071, cantEnvases: 8 },
+  // Gaseosa 2L → envase 11071, 8 unidades
+  1105:  { idEnvase: 11071, cantEnvases: 8 },
+  // Gaseosa 2.5L → envase 11071, 8 unidades
+  1242:  { idEnvase: 11071, cantEnvases: 8 },
+  1200:  { idEnvase: 11071, cantEnvases: 8 },
+};
 
 function corregirRubro(rubro) {
   return CORRECCIONES_RUBROS[rubro] || rubro;
@@ -292,6 +323,11 @@ for (const p of precios) {
   }
 }
 
+const preciosEnvases = {};
+for (const id of ENVASES_IDS) {
+  if (precioMap[id]) preciosEnvases[id] = precioMap[id];
+}
+
   const productos = articulos
  .filter(a =>
   !a.anulado &&
@@ -311,7 +347,8 @@ for (const p of precios) {
 rubro: corregirRubro(getAgrupacion(a.eAgrupaciones, 'RUBROS')),
   precio: precioMap[a.idArticulo] || 0,
   descuento: bonificacionMap[a.idArticulo] || 0, 
-  stock: stockMap[a.idArticulo] || 0
+  stock: stockMap[a.idArticulo] || 0,
+  retornable: RETORNABLES[a.idArticulo] || null,
 }));
 
   console.log(`✅ Productos con precio y stock: ${productos.length}`);
@@ -319,6 +356,7 @@ rubro: corregirRubro(getAgrupacion(a.eAgrupaciones, 'RUBROS')),
   const output = {
     ultima_actualizacion: new Date().toISOString(),
     total: productos.length,
+    envases: preciosEnvases,
     productos
   };
 
