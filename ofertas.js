@@ -215,26 +215,27 @@ function agregarAlCarrito(btn) {
   const nombre = btn.dataset.nombre;
   const precio = parseFloat(btn.dataset.precio);
   const id = parseInt(btn.dataset.id) || 0;
-  const wrap = btn.closest('.mv-acciones, .producto-acciones')?.querySelector('.cantidad-wrap span');
+  const wrap = btn
+    .closest(".mv-acciones, .producto-acciones")
+    ?.querySelector(".cantidad-wrap span");
   const cantidad = wrap ? parseInt(wrap.textContent) : 1;
 
-  carritoIndex = JSON.parse(localStorage.getItem('carritoGP') || '[]');
-  const existe = carritoIndex.find(p => p.nombre === nombre);
+  carritoIndex = JSON.parse(localStorage.getItem("carritoGP") || "[]");
+  const existe = carritoIndex.find((p) => p.nombre === nombre);
   if (existe) {
     existe.cantidad += cantidad;
   } else {
-    const id = parseInt(btn.dataset.id) || 0;
-carritoIndex.push({ id, nombre, precio, cantidad });
+    carritoIndex.push({ id, nombre, precio, cantidad });
   }
 
-  localStorage.setItem('carritoGP', JSON.stringify(carritoIndex));
+  localStorage.setItem("carritoGP", JSON.stringify(carritoIndex));
   actualizarPanelCarrito();
 
-  btn.textContent = '✓ Agregado';
-  btn.style.background = '#3DB549';
+  btn.textContent = "✓ Agregado";
+  btn.style.background = "#3DB549";
   setTimeout(() => {
-    btn.textContent = 'COMPRAR';
-    btn.style.background = '';
+    btn.textContent = "COMPRAR";
+    btn.style.background = "";
   }, 1500);
 }
 

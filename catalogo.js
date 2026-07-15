@@ -229,6 +229,7 @@ function cambiarCantidad(btn, cambio) {
 function agregarAlCarrito(btn) {
   const nombre = btn.dataset.nombre;
   const precio = parseFloat(btn.dataset.precio);
+  const id = parseInt(btn.dataset.id) || 0;
   const wrap = btn
     .closest(".mv-acciones, .producto-acciones")
     ?.querySelector(".cantidad-wrap span");
@@ -239,7 +240,7 @@ function agregarAlCarrito(btn) {
   if (existe) {
     existe.cantidad += cantidad;
   } else {
-    carritoIndex.push({ nombre, precio, cantidad });
+    carritoIndex.push({ id, nombre, precio, cantidad });
   }
 
   localStorage.setItem("carritoGP", JSON.stringify(carritoIndex));

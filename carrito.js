@@ -266,6 +266,7 @@ function armarResumen() {
         <div class="resumen-item">
             <span>${p.nombre} x${p.cantidad}</span>
             <span>$${(p.precio * p.cantidad).toLocaleString('es-AR')}</span>
+            
         </div>
     `).join('');
     resumenTotal.textContent = `$${calcularTotal().toLocaleString('es-AR')}`;
