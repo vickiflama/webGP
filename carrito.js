@@ -157,7 +157,10 @@ function renderizarCarrito() {
     }
 
     localStorage.setItem('carritoGP', JSON.stringify(carritoData));
+    renderizarEnvases();
+
 }
+
 
 function cambiarCantidadCarrito(index, cambio) {
     carritoData[index].cantidad += cambio;
@@ -373,4 +376,127 @@ async function confirmarPedido() {
         console.error('Error:', error);
         mostrarAlerta('alerta-paso1', 'Error al confirmar el pedido. Intentá de nuevo.');
     }
+}
+
+// ==================== ENVASES RETORNABLES ====================
+let envaseState = {};
+let productosJsonData = null;
+
+async function cargarProductosJson() {
+  if (productosJsonData) return productosJsonData;
+  const res = await fetch('data/productos.json');
+  productosJsonData = await res.json();
+  return productosJsonData;
+}
+
+async function renderizarEnvases() {
+  const seccion = document.getElementById('seccion-envases');
+  if (!seccion) return;
+
+  const data = await cargarProductosJson();
+  const envasesMap = data.envases || {};
+
+  const productosMap = {};
+  for (const p of data.productos) {
+    if (p.retornable) productosMap[p.id] = p;
+  }
+
+  const conRetornable = carritoData.filter(item => productosMap[item.id]);
+
+  if (conRetornable.length === 0) {
+    seccion.innerHTML = '';
+    actualizarTotalConEnvases();
+    return;
+  }
+
+  let html = `<div class="envases-seccion"><h3 class="envases-titulo">🍾 Envases retornables</h3>`;
+
+  for (const item of conRetornable) {
+    const prod = productosMap[item.id];
+    const ret = prod.retornable;
+    const cantTotal = ret.cantEnvases * item.cantidad;
+    const precioEnvase = envasesMap[ret.idEnvase] || 0;
+    const state = envaseState[item.id] || { tieneEnvases: null, cantidadEnvases: 0 };
+
+    html += `
+      <div class="envase-item">
+        <p class="envase-producto">${item.nombre}</p>
+        <p class="envase-info">Necesitás <strong>${cantTotal} envases</strong> (${item.cantidad} bulto${item.cantidad > 1 ? 's' : ''} × ${ret.cantEnvases})</p>
+        <div class="envase-pregunta">
+          <span>¿Tenés envases?</span>
+          <button class="btn-envase ${state.tieneEnvases === true ? 'activo' : ''}"
+            onclick="seleccionarEnvase(${item.id}, true, ${cantTotal}, ${ret.idEnvase}, ${precioEnvase})">
+            ✓ Sí, tengo
+          </button>
+          <button class="btn-envase btn-no ${state.tieneEnvases === false ? 'activo' : ''}"
+            onclick="seleccionarEnvase(${item.id}, false, ${cantTotal}, ${ret.idEnvase}, ${precioEnvase})">
+            ✗ No, agregalos
+          </button>
+        </div>
+        ${state.tieneEnvases === true ? `
+          <div class="envase-cantidad-wrap">
+            <label>¿Cuántos tenés?</label>
+            <input type="number" min="0" max="${cantTotal}" value="${state.cantidadEnvases}"
+              onchange="actualizarCantidadEnvases(${item.id}, this.value, ${cantTotal}, ${precioEnvase})"
+              class="envase-cantidad-input">
+            <span>de ${cantTotal}</span>
+          </div>
+          ${state.cantidadEnvases < cantTotal ? `
+            <p class="envase-costo">Faltan ${cantTotal - state.cantidadEnvases} envases: +$${(precioEnvase * (cantTotal - state.cantidadEnvases)).toLocaleString('es-AR')}</p>
+          ` : '<p class="envase-ok">✓ Tenés todos los envases</p>'}
+        ` : ''}
+        ${state.tieneEnvases === false ? `
+          <p class="envase-costo">Se agregarán ${cantTotal} envases: +$${(precioEnvase * cantTotal).toLocaleString('es-AR')}</p>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  html += '</div>';
+  seccion.innerHTML = html;
+  actualizarTotalConEnvases();
+}
+
+function seleccionarEnvase(idProducto, tieneEnvases, cantTotal, idEnvase, precioEnvase) {
+  if (!envaseState[idProducto]) envaseState[idProducto] = {};
+  envaseState[idProducto].tieneEnvases = tieneEnvases;
+  envaseState[idProducto].cantidadEnvases = tieneEnvases ? cantTotal : 0;
+  renderizarEnvases();
+}
+
+function actualizarCantidadEnvases(idProducto, cantidad, cantTotal, precioEnvase) {
+  cantidad = Math.min(Math.max(parseInt(cantidad) || 0, 0), cantTotal);
+  envaseState[idProducto].cantidadEnvases = cantidad;
+  renderizarEnvases();
+}
+
+function calcularCostoEnvases() {
+  if (!productosJsonData) return 0;
+  const envasesMap = productosJsonData.envases || {};
+  const productosMap = {};
+  for (const p of productosJsonData.productos) {
+    if (p.retornable) productosMap[p.id] = p;
+  }
+
+  let total = 0;
+  for (const item of carritoData) {
+    const prod = productosMap[item.id];
+    if (!prod || !prod.retornable) continue;
+    const state = envaseState[item.id];
+    if (!state || state.tieneEnvases === null) continue;
+    const cantTotal = prod.retornable.cantEnvases * item.cantidad;
+    const precioEnvase = envasesMap[prod.retornable.idEnvase] || 0;
+    if (state.tieneEnvases === false) {
+      total += precioEnvase * cantTotal;
+    } else if (state.tieneEnvases === true && state.cantidadEnvases < cantTotal) {
+      total += precioEnvase * (cantTotal - state.cantidadEnvases);
+    }
+  }
+  return total;
+}
+
+function actualizarTotalConEnvases() {
+  const totalEl = document.getElementById('carrito-total');
+  const total = calcularTotal() + calcularCostoEnvases();
+  if (totalEl) totalEl.textContent = `$${total.toLocaleString('es-AR')}`;
 }

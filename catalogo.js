@@ -75,6 +75,7 @@ function renderizarProductos(lista) {
         <button class="btn-comprar"
           data-nombre="${p.nombre.replace(/"/g, '&quot;')}"
           data-precio="${p.precio}"
+           data-id="${p.id}"
           onclick="agregarAlCarrito(this)">COMPRAR</button>
       </div>
     </div>

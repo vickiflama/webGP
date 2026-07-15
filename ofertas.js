@@ -59,6 +59,7 @@ grid.innerHTML = visibles.map(p => `
         <button class="btn-comprar"
           data-nombre="${p.nombre.replace(/"/g, '&quot;')}"
           data-precio="${p.precio}"
+           data-id="${p.id}"
           onclick="agregarAlCarrito(this)">COMPRAR</button>
       </div>
     </div>
@@ -213,6 +214,7 @@ function cambiarCantidad(btn, cambio) {
 function agregarAlCarrito(btn) {
   const nombre = btn.dataset.nombre;
   const precio = parseFloat(btn.dataset.precio);
+  const id = parseInt(btn.dataset.id) || 0;
   const wrap = btn.closest('.mv-acciones, .producto-acciones')?.querySelector('.cantidad-wrap span');
   const cantidad = wrap ? parseInt(wrap.textContent) : 1;
 
@@ -221,7 +223,8 @@ function agregarAlCarrito(btn) {
   if (existe) {
     existe.cantidad += cantidad;
   } else {
-    carritoIndex.push({ nombre, precio, cantidad });
+    const id = parseInt(btn.dataset.id) || 0;
+carritoIndex.push({ id, nombre, precio, cantidad });
   }
 
   localStorage.setItem('carritoGP', JSON.stringify(carritoIndex));

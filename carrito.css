@@ -731,3 +731,88 @@
         page-break-inside: avoid;
         break-inside: avoid;
     }
+
+    /* ===== ENVASES RETORNABLES ===== */
+.envases-seccion {
+  margin: 24px 0;
+  padding: 20px;
+  background: #fff8f0;
+  border: 1px solid #f47920;
+  border-radius: 12px;
+}
+
+.envases-titulo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #F47920;
+  margin-bottom: 16px;
+}
+
+.envase-item {
+  padding: 16px 0;
+  border-bottom: 1px solid #f0e0d0;
+}
+.envase-item:last-child { border-bottom: none; }
+
+.envase-producto {
+  font-weight: 600;
+  color: #1A3D6B;
+  margin-bottom: 4px;
+}
+
+.envase-info {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.envase-pregunta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-envase {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 2px solid #ddd;
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+.btn-envase.activo { background: #1A3D6B; color: white; border-color: #1A3D6B; }
+.btn-envase.btn-no.activo { background: #F47920; color: white; border-color: #F47920; }
+
+.envase-cantidad-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
+
+.envase-cantidad-input {
+  width: 70px;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.envase-costo {
+  margin-top: 8px;
+  color: #F47920;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.envase-ok {
+  margin-top: 8px;
+  color: #3DB549;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
