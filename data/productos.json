@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-07-15T18:15:26.589Z",
+  "ultima_actualizacion": "2026-07-16T10:51:35.869Z",
   "total": 2906,
   "envases": {
     "2776": 24000,
@@ -2764,7 +2764,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 13400,
       "descuento": 0,
-      "stock": 6,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -3352,7 +3352,7 @@
       "rubro": "ACEITES",
       "precio": 42509.251,
       "descuento": 0,
-      "stock": 149,
+      "stock": 148,
       "retornable": null
     },
     {
@@ -4588,7 +4588,7 @@
       "rubro": "AGUA",
       "precio": 4470.797,
       "descuento": 0,
-      "stock": 123,
+      "stock": 119,
       "retornable": null
     },
     {
@@ -4792,7 +4792,7 @@
       "rubro": "GASEOSAS",
       "precio": 22140,
       "descuento": 0,
-      "stock": 127,
+      "stock": 126,
       "retornable": null
     },
     {
@@ -4804,7 +4804,7 @@
       "rubro": "GASEOSAS",
       "precio": 23994.001,
       "descuento": 0,
-      "stock": 15,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -4864,7 +4864,7 @@
       "rubro": "GASEOSAS",
       "precio": 22140,
       "descuento": 0,
-      "stock": 6,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -5918,7 +5918,7 @@
       "codBarra": "7790895063022",
       "familia": "GASEOSAS",
       "rubro": "GASEOSAS",
-      "precio": 16400,
+      "precio": 18392,
       "descuento": 0,
       "stock": 70,
       "retornable": {
@@ -12325,7 +12325,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 73000.002,
       "descuento": 0,
-      "stock": 25,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -12349,7 +12349,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 75083.953,
       "descuento": 0,
-      "stock": 9,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -12373,7 +12373,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 49440,
       "descuento": 0,
-      "stock": 2,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -14896,7 +14896,7 @@
       "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 44012.855,
       "descuento": 0,
-      "stock": 7,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -17296,7 +17296,7 @@
       "rubro": "GOLOSINAS",
       "precio": 111960,
       "descuento": 0,
-      "stock": 2,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -19520,18 +19520,6 @@
       "retornable": null
     },
     {
-      "id": 4086,
-      "nombre": "FORMIS NVA CHO/VAI 36*102 GRS",
-      "unidadesBulto": 36,
-      "codBarra": "7790040139978",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 44540.413,
-      "descuento": 0,
-      "stock": 2,
-      "retornable": null
-    },
-    {
       "id": 6147,
       "nombre": "TURIM BIFERA 1*24 CM",
       "unidadesBulto": 1,
@@ -19539,6 +19527,18 @@
       "familia": "OTROS",
       "rubro": "BAZAR",
       "precio": 25319.879,
+      "descuento": 0,
+      "stock": 2,
+      "retornable": null
+    },
+    {
+      "id": 4086,
+      "nombre": "FORMIS NVA CHO/VAI 36*102 GRS",
+      "unidadesBulto": 36,
+      "codBarra": "7790040139978",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 44540.413,
       "descuento": 0,
       "stock": 2,
       "retornable": null
@@ -30955,7 +30955,7 @@
       "rubro": "CERVEZAS",
       "precio": 33550,
       "descuento": 0,
-      "stock": 163,
+      "stock": 162,
       "retornable": {
         "idEnvase": 2776,
         "cantEnvases": 12
@@ -31042,7 +31042,7 @@
       "rubro": "CERVEZAS",
       "precio": 29652.658,
       "descuento": 6.35,
-      "stock": 556,
+      "stock": 550,
       "retornable": {
         "idEnvase": 2776,
         "cantEnvases": 12
@@ -31303,7 +31303,7 @@
       "rubro": "CERVEZAS",
       "precio": 35639.999,
       "descuento": 0,
-      "stock": 52,
+      "stock": 51,
       "retornable": null
     },
     {
@@ -31645,7 +31645,7 @@
       "rubro": "CERVEZAS",
       "precio": 40800.002,
       "descuento": 0,
-      "stock": 50,
+      "stock": 49,
       "retornable": null
     },
     {
@@ -31970,18 +31970,6 @@
       "precio": 11314.8,
       "descuento": 50,
       "stock": 16,
-      "retornable": null
-    },
-    {
-      "id": 61722,
-      "nombre": "WHISKY GLENFIDD MALT 12*1000",
-      "unidadesBulto": 12,
-      "codBarra": "5010327302201",
-      "familia": "APERITIVOS",
-      "rubro": "BEBIDAS BLANCAS Y LICORES",
-      "precio": 1297124.124,
-      "descuento": 0,
-      "stock": 2,
       "retornable": null
     },
     {
@@ -32549,6 +32537,18 @@
       "retornable": null
     },
     {
+      "id": 61722,
+      "nombre": "WHISKY GLENFIDD MALT 12*1000",
+      "unidadesBulto": 12,
+      "codBarra": "5010327302201",
+      "familia": "APERITIVOS",
+      "rubro": "BEBIDAS BLANCAS Y LICORES",
+      "precio": 1297124.124,
+      "descuento": 0,
+      "stock": 2,
+      "retornable": null
+    },
+    {
       "id": 132,
       "nombre": "AVE MARIA LUCCHETTI 15*500+50G",
       "unidadesBulto": 15,
@@ -32942,18 +32942,6 @@
       "precio": 158880,
       "descuento": 0,
       "stock": 78,
-      "retornable": null
-    },
-    {
-      "id": 2872,
-      "nombre": "BAÑO REP AG CELESTE 6*150 G",
-      "unidadesBulto": 6,
-      "codBarra": "7790580133641",
-      "familia": "OTROS",
-      "rubro": "REPOSTERIA",
-      "precio": 20394.006,
-      "descuento": 0,
-      "stock": 3,
       "retornable": null
     },
     {
@@ -33517,7 +33505,7 @@
       "rubro": "ALFAJORES",
       "precio": 13300.001,
       "descuento": 30,
-      "stock": 6,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -34061,6 +34049,18 @@
       "retornable": null
     },
     {
+      "id": 2872,
+      "nombre": "BAÑO REP AG CELESTE 6*150 G",
+      "unidadesBulto": 6,
+      "codBarra": "7790580133641",
+      "familia": "OTROS",
+      "rubro": "REPOSTERIA",
+      "precio": 20394.006,
+      "descuento": 0,
+      "stock": 3,
+      "retornable": null
+    },
+    {
       "id": 2873,
       "nombre": "BAÑO REP AG BLANCO 12*150 G",
       "unidadesBulto": 12,
@@ -34357,7 +34357,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 14250.001,
       "descuento": 0,
-      "stock": 2,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -34379,7 +34379,7 @@
       "codBarra": "7790895067716",
       "familia": "GASEOSAS",
       "rubro": "GASEOSAS",
-      "precio": 16400.011,
+      "precio": 18392,
       "descuento": 0,
       "stock": 2,
       "retornable": {
@@ -34840,7 +34840,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 105600,
       "descuento": 0,
-      "stock": 21,
+      "stock": 20,
       "retornable": null
     },
     {
