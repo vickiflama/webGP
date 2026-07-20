@@ -733,6 +733,10 @@
     }
 
     /* ===== ENVASES RETORNABLES ===== */
+
+    .envasesretornables{
+        font-weight: 700;
+    }
 .envases-seccion {
   margin: 24px 0;
   padding: 20px;

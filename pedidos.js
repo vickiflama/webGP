@@ -101,6 +101,12 @@ window.verDetalle = function(id) {
                     <span>$${(p.precio * p.cantidad).toLocaleString('es-AR')}</span>
                 </div>
             `).join('') || ''}
+            ${pedido.costoEnvases && pedido.costoEnvases > 0 ? `
+                <div class="detalle-producto-row">
+                    <span>Envases retornables</span>
+                    <span>+$${pedido.costoEnvases.toLocaleString('es-AR')}</span>
+                </div>
+            ` : ''}
             <div class="detalle-total">
                 <span>Total:</span>
                 <span>$${(pedido.total || 0).toLocaleString('es-AR')}</span>

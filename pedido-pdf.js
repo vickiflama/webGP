@@ -21,7 +21,20 @@ if (pedido.productos) {
             <span>${p.nombre} x${p.cantidad}</span>
             <span>$${(p.precio * p.cantidad).toLocaleString('es-AR')}</span>
         </div>
+
+        
     `).join('');
+}
+
+
+// Envases
+if (pedido.costoEnvases && pedido.costoEnvases > 0) {
+    prods.innerHTML += `
+        <div class="producto-row">
+            <span>Envases retornables</span>
+            <span>+$${pedido.costoEnvases.toLocaleString('es-AR')}</span>
+        </div>
+    `;
 }
 
 // Envío

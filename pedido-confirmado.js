@@ -2,7 +2,7 @@
 const pedido = JSON.parse(localStorage.getItem('ultimoPedido') || '{}');
 
 // Número de pedido
-document.getElementById('conf-nro-pedido').textContent = 
+document.getElementById('conf-nro-pedido').textContent =
     localStorage.getItem('ultimoPedidoNro') || '-';
 
 // Productos
@@ -17,26 +17,27 @@ if (pedido.productos) {
 }
 
 // Envases
-const confEnvases = document.getElementById('conf-envases');
 const confEnvasesSeccion = document.getElementById('conf-envases-seccion');
+const confEnvasesMonto = document.getElementById('conf-envases-monto');
 if (pedido.costoEnvases && pedido.costoEnvases > 0) {
     confEnvasesSeccion.style.display = 'block';
-    confEnvases.innerHTML = `
-        <div class="resumen-item">
-            <span>Envases retornables</span>
-            <span>+$${pedido.costoEnvases.toLocaleString('es-AR')}</span>
-        </div>
-    `;
+    confEnvasesMonto.textContent = `+$${pedido.costoEnvases.toLocaleString('es-AR')}`;
 }
 
-
+// Total
 document.getElementById('conf-total').textContent = `$${(pedido.total || 0).toLocaleString('es-AR')}`;
+
+// Reemplazo
 document.getElementById('conf-reemplazo').textContent = pedido.reemplazo || '-';
-document.getElementById('conf-pago').textContent = (pedido.pago || '-') + (pedido.factura ? ' + Factura' : '');
+
+// Pago
+document.getElementById('conf-pago').textContent =
+    (pedido.pago || '-') + (pedido.factura ? ' + Factura' : '');
 
 // Envío
 if (pedido.tipoEnvio === 'retiro') {
-    document.getElementById('conf-envio').textContent = 'Retiro en Bv. Lovatto N° 1313, Reconquista, Santa Fe.';
+    document.getElementById('conf-envio').textContent =
+        'Retiro en Bv. Lovatto N° 1313, Reconquista, Santa Fe.';
 } else if (pedido.direccion) {
     const d = pedido.direccion;
     document.getElementById('conf-envio').innerHTML = `
@@ -47,8 +48,7 @@ if (pedido.tipoEnvio === 'retiro') {
     `;
 }
 
-// DESCARGAR PDF
-
+// PDF
 function descargarPDF() {
     window.open('pedido-pdf.html', '_blank');
 }
