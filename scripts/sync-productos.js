@@ -324,8 +324,13 @@ for (const p of precios) {
 }
 
 const preciosEnvases = {};
-for (const id of ENVASES_IDS) {
-  if (precioMap[id]) preciosEnvases[id] = precioMap[id];
+for (const art of articulos) {
+  if (ENVASES_IDS.has(art.idArticulo) && precioMap[art.idArticulo]) {
+    preciosEnvases[art.idArticulo] = {
+      precio: precioMap[art.idArticulo],
+      unidadesBulto: art.unidadesBulto || 1
+    };
+  }
 }
 
   const productos = articulos
