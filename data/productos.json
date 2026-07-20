@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-07-20T15:11:07.627Z",
-  "total": 2898,
+  "ultima_actualizacion": "2026-07-20T15:57:22.242Z",
+  "total": 2899,
   "envases": {
     "2776": {
       "precio": 24000,
@@ -2773,7 +2773,7 @@
       "rubro": "REPOSTERIA",
       "precio": 11550.001,
       "descuento": 0,
-      "stock": 557,
+      "stock": 554,
       "retornable": null
     },
     {
@@ -2905,7 +2905,7 @@
       "rubro": "ARROZ",
       "precio": 16550,
       "descuento": 0,
-      "stock": 44,
+      "stock": 50,
       "retornable": null
     },
     {
@@ -3217,7 +3217,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 22428.001,
       "descuento": 0,
-      "stock": 10,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -3385,7 +3385,7 @@
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 104,
+      "stock": 102,
       "retornable": null
     },
     {
@@ -3445,7 +3445,7 @@
       "rubro": "LACTEOS",
       "precio": 26190.004,
       "descuento": 10,
-      "stock": 20,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -3457,7 +3457,7 @@
       "rubro": "LACTEOS",
       "precio": 87600,
       "descuento": 0,
-      "stock": 25,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -4357,7 +4357,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 18963.12,
       "descuento": 0,
-      "stock": 26,
+      "stock": 23,
       "retornable": null
     },
     {
@@ -4429,7 +4429,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 19040.633,
       "descuento": 0,
-      "stock": 11,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -7618,7 +7618,7 @@
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 24,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -8818,7 +8818,7 @@
       "rubro": "YERBAS",
       "precio": 26399.998,
       "descuento": 0,
-      "stock": 2,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -11278,7 +11278,7 @@
       "rubro": "GALLETAS",
       "precio": 30772.006,
       "descuento": 0,
-      "stock": 46,
+      "stock": 43,
       "retornable": null
     },
     {
@@ -11422,7 +11422,7 @@
       "rubro": "YERBAS",
       "precio": 39599.96,
       "descuento": 0,
-      "stock": 10,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -11686,7 +11686,7 @@
       "rubro": "YERBAS",
       "precio": 21541.245,
       "descuento": 0,
-      "stock": 19,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -11710,7 +11710,7 @@
       "rubro": "YERBAS",
       "precio": 22618.812,
       "descuento": 0,
-      "stock": 28,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -11722,7 +11722,7 @@
       "rubro": "YERBAS",
       "precio": 20155.782,
       "descuento": 0,
-      "stock": 8,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -14857,7 +14857,7 @@
       "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 42890.894,
       "descuento": 0,
-      "stock": 7,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -16417,7 +16417,7 @@
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 36028.645,
       "descuento": 0,
-      "stock": 3,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -16741,7 +16741,7 @@
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 31421.946,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -17873,6 +17873,18 @@
       "retornable": null
     },
     {
+      "id": 3727,
+      "nombre": "LAS PERDICES BIB MALBEC 4 * 3000 CC",
+      "unidadesBulto": 4,
+      "codBarra": "7798123970616",
+      "familia": "VINOS",
+      "rubro": "VINOS",
+      "precio": 94053.966,
+      "descuento": 0,
+      "stock": 2,
+      "retornable": null
+    },
+    {
       "id": 3731,
       "nombre": "LAS PERDICES ESPUMANTE BRUT ROSADO 6*750CC",
       "unidadesBulto": 6,
@@ -18733,7 +18745,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 47987.995,
       "descuento": 0,
-      "stock": 7,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -18901,7 +18913,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 7887.458,
       "descuento": 0,
-      "stock": 30,
+      "stock": 27,
       "retornable": null
     },
     {
@@ -21613,7 +21625,7 @@
       "rubro": "GALLETAS",
       "precio": 17280,
       "descuento": 0,
-      "stock": 68,
+      "stock": 65,
       "retornable": null
     },
     {
@@ -30961,7 +30973,7 @@
       "rubro": "CERVEZAS",
       "precio": 38400,
       "descuento": 0,
-      "stock": 39,
+      "stock": 40,
       "retornable": {
         "idEnvase": 2776,
         "cantEnvases": 12
@@ -32221,7 +32233,7 @@
       "rubro": "VINOS",
       "precio": 15448.97,
       "descuento": 0,
-      "stock": 26,
+      "stock": 23,
       "retornable": null
     },
     {
@@ -33445,7 +33457,7 @@
       "rubro": "ALFAJORES",
       "precio": 13300.001,
       "descuento": 30,
-      "stock": 7,
+      "stock": 4,
       "retornable": null
     },
     {
