@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +13,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <title>Pedido Confirmado - Gran Prix Mayorista</title>
 </head>
+
 <body>
 
-   <!-- NAVBAR -->
+    <!-- NAVBAR -->
     <header class="navbar">
         <div class="logo-header">
             <a href="index.html">
@@ -29,45 +31,45 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
-            <!-- BOTÓN CATEGORÍAS -->
-            <div class="categorias-wrap">
-                <button class="btn-categorias" id="btn-categorias">
-                    <i class="fa-solid fa-bars"></i>
-                    Categorías
-                    <i class="fa-solid fa-chevron-down" id="icon-categorias"></i>
+        <!-- BOTÓN CATEGORÍAS -->
+        <div class="categorias-wrap">
+            <button class="btn-categorias" id="btn-categorias">
+                <i class="fa-solid fa-bars"></i>
+                Categorías
+                <i class="fa-solid fa-chevron-down" id="icon-categorias"></i>
+            </button>
+            <div class="categorias-dropdown" id="categorias-dropdown"> </div>
+        </div>
+
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
+
+            <!-- MENU USUARIO -->
+            <div class="user-menu-wrap">
+                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span id="nombre-usuario">LOGIN</span>
                 </button>
-                <div class="categorias-dropdown" id="categorias-dropdown"> </div>
-            </div>
-
-            <div class="nav-right">
-                <button class="btn-whatsapp">
-                    <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"
-                        rel="noopener noreferrer">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        Sumate al canal de WhatsApp
-                    </a>
-                </button>
-
-                <!-- MENU USUARIO -->
-                <div class="user-menu-wrap">
-                    <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
-                        <i class="fa-regular fa-circle-user"></i>
-                        <span id="nombre-usuario">LOGIN</span>
-                    </button>
-                    <div class="user-dropdown" id="user-dropdown">
-                        <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
-                        <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
-                        <hr>
-                        <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
-                            sesión</a>
-                    </div>
-                </div>
-
-                <div class="cart-wrap">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <span class="cart-badge" id="cart-badge">0</span>
+                <div class="user-dropdown" id="user-dropdown">
+                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                    <hr>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar
+                        sesión</a>
                 </div>
             </div>
+
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge" id="cart-badge">0</span>
+            </div>
+        </div>
     </header>
 
     <div class="confirmado-wrap">
@@ -78,19 +80,25 @@
         </div>
 
         <h1 class="confirmado-titulo">¡Pedido confirmado!</h1>
-        <p class="confirmado-subtitulo">Gracias por tu compra. Te contactaremos por WhatsApp para coordinar los detalles.</p>
+        <p class="confirmado-subtitulo">Gracias por tu compra. Te contactaremos por WhatsApp para coordinar los
+            detalles.</p>
 
         <!-- Detalle del pedido -->
 
-<div class="nro-pedido">
-    <span>Número de pedido:</span>
-    <strong id="conf-nro-pedido"></strong>
-</div>
+        <div class="nro-pedido">
+            <span>Número de pedido:</span>
+            <strong id="conf-nro-pedido"></strong>
+        </div>
         <div class="confirmado-detalle">
 
             <div class="resumen-seccion">
                 <h3>Productos</h3>
                 <div id="conf-productos"></div>
+
+                <div class="resumen-seccion" id="conf-envases-seccion" style="display:none">
+                    <h3>Envases retornables</h3>
+                    <div id="conf-envases"></div>
+                </div>
                 <div class="resumen-total">
                     <span>Total:</span>
                     <strong id="conf-total"></strong>
@@ -115,16 +123,16 @@
         </div>
 
         <div class="confirmado-botones">
-    <a href="pedidos.html" class="btn-siguiente">
-        <i class="fa-solid fa-box"></i> Ver mis pedidos
-    </a>
-    <button class="btn-pdf" onclick="descargarPDF()">
-    <i class="fa-solid fa-file-pdf"></i> Descargar PDF
-</button>
-    <a href="index.html" class="btn-atras">
-        <i class="fa-solid fa-home"></i> Volver al inicio
-    </a>
-</div>
+            <a href="pedidos.html" class="btn-siguiente">
+                <i class="fa-solid fa-box"></i> Ver mis pedidos
+            </a>
+            <button class="btn-pdf" onclick="descargarPDF()">
+                <i class="fa-solid fa-file-pdf"></i> Descargar PDF
+            </button>
+            <a href="index.html" class="btn-atras">
+                <i class="fa-solid fa-home"></i> Volver al inicio
+            </a>
+        </div>
     </div>
 
     <!-- LOADING -->
@@ -137,6 +145,7 @@
     <script src="modales.js"></script>
     <script src="pedido-confirmado.js"></script>
     <script type="module" src="firebase.js"></script>
-   
+
 </body>
+
 </html>

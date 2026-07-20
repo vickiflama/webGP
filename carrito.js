@@ -286,7 +286,7 @@ function armarResumen() {
     `,
     )
     .join("");
-  resumenTotal.textContent = `$${calcularTotal().toLocaleString("es-AR")}`;
+  resumenTotal.textContent = `$${(calcularTotal() + calcularCostoEnvases()).toLocaleString("es-AR")}`;
 
   const reemplazo = document.querySelector('input[name="reemplazo"]:checked');
   const textos = {
@@ -361,7 +361,8 @@ async function confirmarPedido() {
 
     const pedido = {
       productos: carritoData,
-      total: calcularTotal(),
+      costoEnvases: calcularCostoEnvases(),
+      total: calcularTotal() + calcularCostoEnvases(),
       reemplazo: textosReemplazo[reemplazo?.value] || "-",
       tipoEnvio: envio?.value,
       pago: textosPago[pago?.value] || "-",
@@ -452,15 +453,9 @@ async function renderizarEnvases() {
     const prod = productosMap[item.id];
     const ret = prod.retornable;
     const cantTotal = ret.cantEnvases * item.cantidad;
-    const envaseData = envasesMap[ret.idEnvase] || {
-      precio: 0,
-      unidadesBulto: 1,
-    };
-    const precioEnvase = envaseData.precio / envaseData.unidadesBulto;
-    const state = envaseState[item.id] || {
-      tieneEnvases: null,
-      cantidadEnvases: 0,
-    };
+    const envaseData = envasesMap[ret.idEnvase] || { precio: 0, unidadesBulto: 1 };
+    const precioUnitario = envaseData.precio / envaseData.unidadesBulto;
+    const state = envaseState[item.id] || { tieneEnvases: null, cantidadEnvases: 0 };
 
     html += `
       <div class="envase-item">
@@ -469,11 +464,11 @@ async function renderizarEnvases() {
         <div class="envase-pregunta">
           <span>¿Tenés envases?</span>
           <button class="btn-envase ${state.tieneEnvases === true ? "activo" : ""}"
-            onclick="seleccionarEnvase(${item.id}, true, ${cantTotal}, ${ret.idEnvase}, ${precioEnvase})">
+            onclick="seleccionarEnvase(${item.id}, true, ${cantTotal}, ${ret.idEnvase}, ${precioUnitario})">
             ✓ Sí, tengo
           </button>
           <button class="btn-envase btn-no ${state.tieneEnvases === false ? "activo" : ""}"
-            onclick="seleccionarEnvase(${item.id}, false, ${cantTotal}, ${ret.idEnvase}, ${precioEnvase})">
+            onclick="seleccionarEnvase(${item.id}, false, ${cantTotal}, ${ret.idEnvase}, ${precioUnitario})">
             ✗ No, agregalos
           </button>
         </div>
@@ -483,15 +478,14 @@ async function renderizarEnvases() {
           <div class="envase-cantidad-wrap">
             <label>¿Cuántos tenés?</label>
             <input type="number" min="0" max="${cantTotal}" value="${state.cantidadEnvases}"
-              onchange="actualizarCantidadEnvases(${item.id}, this.value, ${cantTotal}, ${precioEnvase})"
+              onchange="actualizarCantidadEnvases(${item.id}, this.value, ${cantTotal}, ${precioUnitario})"
               class="envase-cantidad-input">
             <span>de ${cantTotal}</span>
           </div>
           ${
             state.cantidadEnvases < cantTotal
               ? `
-            <p class="envase-costo">Faltan ${cantTotal - state.cantidadEnvases} envases: +$${(precioEnvase * (cantTotal - state.cantidadEnvases)).toLocaleString("es-AR")}</p>
-          `
+<p class="envase-costo">Faltan ${cantTotal - state.cantidadEnvases} envases: +$${(precioUnitario * (cantTotal - state.cantidadEnvases)).toLocaleString("es-AR")}</p>          `
               : '<p class="envase-ok">✓ Tenés todos los envases</p>'
           }
         `
@@ -500,8 +494,7 @@ async function renderizarEnvases() {
         ${
           state.tieneEnvases === false
             ? `
-          <p class="envase-costo">Se agregarán ${cantTotal} envases: +$${(precioEnvase * cantTotal).toLocaleString("es-AR")}</p>
-        `
+<p class="envase-costo">Se agregarán ${cantTotal} envases: +$${(precioUnitario * cantTotal).toLocaleString("es-AR")}</p>        `
             : ""
         }
       </div>
@@ -518,7 +511,7 @@ function seleccionarEnvase(
   tieneEnvases,
   cantTotal,
   idEnvase,
-  precioEnvase,
+  precioUnitario,
 ) {
   if (!envaseState[idProducto]) envaseState[idProducto] = {};
   envaseState[idProducto].tieneEnvases = tieneEnvases;
@@ -530,7 +523,7 @@ function actualizarCantidadEnvases(
   idProducto,
   cantidad,
   cantTotal,
-  precioEnvase,
+  precioUnitario,
 ) {
   cantidad = Math.min(Math.max(parseInt(cantidad) || 0, 0), cantTotal);
   envaseState[idProducto].cantidadEnvases = cantidad;
@@ -552,14 +545,16 @@ function calcularCostoEnvases() {
     const state = envaseState[item.id];
     if (!state || state.tieneEnvases === null) continue;
     const cantTotal = prod.retornable.cantEnvases * item.cantidad;
-    const precioEnvase = envasesMap[prod.retornable.idEnvase] || 0;
+    const envaseData = envasesMap[prod.retornable.idEnvase];
+    if (!envaseData) continue;
+    const precioUnitario = envaseData.precio / envaseData.unidadesBulto;
     if (state.tieneEnvases === false) {
-      total += precioEnvase * cantTotal;
+      total += precioUnitario * cantTotal;
     } else if (
       state.tieneEnvases === true &&
       state.cantidadEnvases < cantTotal
     ) {
-      total += precioEnvase * (cantTotal - state.cantidadEnvases);
+      total += precioUnitario * (cantTotal - state.cantidadEnvases);
     }
   }
   return total;

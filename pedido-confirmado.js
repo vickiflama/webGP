@@ -16,6 +16,20 @@ if (pedido.productos) {
     `).join('');
 }
 
+// Envases
+const confEnvases = document.getElementById('conf-envases');
+const confEnvasesSeccion = document.getElementById('conf-envases-seccion');
+if (pedido.costoEnvases && pedido.costoEnvases > 0) {
+    confEnvasesSeccion.style.display = 'block';
+    confEnvases.innerHTML = `
+        <div class="resumen-item">
+            <span>Envases retornables</span>
+            <span>+$${pedido.costoEnvases.toLocaleString('es-AR')}</span>
+        </div>
+    `;
+}
+
+
 document.getElementById('conf-total').textContent = `$${(pedido.total || 0).toLocaleString('es-AR')}`;
 document.getElementById('conf-reemplazo').textContent = pedido.reemplazo || '-';
 document.getElementById('conf-pago').textContent = (pedido.pago || '-') + (pedido.factura ? ' + Factura' : '');
