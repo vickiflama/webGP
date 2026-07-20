@@ -745,11 +745,11 @@
   font-size: 1rem;
   font-weight: 700;
   color: #F47920;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .envase-item {
-  padding: 16px 0;
+  padding: 5px 0;
   border-bottom: 1px solid #f0e0d0;
 }
 .envase-item:last-child { border-bottom: none; }

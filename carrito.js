@@ -47,11 +47,32 @@ function validarPaso1() {
   if (total < MINIMO_COMPRA) {
     mostrarAlerta(
       "alerta-paso1",
-      `El monto mínimo de compra es $${MINIMO_COMPRA.toLocaleString("es-AR")}. Agregá más productos.`,
+      `El monto mínimo de compra es $${MINIMO_COMPRA.toLocaleString("es-AR")}. Agregá más productos.`
     );
     document.getElementById("alerta-minimo").style.display = "flex";
     return false;
   }
+
+  if (productosJsonData) {
+    const productosMap = {};
+    for (const p of productosJsonData.productos) {
+      if (p.retornable) productosMap[p.id] = p;
+    }
+    const sinResponder = carritoData.filter(item =>
+      productosMap[item.id] && (!envaseState[item.id] || envaseState[item.id].tieneEnvases === null)
+    );
+    if (sinResponder.length > 0) {
+      const alerta = document.getElementById("alerta-paso1");
+      const texto = document.getElementById("alerta-paso1-texto");
+      if (alerta && texto) {
+        texto.textContent = "⚠️ Debés indicar si tenés envases para todos los productos retornables antes de continuar.";
+        alerta.classList.add("activo");
+      }
+      document.getElementById("seccion-envases").scrollIntoView({ behavior: "smooth", block: "center" });
+      return false;
+    }
+  }
+
   return true;
 }
 
@@ -275,18 +296,21 @@ document.addEventListener("DOMContentLoaded", function () {
 function armarResumen() {
   const resumenProductos = document.getElementById("resumen-productos");
   const resumenTotal = document.getElementById("resumen-total");
-  resumenProductos.innerHTML = carritoData
-    .map(
-      (p) => `
-        <div class="resumen-item">
-            <span>${p.nombre} x${p.cantidad}</span>
-            <span>$${(p.precio * p.cantidad).toLocaleString("es-AR")}</span>
-            
-        </div>
-    `,
-    )
-    .join("");
-  resumenTotal.textContent = `$${(calcularTotal() + calcularCostoEnvases()).toLocaleString("es-AR")}`;
+  const costoEnvases = calcularCostoEnvases();
+
+  resumenProductos.innerHTML = carritoData.map((p) => `
+    <div class="resumen-item">
+      <span>${p.nombre} x${p.cantidad}</span>
+      <span>$${(p.precio * p.cantidad).toLocaleString("es-AR")}</span>
+    </div>
+  `).join("") + (costoEnvases > 0 ? `
+    <div class="resumen-item">
+      <span>Envases retornables</span>
+      <span>+$${costoEnvases.toLocaleString("es-AR")}</span>
+    </div>
+  ` : "");
+
+  resumenTotal.textContent = `$${(calcularTotal() + costoEnvases).toLocaleString("es-AR")}`;
 
   const reemplazo = document.querySelector('input[name="reemplazo"]:checked');
   const textos = {
@@ -307,8 +331,7 @@ function armarResumen() {
     const numero = document.getElementById("env-numero").value;
     const localidad = document.getElementById("env-localidad").value;
     const franja = document.querySelector('input[name="franja"]:checked');
-    const franjaTexto =
-      franja?.value === "manana" ? "8:00 - 12:00hs" : "12:00 - 16:00hs";
+    const franjaTexto = franja?.value === "manana" ? "8:00 - 12:00hs" : "12:00 - 16:00hs";
     const fechaTexto = diaSeleccionado?.toLocaleDateString("es-AR", {
       weekday: "long",
       day: "numeric",
@@ -429,7 +452,8 @@ async function cargarProductosJson() {
 
 async function renderizarEnvases() {
   const seccion = document.getElementById("seccion-envases");
-  if (!seccion) return;
+  const itemsContainer = document.getElementById("envases-items");
+  if (!seccion || !itemsContainer) return;
 
   const data = await cargarProductosJson();
   const envasesMap = data.envases || {};
@@ -442,12 +466,13 @@ async function renderizarEnvases() {
   const conRetornable = carritoData.filter((item) => productosMap[item.id]);
 
   if (conRetornable.length === 0) {
-    seccion.innerHTML = "";
+    seccion.style.display = "none";
     actualizarTotalConEnvases();
     return;
   }
 
-  let html = `<div class="envases-seccion"><h3 class="envases-titulo">🍾 Envases retornables</h3>`;
+  seccion.style.display = "block";
+  let html = "";
 
   for (const item of conRetornable) {
     const prod = productosMap[item.id];
@@ -472,9 +497,7 @@ async function renderizarEnvases() {
             ✗ No, agregalos
           </button>
         </div>
-        ${
-          state.tieneEnvases === true
-            ? `
+        ${state.tieneEnvases === true ? `
           <div class="envase-cantidad-wrap">
             <label>¿Cuántos tenés?</label>
             <input type="number" min="0" max="${cantTotal}" value="${state.cantidadEnvases}"
@@ -482,49 +505,31 @@ async function renderizarEnvases() {
               class="envase-cantidad-input">
             <span>de ${cantTotal}</span>
           </div>
-          ${
-            state.cantidadEnvases < cantTotal
-              ? `
-<p class="envase-costo">Faltan ${cantTotal - state.cantidadEnvases} envases: +$${(precioUnitario * (cantTotal - state.cantidadEnvases)).toLocaleString("es-AR")}</p>          `
-              : '<p class="envase-ok">✓ Tenés todos los envases</p>'
+          ${state.cantidadEnvases < cantTotal
+            ? `<p class="envase-costo">Faltan ${cantTotal - state.cantidadEnvases} envases: +$${(precioUnitario * (cantTotal - state.cantidadEnvases)).toLocaleString("es-AR")}</p>`
+            : `<p class="envase-ok">✓ Tenés todos los envases</p>`
           }
-        `
-            : ""
-        }
-        ${
-          state.tieneEnvases === false
-            ? `
-<p class="envase-costo">Se agregarán ${cantTotal} envases: +$${(precioUnitario * cantTotal).toLocaleString("es-AR")}</p>        `
-            : ""
+        ` : ""}
+        ${state.tieneEnvases === false
+          ? `<p class="envase-costo">Se agregarán ${cantTotal} envases: +$${(precioUnitario * cantTotal).toLocaleString("es-AR")}</p>`
+          : ""
         }
       </div>
     `;
   }
 
-  html += "</div>";
-  seccion.innerHTML = html;
+  itemsContainer.innerHTML = html;
   actualizarTotalConEnvases();
 }
 
-function seleccionarEnvase(
-  idProducto,
-  tieneEnvases,
-  cantTotal,
-  idEnvase,
-  precioUnitario,
-) {
+function seleccionarEnvase(idProducto, tieneEnvases, cantTotal, idEnvase, precioUnitario) {
   if (!envaseState[idProducto]) envaseState[idProducto] = {};
   envaseState[idProducto].tieneEnvases = tieneEnvases;
   envaseState[idProducto].cantidadEnvases = tieneEnvases ? cantTotal : 0;
   renderizarEnvases();
 }
 
-function actualizarCantidadEnvases(
-  idProducto,
-  cantidad,
-  cantTotal,
-  precioUnitario,
-) {
+function actualizarCantidadEnvases(idProducto, cantidad, cantTotal, precioUnitario) {
   cantidad = Math.min(Math.max(parseInt(cantidad) || 0, 0), cantTotal);
   envaseState[idProducto].cantidadEnvases = cantidad;
   renderizarEnvases();
@@ -550,10 +555,7 @@ function calcularCostoEnvases() {
     const precioUnitario = envaseData.precio / envaseData.unidadesBulto;
     if (state.tieneEnvases === false) {
       total += precioUnitario * cantTotal;
-    } else if (
-      state.tieneEnvases === true &&
-      state.cantidadEnvases < cantTotal
-    ) {
+    } else if (state.tieneEnvases === true && state.cantidadEnvases < cantTotal) {
       total += precioUnitario * (cantTotal - state.cantidadEnvases);
     }
   }
