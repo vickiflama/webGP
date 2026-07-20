@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-07-19T10:20:39.763Z",
+  "ultima_actualizacion": "2026-07-20T11:38:35.183Z",
   "total": 2903,
   "envases": {
     "2776": 24000,
@@ -100,7 +100,7 @@
       "rubro": "JUGOS",
       "precio": 50889.103,
       "descuento": 0,
-      "stock": 6,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -736,7 +736,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 17158.405,
       "descuento": 0,
-      "stock": 1,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -928,7 +928,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 28339.18,
       "descuento": 0,
-      "stock": 18,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -952,7 +952,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 28344.722,
       "descuento": 0,
-      "stock": 6,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -1084,7 +1084,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 57631.647,
       "descuento": 0,
-      "stock": 2,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -2848,7 +2848,7 @@
       "rubro": "ARROZ",
       "precio": 12300.001,
       "descuento": 0,
-      "stock": 183,
+      "stock": 192,
       "retornable": null
     },
     {
@@ -3260,6 +3260,18 @@
       "retornable": null
     },
     {
+      "id": 692,
+      "nombre": "MOSTACHOL INVICTA 20*500 G",
+      "unidadesBulto": 20,
+      "codBarra": "7791599001334",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 12699.998,
+      "descuento": 0,
+      "stock": 19,
+      "retornable": null
+    },
+    {
       "id": 699,
       "nombre": "VIZZIO ALMENDRA 24 * 80 G",
       "unidadesBulto": 24,
@@ -3364,7 +3376,7 @@
       "rubro": "LACTEOS",
       "precio": 20820.001,
       "descuento": 0,
-      "stock": 112,
+      "stock": 111,
       "retornable": null
     },
     {
@@ -7633,7 +7645,7 @@
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 8,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -17888,18 +17900,6 @@
       "retornable": null
     },
     {
-      "id": 3727,
-      "nombre": "LAS PERDICES BIB MALBEC 4 * 3000 CC",
-      "unidadesBulto": 4,
-      "codBarra": "7798123970616",
-      "familia": "VINOS",
-      "rubro": "VINOS",
-      "precio": 94053.966,
-      "descuento": 0,
-      "stock": 2,
-      "retornable": null
-    },
-    {
       "id": 3731,
       "nombre": "LAS PERDICES ESPUMANTE BRUT ROSADO 6*750CC",
       "unidadesBulto": 6,
@@ -23596,7 +23596,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 85936.16,
       "descuento": 0,
-      "stock": 25,
+      "stock": 51,
       "retornable": null
     },
     {
@@ -31000,7 +31000,7 @@
       "rubro": "CERVEZAS",
       "precio": 38400,
       "descuento": 0,
-      "stock": 41,
+      "stock": 40,
       "retornable": {
         "idEnvase": 2776,
         "cantEnvases": 12
