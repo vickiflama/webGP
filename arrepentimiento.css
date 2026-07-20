@@ -1,0 +1,244 @@
+/* ===== ARREPENTIMIENTO ===== */
+
+.arr-main {
+    min-height: 80vh;
+    background: #f8f8f8;
+    padding-bottom: 60px;
+}
+
+.arr-hero {
+    background: linear-gradient(135deg, #1A3D6B, #2857A4);
+    color: white;
+    text-align: center;
+    padding: 60px 20px 40px;
+}
+
+.arr-hero-icon {
+    width: 72px;
+    height: 72px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0 auto 20px;
+    color: #F47920;
+}
+
+.arr-titulo {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.arr-subtitulo {
+    font-size: 0.95rem;
+    opacity: 0.85;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.arr-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* INFO BOX */
+.arr-info-box {
+    background: #EBF4FF;
+    border: 1px solid #90B8E8;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.arr-info-icon {
+    color: #2857A4;
+    font-size: 1.3rem;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.arr-info-box p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.arr-info-box p:last-child { margin-bottom: 0; }
+
+/* CARD FORMULARIO */
+.arr-card {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+
+.arr-card-titulo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1A3D6B;
+    margin-bottom: 24px;
+}
+
+.arr-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.arr-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.arr-campo label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #444;
+}
+
+.arr-campo input,
+.arr-campo textarea {
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+    transition: border 0.2s;
+}
+
+.arr-campo input:focus,
+.arr-campo textarea:focus {
+    outline: none;
+    border-color: #F47920;
+}
+
+.arr-campo textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.arr-aviso {
+    background: #FFF8F0;
+    border: 1px solid #F47920;
+    border-radius: 8px;
+    padding: 14px 16px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.arr-aviso i {
+    color: #F47920;
+    font-size: 1rem;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.arr-btn-enviar {
+    width: 100%;
+    padding: 14px;
+    background: #F47920;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background 0.2s;
+}
+
+.arr-btn-enviar:hover { background: #d4661a; }
+
+/* ÉXITO */
+.arr-exito {
+    background: #EDF7EE;
+    border: 1px solid #3DB549;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.arr-exito i {
+    color: #3DB549;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.arr-exito p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+/* CONTACTO ALTERNATIVO */
+.arr-contacto {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.arr-contacto-opciones {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.arr-contacto-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: opacity 0.2s;
+}
+
+.arr-contacto-btn:hover { opacity: 0.85; }
+
+.arr-wa {
+    background: #25D366;
+    color: white;
+}
+
+.arr-mail {
+    background: #1A3D6B;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .arr-form-grid {
+        grid-template-columns: 1fr;
+    }
+    .arr-titulo { font-size: 1.5rem; }
+    .arr-card { padding: 20px; }
+}

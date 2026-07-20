@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="arrepentimiento.css">
+    <title>Botón de Arrepentimiento - Gran Prix Mayorista</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+        <div class="search-wrap">
+            <div class="search-box">
+                <input type="text" placeholder="Buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn-whatsapp">
+                <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Sumate al canal de WhatsApp
+                </a>
+            </button>
+            <div class="user-menu-wrap">
+                <button class="btn-login" id="btn-usuario" onclick="toggleMenu()">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <span id="nombre-usuario">LOGIN</span>
+                </button>
+                <div class="user-dropdown" id="user-dropdown">
+                    <a href="perfil.html"><i class="fa-regular fa-user"></i> Mi perfil</a>
+                    <a href="pedidos.html"><i class="fa-solid fa-box"></i> Mis pedidos</a>
+                    <hr>
+                    <a href="#" onclick="cerrarSesion()"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</a>
+                </div>
+            </div>
+            <div class="cart-wrap">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-badge" id="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENIDO -->
+    <main class="arr-main">
+
+        <div class="arr-hero">
+            <div class="arr-hero-icon">
+                <i class="fa-solid fa-rotate-left"></i>
+            </div>
+            <h1 class="arr-titulo">Botón de Arrepentimiento</h1>
+            <p class="arr-subtitulo">Derecho de revocación conforme a la Ley de Defensa del Consumidor N° 24.240</p>
+        </div>
+
+        <div class="arr-wrap">
+
+            <!-- INFO LEGAL -->
+            <div class="arr-info-box">
+                <i class="fa-solid fa-circle-info arr-info-icon"></i>
+                <div>
+                    <p><strong>¿Qué es el botón de arrepentimiento?</strong></p>
+                    <p>Como consumidor, tenés derecho a revocar la aceptación de una compra realizada por internet dentro de los <strong>10 días hábiles</strong> desde que recibiste el producto o celebraste el contrato (lo que ocurra después), sin necesidad de justificarlo y sin costo alguno.</p>
+                    <p>Esto está establecido en el <strong>Artículo 34 de la Ley N° 24.240</strong> y la <strong>Resolución 424/2020</strong> de la Secretaría de Comercio Interior.</p>
+                </div>
+            </div>
+
+            <!-- FORMULARIO -->
+            <div class="arr-card">
+                <h2 class="arr-card-titulo">Completá el formulario de revocación</h2>
+
+                <div id="arr-exito" class="arr-exito" style="display:none">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div>
+                        <p><strong>¡Solicitud enviada correctamente!</strong></p>
+                        <p>Nos comunicaremos con vos a la brevedad para coordinar la devolución.</p>
+                    </div>
+                </div>
+
+                <form id="form-arrepentimiento" onsubmit="enviarArrepentimiento(event)">
+
+                    <div class="arr-form-grid">
+                        <div class="arr-campo">
+                            <label>Nombre *</label>
+                            <input type="text" id="arr-nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="arr-campo">
+                            <label>Apellido *</label>
+                            <input type="text" id="arr-apellido" placeholder="Tu apellido" required>
+                        </div>
+                    </div>
+
+                    <div class="arr-form-grid">
+                        <div class="arr-campo">
+                            <label>DNI / CUIT *</label>
+                            <input type="text" id="arr-dni" placeholder="Ej: 30123456" required>
+                        </div>
+                        <div class="arr-campo">
+                            <label>Email *</label>
+                            <input type="email" id="arr-email" placeholder="tucorreo@ejemplo.com" required>
+                        </div>
+                    </div>
+
+                    <div class="arr-campo">
+                        <label>Teléfono de contacto *</label>
+                        <input type="tel" id="arr-telefono" placeholder="Ej: 3482 123456" required>
+                    </div>
+
+                    <div class="arr-campo">
+                        <label>Número de pedido *</label>
+                        <input type="text" id="arr-nro-pedido" placeholder="Ej: GP-20260620-0001" required>
+                    </div>
+
+                    <div class="arr-campo">
+                        <label>Fecha de compra *</label>
+                        <input type="date" id="arr-fecha" required>
+                    </div>
+
+                    <div class="arr-campo">
+                        <label>Motivo (opcional)</label>
+                        <textarea id="arr-motivo" placeholder="Podés indicar el motivo de la revocación..."></textarea>
+                    </div>
+
+                    <div class="arr-aviso">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <p>Al enviar este formulario, confirmás que querés revocar tu compra dentro del plazo legal. Te contactaremos en un plazo de <strong>48hs hábiles</strong> para coordinar la devolución del importe abonado.</p>
+                    </div>
+
+                    <button type="submit" class="arr-btn-enviar">
+                        <i class="fa-solid fa-rotate-left"></i>
+                        Solicitar revocación de compra
+                    </button>
+
+                </form>
+            </div>
+
+            <!-- CONTACTO ALTERNATIVO -->
+            <div class="arr-contacto">
+                <p>¿Preferís comunicarte directamente?</p>
+                <div class="arr-contacto-opciones">
+                    <a href="https://wa.me/543482000000" target="_blank" class="arr-contacto-btn arr-wa">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="mailto:contacto@granprixmayorista.com" class="arr-contacto-btn arr-mail">
+                        <i class="fa-solid fa-envelope"></i> Email
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-wrap">
+            <div class="footer-col">
+                <img src="img/Fondo Blanco GP.png" alt="Gran Prix Mayorista" class="footer-logo">
+                <p class="footer-slogan">¡Con Gran Prix ahorrás más!</p>
+            </div>
+            <div class="footer-col">
+                <div class="footer-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <div>
+                        <p>Lunes a Viernes 8 a 19 hs</p>
+                        <p>Sábado 8 a 13 hs</p>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <p>Bv. Lovatto N° 1313</p>
+                        <p>Reconquista, Santa Fe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-titulo">GRAN PRIX ONLINE</h4>
+                <ul class="footer-links">
+                    <li><a href="preguntasfrecuentes.html">Preguntas frecuentes</a></li>
+                    <li><a href="#">Medios de pago</a></li>
+                    <li><a href="#">Formas de entrega</a></li>
+                    <li><a href="#">Promociones bancarias</a></li>
+                    <li><a href="comocomprar.html">¿Cómo comprar?</a></li>
+                    <li><a href="pedidos.html">Mis pedidos</a></li>
+                    <li><a href="arrepentimiento.html">Botón de arrepentimiento</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-redes">
+                <h4 class="footer-titulo">SEGUINOS</h4>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/Granprixmayorista" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/granprixmayorista" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://whatsapp.com/channel/0029Vb6qGCDBqbrIjmq6QQ01" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Gran Prix Mayorista. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+    <script src="modales.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <script>
+        function enviarArrepentimiento(e) {
+            e.preventDefault();
+            // Acá se puede conectar a Firebase o enviar por email
+            document.getElementById('form-arrepentimiento').style.display = 'none';
+            document.getElementById('arr-exito').style.display = 'flex';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+
+</html>
