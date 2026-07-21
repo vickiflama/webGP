@@ -1261,6 +1261,21 @@ body {
 
   .mv-card {
     min-width: calc(50% - 10px);
+    padding: 12px;
+  }
+
+  .mv-acciones {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .cantidad-wrap {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn-comprar {
+    width: 100%;
   }
 }
 
