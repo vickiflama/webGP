@@ -231,3 +231,32 @@
 .detalle-total span:last-child {
     color: #fe6902;
 }
+/* ======================== RESPONSIVE PEDIDOS ======================== */
+@media (max-width: 600px) {
+    .pedidos-section {
+        margin: 20px auto;
+        padding: 0 14px;
+    }
+
+    .pedido-card {
+        padding: 16px;
+    }
+
+    .pedido-info {
+        gap: 16px;
+    }
+
+    .pedido-botones {
+        width: 100%;
+    }
+
+    .btn-ver-detalle,
+    .btn-pdf-pedido {
+        flex: 1;
+        justify-content: center;
+    }
+
+    .modal-detalle-contenido {
+        max-width: 95vw;
+    }
+}

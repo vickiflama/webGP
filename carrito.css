@@ -678,6 +678,97 @@
     background: #fe6902;
 }
 
+/* ======================== RESPONSIVE CARRITO / CHECKOUT ======================== */
+@media (max-width: 600px) {
+  .progreso-wrap {
+    padding: 16px 12px;
+  }
+
+  .progreso-steps {
+    max-width: 100%;
+  }
+
+  .step span {
+    display: none;
+  }
+
+  .step-circle {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  .step-linea {
+    margin: 0 4px;
+    margin-bottom: 0;
+  }
+
+  .checkout-wrap {
+    margin: 20px auto;
+    padding: 0 14px;
+  }
+
+  .paso-titulo {
+    font-size: 20px;
+  }
+
+  .carrito-tabla-header {
+    display: none;
+  }
+
+  .carrito-row {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "nombre nombre"
+      "precio cantidad"
+      "subtotal eliminar";
+    row-gap: 6px;
+    padding: 12px;
+  }
+
+  .carrito-row-nombre { grid-area: nombre; }
+  .carrito-row-precio { grid-area: precio; }
+  .carrito-row-cantidad { grid-area: cantidad; justify-self: end; }
+  .carrito-row-subtotal { grid-area: subtotal; }
+  .carrito-row-eliminar { grid-area: eliminar; justify-self: end; }
+
+  .form-grid-envio {
+    grid-template-columns: 1fr;
+  }
+
+  .franjas {
+    flex-wrap: wrap;
+  }
+
+  .franja-card {
+    min-width: 130px;
+  }
+
+  .paso-botones,
+  .confirmado-botones {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .btn-siguiente,
+  .btn-atras,
+  .btn-confirmar,
+  .btn-pdf,
+  .btn-seguir-comprando {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .calendario-wrap {
+    gap: 4px;
+  }
+
+  .cal-dia {
+    padding: 8px 2px;
+    font-size: 12px;
+  }
+}
+
 /* ===== ESTILOS PARA IMPRESIÓN/PDF ===== */
 @media print {
     /* Oculta todo lo que no es el pedido */

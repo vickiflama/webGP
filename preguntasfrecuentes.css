@@ -77,3 +77,26 @@ align-items: flex-start;
     justify-content: center;
     flex-shrink: 0;
 }
+/* ======================== RESPONSIVE PREGUNTAS FRECUENTES ======================== */
+@media (max-width: 600px) {
+    .pf-section {
+        margin: 20px auto;
+        padding: 0 14px 40px;
+    }
+
+    .pfheader {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .pf-card {
+        gap: 12px;
+        padding: 16px 0;
+    }
+
+    .paso-numero {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+}

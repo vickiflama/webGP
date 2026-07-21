@@ -125,3 +125,19 @@
     color: #333;
     font-size: 16px;
 }
+/* ======================== RESPONSIVE LOGIN ======================== */
+@media (max-width: 600px) {
+    .login-box,
+    .login-error,
+    .mail-enviado-box {
+        padding: 16px;
+    }
+
+    .mail-enviado-titulo {
+        font-size: 24px;
+    }
+
+    .login-titulo {
+        font-size: 16px;
+    }
+}

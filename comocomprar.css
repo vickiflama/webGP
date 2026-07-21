@@ -222,3 +222,37 @@
     background: var(--white);
     color: var(--hero-bg);
 }
+/* ======================== RESPONSIVE COMO COMPRAR ======================== */
+@media (max-width: 600px) {
+    .comocomprar-section {
+        margin: 20px auto;
+        padding: 0 14px 40px;
+    }
+
+    .comocomprar-header {
+        margin-bottom: 30px;
+    }
+
+    .comocomprar-header h1 {
+        font-size: 24px;
+    }
+
+    .paso-card {
+        gap: 12px;
+    }
+
+    .paso-numero {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .paso-icono {
+        width: 40px;
+        height: 40px;
+    }
+
+    .comocomprar-cta {
+        padding: 28px 18px;
+    }
+}
