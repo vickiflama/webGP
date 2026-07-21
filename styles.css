@@ -1145,3 +1145,75 @@ body {
     transform: scale(1.1);
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
+
+
+/* ======================== RESPONSIVE NAVBAR ======================== */
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 10px 16px;
+    gap: 10px;
+  }
+
+  .logo {
+    height: 70px;
+  }
+
+  .logo-header {
+    height: 70px;
+  }
+
+  .btn-whatsapp {
+    display: none;
+  }
+
+  .search-wrap {
+    max-width: 260px;
+    margin: 0 8px;
+  }
+
+  .categorias-wrap .btn-categorias span:not(.fa-bars):not(.fa-chevron-down) {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 10px 12px;
+    gap: 8px;
+  }
+
+  .logo-header {
+    height: 55px;
+  }
+
+  .logo {
+    height: 55px;
+    margin-left: 0;
+  }
+
+  .search-wrap {
+    order: 3;
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .nav-right {
+    margin-left: auto;
+    gap: 8px;
+  }
+
+  .btn-login span {
+    display: none;
+  }
+
+  .btn-login {
+    padding: 8px 12px;
+  }
+
+  .categorias-wrap {
+    display: none;
+  }
+}
