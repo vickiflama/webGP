@@ -173,7 +173,9 @@
 .arr-btn-enviar:hover { background: #d4661a; }
 
 /* ÉXITO */
+
 .arr-exito {
+    
     background: #EDF7EE;
     border: 1px solid #3DB549;
     border-radius: 10px;
