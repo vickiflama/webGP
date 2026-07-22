@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-07-21T10:59:38.326Z",
-  "total": 2899,
+  "ultima_actualizacion": "2026-07-22T11:00:46.595Z",
+  "total": 2921,
   "envases": {
     "2776": {
       "precio": 24000,
@@ -38,6 +38,18 @@
       "precio": 60120.012,
       "descuento": 0,
       "stock": 6,
+      "retornable": null
+    },
+    {
+      "id": 14,
+      "nombre": "ACEITE OLIVA EXTRA VIRGEN COCINERO 12 * 500 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790070265098",
+      "familia": "ACEITES",
+      "rubro": "ACEITES",
+      "precio": 124214.377,
+      "descuento": 0,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -133,7 +145,7 @@
       "rubro": "JUGOS",
       "precio": 16774.714,
       "descuento": 0,
-      "stock": 4,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -150,7 +162,7 @@
     },
     {
       "id": 48,
-      "nombre": "ARROZ LUCC LARGO FINO 10*500 G",
+      "nombre": "ARROZ LUCCHETTI LARGO FINO 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7790070431493",
       "familia": "ARROZ",
@@ -234,14 +246,14 @@
     },
     {
       "id": 61,
-      "nombre": "BIZC. ESPEC. NJA EXQUISITA 12 * 540 G",
+      "nombre": "BIZC. ESPEC. NARANJA EXQUISITA 12 * 540 G",
       "unidadesBulto": 12,
       "codBarra": "7790070432988",
       "familia": "HARINAS",
       "rubro": "HORNEABLES",
       "precio": 35135.762,
       "descuento": 0,
-      "stock": 3,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -253,7 +265,7 @@
       "rubro": "HORNEABLES",
       "precio": 35135.762,
       "descuento": 0,
-      "stock": 11,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -270,7 +282,7 @@
     },
     {
       "id": 80,
-      "nombre": "POSTRE VAINILLA EXQTA  12 * 80 G",
+      "nombre": "POSTRE VAINILLA EXQUISITA  12 * 80 G",
       "unidadesBulto": 12,
       "codBarra": "7790070417893",
       "familia": "HARINAS",
@@ -289,7 +301,7 @@
       "rubro": "YERBAS",
       "precio": 18435.354,
       "descuento": 0,
-      "stock": 9,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -325,7 +337,7 @@
       "rubro": "YERBAS",
       "precio": 9984.642,
       "descuento": 0,
-      "stock": 26,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -386,6 +398,18 @@
       "precio": 19880.736,
       "descuento": 0,
       "stock": 4,
+      "retornable": null
+    },
+    {
+      "id": 112,
+      "nombre": "REBOZADOR PREFERIDO  20*500+50G",
+      "unidadesBulto": 20,
+      "codBarra": "7790070106261",
+      "familia": "HARINAS",
+      "rubro": "REBOZADORES",
+      "precio": 29773.841,
+      "descuento": 0,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -613,7 +637,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 31745.863,
       "descuento": 0,
-      "stock": 23,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -625,7 +649,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 35147.342,
       "descuento": 0,
-      "stock": 33,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -733,7 +757,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 17158.405,
       "descuento": 0,
-      "stock": 18,
+      "stock": 26,
       "retornable": null
     },
     {
@@ -745,7 +769,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 17158.405,
       "descuento": 0,
-      "stock": 16,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -757,7 +781,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12868.81,
       "descuento": 0,
-      "stock": 63,
+      "stock": 54,
       "retornable": null
     },
     {
@@ -769,7 +793,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12868.81,
       "descuento": 0,
-      "stock": 22,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -781,7 +805,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12868.81,
       "descuento": 0,
-      "stock": 27,
+      "stock": 33,
       "retornable": null
     },
     {
@@ -925,7 +949,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 26454.944,
       "descuento": 0,
-      "stock": 31,
+      "stock": 28,
       "retornable": null
     },
     {
@@ -1009,7 +1033,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 19841.205,
       "descuento": 0,
-      "stock": 7,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -1165,7 +1189,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 19903.943,
       "descuento": 0,
-      "stock": 20,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -1225,7 +1249,7 @@
       "rubro": "EDULCORANTE",
       "precio": 7893.88,
       "descuento": 0,
-      "stock": 4,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -1261,7 +1285,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 14927.952,
       "descuento": 0,
-      "stock": 22,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -1333,7 +1357,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 19903.943,
       "descuento": 0,
-      "stock": 20,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -1393,7 +1417,7 @@
       "rubro": "EDULCORANTE",
       "precio": 79864.38,
       "descuento": 0,
-      "stock": 14,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -1440,6 +1464,18 @@
       "familia": "ADEREZOS",
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 81195.356,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
+      "id": 284,
+      "nombre": "SNACKS YOGUBAR  38*6*20G",
+      "unidadesBulto": 38,
+      "codBarra": "7790070431929",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 181260.011,
       "descuento": 0,
       "stock": 1,
       "retornable": null
@@ -1505,6 +1541,18 @@
       "retornable": null
     },
     {
+      "id": 338,
+      "nombre": "OLIVA COCINERO EXTRA VIRGEN SUAVE 12 * 500 CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790070231871",
+      "familia": "ACEITES",
+      "rubro": "ACEITES",
+      "precio": 125618.824,
+      "descuento": 0,
+      "stock": 5,
+      "retornable": null
+    },
+    {
       "id": 356,
       "nombre": "ARROZ GALLO ORO 1 * 5 KG",
       "unidadesBulto": 1,
@@ -1513,12 +1561,12 @@
       "rubro": "ARROZ",
       "precio": 9367.469,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
       "id": 360,
-      "nombre": "GELATINA EXQTA LIGHT FRUTILLA 15*25 G",
+      "nombre": "GELATINA EXQUISITA LIGHT FRUTILLA 15*25 G",
       "unidadesBulto": 15,
       "codBarra": "7790070432438",
       "familia": "HARINAS",
@@ -1530,7 +1578,7 @@
     },
     {
       "id": 361,
-      "nombre": "GELATINA EXQTA LIGHT CEREZA 15*25 G",
+      "nombre": "GELATINA EXQUISITA LIGHT CEREZA 15*25 G",
       "unidadesBulto": 15,
       "codBarra": "7790070432452",
       "familia": "HARINAS",
@@ -1542,7 +1590,7 @@
     },
     {
       "id": 362,
-      "nombre": "GELATINA EXQTA LIGTH DURAZNO 15*25G",
+      "nombre": "GELATINA EXQUISITA LIGTH DURAZNO 15*25G",
       "unidadesBulto": 15,
       "codBarra": "7790070432476",
       "familia": "HARINAS",
@@ -1578,7 +1626,7 @@
     },
     {
       "id": 365,
-      "nombre": "GELATINA EXQTA FRAMBUESA 15 * 40 G",
+      "nombre": "GELATINA EXQUISITA FRAMBUESA 15 * 40 G",
       "unidadesBulto": 15,
       "codBarra": "7790070432537",
       "familia": "HARINAS",
@@ -1633,7 +1681,7 @@
       "rubro": "GELIFICABLES",
       "precio": 13497.26,
       "descuento": 0,
-      "stock": 11,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -1657,7 +1705,7 @@
       "rubro": "GELIFICABLES",
       "precio": 14122.116,
       "descuento": 0,
-      "stock": 29,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -1669,7 +1717,7 @@
       "rubro": "GELIFICABLES",
       "precio": 14122.116,
       "descuento": 0,
-      "stock": 18,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -1717,7 +1765,7 @@
       "rubro": "GELIFICABLES",
       "precio": 11312.956,
       "descuento": 0,
-      "stock": 10,
+      "stock": 18,
       "retornable": null
     },
     {
@@ -1757,6 +1805,30 @@
       "retornable": null
     },
     {
+      "id": 387,
+      "nombre": "OBLEAS DE ARROZ GALLO 6*24*20G",
+      "unidadesBulto": 6,
+      "codBarra": "7790070411983",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 123120.002,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
+      "id": 388,
+      "nombre": "OBLEAS DE ARROZ GALLO 38*6*20G",
+      "unidadesBulto": 38,
+      "codBarra": "7790070417572",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 181260,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
       "id": 389,
       "nombre": "BIZC. DE ARROZ GALLO T. NEGRA 56 * 100 G",
       "unidadesBulto": 56,
@@ -1766,6 +1838,18 @@
       "precio": 104346.988,
       "descuento": 0,
       "stock": 9,
+      "retornable": null
+    },
+    {
+      "id": 391,
+      "nombre": "SNACKS CHOCOBAR 38*6*20GR",
+      "unidadesBulto": 38,
+      "codBarra": "7790070431899",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 181260.011,
+      "descuento": 0,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -1826,6 +1910,18 @@
       "precio": 22893.902,
       "descuento": 0,
       "stock": 1,
+      "retornable": null
+    },
+    {
+      "id": 404,
+      "nombre": "ARROZ GALLO DOBLE 10*500+50 G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070106254",
+      "familia": "ARROZ",
+      "rubro": "ARROZ",
+      "precio": 15741.991,
+      "descuento": 0,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -1937,6 +2033,18 @@
       "retornable": null
     },
     {
+      "id": 431,
+      "nombre": "C DE MALTA MANZANILLA S/TACC 10*500G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070509079",
+      "familia": "INFUSIONES",
+      "rubro": "YERBAS",
+      "precio": 19608.909,
+      "descuento": 0,
+      "stock": 10,
+      "retornable": null
+    },
+    {
       "id": 435,
       "nombre": "CRUZ/MALTA BDO/MTA S/TACC 10*500 G",
       "unidadesBulto": 10,
@@ -1969,7 +2077,19 @@
       "rubro": "YERBAS",
       "precio": 22803.091,
       "descuento": 0,
-      "stock": 7,
+      "stock": 3,
+      "retornable": null
+    },
+    {
+      "id": 443,
+      "nombre": "YERBA CRUZ/MALTA TRADICIONAL 6 * 1 KG",
+      "unidadesBulto": 6,
+      "codBarra": "7790070509055",
+      "familia": "INFUSIONES",
+      "rubro": "YERBAS",
+      "precio": 21609.088,
+      "descuento": 0,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -1982,6 +2102,18 @@
       "precio": 30734.182,
       "descuento": 0,
       "stock": 10,
+      "retornable": null
+    },
+    {
+      "id": 567,
+      "nombre": "SAL FINA SALERO 6 * 250 G",
+      "unidadesBulto": 6,
+      "codBarra": "7792900634227",
+      "familia": "ADEREZOS",
+      "rubro": "SAL",
+      "precio": 13362.635,
+      "descuento": 0,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -2006,18 +2138,6 @@
       "precio": 86712.145,
       "descuento": 0,
       "stock": 15,
-      "retornable": null
-    },
-    {
-      "id": 567,
-      "nombre": "SAL FINA SALERO 6 * 250 G",
-      "unidadesBulto": 6,
-      "codBarra": "7792900634227",
-      "familia": "ADEREZOS",
-      "rubro": "SAL",
-      "precio": 13362.635,
-      "descuento": 0,
-      "stock": 6,
       "retornable": null
     },
     {
@@ -2058,31 +2178,31 @@
     },
     {
       "id": 475,
-      "nombre": "LECHE LV 0% LACT ILOLAY12*1 LT",
+      "nombre": "LECHE LA VIRGINIA 0% LACT ILOLAY12*1 LT",
       "unidadesBulto": 12,
       "codBarra": "7790787960767",
       "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 26160,
       "descuento": 0,
-      "stock": 15,
+      "stock": 14,
       "retornable": null
     },
     {
       "id": 476,
-      "nombre": "LECHE LV DESC ILOLAY 12*1 TL",
+      "nombre": "LECHE LA VIRGINIA DESC ILOLAY 12*1 TL",
       "unidadesBulto": 12,
       "codBarra": "7790787002535",
       "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 24960.001,
       "descuento": 0,
-      "stock": 36,
+      "stock": 41,
       "retornable": null
     },
     {
       "id": 477,
-      "nombre": "LECHE LV ENT ILOLAY 12*1 LT",
+      "nombre": "LECHE LA VIRGINIA ENT ILOLAY 12*1 LT",
       "unidadesBulto": 12,
       "codBarra": "7790787002528",
       "familia": "LACTEOS",
@@ -2090,18 +2210,6 @@
       "precio": 24960.001,
       "descuento": 0,
       "stock": 47,
-      "retornable": null
-    },
-    {
-      "id": 478,
-      "nombre": "QUESO RALLADO ILOLAY 20*40 G",
-      "unidadesBulto": 20,
-      "codBarra": "7790787251780",
-      "familia": "LACTEOS",
-      "rubro": "LACTEOS",
-      "precio": 30900,
-      "descuento": 0,
-      "stock": 4,
       "retornable": null
     },
     {
@@ -2113,7 +2221,7 @@
       "rubro": "LACTEOS",
       "precio": 68160.002,
       "descuento": 0,
-      "stock": 9,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -2125,7 +2233,7 @@
       "rubro": "LACTEOS",
       "precio": 81588,
       "descuento": 0,
-      "stock": 1,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -2137,7 +2245,7 @@
       "rubro": "LACTEOS",
       "precio": 32376,
       "descuento": 0,
-      "stock": 13,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -2161,7 +2269,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12104.38,
       "descuento": 0,
-      "stock": 14,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -2370,7 +2478,7 @@
     },
     {
       "id": 538,
-      "nombre": "MERM NJA DULCOR 12*500G",
+      "nombre": "MERM NARANJA DULCOR 12*500G",
       "unidadesBulto": 12,
       "codBarra": "7793046008033",
       "familia": "CONSERVAS",
@@ -2497,7 +2605,7 @@
       "rubro": "SAL",
       "precio": 14675.449,
       "descuento": 0,
-      "stock": 10,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -2557,7 +2665,7 @@
       "rubro": "SAL",
       "precio": 20442.439,
       "descuento": 0,
-      "stock": 42,
+      "stock": 48,
       "retornable": null
     },
     {
@@ -2617,7 +2725,7 @@
       "rubro": "VINAGRES",
       "precio": 16140,
       "descuento": 0,
-      "stock": 11,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -2641,7 +2749,7 @@
       "rubro": "VINAGRES",
       "precio": 35988.002,
       "descuento": 0,
-      "stock": 1,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -2705,6 +2813,18 @@
       "retornable": null
     },
     {
+      "id": 602,
+      "nombre": "BOCADITO D/LECHE BONAFIDE 8 * 24 U.",
+      "unidadesBulto": 8,
+      "codBarra": "7792360072409",
+      "familia": "GOLOSINAS",
+      "rubro": "GOLOSINAS",
+      "precio": 115008.003,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
       "id": 603,
       "nombre": "CONDIMENTO P CARNES BLANCAS 12*25G",
       "unidadesBulto": 12,
@@ -2737,7 +2857,7 @@
       "rubro": "GOLOSINAS",
       "precio": 15840.001,
       "descuento": 0,
-      "stock": 9,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -2773,7 +2893,7 @@
       "rubro": "REPOSTERIA",
       "precio": 11550.001,
       "descuento": 0,
-      "stock": 552,
+      "stock": 527,
       "retornable": null
     },
     {
@@ -2797,7 +2917,7 @@
       "rubro": "GALLETAS",
       "precio": 40440.003,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -2845,7 +2965,7 @@
       "rubro": "ARROZ",
       "precio": 6700,
       "descuento": 0,
-      "stock": 226,
+      "stock": 223,
       "retornable": null
     },
     {
@@ -2857,7 +2977,7 @@
       "rubro": "ARROZ",
       "precio": 12300.001,
       "descuento": 0,
-      "stock": 180,
+      "stock": 170,
       "retornable": null
     },
     {
@@ -2869,12 +2989,12 @@
       "rubro": "ACEITES",
       "precio": 88800,
       "descuento": 0,
-      "stock": 27,
+      "stock": 24,
       "retornable": null
     },
     {
       "id": 631,
-      "nombre": "LEVADURA LEVEX INST 25*10G",
+      "nombre": "LEVADURA LEVEX INSTANTANEA 25*10G",
       "unidadesBulto": 25,
       "codBarra": "7798018850184",
       "familia": "OTROS",
@@ -2893,7 +3013,7 @@
       "rubro": "ARROZ",
       "precio": 8600,
       "descuento": 0,
-      "stock": 52,
+      "stock": 47,
       "retornable": null
     },
     {
@@ -2989,7 +3109,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 138992.01,
       "descuento": 0,
-      "stock": 42,
+      "stock": 39,
       "retornable": null
     },
     {
@@ -3001,7 +3121,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 138992.01,
       "descuento": 0,
-      "stock": 55,
+      "stock": 52,
       "retornable": null
     },
     {
@@ -3025,7 +3145,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 16102.8,
       "descuento": 0,
-      "stock": 6,
+      "stock": 26,
       "retornable": null
     },
     {
@@ -3049,7 +3169,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 17891.994,
       "descuento": 0,
-      "stock": 25,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -3073,7 +3193,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 67393.237,
       "descuento": 0,
-      "stock": 45,
+      "stock": 42,
       "retornable": null
     },
     {
@@ -3085,7 +3205,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 67393.237,
       "descuento": 0,
-      "stock": 29,
+      "stock": 86,
       "retornable": null
     },
     {
@@ -3217,7 +3337,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 22428.001,
       "descuento": 0,
-      "stock": 4,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -3277,7 +3397,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12699.998,
       "descuento": 0,
-      "stock": 19,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -3301,7 +3421,7 @@
       "rubro": "ACEITES",
       "precio": 42509.251,
       "descuento": 0,
-      "stock": 140,
+      "stock": 148,
       "retornable": null
     },
     {
@@ -3313,7 +3433,7 @@
       "rubro": "ACEITES",
       "precio": 40800.002,
       "descuento": 0,
-      "stock": 28,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -3325,7 +3445,7 @@
       "rubro": "ACEITES",
       "precio": 32820,
       "descuento": 0,
-      "stock": 73,
+      "stock": 72,
       "retornable": null
     },
     {
@@ -3337,7 +3457,7 @@
       "rubro": "ACEITES",
       "precio": 45360.001,
       "descuento": 0,
-      "stock": 186,
+      "stock": 177,
       "retornable": null
     },
     {
@@ -3349,7 +3469,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 29867.999,
       "descuento": 5,
-      "stock": 8,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -3373,19 +3493,19 @@
       "rubro": "LACTEOS",
       "precio": 21588,
       "descuento": 0,
-      "stock": 158,
+      "stock": 140,
       "retornable": null
     },
     {
       "id": 721,
-      "nombre": "LECHE LV DESC TREGAR 12*1000 CC",
+      "nombre": "LECHE LA VIRGINIA DESC TREGAR 12*1000 CC",
       "unidadesBulto": 12,
       "codBarra": "7793913012996",
       "familia": "LACTEOS",
       "rubro": "LACTEOS",
       "precio": 21588.002,
       "descuento": 0,
-      "stock": 105,
+      "stock": 99,
       "retornable": null
     },
     {
@@ -3421,19 +3541,19 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 25080,
       "descuento": 0,
-      "stock": 25,
+      "stock": 31,
       "retornable": null
     },
     {
       "id": 730,
-      "nombre": "YERBA SVE INDUMAR 10*500 G",
+      "nombre": "YERBA SUAVE INDUMAR 10*500 G",
       "unidadesBulto": 10,
       "codBarra": "7798373140012",
       "familia": "INFUSIONES",
       "rubro": "YERBAS",
       "precio": 14450.002,
       "descuento": 0,
-      "stock": 56,
+      "stock": 49,
       "retornable": null
     },
     {
@@ -3445,7 +3565,7 @@
       "rubro": "LACTEOS",
       "precio": 29900,
       "descuento": 0,
-      "stock": 14,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -3457,7 +3577,7 @@
       "rubro": "LACTEOS",
       "precio": 90120.001,
       "descuento": 0,
-      "stock": 15,
+      "stock": 31,
       "retornable": null
     },
     {
@@ -3469,7 +3589,7 @@
       "rubro": "LACTEOS",
       "precio": 15500,
       "descuento": 0,
-      "stock": 14,
+      "stock": 25,
       "retornable": null
     },
     {
@@ -3529,7 +3649,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 54684.004,
       "descuento": 10,
-      "stock": 34,
+      "stock": 28,
       "retornable": null
     },
     {
@@ -3590,6 +3710,90 @@
       "precio": 47280,
       "descuento": 0,
       "stock": 9,
+      "retornable": null
+    },
+    {
+      "id": 775,
+      "nombre": "YOGUBAR 6 * 24 * 20 G",
+      "unidadesBulto": 6,
+      "codBarra": "7790070431936",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 123840.001,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
+      "id": 785,
+      "nombre": "ALFAJ. CHOCOARROZ D/LECHE 6 *30*22 G",
+      "unidadesBulto": 6,
+      "codBarra": "7790070418210",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 162027.603,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
+      "id": 788,
+      "nombre": "ALF. CHOCOARROZ MARROC 6*30*22 G",
+      "unidadesBulto": 6,
+      "codBarra": "7790070418333",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 162027.603,
+      "descuento": 0,
+      "stock": 5,
+      "retornable": null
+    },
+    {
+      "id": 789,
+      "nombre": "ALF CHOCOARROZ SUP DDL 6*30*36 G",
+      "unidadesBulto": 6,
+      "codBarra": "7790070103338",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 210625.716,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
+      "id": 793,
+      "nombre": "ALFAJOR CHOCOARROZ BLANCO 28 * 6*22 G",
+      "unidadesBulto": 28,
+      "codBarra": "7790070418302",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 173040.001,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
+      "id": 794,
+      "nombre": "CHOCOARROZ SUP DDL 28 * 6*36 G",
+      "unidadesBulto": 28,
+      "codBarra": "7790070103314",
+      "familia": "SALUDABLES",
+      "rubro": "ALFAJORES",
+      "precio": 173040.001,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
+      "id": 799,
+      "nombre": "BIZC. ARROZ SAL GALLO  60*50+10G",
+      "unidadesBulto": 60,
+      "codBarra": "7790070106117",
+      "familia": "SALUDABLES",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 60300,
+      "descuento": 0,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -3709,19 +3913,7 @@
       "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 22158.215,
       "descuento": 0,
-      "stock": 11,
-      "retornable": null
-    },
-    {
-      "id": 820,
-      "nombre": "EXTRACTO TOM INALPA 30*150G",
-      "unidadesBulto": 30,
-      "codBarra": "7792350068252",
-      "familia": "CONSERVAS",
-      "rubro": "CONSERVAS Y COMESTIBLES",
-      "precio": 37768.501,
-      "descuento": 0,
-      "stock": 28,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -3745,7 +3937,7 @@
       "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 39800.131,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -3901,7 +4093,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12379.999,
       "descuento": 0,
-      "stock": 3,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -3913,7 +4105,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12379.999,
       "descuento": 0,
-      "stock": 51,
+      "stock": 47,
       "retornable": null
     },
     {
@@ -3925,7 +4117,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12379.999,
       "descuento": 0,
-      "stock": 5,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -3949,7 +4141,7 @@
       "rubro": "LIMPIEZA",
       "precio": 165600,
       "descuento": 0,
-      "stock": 95,
+      "stock": 86,
       "retornable": null
     },
     {
@@ -3961,7 +4153,7 @@
       "rubro": "LIMPIEZA",
       "precio": 170640,
       "descuento": 0,
-      "stock": 97,
+      "stock": 94,
       "retornable": null
     },
     {
@@ -3973,7 +4165,7 @@
       "rubro": "LIMPIEZA",
       "precio": 301968.001,
       "descuento": 0,
-      "stock": 424,
+      "stock": 421,
       "retornable": null
     },
     {
@@ -3985,7 +4177,7 @@
       "rubro": "LIMPIEZA",
       "precio": 265680.003,
       "descuento": 0,
-      "stock": 271,
+      "stock": 267,
       "retornable": null
     },
     {
@@ -4033,7 +4225,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 13419.115,
       "descuento": 0,
-      "stock": 36,
+      "stock": 33,
       "retornable": null
     },
     {
@@ -4045,7 +4237,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26387.999,
       "descuento": 0,
-      "stock": 159,
+      "stock": 164,
       "retornable": null
     },
     {
@@ -4129,7 +4321,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 58670.577,
       "descuento": 0,
-      "stock": 1,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -4201,7 +4393,7 @@
       "rubro": "YERBAS",
       "precio": 28531.074,
       "descuento": 0,
-      "stock": 5,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -4285,7 +4477,7 @@
       "rubro": "GALLETAS",
       "precio": 16788,
       "descuento": 0,
-      "stock": 11,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -4333,7 +4525,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 13616.82,
       "descuento": 0,
-      "stock": 186,
+      "stock": 182,
       "retornable": null
     },
     {
@@ -4345,7 +4537,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 7982.043,
       "descuento": 0,
-      "stock": 40,
+      "stock": 39,
       "retornable": null
     },
     {
@@ -4357,7 +4549,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 18963.12,
       "descuento": 0,
-      "stock": 36,
+      "stock": 34,
       "retornable": null
     },
     {
@@ -4381,7 +4573,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 43887.305,
       "descuento": 0,
-      "stock": 8,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -4405,7 +4597,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 9307.417,
       "descuento": 0,
-      "stock": 22,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -4417,7 +4609,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 27299.705,
       "descuento": 0,
-      "stock": 5,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -4429,7 +4621,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 19040.633,
       "descuento": 0,
-      "stock": 8,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -4453,7 +4645,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 12745.124,
       "descuento": 0,
-      "stock": 3,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -4465,7 +4657,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 36618.327,
       "descuento": 0,
-      "stock": 4,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -4489,7 +4681,7 @@
       "rubro": "MAYONESAS Y ADEREZOS",
       "precio": 23362.353,
       "descuento": 0,
-      "stock": 21,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -4525,7 +4717,7 @@
       "rubro": "ACEITES",
       "precio": 74970,
       "descuento": 0,
-      "stock": 25,
+      "stock": 26,
       "retornable": null
     },
     {
@@ -4537,7 +4729,7 @@
       "rubro": "AGUA",
       "precio": 4723.716,
       "descuento": 0,
-      "stock": 89,
+      "stock": 85,
       "retornable": null
     },
     {
@@ -4561,7 +4753,7 @@
       "rubro": "GASEOSAS",
       "precio": 10750.925,
       "descuento": 0,
-      "stock": 3,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -4727,8 +4919,8 @@
       "codBarra": "7790639003895",
       "familia": "GASEOSAS",
       "rubro": "GASEOSAS",
-      "precio": 7339.531,
-      "descuento": 0,
+      "precio": 3826.46,
+      "descuento": 50,
       "stock": 3,
       "retornable": null
     },
@@ -4753,7 +4945,7 @@
       "rubro": "GASEOSAS",
       "precio": 22140,
       "descuento": 0,
-      "stock": 76,
+      "stock": 65,
       "retornable": null
     },
     {
@@ -4765,7 +4957,7 @@
       "rubro": "GASEOSAS",
       "precio": 26880,
       "descuento": 0,
-      "stock": 78,
+      "stock": 177,
       "retornable": null
     },
     {
@@ -4817,18 +5009,6 @@
       "retornable": null
     },
     {
-      "id": 1065,
-      "nombre": "COCA COLA ZERO 6*1500 CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790895067556",
-      "familia": "GASEOSAS",
-      "rubro": "GASEOSAS",
-      "precio": 22140,
-      "descuento": 0,
-      "stock": 3,
-      "retornable": null
-    },
-    {
       "id": 1066,
       "nombre": "SPRITE ZERO 6 * 1500 CC",
       "unidadesBulto": 6,
@@ -4849,12 +5029,12 @@
       "rubro": "GASEOSAS",
       "precio": 22140.001,
       "descuento": 0,
-      "stock": 9,
+      "stock": 3,
       "retornable": null
     },
     {
       "id": 1071,
-      "nombre": "FANTA NJA PET 6*500 CC",
+      "nombre": "FANTA NARANJA PET 6*500 CC",
       "unidadesBulto": 6,
       "codBarra": "7790895000836",
       "familia": "GASEOSAS",
@@ -4873,7 +5053,7 @@
       "rubro": "GASEOSAS",
       "precio": 20580,
       "descuento": 0,
-      "stock": 72,
+      "stock": 68,
       "retornable": null
     },
     {
@@ -4909,7 +5089,7 @@
       "rubro": "PAPELERA",
       "precio": 17924.496,
       "descuento": 0,
-      "stock": 16,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -4921,7 +5101,7 @@
       "rubro": "PAPELERA",
       "precio": 21995.122,
       "descuento": 0,
-      "stock": 22,
+      "stock": 25,
       "retornable": null
     },
     {
@@ -4933,7 +5113,7 @@
       "rubro": "PAPELERA",
       "precio": 25511.248,
       "descuento": 0,
-      "stock": 21,
+      "stock": 18,
       "retornable": null
     },
     {
@@ -4945,7 +5125,7 @@
       "rubro": "PAPELERA",
       "precio": 33763.499,
       "descuento": 0,
-      "stock": 66,
+      "stock": 65,
       "retornable": null
     },
     {
@@ -4957,7 +5137,7 @@
       "rubro": "PAPELERA",
       "precio": 17373.861,
       "descuento": 0,
-      "stock": 15,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -4969,7 +5149,7 @@
       "rubro": "PAPELERA",
       "precio": 15566.709,
       "descuento": 0,
-      "stock": 10,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -4981,7 +5161,7 @@
       "rubro": "PAPELERA",
       "precio": 16280.738,
       "descuento": 0,
-      "stock": 20,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -5017,7 +5197,7 @@
       "rubro": "PAPELERA",
       "precio": 22537.534,
       "descuento": 0,
-      "stock": 23,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -5029,7 +5209,7 @@
       "rubro": "PAPELERA",
       "precio": 15566.709,
       "descuento": 0,
-      "stock": 32,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -5053,7 +5233,7 @@
       "rubro": "PAPELERA",
       "precio": 23042.222,
       "descuento": 0,
-      "stock": 16,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -5118,7 +5298,7 @@
     },
     {
       "id": 1099,
-      "nombre": "SERVILLETA SWEETY ROJ/VERD 60*20 U",
+      "nombre": "SERVILLETA SWEETY ROJ/VERDURA 60*20 U",
       "unidadesBulto": 60,
       "codBarra": "7791828006642",
       "familia": "PAPELERIA",
@@ -5212,7 +5392,7 @@
       "rubro": "PAPELERA",
       "precio": 14756.62,
       "descuento": 0,
-      "stock": 14,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -5236,7 +5416,7 @@
       "rubro": "PAPELERA",
       "precio": 15348.382,
       "descuento": 0,
-      "stock": 11,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -5308,7 +5488,7 @@
       "rubro": "JUGOS",
       "precio": 16021.55,
       "descuento": 0,
-      "stock": 26,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -5332,7 +5512,7 @@
       "rubro": "LIMPIEZA",
       "precio": 99949.993,
       "descuento": 0,
-      "stock": 22,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -5344,7 +5524,7 @@
       "rubro": "LIMPIEZA",
       "precio": 25088.004,
       "descuento": 0,
-      "stock": 29,
+      "stock": 26,
       "retornable": null
     },
     {
@@ -5356,7 +5536,7 @@
       "rubro": "JUGOS",
       "precio": 7639.847,
       "descuento": 30,
-      "stock": 11,
+      "stock": 41,
       "retornable": null
     },
     {
@@ -5368,7 +5548,7 @@
       "rubro": "LIMPIEZA",
       "precio": 55944,
       "descuento": 0,
-      "stock": 46,
+      "stock": 40,
       "retornable": null
     },
     {
@@ -5428,7 +5608,7 @@
       "rubro": "PAPELERA",
       "precio": 18236.24,
       "descuento": 15,
-      "stock": 175,
+      "stock": 168,
       "retornable": null
     },
     {
@@ -5440,7 +5620,7 @@
       "rubro": "PAPELERA",
       "precio": 18236.24,
       "descuento": 15,
-      "stock": 107,
+      "stock": 98,
       "retornable": null
     },
     {
@@ -5486,8 +5666,8 @@
       "codBarra": "7798113302670",
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
-      "precio": 3380.332,
-      "descuento": 50,
+      "precio": 2091.643,
+      "descuento": 70,
       "stock": 32,
       "retornable": null
     },
@@ -5510,9 +5690,9 @@
       "codBarra": "7798113302687",
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
-      "precio": 2735.987,
-      "descuento": 60,
-      "stock": 68,
+      "precio": 2091.643,
+      "descuento": 70,
+      "stock": 76,
       "retornable": null
     },
     {
@@ -5572,7 +5752,7 @@
       "rubro": "VINOS",
       "precio": 21613.298,
       "descuento": 0,
-      "stock": 7,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -5596,7 +5776,7 @@
       "rubro": "PAPELERA",
       "precio": 13800.908,
       "descuento": 0,
-      "stock": 8,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -5692,7 +5872,7 @@
       "rubro": "GASEOSAS",
       "precio": 29320,
       "descuento": 0,
-      "stock": 44,
+      "stock": 48,
       "retornable": {
         "idEnvase": 11071,
         "cantEnvases": 8
@@ -5708,6 +5888,18 @@
       "precio": 22230,
       "descuento": 5,
       "stock": 125,
+      "retornable": null
+    },
+    {
+      "id": 1207,
+      "nombre": "COCA COLA LATA 6 * 354 CC",
+      "unidadesBulto": 6,
+      "codBarra": "7790895000232",
+      "familia": "GASEOSAS",
+      "rubro": "GASEOSAS",
+      "precio": 10140,
+      "descuento": 0,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -5731,7 +5923,7 @@
       "rubro": "GASEOSAS",
       "precio": 24400.005,
       "descuento": 0,
-      "stock": 160,
+      "stock": 158,
       "retornable": {
         "idEnvase": 11071,
         "cantEnvases": 8
@@ -5758,7 +5950,7 @@
       "rubro": "GASEOSAS",
       "precio": 10140,
       "descuento": 0,
-      "stock": 9,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -5770,7 +5962,7 @@
       "rubro": "SODA",
       "precio": 11460,
       "descuento": 0,
-      "stock": 11,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -5782,7 +5974,7 @@
       "rubro": "GASEOSAS",
       "precio": 18392,
       "descuento": 0,
-      "stock": 128,
+      "stock": 127,
       "retornable": {
         "idEnvase": 2776,
         "cantEnvases": 8
@@ -5797,7 +5989,7 @@
       "rubro": "GASEOSAS",
       "precio": 12594,
       "descuento": 0,
-      "stock": 2,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -5875,7 +6067,7 @@
       "rubro": "GASEOSAS",
       "precio": 24400.004,
       "descuento": 0,
-      "stock": 2,
+      "stock": 1,
       "retornable": {
         "idEnvase": 11071,
         "cantEnvases": 8
@@ -5974,7 +6166,7 @@
       "rubro": "INSECTICIDA",
       "precio": 65123.489,
       "descuento": 50,
-      "stock": 23,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -6202,7 +6394,7 @@
       "rubro": "LIMPIEZA",
       "precio": 38621.821,
       "descuento": 0,
-      "stock": 18,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -6238,7 +6430,7 @@
       "rubro": "INSECTICIDA",
       "precio": 54314.468,
       "descuento": 0,
-      "stock": 14,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -6590,6 +6782,18 @@
       "retornable": null
     },
     {
+      "id": 1628,
+      "nombre": "AYUDIN QUITAM COL POLVO 12*450",
+      "unidadesBulto": 12,
+      "codBarra": "7793253002565",
+      "familia": "HIGIENE",
+      "rubro": "JABONES Y SUAVIZANTES",
+      "precio": 111839.998,
+      "descuento": 0,
+      "stock": 7,
+      "retornable": null
+    },
+    {
       "id": 1338,
       "nombre": "BLEM AERO FLORAL 12*360 CCC",
       "unidadesBulto": 12,
@@ -6621,18 +6825,6 @@
       "familia": "HIGIENE",
       "rubro": "INSECTICIDA",
       "precio": 129742.274,
-      "descuento": 0,
-      "stock": 7,
-      "retornable": null
-    },
-    {
-      "id": 1628,
-      "nombre": "AYUDIN QUITAM COL POLVO 12*450",
-      "unidadesBulto": 12,
-      "codBarra": "7793253002565",
-      "familia": "HIGIENE",
-      "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 111839.998,
       "descuento": 0,
       "stock": 7,
       "retornable": null
@@ -6706,7 +6898,7 @@
       "rubro": "LIMPIEZA",
       "precio": 48044.115,
       "descuento": 0,
-      "stock": 10,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -6730,7 +6922,7 @@
       "rubro": "ENERGIZANTES",
       "precio": 25188.001,
       "descuento": 0,
-      "stock": 17,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -6766,7 +6958,7 @@
       "rubro": "INSECTICIDA",
       "precio": 69807.683,
       "descuento": 0,
-      "stock": 32,
+      "stock": 29,
       "retornable": null
     },
     {
@@ -7450,7 +7642,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 51530.875,
       "descuento": 0,
-      "stock": 23,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -7498,7 +7690,7 @@
       "rubro": "CUIDADO FEMENINO",
       "precio": 26149.613,
       "descuento": 0,
-      "stock": 3,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -7599,50 +7791,50 @@
     },
     {
       "id": 1488,
-      "nombre": "ALF TRI BLANCO LAS COLONIAS 24*65G",
+      "nombre": "ALF TRIPLE BLANCO LAS COLONIAS 24*65G",
       "unidadesBulto": 24,
       "codBarra": "77917805",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 34,
+      "stock": 28,
       "retornable": null
     },
     {
       "id": 1489,
-      "nombre": "ALF TRI NEG LAS COLO 24*65G",
+      "nombre": "ALF TRIPLE NEGRO LAS COLO 24*65G",
       "unidadesBulto": 24,
       "codBarra": "77917812",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 7,
+      "stock": 18,
       "retornable": null
     },
     {
       "id": 1495,
-      "nombre": "ALF TRI MIX LAS COLONIAS 24*65G",
+      "nombre": "ALF TRIPLE MIX LAS COLONIAS 24*65G",
       "unidadesBulto": 24,
       "codBarra": "77908742",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 7,
+      "stock": 18,
       "retornable": null
     },
     {
       "id": 1497,
-      "nombre": "ALF NEG LAS COLONIAS 40*6U",
+      "nombre": "ALF NEGRO LAS COLONIAS 40*6U",
       "unidadesBulto": 40,
       "codBarra": "7791704401134",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
       "precio": 66499.894,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -7714,7 +7906,7 @@
       "rubro": "BAZAR",
       "precio": 143782.739,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -7762,7 +7954,7 @@
       "rubro": "GALLETAS",
       "precio": 40500,
       "descuento": 0,
-      "stock": 25,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -7822,7 +8014,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 37199.998,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -7870,7 +8062,7 @@
       "rubro": "CUIDADO FEMENINO",
       "precio": 68888.325,
       "descuento": 0,
-      "stock": 9,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -7930,7 +8122,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 41829.625,
       "descuento": 0,
-      "stock": 3,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -7978,7 +8170,7 @@
       "rubro": "CUIDADO FEMENINO",
       "precio": 72332.741,
       "descuento": 0,
-      "stock": 9,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -8002,7 +8194,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 41829.625,
       "descuento": 0,
-      "stock": 15,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -8050,7 +8242,7 @@
       "rubro": "ALFAJORES",
       "precio": 14600.005,
       "descuento": 0,
-      "stock": 21,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -8098,7 +8290,7 @@
       "rubro": "GALLETAS",
       "precio": 23960,
       "descuento": 0,
-      "stock": 9,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -8110,7 +8302,7 @@
       "rubro": "GALLETAS",
       "precio": 23960.001,
       "descuento": 0,
-      "stock": 41,
+      "stock": 38,
       "retornable": null
     },
     {
@@ -8134,7 +8326,7 @@
       "rubro": "GOLOSINAS",
       "precio": 15840.001,
       "descuento": 0,
-      "stock": 16,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -8218,7 +8410,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 37427.198,
       "descuento": 14,
-      "stock": 14,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -8235,7 +8427,7 @@
     },
     {
       "id": 1649,
-      "nombre": "CALDOS KNORR VERD C/VEG 20*24*2U",
+      "nombre": "CALDOS KNORR VERDURA C/VEG 20*24*2U",
       "unidadesBulto": 20,
       "codBarra": "7794000008632",
       "familia": "ADEREZOS",
@@ -8254,7 +8446,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 9600,
       "descuento": 0,
-      "stock": 67,
+      "stock": 64,
       "retornable": null
     },
     {
@@ -8266,7 +8458,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 11400,
       "descuento": 0,
-      "stock": 59,
+      "stock": 55,
       "retornable": null
     },
     {
@@ -8278,7 +8470,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 11400,
       "descuento": 0,
-      "stock": 25,
+      "stock": 31,
       "retornable": null
     },
     {
@@ -8290,7 +8482,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 5470,
       "descuento": 0,
-      "stock": 20,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -8326,7 +8518,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 31188.281,
       "descuento": 17.115,
-      "stock": 17,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -8355,7 +8547,7 @@
     },
     {
       "id": 1677,
-      "nombre": "SEDAL SH REST INST 12*190 CC",
+      "nombre": "SEDAL SH REST INSTANTANEA 12*190 CC",
       "unidadesBulto": 12,
       "codBarra": "7791293045689",
       "familia": "HIGIENE",
@@ -8415,7 +8607,7 @@
     },
     {
       "id": 1748,
-      "nombre": "CALDOS KNORR VERD 10*6 U",
+      "nombre": "CALDOS KNORR VERDURA 10*6 U",
       "unidadesBulto": 10,
       "codBarra": "7794000008595",
       "familia": "ADEREZOS",
@@ -8434,7 +8626,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 43620,
       "descuento": 0,
-      "stock": 12,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -8542,19 +8734,19 @@
       "rubro": "JUGOS",
       "precio": 17241.738,
       "descuento": 0,
-      "stock": 4,
+      "stock": 14,
       "retornable": null
     },
     {
       "id": 1806,
-      "nombre": "VIDA BAGGIO NJA. 6 * 600 CC",
+      "nombre": "VIDA BAGGIO NARANJA. 6 * 600 CC",
       "unidadesBulto": 6,
       "codBarra": "7790036974286",
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 5316.825,
       "descuento": 0,
-      "stock": 34,
+      "stock": 33,
       "retornable": null
     },
     {
@@ -8578,7 +8770,7 @@
       "rubro": "JUGOS",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 15,
+      "stock": 25,
       "retornable": null
     },
     {
@@ -8590,7 +8782,7 @@
       "rubro": "JUGOS",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 12,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -8602,7 +8794,19 @@
       "rubro": "JUGOS",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 1,
+      "stock": 36,
+      "retornable": null
+    },
+    {
+      "id": 1812,
+      "nombre": "BAGGIO DURAZNO 18 * 200 CC",
+      "unidadesBulto": 18,
+      "codBarra": "7790036000589",
+      "familia": "OTRAS BEBIDAS",
+      "rubro": "JUGOS",
+      "precio": 8969.028,
+      "descuento": 0,
+      "stock": 51,
       "retornable": null
     },
     {
@@ -8614,19 +8818,31 @@
       "rubro": "JUGOS",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 18,
+      "stock": 15,
+      "retornable": null
+    },
+    {
+      "id": 1817,
+      "nombre": "PULPA TOMATE LA HUERTA 8*1018 CC",
+      "unidadesBulto": 8,
+      "codBarra": "7790036129044",
+      "familia": "CONSERVAS",
+      "rubro": "CONSERVAS Y COMESTIBLES",
+      "precio": 8515.895,
+      "descuento": 0,
+      "stock": 10,
       "retornable": null
     },
     {
       "id": 1818,
-      "nombre": "VIDA BAGGIO AGUA NJA 6*1500 CC",
+      "nombre": "VIDA BAGGIO AGUA NARANJA 6*1500 CC",
       "unidadesBulto": 6,
       "codBarra": "7790036002118",
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 336,
+      "stock": 329,
       "retornable": null
     },
     {
@@ -8650,7 +8866,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 7418.425,
       "descuento": 0,
-      "stock": 15,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -8679,7 +8895,7 @@
     },
     {
       "id": 1827,
-      "nombre": "BAGGIO NJA 100%EXP 12*1000CC",
+      "nombre": "BAGGIO NARANJA 100%EXP 12*1000CC",
       "unidadesBulto": 12,
       "codBarra": "7790036976488",
       "familia": "OTRAS BEBIDAS",
@@ -8734,7 +8950,7 @@
       "rubro": "EDULCORANTE",
       "precio": 17670.743,
       "descuento": 0,
-      "stock": 2,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -8746,7 +8962,19 @@
       "rubro": "EDULCORANTE",
       "precio": 6931.255,
       "descuento": 0,
-      "stock": 1,
+      "stock": 3,
+      "retornable": null
+    },
+    {
+      "id": 1968,
+      "nombre": "YERBA LA MERCED CAMPO 6*500 G",
+      "unidadesBulto": 6,
+      "codBarra": "7790387015607",
+      "familia": "INFUSIONES",
+      "rubro": "YERBAS",
+      "precio": 26399.998,
+      "descuento": 0,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -8782,7 +9010,7 @@
       "rubro": "JUGOS",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -8798,18 +9026,6 @@
       "retornable": null
     },
     {
-      "id": 1968,
-      "nombre": "YERBA LA MERCED CAMPO 6*500 G",
-      "unidadesBulto": 6,
-      "codBarra": "7790387015607",
-      "familia": "INFUSIONES",
-      "rubro": "YERBAS",
-      "precio": 26399.998,
-      "descuento": 0,
-      "stock": 6,
-      "retornable": null
-    },
-    {
       "id": 1857,
       "nombre": "AGUA DE MESA VIDA 6 * 1500 CC",
       "unidadesBulto": 6,
@@ -8818,7 +9034,7 @@
       "rubro": "AGUA",
       "precio": 4895.563,
       "descuento": 0,
-      "stock": 132,
+      "stock": 108,
       "retornable": null
     },
     {
@@ -8854,7 +9070,7 @@
       "rubro": "JUGOS",
       "precio": 17241.738,
       "descuento": 0,
-      "stock": 8,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -8866,7 +9082,7 @@
       "rubro": "JUGOS",
       "precio": 13498.821,
       "descuento": 0,
-      "stock": 1,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -8890,7 +9106,7 @@
       "rubro": "JUGOS",
       "precio": 13498.821,
       "descuento": 0,
-      "stock": 5,
+      "stock": 29,
       "retornable": null
     },
     {
@@ -8902,7 +9118,7 @@
       "rubro": "JUGOS",
       "precio": 13498.821,
       "descuento": 0,
-      "stock": 45,
+      "stock": 46,
       "retornable": null
     },
     {
@@ -8914,7 +9130,7 @@
       "rubro": "JUGOS",
       "precio": 17241.738,
       "descuento": 0,
-      "stock": 5,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -8950,7 +9166,7 @@
       "rubro": "ACEITES",
       "precio": 71252.81,
       "descuento": 0,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -8990,18 +9206,6 @@
       "retornable": null
     },
     {
-      "id": 1890,
-      "nombre": "CABALLA BAHIA DESMENUZ ACEITE 48*170 G",
-      "unidadesBulto": 48,
-      "codBarra": "7795933101674",
-      "familia": "CONSERVAS",
-      "rubro": "CONSERVAS Y COMESTIBLES",
-      "precio": 60184.19,
-      "descuento": 0,
-      "stock": 3,
-      "retornable": null
-    },
-    {
       "id": 1891,
       "nombre": "CABALLA BAHIA DESMENUZ NAT 48*170 G",
       "unidadesBulto": 48,
@@ -9022,7 +9226,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 33100,
       "descuento": 0,
-      "stock": 8,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -9034,7 +9238,7 @@
       "rubro": "GOLOSINAS",
       "precio": 139151.997,
       "descuento": 0,
-      "stock": 27,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -9046,7 +9250,7 @@
       "rubro": "JUGOS",
       "precio": 5853.194,
       "descuento": 0,
-      "stock": 19,
+      "stock": 25,
       "retornable": null
     },
     {
@@ -9063,7 +9267,7 @@
     },
     {
       "id": 1899,
-      "nombre": "ALWAYS TRIP PROT SVE 24*8U",
+      "nombre": "ALWAYS TRIP PROT SUAVE 24*8U",
       "unidadesBulto": 24,
       "codBarra": "7500435229654",
       "familia": "HIGIENE",
@@ -9099,7 +9303,7 @@
     },
     {
       "id": 1902,
-      "nombre": "ALWAYS EXT D/PROT SVE 16*8 U",
+      "nombre": "ALWAYS EXT D/PROT SUAVE 16*8 U",
       "unidadesBulto": 16,
       "codBarra": "7500435229548",
       "familia": "HIGIENE",
@@ -9118,7 +9322,7 @@
       "rubro": "GALLETAS",
       "precio": 21840.004,
       "descuento": 0,
-      "stock": 9,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -9178,7 +9382,7 @@
       "rubro": "GALLETAS",
       "precio": 28639.999,
       "descuento": 0,
-      "stock": 12,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -9339,7 +9543,7 @@
     },
     {
       "id": 1964,
-      "nombre": "NOSOTRAS CLASICO ESENCIA BOB 15*16 U",
+      "nombre": "NOSOTRAS CLASICO ESENCIA BON O BON 15*16 U",
       "unidadesBulto": 15,
       "codBarra": "7790770601967",
       "familia": "HIGIENE",
@@ -9430,7 +9634,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 43542.721,
       "descuento": 0,
-      "stock": 23,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -9502,7 +9706,7 @@
       "rubro": "LIMPIEZA",
       "precio": 15588,
       "descuento": 0,
-      "stock": 15,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -9526,7 +9730,7 @@
       "rubro": "LIMPIEZA",
       "precio": 19500.001,
       "descuento": 0,
-      "stock": 21,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -9574,7 +9778,7 @@
       "rubro": "LIMPIEZA",
       "precio": 22290.003,
       "descuento": 0,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -9694,7 +9898,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 50526.817,
       "descuento": 0,
-      "stock": 4,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -9754,7 +9958,7 @@
       "rubro": "LIMPIEZA",
       "precio": 18975.002,
       "descuento": 0,
-      "stock": 22,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -9766,7 +9970,7 @@
       "rubro": "LIMPIEZA",
       "precio": 22484.994,
       "descuento": 0,
-      "stock": 9,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -9850,7 +10054,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 76005.739,
       "descuento": 0,
-      "stock": 31,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -9874,7 +10078,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 27955.356,
       "descuento": 0,
-      "stock": 18,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -9934,7 +10138,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 20963.964,
       "descuento": 0,
-      "stock": 5,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -10054,7 +10258,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 32004.488,
       "descuento": 0,
-      "stock": 21,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -10078,7 +10282,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 38598.123,
       "descuento": 0,
-      "stock": 14,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -10090,7 +10294,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 38598.123,
       "descuento": 0,
-      "stock": 10,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -10102,7 +10306,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 38598.123,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -10114,7 +10318,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 51071.58,
       "descuento": 0,
-      "stock": 7,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -10126,7 +10330,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 38598.123,
       "descuento": 0,
-      "stock": 9,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -10138,7 +10342,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 42107.043,
       "descuento": 0,
-      "stock": 16,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -10150,7 +10354,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 42107.043,
       "descuento": 0,
-      "stock": 8,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -10222,7 +10426,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 42107.043,
       "descuento": 0,
-      "stock": 6,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -10318,7 +10522,7 @@
       "rubro": "GOLOSINAS",
       "precio": 97600.004,
       "descuento": 20,
-      "stock": 1,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -10390,7 +10594,7 @@
       "rubro": "JUGOS",
       "precio": 109296.001,
       "descuento": 10,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -10486,7 +10690,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 39055.4,
       "descuento": 0,
-      "stock": 12,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -10532,8 +10736,8 @@
       "codBarra": "7790895643835",
       "familia": "OTRAS BEBIDAS",
       "rubro": "JUGOS",
-      "precio": 14720,
-      "descuento": 20,
+      "precio": 9200,
+      "descuento": 50,
       "stock": 2,
       "retornable": null
     },
@@ -10558,7 +10762,7 @@
       "rubro": "GALLETAS",
       "precio": 14690.005,
       "descuento": 0,
-      "stock": 9,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -10594,7 +10798,7 @@
       "rubro": "CERVEZAS",
       "precio": 39856.423,
       "descuento": 17,
-      "stock": 60,
+      "stock": 58,
       "retornable": null
     },
     {
@@ -10618,7 +10822,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 41829.63,
       "descuento": 0,
-      "stock": 3,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -10654,7 +10858,7 @@
       "rubro": "LIMPIEZA",
       "precio": 13179.925,
       "descuento": 0,
-      "stock": 23,
+      "stock": 31,
       "retornable": null
     },
     {
@@ -10726,7 +10930,7 @@
       "rubro": "SOPAS",
       "precio": 20250.003,
       "descuento": 0,
-      "stock": 4,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -10786,19 +10990,19 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 39120.002,
       "descuento": 0,
-      "stock": 3,
+      "stock": 11,
       "retornable": null
     },
     {
       "id": 2299,
-      "nombre": "NOSOTRAS CLASICO  ESENCIAL BOB 30*8U",
+      "nombre": "NOSOTRAS CLASICO  ESENCIAL BON O BON 30*8U",
       "unidadesBulto": 30,
       "codBarra": "7790770601950",
       "familia": "HIGIENE",
       "rubro": "CUIDADO FEMENINO",
       "precio": 28500.001,
       "descuento": 0,
-      "stock": 5,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -10942,7 +11146,7 @@
       "rubro": "CUIDADO FEMENINO",
       "precio": 62685,
       "descuento": 0,
-      "stock": 25,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -10978,7 +11182,7 @@
       "rubro": "CUIDADO FEMENINO",
       "precio": 34725.004,
       "descuento": 0,
-      "stock": 15,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -11026,7 +11230,7 @@
       "rubro": "CAFE",
       "precio": 34920,
       "descuento": 0,
-      "stock": 14,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -11074,7 +11278,7 @@
       "rubro": "GALLETAS",
       "precio": 26376.004,
       "descuento": 0,
-      "stock": 35,
+      "stock": 44,
       "retornable": null
     },
     {
@@ -11086,7 +11290,7 @@
       "rubro": "GALLETAS",
       "precio": 21980.001,
       "descuento": 0,
-      "stock": 36,
+      "stock": 33,
       "retornable": null
     },
     {
@@ -11098,7 +11302,7 @@
       "rubro": "GALLETAS",
       "precio": 22190,
       "descuento": 0,
-      "stock": 16,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -11110,7 +11314,7 @@
       "rubro": "GALLETAS",
       "precio": 19110.002,
       "descuento": 0,
-      "stock": 16,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -11134,7 +11338,7 @@
       "rubro": "GALLETAS",
       "precio": 17850,
       "descuento": 0,
-      "stock": 17,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -11146,7 +11350,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 8350,
       "descuento": 0,
-      "stock": 21,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -11158,7 +11362,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 15100.002,
       "descuento": 0,
-      "stock": 39,
+      "stock": 42,
       "retornable": null
     },
     {
@@ -11170,7 +11374,7 @@
       "rubro": "GALLETAS",
       "precio": 20772,
       "descuento": 0,
-      "stock": 18,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -11182,7 +11386,7 @@
       "rubro": "GALLETAS",
       "precio": 39872,
       "descuento": 0,
-      "stock": 34,
+      "stock": 28,
       "retornable": null
     },
     {
@@ -11194,7 +11398,7 @@
       "rubro": "GALLETAS",
       "precio": 37920,
       "descuento": 0,
-      "stock": 9,
+      "stock": 23,
       "retornable": null
     },
     {
@@ -11230,7 +11434,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 17990,
       "descuento": 0,
-      "stock": 29,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -11278,7 +11482,7 @@
       "rubro": "GALLETAS",
       "precio": 30772.006,
       "descuento": 0,
-      "stock": 30,
+      "stock": 48,
       "retornable": null
     },
     {
@@ -11290,7 +11494,7 @@
       "rubro": "GALLETAS",
       "precio": 22190,
       "descuento": 0,
-      "stock": 4,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -11350,7 +11554,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 12300.009,
       "descuento": 0,
-      "stock": 34,
+      "stock": 31,
       "retornable": null
     },
     {
@@ -11362,7 +11566,7 @@
       "rubro": "GALLETAS",
       "precio": 16459.198,
       "descuento": 0,
-      "stock": 5,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -11374,7 +11578,7 @@
       "rubro": "YERBAS",
       "precio": 18606.546,
       "descuento": 0,
-      "stock": 48,
+      "stock": 51,
       "retornable": null
     },
     {
@@ -11386,7 +11590,7 @@
       "rubro": "YERBAS",
       "precio": 18606.546,
       "descuento": 0,
-      "stock": 26,
+      "stock": 28,
       "retornable": null
     },
     {
@@ -11399,18 +11603,6 @@
       "precio": 62850.002,
       "descuento": 0,
       "stock": 8,
-      "retornable": null
-    },
-    {
-      "id": 2384,
-      "nombre": "COMFORT SUAV CLASIC  4 * 3000 CC",
-      "unidadesBulto": 4,
-      "codBarra": "7791290793675",
-      "familia": "HIGIENE",
-      "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 50880,
-      "descuento": 0,
-      "stock": 1,
       "retornable": null
     },
     {
@@ -11434,7 +11626,7 @@
       "rubro": "YERBAS",
       "precio": 20905.92,
       "descuento": 0,
-      "stock": 15,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -11470,7 +11662,7 @@
       "rubro": "YERBAS",
       "precio": 20905.92,
       "descuento": 0,
-      "stock": 8,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -11566,7 +11758,7 @@
       "rubro": "YERBAS",
       "precio": 16910.253,
       "descuento": 10,
-      "stock": 7,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -11590,7 +11782,7 @@
       "rubro": "AGUA",
       "precio": 9450.003,
       "descuento": 0,
-      "stock": 69,
+      "stock": 68,
       "retornable": null
     },
     {
@@ -11607,7 +11799,7 @@
     },
     {
       "id": 2430,
-      "nombre": "ECO DE LOS ANDES S/G 6 * 1500 CC",
+      "nombre": "ECO DE LOS ANDES S/ GAS 6 * 1500 CC",
       "unidadesBulto": 6,
       "codBarra": "7792799000059",
       "familia": "OTRAS BEBIDAS",
@@ -11631,7 +11823,7 @@
     },
     {
       "id": 2432,
-      "nombre": "ECO DE LOS ANDES S/G 6 * 1000 CC",
+      "nombre": "ECO DE LOS ANDES S/ GAS 6 * 1000 CC",
       "unidadesBulto": 6,
       "codBarra": "7792799000639",
       "familia": "OTRAS BEBIDAS",
@@ -11643,7 +11835,7 @@
     },
     {
       "id": 2450,
-      "nombre": "ECO D.L.ANDES.S/G 12 * 500 CC",
+      "nombre": "ECO DE LOS ANDES.S/ GAS 12 * 500 CC",
       "unidadesBulto": 12,
       "codBarra": "7792799000011",
       "familia": "OTRAS BEBIDAS",
@@ -11691,7 +11883,7 @@
     },
     {
       "id": 2499,
-      "nombre": "ECO DE LOS ANDES S/G PET 6 * 2000 CC",
+      "nombre": "ECO DE LOS ANDES S/ GAS PET 6 * 2000 CC",
       "unidadesBulto": 6,
       "codBarra": "7792799000097",
       "familia": "OTRAS BEBIDAS",
@@ -11722,12 +11914,12 @@
       "rubro": "YERBAS",
       "precio": 21541.245,
       "descuento": 0,
-      "stock": 12,
+      "stock": 14,
       "retornable": null
     },
     {
       "id": 2502,
-      "nombre": "AGUANTADORA SVE 6 * 1 KG",
+      "nombre": "AGUANTADORA SUAVE 6 * 1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790326003214",
       "familia": "INFUSIONES",
@@ -11746,7 +11938,7 @@
       "rubro": "YERBAS",
       "precio": 20155.782,
       "descuento": 0,
-      "stock": 10,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -11758,7 +11950,7 @@
       "rubro": "YERBAS",
       "precio": 38858.795,
       "descuento": 8,
-      "stock": 8,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -11770,12 +11962,12 @@
       "rubro": "YERBAS",
       "precio": 42237.821,
       "descuento": 0,
-      "stock": 22,
+      "stock": 21,
       "retornable": null
     },
     {
       "id": 2507,
-      "nombre": "AGUANTADORA SVE 10 * 500 G",
+      "nombre": "AGUANTADORA SUAVE 10 * 500 G",
       "unidadesBulto": 10,
       "codBarra": "7790326003078",
       "familia": "INFUSIONES",
@@ -11806,7 +11998,7 @@
       "rubro": "YERBAS",
       "precio": 30848.458,
       "descuento": 0,
-      "stock": 11,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -11830,7 +12022,7 @@
       "rubro": "YERBAS",
       "precio": 37750,
       "descuento": 0,
-      "stock": 13,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -11842,7 +12034,7 @@
       "rubro": "YERBAS",
       "precio": 37750,
       "descuento": 0,
-      "stock": 16,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -11878,7 +12070,7 @@
       "rubro": "YERBAS",
       "precio": 26219.112,
       "descuento": 0,
-      "stock": 11,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -11891,6 +12083,18 @@
       "precio": 39735.241,
       "descuento": 0,
       "stock": 10,
+      "retornable": null
+    },
+    {
+      "id": 2556,
+      "nombre": "YERBA LIEBIG ORIG 10*500 G",
+      "unidadesBulto": 10,
+      "codBarra": "7793704000805",
+      "familia": "INFUSIONES",
+      "rubro": "YERBAS",
+      "precio": 26526.524,
+      "descuento": 0,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -12094,12 +12298,12 @@
       "rubro": "GOLOSINAS",
       "precio": 25550.001,
       "descuento": 0,
-      "stock": 14,
+      "stock": 13,
       "retornable": null
     },
     {
       "id": 2652,
-      "nombre": "HUEVO LECHE BOB 24*20 G",
+      "nombre": "HUEVO LECHE BON O BON 24*20 G",
       "unidadesBulto": 24,
       "codBarra": "7790580463403",
       "familia": "GOLOSINAS",
@@ -12130,7 +12334,7 @@
       "rubro": "GOLOSINAS",
       "precio": 41760,
       "descuento": 0,
-      "stock": 8,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -12142,7 +12346,7 @@
       "rubro": "PRODUCTOS NAVIDEÑOS",
       "precio": 18660.287,
       "descuento": 50,
-      "stock": 45,
+      "stock": 35,
       "retornable": null
     },
     {
@@ -12166,7 +12370,7 @@
       "rubro": "GOLOSINAS",
       "precio": 8625.601,
       "descuento": 20,
-      "stock": 20,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -12178,7 +12382,7 @@
       "rubro": "GOLOSINAS",
       "precio": 11980.004,
       "descuento": 0,
-      "stock": 11,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -12190,7 +12394,7 @@
       "rubro": "GOLOSINAS",
       "precio": 21560.001,
       "descuento": 0,
-      "stock": 10,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -12214,7 +12418,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 78840.006,
       "descuento": 0,
-      "stock": 3,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -12226,7 +12430,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 75083.953,
       "descuento": 0,
-      "stock": 19,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -12238,7 +12442,19 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 82620.01,
       "descuento": 0,
-      "stock": 9,
+      "stock": 10,
+      "retornable": null
+    },
+    {
+      "id": 2720,
+      "nombre": "DORITOS QUESO 19*129 G",
+      "unidadesBulto": 19,
+      "codBarra": "7790310985656",
+      "familia": "GOLOSINAS",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 84312.575,
+      "descuento": 0,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -12262,7 +12478,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 70080.006,
       "descuento": 0,
-      "stock": 15,
+      "stock": 26,
       "retornable": null
     },
     {
@@ -12303,7 +12519,7 @@
     },
     {
       "id": 2748,
-      "nombre": "LA MORENITA INST SVE  6*170G",
+      "nombre": "LA MORENITA INSTANTANEA SUAVE  6*170G",
       "unidadesBulto": 6,
       "codBarra": "7790170905108",
       "familia": "INFUSIONES",
@@ -12334,7 +12550,7 @@
       "rubro": "LIMPIEZA",
       "precio": 59024.998,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -12346,7 +12562,7 @@
       "rubro": "GALLETAS",
       "precio": 45600,
       "descuento": 0,
-      "stock": 40,
+      "stock": 36,
       "retornable": null
     },
     {
@@ -12358,7 +12574,7 @@
       "rubro": "LIMPIEZA",
       "precio": 59024.998,
       "descuento": 0,
-      "stock": 12,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -12387,14 +12603,14 @@
     },
     {
       "id": 2801,
-      "nombre": "BAGGIO PTO DURAZNO/NJA. 8 * 1000 CC",
+      "nombre": "BAGGIO PTO DURAZNO/NARANJA. 8 * 1000 CC",
       "unidadesBulto": 8,
       "codBarra": "7790036000480",
       "familia": "OTRAS BEBIDAS",
       "rubro": "JUGOS",
       "precio": 13498.821,
       "descuento": 0,
-      "stock": 5,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -12442,7 +12658,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 36545.981,
       "descuento": 0,
-      "stock": 17,
+      "stock": 18,
       "retornable": null
     },
     {
@@ -12454,7 +12670,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 36545.981,
       "descuento": 0,
-      "stock": 7,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -12478,7 +12694,31 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 34485.938,
       "descuento": 0,
-      "stock": 1,
+      "stock": 2,
+      "retornable": null
+    },
+    {
+      "id": 2836,
+      "nombre": "SALADIX CROSS ORIG 32*67G",
+      "unidadesBulto": 32,
+      "codBarra": "7790040129634",
+      "familia": "GOLOSINAS",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 34485.938,
+      "descuento": 0,
+      "stock": 16,
+      "retornable": null
+    },
+    {
+      "id": 2837,
+      "nombre": "SALADIX QUESITOS 20*95 G",
+      "unidadesBulto": 20,
+      "codBarra": "7790040153240",
+      "familia": "GOLOSINAS",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 45671,
+      "descuento": 0,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -12637,7 +12877,7 @@
       "rubro": "LIMPIEZA",
       "precio": 16440.004,
       "descuento": 0,
-      "stock": 12,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -12781,7 +13021,7 @@
       "rubro": "LIMPIEZA",
       "precio": 26400,
       "descuento": 0,
-      "stock": 4,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -12817,7 +13057,7 @@
       "rubro": "LIMPIEZA",
       "precio": 18890,
       "descuento": 0,
-      "stock": 9,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -12877,7 +13117,7 @@
       "rubro": "GALLETAS",
       "precio": 24703.261,
       "descuento": 7,
-      "stock": 15,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -12894,7 +13134,7 @@
     },
     {
       "id": 2935,
-      "nombre": "JUGO POLVO ARCOR NJA/DUR 12*18U",
+      "nombre": "JUGO POLVO ARCOR NARANJA/DUR 12*18U",
       "unidadesBulto": 12,
       "codBarra": "7790580144326",
       "familia": "OTRAS BEBIDAS",
@@ -12913,7 +13153,7 @@
       "rubro": "GALLETAS",
       "precio": 28011.952,
       "descuento": 7,
-      "stock": 18,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -12925,7 +13165,7 @@
       "rubro": "GALLETAS",
       "precio": 28011.952,
       "descuento": 7,
-      "stock": 25,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -12949,7 +13189,7 @@
       "rubro": "GALLETAS",
       "precio": 42827.321,
       "descuento": 0,
-      "stock": 10,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -12961,7 +13201,7 @@
       "rubro": "GALLETAS",
       "precio": 42827.321,
       "descuento": 0,
-      "stock": 11,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -13026,7 +13266,7 @@
     },
     {
       "id": 2959,
-      "nombre": "ALFAJOR BONOBON NEG 40*40 G",
+      "nombre": "ALFAJOR BONOBON NEGRO 40*40 G",
       "unidadesBulto": 40,
       "codBarra": "7790040613706",
       "familia": "SALUDABLES",
@@ -13057,7 +13297,7 @@
       "rubro": "GALLETAS",
       "precio": 53148.373,
       "descuento": 0,
-      "stock": 9,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -13177,7 +13417,7 @@
       "rubro": "GOLOSINAS",
       "precio": 13099.645,
       "descuento": 0,
-      "stock": 3,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -13254,7 +13494,7 @@
     },
     {
       "id": 2995,
-      "nombre": "ALF BONOBON TRI 21*60G",
+      "nombre": "ALF BONOBON TRIPLE 21*60G",
       "unidadesBulto": 21,
       "codBarra": "7790040148840",
       "familia": "SALUDABLES",
@@ -13273,7 +13513,7 @@
       "rubro": "ALFAJORES",
       "precio": 30901.498,
       "descuento": 0,
-      "stock": 5,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -13290,7 +13530,7 @@
     },
     {
       "id": 3001,
-      "nombre": "TE LV HERBO FLUIR 6*25",
+      "nombre": "TE LA VIRGINIA HERBO FLUIR 6*25",
       "unidadesBulto": 6,
       "codBarra": "7790150370018",
       "familia": "INFUSIONES",
@@ -13302,7 +13542,7 @@
     },
     {
       "id": 3002,
-      "nombre": "TE LV HERBO INSPIRAR 6*25",
+      "nombre": "TE LA VIRGINIA HERBO INSPIRAR 6*25",
       "unidadesBulto": 6,
       "codBarra": "7790150370100",
       "familia": "INFUSIONES",
@@ -13314,7 +13554,7 @@
     },
     {
       "id": 3003,
-      "nombre": "TE LV HERBO RELAJAR 6*25",
+      "nombre": "TE LA VIRGINIA HERBO RELAJAR 6*25",
       "unidadesBulto": 6,
       "codBarra": "7790150370209",
       "familia": "INFUSIONES",
@@ -13338,7 +13578,7 @@
     },
     {
       "id": 3005,
-      "nombre": "TE LV HERBO DETO* 6*25",
+      "nombre": "TE LA VIRGINIA HERBO DETO* 6*25",
       "unidadesBulto": 6,
       "codBarra": "7790150370308",
       "familia": "INFUSIONES",
@@ -13357,7 +13597,7 @@
       "rubro": "APERITIVOS",
       "precio": 92138.299,
       "descuento": 0,
-      "stock": 11,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -13403,8 +13643,8 @@
       "codBarra": "7790950003055",
       "familia": "AMARGOS",
       "rubro": "AMARGO",
-      "precio": 8949.971,
-      "descuento": 0,
+      "precio": 7159.977,
+      "descuento": 20,
       "stock": 7,
       "retornable": null
     },
@@ -13477,7 +13717,7 @@
       "rubro": "AMARGO",
       "precio": 26269.645,
       "descuento": 0,
-      "stock": 10,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -13513,7 +13753,7 @@
       "rubro": "AMARGO",
       "precio": 26269.645,
       "descuento": 0,
-      "stock": 45,
+      "stock": 44,
       "retornable": null
     },
     {
@@ -13597,7 +13837,7 @@
       "rubro": "APERITIVOS",
       "precio": 51173.47,
       "descuento": 0,
-      "stock": 1,
+      "stock": 37,
       "retornable": null
     },
     {
@@ -13837,7 +14077,7 @@
       "rubro": "GOLOSINAS",
       "precio": 107400.001,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -14005,7 +14245,7 @@
       "rubro": "APERITIVOS",
       "precio": 49893.408,
       "descuento": 0,
-      "stock": 8,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -14017,7 +14257,7 @@
       "rubro": "APERITIVOS",
       "precio": 49893.408,
       "descuento": 0,
-      "stock": 11,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -14029,7 +14269,7 @@
       "rubro": "APERITIVOS",
       "precio": 49893.408,
       "descuento": 0,
-      "stock": 39,
+      "stock": 33,
       "retornable": null
     },
     {
@@ -14113,7 +14353,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 438180.002,
       "descuento": 0,
-      "stock": 8,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -14317,7 +14557,7 @@
       "rubro": "APERITIVOS",
       "precio": 58445.824,
       "descuento": 0,
-      "stock": 7,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -14353,7 +14593,7 @@
       "rubro": "APERITIVOS",
       "precio": 49893.408,
       "descuento": 0,
-      "stock": 20,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -14389,12 +14629,12 @@
       "rubro": "APERITIVOS",
       "precio": 49893.408,
       "descuento": 0,
-      "stock": 2,
+      "stock": 19,
       "retornable": null
     },
     {
       "id": 3198,
-      "nombre": "TE ESPECIAL CHAI LV 6*20 SAQ",
+      "nombre": "TE ESPECIAL CHAI LA VIRGINIA 6*20 SAQ",
       "unidadesBulto": 20,
       "codBarra": "7790150250525",
       "familia": "INFUSIONES",
@@ -14718,14 +14958,14 @@
     },
     {
       "id": 3243,
-      "nombre": "MOLINILLO PTA NEG ALICANTE 6*45G",
+      "nombre": "MOLINILLO PTA NEGRO ALICANTE 6*45G",
       "unidadesBulto": 6,
       "codBarra": "7790150556740",
       "familia": "OTROS",
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 25500,
       "descuento": 0,
-      "stock": 3,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -14941,7 +15181,7 @@
       "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 35887.511,
       "descuento": 0,
-      "stock": 25,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -14970,7 +15210,7 @@
     },
     {
       "id": 3298,
-      "nombre": "LA VIRGINIA INST KALMA ESPUMANTE FCO 6*100 G",
+      "nombre": "LA VIRGINIA INSTANTANEA KALMA ESPUMANTE FCO 6*100 G",
       "unidadesBulto": 6,
       "codBarra": "7790150110188",
       "familia": "INFUSIONES",
@@ -15049,7 +15289,7 @@
       "rubro": "VINOS",
       "precio": 26136,
       "descuento": 0,
-      "stock": 3,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -15205,7 +15445,7 @@
       "rubro": "VINOS",
       "precio": 37026,
       "descuento": 0,
-      "stock": 11,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -15253,7 +15493,7 @@
       "rubro": "VINOS",
       "precio": 25343.995,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -15433,7 +15673,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 66131.993,
       "descuento": 0,
-      "stock": 21,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -15589,7 +15829,7 @@
       "rubro": "VINOS",
       "precio": 21581.996,
       "descuento": 0,
-      "stock": 12,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -15601,7 +15841,7 @@
       "rubro": "VINOS",
       "precio": 25343.995,
       "descuento": 0,
-      "stock": 3,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -15673,7 +15913,7 @@
       "rubro": "ALFAJORES",
       "precio": 52920.003,
       "descuento": 0,
-      "stock": 23,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -15750,14 +15990,14 @@
     },
     {
       "id": 3380,
-      "nombre": "CAFE INST CLASICO LA VIRGINIA 6 * 170 G",
+      "nombre": "CAFE INSTANTANEA CLASICO LA VIRGINIA 6 * 170 G",
       "unidadesBulto": 6,
       "codBarra": "7790150100486",
       "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 43759.517,
       "descuento": 0,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -15786,14 +16026,14 @@
     },
     {
       "id": 3383,
-      "nombre": "CAFE LV EXP MOL TOST 12*250G",
+      "nombre": "CAFE LA VIRGINIA EXP MOLIDO TOSTADO 12*250G",
       "unidadesBulto": 12,
       "codBarra": "7790150037041",
       "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 106020,
       "descuento": 0,
-      "stock": 3,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -15857,18 +16097,6 @@
       "retornable": null
     },
     {
-      "id": 3390,
-      "nombre": "CAFE LA VIRGINIA INST SVE ESPUMANTE 6 * 36*1.7G",
-      "unidadesBulto": 6,
-      "codBarra": "7790150101087",
-      "familia": "INFUSIONES",
-      "rubro": "CAFE",
-      "precio": 30567.601,
-      "descuento": 0,
-      "stock": 1,
-      "retornable": null
-    },
-    {
       "id": 3391,
       "nombre": "TE LA VIRGINIA V/ISLANDS HP 6  * 25 U",
       "unidadesBulto": 6,
@@ -15882,7 +16110,7 @@
     },
     {
       "id": 3392,
-      "nombre": "CAFE INST LA MORENITA TI FCO 6 *170 G",
+      "nombre": "CAFE INSTANTANEA LA MORENITA TI FCO 6 *170 G",
       "unidadesBulto": 6,
       "codBarra": "7790170904668",
       "familia": "INFUSIONES",
@@ -15894,7 +16122,7 @@
     },
     {
       "id": 3395,
-      "nombre": "LA VIRGINIA INST CLASICO ESPUMANTE DP 10*170 G",
+      "nombre": "LA VIRGINIA INSTANTANEA CLASICO ESPUMANTE DP 10*170 G",
       "unidadesBulto": 10,
       "codBarra": "7790150100462",
       "familia": "INFUSIONES",
@@ -15906,7 +16134,7 @@
     },
     {
       "id": 3396,
-      "nombre": "LA VIRGINIA INST CLASICO ESPUMANTE DP 10*100 G",
+      "nombre": "LA VIRGINIA INSTANTANEA CLASICO ESPUMANTE DP 10*100 G",
       "unidadesBulto": 10,
       "codBarra": "7790150100806",
       "familia": "INFUSIONES",
@@ -15937,7 +16165,7 @@
       "rubro": "TE",
       "precio": 7703.163,
       "descuento": 0,
-      "stock": 20,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -15954,7 +16182,7 @@
     },
     {
       "id": 3418,
-      "nombre": "CAFE LV MOL TORR EQUILIB 12*500 G",
+      "nombre": "CAFE LA VIRGINIA MOLIDO TORRADO EQUILIBRADO 12*500 G",
       "unidadesBulto": 12,
       "codBarra": "7790150006351",
       "familia": "INFUSIONES",
@@ -15966,7 +16194,7 @@
     },
     {
       "id": 3419,
-      "nombre": "CAFE LM MOL BRASIL 12*250 G",
+      "nombre": "CAFE LM MOLIDO BRASIL 12*250 G",
       "unidadesBulto": 12,
       "codBarra": "7790170949201",
       "familia": "INFUSIONES",
@@ -16009,7 +16237,7 @@
       "rubro": "CACAOS",
       "precio": 61172.191,
       "descuento": 0,
-      "stock": 1,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -16026,7 +16254,7 @@
     },
     {
       "id": 3473,
-      "nombre": "TE NEG LA VIRGINIA INTENSO 6*1*20 SAQ",
+      "nombre": "TE NEGRO LA VIRGINIA INTENSO 6*1*20 SAQ",
       "unidadesBulto": 6,
       "codBarra": "7790150210000",
       "familia": "INFUSIONES",
@@ -16069,7 +16297,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 37782,
       "descuento": 0,
-      "stock": 8,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -16081,7 +16309,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 37782,
       "descuento": 0,
-      "stock": 14,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -16105,7 +16333,7 @@
       "rubro": "YERBAS",
       "precio": 27174.483,
       "descuento": 0,
-      "stock": 7,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -16117,7 +16345,7 @@
       "rubro": "TE",
       "precio": 8068.873,
       "descuento": 0,
-      "stock": 5,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -16170,7 +16398,7 @@
     },
     {
       "id": 3498,
-      "nombre": "COMINO MOL ALICANTE S/TACC 12*25G",
+      "nombre": "COMINO MOLIDO ALICANTE S/TACC 12*25G",
       "unidadesBulto": 12,
       "codBarra": "7790150465332",
       "familia": "ADEREZOS",
@@ -16194,7 +16422,7 @@
     },
     {
       "id": 3500,
-      "nombre": "CAFE INST CLASICO LA VIRGINIA 6 * 100 G",
+      "nombre": "CAFE INSTANTANEA CLASICO LA VIRGINIA 6 * 100 G",
       "unidadesBulto": 6,
       "codBarra": "7790150100783",
       "familia": "INFUSIONES",
@@ -16206,7 +16434,7 @@
     },
     {
       "id": 3501,
-      "nombre": "CAFE L/VIRG MOL TOST  12*250 G",
+      "nombre": "CAFE L/VIRG MOLIDO TOSTADO  12*250 G",
       "unidadesBulto": 12,
       "codBarra": "7790150007501",
       "familia": "INFUSIONES",
@@ -16225,7 +16453,7 @@
       "rubro": "CAFE",
       "precio": 40891.018,
       "descuento": 0,
-      "stock": 14,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -16242,7 +16470,7 @@
     },
     {
       "id": 3506,
-      "nombre": "LA VIRGINIA CAFE MOL TORR EQ 6*1 KG",
+      "nombre": "LA VIRGINIA CAFE MOLIDO TORRADO EQ 6*1 KG",
       "unidadesBulto": 6,
       "codBarra": "7790150006375",
       "familia": "INFUSIONES",
@@ -16314,7 +16542,7 @@
     },
     {
       "id": 3514,
-      "nombre": "LA MORENITA INST SVE DP 10*170G",
+      "nombre": "LA MORENITA INSTANTANEA SUAVE DP 10*170G",
       "unidadesBulto": 10,
       "codBarra": "7790170905122",
       "familia": "INFUSIONES",
@@ -16326,14 +16554,14 @@
     },
     {
       "id": 3515,
-      "nombre": "CAFE MOL TORR LA VIRGINIA 12*125 G",
+      "nombre": "CAFE MOLIDO TORRADO LA VIRGINIA 12*125 G",
       "unidadesBulto": 12,
       "codBarra": "7790150006306",
       "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 35294.684,
       "descuento": 0,
-      "stock": 10,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -16345,7 +16573,7 @@
       "rubro": "CAFE",
       "precio": 27150.001,
       "descuento": 0,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -16357,7 +16585,7 @@
       "rubro": "TE",
       "precio": 10003.276,
       "descuento": 0,
-      "stock": 17,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -16405,7 +16633,7 @@
       "rubro": "TE",
       "precio": 9078.521,
       "descuento": 0,
-      "stock": 11,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -16489,7 +16717,7 @@
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 15728.488,
       "descuento": 0,
-      "stock": 4,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -16506,7 +16734,7 @@
     },
     {
       "id": 3535,
-      "nombre": "CAFE L/MOREN MOL BD ITA 12*250 G",
+      "nombre": "CAFE L/MOREN MOLIDO BD ITA 12*250 G",
       "unidadesBulto": 12,
       "codBarra": "7790170949300",
       "familia": "INFUSIONES",
@@ -16518,7 +16746,7 @@
     },
     {
       "id": 3536,
-      "nombre": "CAFE INST LV KALMA ESPUMANTE  6*170 G",
+      "nombre": "CAFE INSTANTANEA LA VIRGINIA KALMA ESPUMANTE  6*170 G",
       "unidadesBulto": 6,
       "codBarra": "7790150110386",
       "familia": "INFUSIONES",
@@ -16530,7 +16758,7 @@
     },
     {
       "id": 3537,
-      "nombre": "LA MORENITA NST SVE 6*100 G",
+      "nombre": "LA MORENITA NST SUAVE 6*100 G",
       "unidadesBulto": 6,
       "codBarra": "7790170905009",
       "familia": "INFUSIONES",
@@ -16542,14 +16770,14 @@
     },
     {
       "id": 3538,
-      "nombre": "CAFE SAQ LA VIRGINIA EQUILIB 10 * 20 * 5G",
+      "nombre": "CAFE SAQ LA VIRGINIA EQUILIBRADO 10 * 20 * 5G",
       "unidadesBulto": 10,
       "codBarra": "7790150079904",
       "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 42364.375,
       "descuento": 0,
-      "stock": 17,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -16561,7 +16789,7 @@
       "rubro": "YERBAS",
       "precio": 11217.62,
       "descuento": 0,
-      "stock": 15,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -16585,7 +16813,7 @@
       "rubro": "TE",
       "precio": 8052.078,
       "descuento": 0,
-      "stock": 6,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -16597,12 +16825,12 @@
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 9081.002,
       "descuento": 0,
-      "stock": 7,
+      "stock": 15,
       "retornable": null
     },
     {
       "id": 3543,
-      "nombre": "SABORIZ ALICANTE CREM VERD 10*12*7G",
+      "nombre": "SABORIZ ALICANTE CREM VERDURA 10*12*7G",
       "unidadesBulto": 10,
       "codBarra": "7790150438800",
       "familia": "ADEREZOS",
@@ -16614,7 +16842,7 @@
     },
     {
       "id": 3544,
-      "nombre": "LA MORENITA COL. MOL TOST  12 * 250G",
+      "nombre": "LA MORENITA COL. MOLIDO TOSTADO  12 * 250G",
       "unidadesBulto": 12,
       "codBarra": "7790170949027",
       "familia": "INFUSIONES",
@@ -16638,7 +16866,7 @@
     },
     {
       "id": 3546,
-      "nombre": "CAFE LV MOL/TOST P/AROMAS 12*500 G",
+      "nombre": "CAFE LA VIRGINIA MOLIDO/TOSTADO P/AROMAS 12*500 G",
       "unidadesBulto": 12,
       "codBarra": "7790150037072",
       "familia": "INFUSIONES",
@@ -16669,7 +16897,7 @@
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 36394.779,
       "descuento": 0,
-      "stock": 23,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -16693,7 +16921,7 @@
       "rubro": "TE",
       "precio": 11292.228,
       "descuento": 0,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -16741,7 +16969,7 @@
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 31421.946,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -16794,7 +17022,7 @@
     },
     {
       "id": 3569,
-      "nombre": "CAFE LA VIRGINIA TORR EQUILIB 12 * 250 G",
+      "nombre": "CAFE LA VIRGINIA TORRADO EQUILIBRADO 12 * 250 G",
       "unidadesBulto": 12,
       "codBarra": "7790150006320",
       "familia": "INFUSIONES",
@@ -16806,19 +17034,19 @@
     },
     {
       "id": 3570,
-      "nombre": "CAFE LA VIRGINIA INST CLASICO 6 * 50 G",
+      "nombre": "CAFE LA VIRGINIA INSTANTANEA CLASICO 6 * 50 G",
       "unidadesBulto": 6,
       "codBarra": "7790150100677",
       "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 15538.59,
       "descuento": 0,
-      "stock": 19,
+      "stock": 17,
       "retornable": null
     },
     {
       "id": 3571,
-      "nombre": "CAFE LA VIRGINIA INST SUAVE 6 * 50 G",
+      "nombre": "CAFE LA VIRGINIA INSTANTANEA SUAVE 6 * 50 G",
       "unidadesBulto": 6,
       "codBarra": "7790150101667",
       "familia": "INFUSIONES",
@@ -16830,26 +17058,26 @@
     },
     {
       "id": 3572,
-      "nombre": "CAFE LA VIRGINIA INST SUAVE 6 * 100 G",
+      "nombre": "CAFE LA VIRGINIA INSTANTANEA SUAVE 6 * 100 G",
       "unidadesBulto": 6,
       "codBarra": "7790150101773",
       "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 27825.39,
       "descuento": 0,
-      "stock": 1,
+      "stock": 5,
       "retornable": null
     },
     {
       "id": 3573,
-      "nombre": "TE LA VIRGINIA MAND/NJA/POMELO 6 * 20 U",
+      "nombre": "TE LA VIRGINIA MAND/NARANJA/POMELO 6 * 20 U",
       "unidadesBulto": 6,
       "codBarra": "7790150240427",
       "familia": "INFUSIONES",
       "rubro": "TE",
       "precio": 11292.228,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -16933,7 +17161,7 @@
       "rubro": "CONDIMENTOS Y ESPECIAS",
       "precio": 31421.946,
       "descuento": 0,
-      "stock": 7,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -16993,7 +17221,7 @@
       "rubro": "TE",
       "precio": 16112.481,
       "descuento": 0,
-      "stock": 5,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -17005,7 +17233,7 @@
       "rubro": "TE",
       "precio": 11583.015,
       "descuento": 0,
-      "stock": 8,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -17017,7 +17245,7 @@
       "rubro": "SOPAS",
       "precio": 12659.758,
       "descuento": 0,
-      "stock": 3,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -17065,7 +17293,7 @@
       "rubro": "SOPAS",
       "precio": 12659.758,
       "descuento": 0,
-      "stock": 10,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -17077,7 +17305,7 @@
       "rubro": "SOPAS",
       "precio": 12659.758,
       "descuento": 0,
-      "stock": 12,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -17101,7 +17329,7 @@
       "rubro": "GALLETAS",
       "precio": 93979.999,
       "descuento": 0,
-      "stock": 7,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -17113,7 +17341,7 @@
       "rubro": "GALLETAS",
       "precio": 51516.016,
       "descuento": 10,
-      "stock": 30,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -17125,19 +17353,7 @@
       "rubro": "GALLETAS",
       "precio": 94555.44,
       "descuento": 12.4,
-      "stock": 11,
-      "retornable": null
-    },
-    {
-      "id": 3612,
-      "nombre": "TANG MANZANA 12 * 20 U.",
-      "unidadesBulto": 12,
-      "codBarra": "7622201705985",
-      "familia": "OTRAS BEBIDAS",
-      "rubro": "JUGOS",
-      "precio": 77880.004,
-      "descuento": 0,
-      "stock": 1,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -17197,7 +17413,7 @@
       "rubro": "GOLOSINAS",
       "precio": 111960,
       "descuento": 0,
-      "stock": 1,
+      "stock": 39,
       "retornable": null
     },
     {
@@ -17221,7 +17437,7 @@
       "rubro": "GALLETAS",
       "precio": 27071.616,
       "descuento": 0,
-      "stock": 12,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -17257,7 +17473,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 94645.305,
       "descuento": 0,
-      "stock": 13,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -17293,12 +17509,12 @@
       "rubro": "GALLETAS",
       "precio": 27071.616,
       "descuento": 0,
-      "stock": 8,
+      "stock": 7,
       "retornable": null
     },
     {
       "id": 3664,
-      "nombre": "MOLINO NAT NJA/CHIPS 16*238G",
+      "nombre": "MOLINO NAT NARANJA/CHIPS 16*238G",
       "unidadesBulto": 16,
       "codBarra": "7790263119665",
       "familia": "GOLOSINAS",
@@ -17425,7 +17641,19 @@
       "rubro": "GALLETAS",
       "precio": 24209.998,
       "descuento": 50,
-      "stock": 1,
+      "stock": 33,
+      "retornable": null
+    },
+    {
+      "id": 6149,
+      "nombre": "LORETO OLLA 1*20 CM",
+      "unidadesBulto": 1,
+      "codBarra": "7891112266032",
+      "familia": "OTROS",
+      "rubro": "BAZAR",
+      "precio": 34983.472,
+      "descuento": 0,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -17489,18 +17717,6 @@
       "retornable": null
     },
     {
-      "id": 6149,
-      "nombre": "LORETO OLLA 1*20 CM",
-      "unidadesBulto": 1,
-      "codBarra": "7891112266032",
-      "familia": "OTROS",
-      "rubro": "BAZAR",
-      "precio": 34983.472,
-      "descuento": 0,
-      "stock": 8,
-      "retornable": null
-    },
-    {
       "id": 3687,
       "nombre": "PLUSBELLE JAB FRESC GLI 81*120G",
       "unidadesBulto": 81,
@@ -17509,7 +17725,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 88079.639,
       "descuento": 0,
-      "stock": 61,
+      "stock": 57,
       "retornable": null
     },
     {
@@ -17538,7 +17754,7 @@
     },
     {
       "id": 3691,
-      "nombre": "NUEZ MOSCADA MOL ALICANTE 12*25 G",
+      "nombre": "NUEZ MOSCADA MOLIDO ALICANTE 12*25 G",
       "unidadesBulto": 12,
       "codBarra": "7790150535394",
       "familia": "ADEREZOS",
@@ -17574,19 +17790,19 @@
     },
     {
       "id": 3697,
-      "nombre": "CAFE LA VIRGINIA INST SOB 6 * 36*1.7G",
+      "nombre": "CAFE LA VIRGINIA INSTANTANEA SOB 6 * 36*1.7G",
       "unidadesBulto": 6,
       "codBarra": "7790150100172",
       "familia": "INFUSIONES",
       "rubro": "CAFE",
       "precio": 25890,
       "descuento": 0,
-      "stock": 5,
+      "stock": 8,
       "retornable": null
     },
     {
       "id": 3698,
-      "nombre": "CAFE INST SELECC TOST LA VIRGINIA 6 * 100 G",
+      "nombre": "CAFE INSTANTANEA SELECC TOSTADO LA VIRGINIA 6 * 100 G",
       "unidadesBulto": 6,
       "codBarra": "7790150150573",
       "familia": "INFUSIONES",
@@ -17701,7 +17917,7 @@
       "rubro": "VINOS",
       "precio": 47026.977,
       "descuento": 0,
-      "stock": 11,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -17989,7 +18205,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 54120.965,
       "descuento": 0,
-      "stock": 11,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -18241,7 +18457,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 22500.142,
       "descuento": 8.98,
-      "stock": 23,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -18589,7 +18805,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 31188.281,
       "descuento": 17.115,
-      "stock": 7,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -18601,7 +18817,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 31188.281,
       "descuento": 17.115,
-      "stock": 16,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -18625,7 +18841,7 @@
       "rubro": "YERBAS",
       "precio": 22758.262,
       "descuento": 0,
-      "stock": 23,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -18637,7 +18853,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 103200.029,
       "descuento": 0,
-      "stock": 16,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -18757,7 +18973,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 38160,
       "descuento": 0,
-      "stock": 4,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -18805,7 +19021,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 31188.281,
       "descuento": 17.115,
-      "stock": 10,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -18841,7 +19057,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 31188.281,
       "descuento": 17.115,
-      "stock": 9,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -18889,7 +19105,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 8900.929,
       "descuento": 0,
-      "stock": 99,
+      "stock": 107,
       "retornable": null
     },
     {
@@ -18901,7 +19117,7 @@
       "rubro": "GALLETAS",
       "precio": 57475,
       "descuento": 0,
-      "stock": 25,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -18949,7 +19165,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 57852.572,
       "descuento": 0,
-      "stock": 19,
+      "stock": 54,
       "retornable": null
     },
     {
@@ -18974,18 +19190,6 @@
       "precio": 12607.305,
       "descuento": 0,
       "stock": 39,
-      "retornable": null
-    },
-    {
-      "id": 4017,
-      "nombre": "MONTCHENOT NATURE 6 * 750CC",
-      "unidadesBulto": 6,
-      "codBarra": "7790336041107",
-      "familia": "CHAMPAGNES",
-      "rubro": "CHAMPAGNE",
-      "precio": 61560.026,
-      "descuento": 12.037,
-      "stock": 1,
       "retornable": null
     },
     {
@@ -19141,7 +19345,7 @@
       "rubro": "ALFAJORES",
       "precio": 30901.498,
       "descuento": 0,
-      "stock": 5,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -19163,9 +19367,9 @@
       "codBarra": "7790040331303",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
-      "precio": 21974.403,
-      "descuento": 0,
-      "stock": 49,
+      "precio": 17579.523,
+      "descuento": 20,
+      "stock": 48,
       "retornable": null
     },
     {
@@ -19177,7 +19381,7 @@
       "rubro": "GALLETAS",
       "precio": 41114.228,
       "descuento": 0,
-      "stock": 33,
+      "stock": 34,
       "retornable": null
     },
     {
@@ -19213,7 +19417,7 @@
       "rubro": "GALLETAS",
       "precio": 41114.228,
       "descuento": 0,
-      "stock": 33,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -19225,7 +19429,7 @@
       "rubro": "GALLETAS",
       "precio": 49728.36,
       "descuento": 0,
-      "stock": 9,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -19261,7 +19465,7 @@
       "rubro": "GALLETAS",
       "precio": 36269.75,
       "descuento": 0,
-      "stock": 29,
+      "stock": 33,
       "retornable": null
     },
     {
@@ -19297,7 +19501,7 @@
       "rubro": "GALLETAS",
       "precio": 44540.413,
       "descuento": 0,
-      "stock": 19,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -19334,6 +19538,18 @@
       "precio": 58440,
       "descuento": 0,
       "stock": 3,
+      "retornable": null
+    },
+    {
+      "id": 6147,
+      "nombre": "TURIM BIFERA 1*24 CM",
+      "unidadesBulto": 1,
+      "codBarra": "7891112238220",
+      "familia": "OTROS",
+      "rubro": "BAZAR",
+      "precio": 25319.879,
+      "descuento": 0,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -19394,18 +19610,6 @@
       "precio": 32427.504,
       "descuento": 0,
       "stock": 8,
-      "retornable": null
-    },
-    {
-      "id": 6147,
-      "nombre": "TURIM BIFERA 1*24 CM",
-      "unidadesBulto": 1,
-      "codBarra": "7891112238220",
-      "familia": "OTROS",
-      "rubro": "BAZAR",
-      "precio": 25319.879,
-      "descuento": 0,
-      "stock": 2,
       "retornable": null
     },
     {
@@ -19501,7 +19705,7 @@
       "rubro": "GOLOSINAS",
       "precio": 74582.806,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -19511,8 +19715,8 @@
       "codBarra": "7790040331204",
       "familia": "SALUDABLES",
       "rubro": "ALFAJORES",
-      "precio": 21974.403,
-      "descuento": 0,
+      "precio": 17579.523,
+      "descuento": 20,
       "stock": 13,
       "retornable": null
     },
@@ -19525,7 +19729,7 @@
       "rubro": "GALLETAS",
       "precio": 42771.924,
       "descuento": 5.507,
-      "stock": 31,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -19537,7 +19741,7 @@
       "rubro": "GALLETAS",
       "precio": 42771.924,
       "descuento": 5.507,
-      "stock": 31,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -19573,7 +19777,7 @@
       "rubro": "GALLETAS",
       "precio": 45682.476,
       "descuento": 0,
-      "stock": 9,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -19585,7 +19789,7 @@
       "rubro": "GALLETAS",
       "precio": 35403.919,
       "descuento": 0,
-      "stock": 14,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -19621,7 +19825,7 @@
       "rubro": "GALLETAS",
       "precio": 47008.564,
       "descuento": 10,
-      "stock": 35,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -19633,7 +19837,7 @@
       "rubro": "GALLETAS",
       "precio": 30800.006,
       "descuento": 0,
-      "stock": 31,
+      "stock": 25,
       "retornable": null
     },
     {
@@ -19645,7 +19849,7 @@
       "rubro": "GALLETAS",
       "precio": 23240.001,
       "descuento": 0,
-      "stock": 26,
+      "stock": 42,
       "retornable": null
     },
     {
@@ -19681,7 +19885,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10620.08,
       "descuento": 8.669,
-      "stock": 52,
+      "stock": 60,
       "retornable": null
     },
     {
@@ -19693,7 +19897,7 @@
       "rubro": "GALLETAS",
       "precio": 42637.518,
       "descuento": 0,
-      "stock": 49,
+      "stock": 46,
       "retornable": null
     },
     {
@@ -19705,7 +19909,7 @@
       "rubro": "GALLETAS",
       "precio": 69212,
       "descuento": 0,
-      "stock": 19,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -19717,7 +19921,7 @@
       "rubro": "GALLETAS",
       "precio": 32720,
       "descuento": 0,
-      "stock": 28,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -19729,7 +19933,7 @@
       "rubro": "GALLETAS",
       "precio": 39051.54,
       "descuento": 0,
-      "stock": 28,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -19741,7 +19945,7 @@
       "rubro": "GALLETAS",
       "precio": 55851.6,
       "descuento": 20,
-      "stock": 44,
+      "stock": 50,
       "retornable": null
     },
     {
@@ -19777,7 +19981,7 @@
       "rubro": "GALLETAS",
       "precio": 46451.822,
       "descuento": 17,
-      "stock": 38,
+      "stock": 65,
       "retornable": null
     },
     {
@@ -19801,7 +20005,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 9749.956,
       "descuento": 23.926,
-      "stock": 56,
+      "stock": 44,
       "retornable": null
     },
     {
@@ -19837,7 +20041,7 @@
       "rubro": "GALLETAS",
       "precio": 31332.119,
       "descuento": 0,
-      "stock": 5,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -19974,7 +20178,7 @@
     },
     {
       "id": 4154,
-      "nombre": "HUEVO CONEJO BOB 12*50G",
+      "nombre": "HUEVO CONEJO BON O BON 12*50G",
       "unidadesBulto": 12,
       "codBarra": "7790580133900",
       "familia": "GOLOSINAS",
@@ -20029,7 +20233,7 @@
       "rubro": "GALLETAS",
       "precio": 31332.119,
       "descuento": 0,
-      "stock": 8,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -20065,7 +20269,7 @@
       "rubro": "CACAOS",
       "precio": 98427.001,
       "descuento": 0,
-      "stock": 14,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -20077,7 +20281,7 @@
       "rubro": "GOLOSINAS",
       "precio": 42953.935,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -20113,7 +20317,7 @@
       "rubro": "GALLETAS",
       "precio": 51392.785,
       "descuento": 0,
-      "stock": 24,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -20189,6 +20393,18 @@
       "retornable": null
     },
     {
+      "id": 6148,
+      "nombre": "LORETO CACEROLA 1*24 CM",
+      "unidadesBulto": 1,
+      "codBarra": "7891112265998",
+      "familia": "OTROS",
+      "rubro": "BAZAR",
+      "precio": 50904.361,
+      "descuento": 0,
+      "stock": 8,
+      "retornable": null
+    },
+    {
       "id": 4185,
       "nombre": "GALLETITAS SALVADO BAGLEY 36 * 169 G",
       "unidadesBulto": 36,
@@ -20209,7 +20425,7 @@
       "rubro": "GALLETAS",
       "precio": 39156.176,
       "descuento": 0,
-      "stock": 24,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -20233,7 +20449,7 @@
       "rubro": "ALFAJORES",
       "precio": 15565.2,
       "descuento": 0,
-      "stock": 20,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -20246,18 +20462,6 @@
       "precio": 39156.176,
       "descuento": 0,
       "stock": 17,
-      "retornable": null
-    },
-    {
-      "id": 6148,
-      "nombre": "LORETO CACEROLA 1*24 CM",
-      "unidadesBulto": 1,
-      "codBarra": "7891112265998",
-      "familia": "OTROS",
-      "rubro": "BAZAR",
-      "precio": 50904.361,
-      "descuento": 0,
-      "stock": 8,
       "retornable": null
     },
     {
@@ -20353,7 +20557,7 @@
       "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 51871.309,
       "descuento": 0,
-      "stock": 10,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -20377,7 +20581,7 @@
       "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 111358.962,
       "descuento": 0,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -20425,7 +20629,7 @@
       "rubro": "ALIMENTOS PARA MASCOTAS",
       "precio": 80881.119,
       "descuento": 0,
-      "stock": 1,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -20437,7 +20641,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 33479.999,
       "descuento": 0,
-      "stock": 33,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -20449,7 +20653,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 35880.001,
       "descuento": 0,
-      "stock": 23,
+      "stock": 31,
       "retornable": null
     },
     {
@@ -20485,7 +20689,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 26387.999,
       "descuento": 0,
-      "stock": 30,
+      "stock": 27,
       "retornable": null
     },
     {
@@ -20509,7 +20713,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 31080,
       "descuento": 0,
-      "stock": 10,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -20581,7 +20785,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 25380,
       "descuento": 0,
-      "stock": 23,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -20593,7 +20797,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 32939.999,
       "descuento": 0,
-      "stock": 15,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -20617,7 +20821,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 31080,
       "descuento": 0,
-      "stock": 18,
+      "stock": 23,
       "retornable": null
     },
     {
@@ -20689,7 +20893,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 85662.277,
       "descuento": 0,
-      "stock": 3,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -20713,7 +20917,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 39540,
       "descuento": 0,
-      "stock": 10,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -20725,7 +20929,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 15420.603,
       "descuento": 0,
-      "stock": 16,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -20749,7 +20953,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 46118.969,
       "descuento": 0,
-      "stock": 12,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -20821,7 +21025,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 73320,
       "descuento": 0,
-      "stock": 27,
+      "stock": 26,
       "retornable": null
     },
     {
@@ -20965,7 +21169,7 @@
       "rubro": "VINOS",
       "precio": 25200.005,
       "descuento": 0,
-      "stock": 25,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -21025,7 +21229,7 @@
       "rubro": "HIGIENE BUCAL",
       "precio": 65988,
       "descuento": 0,
-      "stock": 7,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -21294,19 +21498,19 @@
     },
     {
       "id": 4455,
-      "nombre": "CORDERO C/PIEL/LOBO MBC 6*750CC",
+      "nombre": "CORDERO C/ PIEL DE LOBO MBC 6*750CC",
       "unidadesBulto": 6,
       "codBarra": "7798353194653",
       "familia": "VINOS",
       "rubro": "VINOS",
       "precio": 25051.709,
       "descuento": 0,
-      "stock": 41,
+      "stock": 37,
       "retornable": null
     },
     {
       "id": 4456,
-      "nombre": "CORDERO C/PIEL/LOBO CAB SAUV  6*750CC",
+      "nombre": "CORDERO C/ PIEL DE LOBO CAB SAUV  6*750CC",
       "unidadesBulto": 6,
       "codBarra": "7798353194660",
       "familia": "VINOS",
@@ -21318,7 +21522,7 @@
     },
     {
       "id": 4457,
-      "nombre": "CORDERO C/PIEL/LOBO MBC/ROSE  6*750CC",
+      "nombre": "CORDERO C/ PIEL DE LOBO MBC/ROSE  6*750CC",
       "unidadesBulto": 6,
       "codBarra": "7798353194677",
       "familia": "VINOS",
@@ -21330,7 +21534,7 @@
     },
     {
       "id": 4461,
-      "nombre": "PERRO CALEJERO E/B ROSE 6*750 CC",
+      "nombre": "PERRO CALEJERO EXTRA BRUT ROSE 6*750 CC",
       "unidadesBulto": 6,
       "codBarra": "7798353194912",
       "familia": "CHAMPAGNES",
@@ -21402,7 +21606,7 @@
     },
     {
       "id": 4467,
-      "nombre": "CORD C/PIEL/LOBO ESPU DULCE 6*750 C",
+      "nombre": "CORD C/ PIEL DE LOBO ESPUMANTE DULCE 6*750 C",
       "unidadesBulto": 6,
       "codBarra": "7798353195032",
       "familia": "CHAMPAGNES",
@@ -21505,7 +21709,7 @@
       "rubro": "GALLETAS",
       "precio": 18576,
       "descuento": 0,
-      "stock": 8,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -21601,7 +21805,7 @@
       "rubro": "GALLETAS",
       "precio": 17280,
       "descuento": 0,
-      "stock": 68,
+      "stock": 76,
       "retornable": null
     },
     {
@@ -21613,19 +21817,19 @@
       "rubro": "GALLETAS",
       "precio": 17280,
       "descuento": 0,
-      "stock": 65,
+      "stock": 72,
       "retornable": null
     },
     {
       "id": 4532,
-      "nombre": "MAGDALENA GAONA NJA C/CHIPS 10*180 G",
+      "nombre": "MAGDALENA GAONA NARANJA C/CHIPS 10*180 G",
       "unidadesBulto": 10,
       "codBarra": "7798126073871",
       "familia": "GOLOSINAS",
       "rubro": "GALLETAS",
       "precio": 16512.369,
       "descuento": 0,
-      "stock": 2,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -21685,7 +21889,7 @@
       "rubro": "GALLETAS",
       "precio": 19814.843,
       "descuento": 0,
-      "stock": 7,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -21697,7 +21901,7 @@
       "rubro": "GALLETAS",
       "precio": 36704.745,
       "descuento": 0,
-      "stock": 11,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -21721,7 +21925,7 @@
       "rubro": "GALLETAS",
       "precio": 36704.745,
       "descuento": 0,
-      "stock": 19,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -21745,7 +21949,7 @@
       "rubro": "GALLETAS",
       "precio": 36704.745,
       "descuento": 0,
-      "stock": 16,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -21865,7 +22069,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 53009.58,
       "descuento": 0,
-      "stock": 2,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -21889,7 +22093,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 33474.408,
       "descuento": 0,
-      "stock": 6,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -21997,7 +22201,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 51109.674,
       "descuento": 0,
-      "stock": 7,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -22057,7 +22261,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 68234.042,
       "descuento": 0,
-      "stock": 16,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -22105,7 +22309,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 93518.698,
       "descuento": 0,
-      "stock": 15,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -22153,7 +22357,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 126353.56,
       "descuento": 0,
-      "stock": 10,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -22165,7 +22369,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 94812.817,
       "descuento": 0,
-      "stock": 3,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -22177,7 +22381,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 64230.515,
       "descuento": 0,
-      "stock": 10,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -22261,7 +22465,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 73344.15,
       "descuento": 0,
-      "stock": 28,
+      "stock": 27,
       "retornable": null
     },
     {
@@ -22273,7 +22477,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 73344.15,
       "descuento": 0,
-      "stock": 2,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -22285,7 +22489,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 73344.15,
       "descuento": 0,
-      "stock": 33,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -22793,18 +22997,6 @@
       "retornable": null
     },
     {
-      "id": 4743,
-      "nombre": "ZORRO POLVO CLASICO MATIC 36*400 G",
-      "unidadesBulto": 36,
-      "codBarra": "7790990002278",
-      "familia": "HIGIENE",
-      "rubro": "JABONES Y SUAVIZANTES",
-      "precio": 43824.216,
-      "descuento": 0,
-      "stock": 4,
-      "retornable": null
-    },
-    {
       "id": 4744,
       "nombre": "ZORRO POLVO CLASICO AE 20*800G",
       "unidadesBulto": 20,
@@ -22873,7 +23065,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 47708.969,
       "descuento": 0,
-      "stock": 8,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -22897,7 +23089,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 47708.969,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -23005,7 +23197,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 32111.041,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -23058,7 +23250,7 @@
     },
     {
       "id": 4768,
-      "nombre": "ZORRO DTG U/NJA Y JENG 16*300CC",
+      "nombre": "ZORRO DTG U/NARANJA Y JENG 16*300CC",
       "unidadesBulto": 16,
       "codBarra": "7790990999882",
       "familia": "HIGIENE",
@@ -23082,7 +23274,7 @@
     },
     {
       "id": 4771,
-      "nombre": "ZORRO DTG U/NJA Y JENG 20*500CC",
+      "nombre": "ZORRO DTG U/NARANJA Y JENG 20*500CC",
       "unidadesBulto": 20,
       "codBarra": "7790990999875",
       "familia": "HIGIENE",
@@ -23233,7 +23425,7 @@
       "rubro": "LIMPIEZA",
       "precio": 38887.912,
       "descuento": 0,
-      "stock": 28,
+      "stock": 25,
       "retornable": null
     },
     {
@@ -23365,7 +23557,7 @@
       "rubro": "JABONES Y SUAVIZANTES",
       "precio": 68621.423,
       "descuento": 0,
-      "stock": 7,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -23461,7 +23653,7 @@
       "rubro": "GALLETAS",
       "precio": 24277.968,
       "descuento": 0,
-      "stock": 17,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -23533,7 +23725,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 85936.16,
       "descuento": 0,
-      "stock": 20,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -23569,7 +23761,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 85936.16,
       "descuento": 0,
-      "stock": 22,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -23773,7 +23965,7 @@
       "rubro": "VINOS",
       "precio": 59116.2,
       "descuento": 0,
-      "stock": 15,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -24181,7 +24373,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 51828.656,
       "descuento": 0,
-      "stock": 102,
+      "stock": 101,
       "retornable": null
     },
     {
@@ -24193,7 +24385,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 51828.656,
       "descuento": 0,
-      "stock": 12,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -24709,7 +24901,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 136800,
       "descuento": 0,
-      "stock": 50,
+      "stock": 51,
       "retornable": null
     },
     {
@@ -24733,7 +24925,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 135588,
       "descuento": 0,
-      "stock": 65,
+      "stock": 64,
       "retornable": null
     },
     {
@@ -24769,7 +24961,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 5199.999,
       "descuento": 0,
-      "stock": 149,
+      "stock": 148,
       "retornable": null
     },
     {
@@ -24877,7 +25069,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 205188,
       "descuento": 0,
-      "stock": 116,
+      "stock": 127,
       "retornable": null
     },
     {
@@ -24954,7 +25146,7 @@
     },
     {
       "id": 5183,
-      "nombre": "NAV CORR EXTRA BRUT 6 * 750 CC",
+      "nombre": "NAVARRO CORREAS EXTRA BRUT 6 * 750 CC",
       "unidadesBulto": 6,
       "codBarra": "15183",
       "familia": "CHAMPAGNES",
@@ -25009,7 +25201,7 @@
       "rubro": "FERNET Y APERITIVOS",
       "precio": 55157.421,
       "descuento": 0,
-      "stock": 150,
+      "stock": 149,
       "retornable": null
     },
     {
@@ -25189,7 +25381,7 @@
       "rubro": "VINOS",
       "precio": 39593.4,
       "descuento": 0,
-      "stock": 12,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -25381,7 +25573,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 58737.97,
       "descuento": 0,
-      "stock": 2,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -25609,7 +25801,7 @@
       "rubro": "VINOS",
       "precio": 27653.195,
       "descuento": 0,
-      "stock": 134,
+      "stock": 136,
       "retornable": null
     },
     {
@@ -25681,7 +25873,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 69308.836,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -25849,7 +26041,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 41444.153,
       "descuento": 0,
-      "stock": 5,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -25909,7 +26101,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 36719.769,
       "descuento": 0,
-      "stock": 1,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -25961,6 +26153,18 @@
       "retornable": null
     },
     {
+      "id": 6146,
+      "nombre": "MOLDE TRM P/PAN 1*26 CM",
+      "unidadesBulto": 1,
+      "codBarra": "7891112021648",
+      "familia": "OTROS",
+      "rubro": "BAZAR",
+      "precio": 17625.901,
+      "descuento": 0,
+      "stock": 12,
+      "retornable": null
+    },
+    {
       "id": 5328,
       "nombre": "JIM BEAM WHITE LABEL 12*750 CC",
       "unidadesBulto": 12,
@@ -25994,18 +26198,6 @@
       "precio": 25332.408,
       "descuento": 0,
       "stock": 6,
-      "retornable": null
-    },
-    {
-      "id": 6146,
-      "nombre": "MOLDE TRM P/PAN 1*26 CM",
-      "unidadesBulto": 1,
-      "codBarra": "7891112021648",
-      "familia": "OTROS",
-      "rubro": "BAZAR",
-      "precio": 17625.901,
-      "descuento": 0,
-      "stock": 12,
       "retornable": null
     },
     {
@@ -26173,7 +26365,7 @@
       "rubro": "VINOS",
       "precio": 83820.001,
       "descuento": 0,
-      "stock": 19,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -26461,7 +26653,7 @@
       "rubro": "VINOS",
       "precio": 45188.556,
       "descuento": 0,
-      "stock": 20,
+      "stock": 29,
       "retornable": null
     },
     {
@@ -26473,7 +26665,7 @@
       "rubro": "VINOS",
       "precio": 45188.551,
       "descuento": 0,
-      "stock": 4,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -26833,7 +27025,7 @@
       "rubro": "AGUA",
       "precio": 8380,
       "descuento": 0,
-      "stock": 73,
+      "stock": 68,
       "retornable": null
     },
     {
@@ -27217,7 +27409,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 95745.775,
       "descuento": 0,
-      "stock": 13,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -27229,7 +27421,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 95745.775,
       "descuento": 0,
-      "stock": 21,
+      "stock": 20,
       "retornable": null
     },
     {
@@ -27265,7 +27457,7 @@
       "rubro": "CHAMPAGNE",
       "precio": 95745.775,
       "descuento": 0,
-      "stock": 15,
+      "stock": 18,
       "retornable": null
     },
     {
@@ -27366,7 +27558,7 @@
     },
     {
       "id": 5525,
-      "nombre": "SMIRNOFF BC RUBY NJA/LIM 6*700CC",
+      "nombre": "SMIRNOFF BC RUBY NARANJA/LIM 6*700CC",
       "unidadesBulto": 6,
       "codBarra": "7791250003097",
       "familia": "APERITIVOS",
@@ -28441,7 +28633,7 @@
       "rubro": "APERITIVOS",
       "precio": 115392.533,
       "descuento": 0,
-      "stock": 12,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -28465,7 +28657,7 @@
       "rubro": "BEBIDAS BLANCAS Y LICORES",
       "precio": 57694.76,
       "descuento": 0,
-      "stock": 5,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -28477,7 +28669,7 @@
       "rubro": "APERITIVOS",
       "precio": 50849.003,
       "descuento": 0,
-      "stock": 9,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -28705,7 +28897,7 @@
       "rubro": "PAPELERA",
       "precio": 16842.764,
       "descuento": 0,
-      "stock": 12,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -28765,7 +28957,7 @@
       "rubro": "GALLETAS",
       "precio": 41980,
       "descuento": 0,
-      "stock": 47,
+      "stock": 44,
       "retornable": null
     },
     {
@@ -28885,7 +29077,7 @@
       "rubro": "LAVAVAJILLAS",
       "precio": 76005.739,
       "descuento": 0,
-      "stock": 18,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -29425,7 +29617,7 @@
       "rubro": "GALLETAS",
       "precio": 18101.319,
       "descuento": 0,
-      "stock": 2,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -29761,7 +29953,7 @@
       "rubro": "BAZAR",
       "precio": 3155.468,
       "descuento": 0,
-      "stock": 46,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -30330,7 +30522,7 @@
     },
     {
       "id": 6173,
-      "nombre": "TERMO EXATA NEG 6*1 LT",
+      "nombre": "TERMO EXATA NEGRO 6*1 LT",
       "unidadesBulto": 6,
       "codBarra": "7891116169506",
       "familia": "OTROS",
@@ -30529,7 +30721,7 @@
       "rubro": "BAZAR",
       "precio": 27060.002,
       "descuento": 0,
-      "stock": 6,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -30613,7 +30805,7 @@
       "rubro": "BAZAR",
       "precio": 11603.392,
       "descuento": 0,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -30649,7 +30841,7 @@
       "rubro": "GALLETAS",
       "precio": 18295.201,
       "descuento": 0,
-      "stock": 45,
+      "stock": 36,
       "retornable": null
     },
     {
@@ -30661,7 +30853,7 @@
       "rubro": "GALLETAS",
       "precio": 18295.2,
       "descuento": 0,
-      "stock": 25,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -30673,7 +30865,7 @@
       "rubro": "GALLETAS",
       "precio": 18295.2,
       "descuento": 0,
-      "stock": 49,
+      "stock": 46,
       "retornable": null
     },
     {
@@ -30685,7 +30877,7 @@
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
-      "stock": 46,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -30697,7 +30889,7 @@
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
-      "stock": 27,
+      "stock": 49,
       "retornable": null
     },
     {
@@ -30709,7 +30901,7 @@
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
-      "stock": 7,
+      "stock": 51,
       "retornable": null
     },
     {
@@ -30721,7 +30913,7 @@
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
-      "stock": 53,
+      "stock": 41,
       "retornable": null
     },
     {
@@ -30733,7 +30925,7 @@
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
-      "stock": 35,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -30781,7 +30973,7 @@
       "rubro": "GALLETAS",
       "precio": 16500,
       "descuento": 0,
-      "stock": 33,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -30793,7 +30985,7 @@
       "rubro": "GALLETAS",
       "precio": 8038.801,
       "descuento": 0,
-      "stock": 59,
+      "stock": 47,
       "retornable": null
     },
     {
@@ -30817,7 +31009,7 @@
       "rubro": "GALLETAS",
       "precio": 31878.004,
       "descuento": 0,
-      "stock": 5,
+      "stock": 37,
       "retornable": null
     },
     {
@@ -30868,7 +31060,7 @@
       "rubro": "CERVEZAS",
       "precio": 33550,
       "descuento": 0,
-      "stock": 151,
+      "stock": 148,
       "retornable": {
         "idEnvase": 2776,
         "cantEnvases": 12
@@ -30907,7 +31099,7 @@
       "rubro": "CERVEZAS",
       "precio": 67800,
       "descuento": 0,
-      "stock": 5,
+      "stock": 7,
       "retornable": {
         "idEnvase": 2776,
         "cantEnvases": 12
@@ -30934,7 +31126,7 @@
       "rubro": "CERVEZAS",
       "precio": 39840.004,
       "descuento": 0,
-      "stock": 27,
+      "stock": 43,
       "retornable": null
     },
     {
@@ -30946,7 +31138,7 @@
       "rubro": "CERVEZAS",
       "precio": 40200,
       "descuento": 0,
-      "stock": 18,
+      "stock": 17,
       "retornable": null
     },
     {
@@ -30970,7 +31162,7 @@
       "rubro": "CERVEZAS",
       "precio": 29652.658,
       "descuento": 6.35,
-      "stock": 492,
+      "stock": 491,
       "retornable": {
         "idEnvase": 2776,
         "cantEnvases": 12
@@ -31075,7 +31267,7 @@
       "rubro": "CERVEZAS",
       "precio": 81479.996,
       "descuento": 0,
-      "stock": 18,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -31087,7 +31279,7 @@
       "rubro": "CERVEZAS",
       "precio": 52776.001,
       "descuento": 0,
-      "stock": 13,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -31097,8 +31289,8 @@
       "codBarra": "7793147009199",
       "familia": "CERVEZAS",
       "rubro": "CERVEZAS",
-      "precio": 60480.005,
-      "descuento": 20,
+      "precio": 52920.004,
+      "descuento": 30,
       "stock": 55,
       "retornable": null
     },
@@ -31111,7 +31303,7 @@
       "rubro": "CERVEZAS",
       "precio": 81576,
       "descuento": 0,
-      "stock": 62,
+      "stock": 50,
       "retornable": null
     },
     {
@@ -31123,7 +31315,7 @@
       "rubro": "CERVEZAS",
       "precio": 66959.996,
       "descuento": 0,
-      "stock": 26,
+      "stock": 18,
       "retornable": null
     },
     {
@@ -31159,7 +31351,7 @@
       "rubro": "CERVEZAS",
       "precio": 54000,
       "descuento": 0,
-      "stock": 22,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -31219,7 +31411,7 @@
       "rubro": "CERVEZAS",
       "precio": 35840.004,
       "descuento": 0,
-      "stock": 50,
+      "stock": 41,
       "retornable": null
     },
     {
@@ -31229,9 +31421,9 @@
       "codBarra": "7792798013494",
       "familia": "CERVEZAS",
       "rubro": "CERVEZAS",
-      "precio": 37782.002,
-      "descuento": 25,
-      "stock": 33,
+      "precio": 25188.001,
+      "descuento": 50,
+      "stock": 31,
       "retornable": null
     },
     {
@@ -31255,7 +31447,7 @@
       "rubro": "GASEOSAS",
       "precio": 17220,
       "descuento": 0,
-      "stock": 25,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -31277,8 +31469,8 @@
       "codBarra": "7791813421153",
       "familia": "GASEOSAS",
       "rubro": "GASEOSAS",
-      "precio": 12270,
-      "descuento": 0,
+      "precio": 8753.4,
+      "descuento": 30,
       "stock": 19,
       "retornable": null
     },
@@ -31303,7 +31495,7 @@
       "rubro": "GASEOSAS",
       "precio": 17220.004,
       "descuento": 0,
-      "stock": 18,
+      "stock": 19,
       "retornable": null
     },
     {
@@ -31327,7 +31519,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 31188.281,
       "descuento": 17.115,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -31349,8 +31541,8 @@
       "codBarra": "7840050009737",
       "familia": "CERVEZAS",
       "rubro": "CERVEZAS",
-      "precio": 34634.554,
-      "descuento": 15,
+      "precio": 29069.103,
+      "descuento": 30,
       "stock": 31,
       "retornable": null
     },
@@ -31426,7 +31618,7 @@
       "rubro": "GALLETAS",
       "precio": 44924.075,
       "descuento": 0,
-      "stock": 11,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -31462,7 +31654,7 @@
       "rubro": "CERVEZAS",
       "precio": 52742.701,
       "descuento": 30,
-      "stock": 23,
+      "stock": 16,
       "retornable": null
     },
     {
@@ -31498,7 +31690,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 10149.226,
       "descuento": 0,
-      "stock": 29,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -31510,7 +31702,7 @@
       "rubro": "CERVEZAS",
       "precio": 46560,
       "descuento": 0,
-      "stock": 141,
+      "stock": 143,
       "retornable": null
     },
     {
@@ -31522,7 +31714,7 @@
       "rubro": "CERVEZAS",
       "precio": 37680.002,
       "descuento": 0,
-      "stock": 114,
+      "stock": 110,
       "retornable": {
         "idEnvase": 2776,
         "cantEnvases": 12
@@ -31561,7 +31753,7 @@
       "rubro": "GASEOSAS",
       "precio": 19259.032,
       "descuento": 25.118,
-      "stock": 16,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -31573,7 +31765,7 @@
       "rubro": "GASEOSAS",
       "precio": 32040,
       "descuento": 0,
-      "stock": 13,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -31585,7 +31777,7 @@
       "rubro": "GASEOSAS",
       "precio": 32040.001,
       "descuento": 0,
-      "stock": 4,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -31633,7 +31825,7 @@
       "rubro": "CERVEZAS",
       "precio": 53988,
       "descuento": 0,
-      "stock": 135,
+      "stock": 131,
       "retornable": null
     },
     {
@@ -31645,7 +31837,7 @@
       "rubro": "CERVEZAS",
       "precio": 67350.011,
       "descuento": 6.97,
-      "stock": 131,
+      "stock": 127,
       "retornable": null
     },
     {
@@ -31669,7 +31861,7 @@
       "rubro": "GASEOSAS",
       "precio": 8554.646,
       "descuento": 5,
-      "stock": 13,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -31681,7 +31873,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 44043.782,
       "descuento": 0,
-      "stock": 8,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -31705,7 +31897,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 44043.782,
       "descuento": 0,
-      "stock": 13,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -31741,7 +31933,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 44043.782,
       "descuento": 0,
-      "stock": 7,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -31830,7 +32022,7 @@
     },
     {
       "id": 61705,
-      "nombre": "LA VIRGINIA INST SVE ESPUMANTE DP 10*170 G",
+      "nombre": "LA VIRGINIA INSTANTANEA SUAVE ESPUMANTE DP 10*170 G",
       "unidadesBulto": 10,
       "codBarra": "7790150101476",
       "familia": "INFUSIONES",
@@ -31842,7 +32034,7 @@
     },
     {
       "id": 61706,
-      "nombre": "INST LV SUAVE ESPUMA INST FRCO 6*170G",
+      "nombre": "INSTANTANEA LA VIRGINIA SUAVE ESPUMA INSTANTANEA FRCO 6*170G",
       "unidadesBulto": 6,
       "codBarra": "7790150101490",
       "familia": "INFUSIONES",
@@ -31854,7 +32046,7 @@
     },
     {
       "id": 61707,
-      "nombre": "LA VIRGINIA INST SVE ESPUMANTE DP 10*100G",
+      "nombre": "LA VIRGINIA INSTANTANEA SUAVE ESPUMANTE DP 10*100G",
       "unidadesBulto": 10,
       "codBarra": "7790150101780",
       "familia": "INFUSIONES",
@@ -31913,42 +32105,6 @@
       "retornable": null
     },
     {
-      "id": 61714,
-      "nombre": "JARDINERA INALPA+CHOCLO 24*300GR",
-      "unidadesBulto": 24,
-      "codBarra": "7792350067941",
-      "familia": "CONSERVAS",
-      "rubro": "CONSERVAS Y COMESTIBLES",
-      "precio": 25603.206,
-      "descuento": 0,
-      "stock": 22,
-      "retornable": null
-    },
-    {
-      "id": 61715,
-      "nombre": "POROTOS COLORADOS 24*300G",
-      "unidadesBulto": 24,
-      "codBarra": "7792350067095",
-      "familia": "CONSERVAS",
-      "rubro": "CONSERVAS Y COMESTIBLES",
-      "precio": 11314.8,
-      "descuento": 50,
-      "stock": 14,
-      "retornable": null
-    },
-    {
-      "id": 61722,
-      "nombre": "WHISKY GLENFIDD MALT 12*1000",
-      "unidadesBulto": 12,
-      "codBarra": "5010327302201",
-      "familia": "APERITIVOS",
-      "rubro": "BEBIDAS BLANCAS Y LICORES",
-      "precio": 1598229.084,
-      "descuento": 0,
-      "stock": 2,
-      "retornable": null
-    },
-    {
       "id": 86,
       "nombre": "GALLO BIZC ARROZ DULCE 56*100+10G",
       "unidadesBulto": 56,
@@ -31958,18 +32114,6 @@
       "precio": 93414.154,
       "descuento": 0,
       "stock": 2,
-      "retornable": null
-    },
-    {
-      "id": 91,
-      "nombre": "N GAUCHA SERENA 10*500G+50G",
-      "unidadesBulto": 10,
-      "codBarra": "7790070103024",
-      "familia": "INFUSIONES",
-      "rubro": "YERBAS",
-      "precio": 19915.063,
-      "descuento": 0,
-      "stock": 74,
       "retornable": null
     },
     {
@@ -31993,7 +32137,7 @@
       "rubro": "LIMPIEZA",
       "precio": 18680.041,
       "descuento": 0,
-      "stock": 4,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -32017,7 +32161,7 @@
       "rubro": "ALFAJORES",
       "precio": 9000.004,
       "descuento": 0,
-      "stock": 9,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -32039,9 +32183,9 @@
       "codBarra": "77993540",
       "familia": "GOLOSINAS",
       "rubro": "GOLOSINAS",
-      "precio": 14400.099,
-      "descuento": 19.094,
-      "stock": 39,
+      "precio": 13348.917,
+      "descuento": 25,
+      "stock": 35,
       "retornable": null
     },
     {
@@ -32077,7 +32221,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 88079.639,
       "descuento": 0,
-      "stock": 12,
+      "stock": 8,
       "retornable": null
     },
     {
@@ -32173,19 +32317,7 @@
       "rubro": "GALLETAS",
       "precio": 34080.001,
       "descuento": 0,
-      "stock": 10,
-      "retornable": null
-    },
-    {
-      "id": 2831,
-      "nombre": "SALADIX CALABRESA 24*100G",
-      "unidadesBulto": 24,
-      "codBarra": "7790580716806",
-      "familia": "GOLOSINAS",
-      "rubro": "SNACKS SALUDABLES",
-      "precio": 36545.981,
-      "descuento": 0,
-      "stock": 10,
+      "stock": 13,
       "retornable": null
     },
     {
@@ -32197,7 +32329,7 @@
       "rubro": "APERITIVOS",
       "precio": 26165.314,
       "descuento": 50,
-      "stock": 18,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -32221,31 +32353,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 88079.639,
       "descuento": 0,
-      "stock": 75,
-      "retornable": null
-    },
-    {
-      "id": 4829,
-      "nombre": "MAGISTRAL ANTIGR NJA GT 12*500CC",
-      "unidadesBulto": 12,
-      "codBarra": "7790990004029",
-      "familia": "HIGIENE",
-      "rubro": "LIMPIEZA",
-      "precio": 53174.66,
-      "descuento": 0,
-      "stock": 15,
-      "retornable": null
-    },
-    {
-      "id": 4830,
-      "nombre": "MAGISTRAL ANTIGR NJA DP 21*450CC",
-      "unidadesBulto": 21,
-      "codBarra": "7790990004043",
-      "familia": "HIGIENE",
-      "rubro": "LIMPIEZA",
-      "precio": 51431.05,
-      "descuento": 0,
-      "stock": 22,
+      "stock": 69,
       "retornable": null
     },
     {
@@ -32257,7 +32365,7 @@
       "rubro": "VINOS",
       "precio": 15448.97,
       "descuento": 0,
-      "stock": 25,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -32281,7 +32389,7 @@
       "rubro": "VINOS",
       "precio": 17406.835,
       "descuento": 0,
-      "stock": 24,
+      "stock": 23,
       "retornable": null
     },
     {
@@ -32425,7 +32533,7 @@
       "rubro": "VINOS",
       "precio": 17406.835,
       "descuento": 0,
-      "stock": 2,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -32449,7 +32557,7 @@
       "rubro": "VINOS",
       "precio": 23895.858,
       "descuento": 0,
-      "stock": 11,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -32489,15 +32597,51 @@
       "retornable": null
     },
     {
-      "id": 5215,
-      "nombre": "ALAMOS WOTM RVA MBC 6*750CC",
-      "unidadesBulto": 6,
-      "codBarra": "7794450091338",
-      "familia": "VINOS",
-      "rubro": "VINOS",
-      "precio": 46530.001,
+      "id": 61714,
+      "nombre": "JARDINERA INALPA+CHOCLO 24*300GR",
+      "unidadesBulto": 24,
+      "codBarra": "7792350067941",
+      "familia": "CONSERVAS",
+      "rubro": "CONSERVAS Y COMESTIBLES",
+      "precio": 25603.206,
       "descuento": 0,
-      "stock": 4,
+      "stock": 22,
+      "retornable": null
+    },
+    {
+      "id": 61715,
+      "nombre": "POROTOS COLORADOS 24*300G",
+      "unidadesBulto": 24,
+      "codBarra": "7792350067095",
+      "familia": "CONSERVAS",
+      "rubro": "CONSERVAS Y COMESTIBLES",
+      "precio": 11314.8,
+      "descuento": 50,
+      "stock": 14,
+      "retornable": null
+    },
+    {
+      "id": 61722,
+      "nombre": "WHISKY GLENFIDD MALT 12*1000",
+      "unidadesBulto": 12,
+      "codBarra": "5010327302201",
+      "familia": "APERITIVOS",
+      "rubro": "BEBIDAS BLANCAS Y LICORES",
+      "precio": 1598229.084,
+      "descuento": 0,
+      "stock": 2,
+      "retornable": null
+    },
+    {
+      "id": 91,
+      "nombre": "N GAUCHA SERENA 10*500G+50G",
+      "unidadesBulto": 10,
+      "codBarra": "7790070103024",
+      "familia": "INFUSIONES",
+      "rubro": "YERBAS",
+      "precio": 19915.063,
+      "descuento": 0,
+      "stock": 74,
       "retornable": null
     },
     {
@@ -32521,7 +32665,7 @@
       "rubro": "LIMPIEZA",
       "precio": 100656.004,
       "descuento": 0,
-      "stock": 88,
+      "stock": 87,
       "retornable": null
     },
     {
@@ -32545,7 +32689,7 @@
       "rubro": "PILAS",
       "precio": 26250,
       "descuento": 0,
-      "stock": 13,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -32657,6 +32801,18 @@
       "retornable": null
     },
     {
+      "id": 2476,
+      "nombre": "SALADIX CROSS ORIG 20*135G",
+      "unidadesBulto": 20,
+      "codBarra": "7790040129641",
+      "familia": "GOLOSINAS",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 42577.389,
+      "descuento": 0,
+      "stock": 10,
+      "retornable": null
+    },
+    {
       "id": 2477,
       "nombre": "SALADIX CROSS PIZZA 20*135G",
       "unidadesBulto": 20,
@@ -32665,7 +32821,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 42577.389,
       "descuento": 0,
-      "stock": 2,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -32689,31 +32845,7 @@
       "rubro": "GALLETAS",
       "precio": 24703.261,
       "descuento": 7,
-      "stock": 5,
-      "retornable": null
-    },
-    {
-      "id": 2490,
-      "nombre": "PRESTOPRONTA 4QSO 42*250G",
-      "unidadesBulto": 42,
-      "codBarra": "7790580155025",
-      "familia": "HARINAS",
-      "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 57852.572,
-      "descuento": 0,
-      "stock": 3,
-      "retornable": null
-    },
-    {
-      "id": 2491,
-      "nombre": "PRESTOPRONTA VEGET 42*250 G",
-      "unidadesBulto": 42,
-      "codBarra": "7790580137762",
-      "familia": "HARINAS",
-      "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 57852.572,
-      "descuento": 0,
-      "stock": 9,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -32737,7 +32869,7 @@
       "rubro": "GOLOSINAS",
       "precio": 12255.003,
       "descuento": 5,
-      "stock": 3,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -32773,7 +32905,7 @@
       "rubro": "GOLOSINAS",
       "precio": 12255.003,
       "descuento": 5,
-      "stock": 3,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -32786,18 +32918,6 @@
       "precio": 77827.2,
       "descuento": 0,
       "stock": 10,
-      "retornable": null
-    },
-    {
-      "id": 2818,
-      "nombre": "PEPAS TRIO ALEMANAS 10*500 G",
-      "unidadesBulto": 10,
-      "codBarra": "7791787100726",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 27800,
-      "descuento": 0,
-      "stock": 2,
       "retornable": null
     },
     {
@@ -32833,7 +32953,7 @@
       "rubro": "LIMPIEZA",
       "precio": 23580,
       "descuento": 0,
-      "stock": 2,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -32857,7 +32977,7 @@
       "rubro": "LIMPIEZA",
       "precio": 23580,
       "descuento": 0,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -32885,15 +33005,15 @@
       "retornable": null
     },
     {
-      "id": 2848,
-      "nombre": "ALF GOAT NEGRO 21*75 G",
-      "unidadesBulto": 21,
-      "codBarra": "7790040154896",
+      "id": 2831,
+      "nombre": "SALADIX CALABRESA 24*100G",
+      "unidadesBulto": 24,
+      "codBarra": "7790580716806",
       "familia": "GOLOSINAS",
-      "rubro": "ALFAJORES",
-      "precio": 35070,
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 36545.981,
       "descuento": 0,
-      "stock": 8,
+      "stock": 10,
       "retornable": null
     },
     {
@@ -32906,18 +33026,6 @@
       "precio": 158880,
       "descuento": 0,
       "stock": 77,
-      "retornable": null
-    },
-    {
-      "id": 2875,
-      "nombre": "PEPAS TRIO GLASY 20*175G",
-      "unidadesBulto": 20,
-      "codBarra": "7791787000620",
-      "familia": "GOLOSINAS",
-      "rubro": "GALLETAS",
-      "precio": 19700,
-      "descuento": 0,
-      "stock": 1,
       "retornable": null
     },
     {
@@ -32953,7 +33061,7 @@
       "rubro": "VINOS",
       "precio": 25200.005,
       "descuento": 0,
-      "stock": 29,
+      "stock": 26,
       "retornable": null
     },
     {
@@ -32977,7 +33085,7 @@
       "rubro": "VINOS",
       "precio": 33360.003,
       "descuento": 0,
-      "stock": 67,
+      "stock": 68,
       "retornable": null
     },
     {
@@ -33041,6 +33149,30 @@
       "retornable": null
     },
     {
+      "id": 4829,
+      "nombre": "MAGISTRAL ANTIGR NARANJA GT 12*500CC",
+      "unidadesBulto": 12,
+      "codBarra": "7790990004029",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 53174.66,
+      "descuento": 0,
+      "stock": 15,
+      "retornable": null
+    },
+    {
+      "id": 4830,
+      "nombre": "MAGISTRAL ANTIGR NARANJA DP 21*450CC",
+      "unidadesBulto": 21,
+      "codBarra": "7790990004043",
+      "familia": "HIGIENE",
+      "rubro": "LIMPIEZA",
+      "precio": 51431.05,
+      "descuento": 0,
+      "stock": 22,
+      "retornable": null
+    },
+    {
       "id": 5043,
       "nombre": "MI CHANCES MBC/CAB 6*750CC",
       "unidadesBulto": 6,
@@ -33066,7 +33198,7 @@
     },
     {
       "id": 5075,
-      "nombre": "MI CHANCES TORR/CHEN MB 6*750CC",
+      "nombre": "MI CHANCES TORRADO/CHEN MB 6*750CC",
       "unidadesBulto": 6,
       "codBarra": "7798051303340",
       "familia": "VINOS",
@@ -33086,6 +33218,18 @@
       "precio": 424710.001,
       "descuento": 0,
       "stock": 2,
+      "retornable": null
+    },
+    {
+      "id": 5215,
+      "nombre": "ALAMOS WOTM RVA MBC 6*750CC",
+      "unidadesBulto": 6,
+      "codBarra": "7794450091338",
+      "familia": "VINOS",
+      "rubro": "VINOS",
+      "precio": 46530.001,
+      "descuento": 0,
+      "stock": 4,
       "retornable": null
     },
     {
@@ -33126,7 +33270,7 @@
     },
     {
       "id": 5852,
-      "nombre": "CAFE BONAFIDE TOST EQUIL 6*200 G",
+      "nombre": "CAFE BONAFIDE TOSTADO EQUIL 6*200 G",
       "unidadesBulto": 6,
       "codBarra": "7792360097747",
       "familia": "INFUSIONES",
@@ -33134,18 +33278,6 @@
       "precio": 38160,
       "descuento": 0,
       "stock": 7,
-      "retornable": null
-    },
-    {
-      "id": 5853,
-      "nombre": "CAFE BONAFIDE TOST INT 6*200 G",
-      "unidadesBulto": 6,
-      "codBarra": "7792360097754",
-      "familia": "INFUSIONES",
-      "rubro": "CAFE",
-      "precio": 38160.012,
-      "descuento": 0,
-      "stock": 3,
       "retornable": null
     },
     {
@@ -33313,7 +33445,7 @@
       "rubro": "GALLETAS",
       "precio": 15600,
       "descuento": 0,
-      "stock": 35,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -33325,7 +33457,7 @@
       "rubro": "GALLETAS",
       "precio": 12480,
       "descuento": 20,
-      "stock": 40,
+      "stock": 35,
       "retornable": null
     },
     {
@@ -33347,9 +33479,9 @@
       "codBarra": "7792180134509",
       "familia": "HARINAS",
       "rubro": "HARINAS Y PREMEZCLAS",
-      "precio": 9732.392,
-      "descuento": 50,
-      "stock": 9,
+      "precio": 15571.828,
+      "descuento": 20,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -33385,7 +33517,7 @@
       "rubro": "GALLETAS",
       "precio": 19400,
       "descuento": 0,
-      "stock": 15,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -33397,7 +33529,7 @@
       "rubro": "GALLETAS",
       "precio": 19400.003,
       "descuento": 0,
-      "stock": 24,
+      "stock": 18,
       "retornable": null
     },
     {
@@ -33409,7 +33541,7 @@
       "rubro": "AGUA",
       "precio": 5637.412,
       "descuento": 0,
-      "stock": 30,
+      "stock": 27,
       "retornable": null
     },
     {
@@ -33457,7 +33589,7 @@
       "rubro": "ALFAJORES",
       "precio": 13300.001,
       "descuento": 30,
-      "stock": 14,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -33479,9 +33611,33 @@
       "codBarra": "7798359560476",
       "familia": "GOLOSINAS",
       "rubro": "ALFAJORES",
-      "precio": 14952.003,
-      "descuento": 30,
+      "precio": 10680.002,
+      "descuento": 50,
       "stock": 14,
+      "retornable": null
+    },
+    {
+      "id": 2490,
+      "nombre": "PRESTOPRONTA 4QSO 42*250G",
+      "unidadesBulto": 42,
+      "codBarra": "7790580155025",
+      "familia": "HARINAS",
+      "rubro": "HARINAS Y PREMEZCLAS",
+      "precio": 57852.572,
+      "descuento": 0,
+      "stock": 3,
+      "retornable": null
+    },
+    {
+      "id": 2491,
+      "nombre": "PRESTOPRONTA VEGET 42*250 G",
+      "unidadesBulto": 42,
+      "codBarra": "7790580137762",
+      "familia": "HARINAS",
+      "rubro": "HARINAS Y PREMEZCLAS",
+      "precio": 57852.572,
+      "descuento": 0,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -33493,7 +33649,7 @@
       "rubro": "PAPELERA",
       "precio": 24346.325,
       "descuento": 0,
-      "stock": 15,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -33534,14 +33690,14 @@
     },
     {
       "id": 2530,
-      "nombre": "SIERRA DE PADRES NJA 6*1500 CC",
+      "nombre": "SIERRA DE PADRES NARANJA 6*1500 CC",
       "unidadesBulto": 6,
       "codBarra": "7798065730323",
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
-      "precio": 3285,
-      "descuento": 50,
-      "stock": 36,
+      "precio": 6570,
+      "descuento": 0,
+      "stock": 23,
       "retornable": null
     },
     {
@@ -33551,8 +33707,8 @@
       "codBarra": "7798065730347",
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
-      "precio": 3285.001,
-      "descuento": 50,
+      "precio": 6570.002,
+      "descuento": 0,
       "stock": 44,
       "retornable": null
     },
@@ -33563,9 +33719,9 @@
       "codBarra": "7798065730354",
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
-      "precio": 2025,
-      "descuento": 50,
-      "stock": 26,
+      "precio": 1377,
+      "descuento": 66,
+      "stock": 74,
       "retornable": null
     },
     {
@@ -33606,7 +33762,7 @@
     },
     {
       "id": 2537,
-      "nombre": "AGUA SIERRA D/L/PADRES RUN 12*600CC",
+      "nombre": "AGUA SIERRA DE LOS PADRES RUN 12*600CC",
       "unidadesBulto": 12,
       "codBarra": "7798065733775",
       "familia": "OTRAS BEBIDAS",
@@ -33625,7 +33781,7 @@
       "rubro": "SODA",
       "precio": 5640,
       "descuento": 20,
-      "stock": 3,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -33637,7 +33793,7 @@
       "rubro": "CERVEZAS",
       "precio": 8130,
       "descuento": 0,
-      "stock": 340,
+      "stock": 339,
       "retornable": null
     },
     {
@@ -33721,7 +33877,7 @@
       "rubro": "GALLETAS",
       "precio": 26990,
       "descuento": 0,
-      "stock": 9,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -33733,7 +33889,7 @@
       "rubro": "GALLETAS",
       "precio": 19400.003,
       "descuento": 0,
-      "stock": 8,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -33774,14 +33930,14 @@
     },
     {
       "id": 2585,
-      "nombre": "CONSORCIO NEG FUELLE 50*60*90",
+      "nombre": "CONSORCIO NEGRO FUELLE 50*60*90",
       "unidadesBulto": 50,
       "codBarra": "7798197890025",
       "familia": "PAPELERIA",
       "rubro": "LIMPIEZA",
       "precio": 43400,
       "descuento": 0,
-      "stock": 41,
+      "stock": 29,
       "retornable": null
     },
     {
@@ -33798,19 +33954,19 @@
     },
     {
       "id": 2587,
-      "nombre": "CONSORCIO NEG FUELLE 25*80*110",
+      "nombre": "CONSORCIO NEGRO FUELLE 25*80*110",
       "unidadesBulto": 25,
       "codBarra": "7798197890032",
       "familia": "PAPELERIA",
       "rubro": "LIMPIEZA",
       "precio": 46900.001,
       "descuento": 0,
-      "stock": 20,
+      "stock": 16,
       "retornable": null
     },
     {
       "id": 2588,
-      "nombre": "CONSORCIO NEG FUELLE 25*90*120",
+      "nombre": "CONSORCIO NEGRO FUELLE 25*90*120",
       "unidadesBulto": 25,
       "codBarra": "7798197890049",
       "familia": "PAPELERIA",
@@ -33822,19 +33978,19 @@
     },
     {
       "id": 2589,
-      "nombre": "RESIDUO NEG FUELLE 25*45*60",
+      "nombre": "RESIDUO NEGRO FUELLE 25*45*60",
       "unidadesBulto": 25,
       "codBarra": "7798197890018",
       "familia": "PAPELERIA",
       "rubro": "LIMPIEZA",
       "precio": 27965.001,
       "descuento": 0,
-      "stock": 27,
+      "stock": 21,
       "retornable": null
     },
     {
       "id": 2590,
-      "nombre": "CONSORCIO NEG FUELLE 50*50*70",
+      "nombre": "CONSORCIO NEGRO FUELLE 50*50*70",
       "unidadesBulto": 50,
       "codBarra": "",
       "familia": "PAPELERIA",
@@ -33937,7 +34093,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 34320.004,
       "descuento": 0,
-      "stock": 14,
+      "stock": 15,
       "retornable": null
     },
     {
@@ -33949,12 +34105,12 @@
       "rubro": "PASTAS SECAS",
       "precio": 34320.004,
       "descuento": 0,
-      "stock": 11,
+      "stock": 8,
       "retornable": null
     },
     {
       "id": 2813,
-      "nombre": "ALF BOB TRIP BLANCO 21*60 G",
+      "nombre": "ALF BON O BON TRIP BLANCO 21*60 G",
       "unidadesBulto": 21,
       "codBarra": "7790040152748",
       "familia": "GOLOSINAS",
@@ -33962,6 +34118,30 @@
       "precio": 30901.502,
       "descuento": 0,
       "stock": 7,
+      "retornable": null
+    },
+    {
+      "id": 2818,
+      "nombre": "PEPAS TRIO ALEMANAS 10*500 G",
+      "unidadesBulto": 10,
+      "codBarra": "7791787100726",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 27800,
+      "descuento": 0,
+      "stock": 2,
+      "retornable": null
+    },
+    {
+      "id": 2848,
+      "nombre": "ALF GOAT NEGRO 21*75 G",
+      "unidadesBulto": 21,
+      "codBarra": "7790040154896",
+      "familia": "GOLOSINAS",
+      "rubro": "ALFAJORES",
+      "precio": 35070,
+      "descuento": 0,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -34001,6 +34181,18 @@
       "retornable": null
     },
     {
+      "id": 2875,
+      "nombre": "PEPAS TRIO GLASY 20*175G",
+      "unidadesBulto": 20,
+      "codBarra": "7791787000620",
+      "familia": "GOLOSINAS",
+      "rubro": "GALLETAS",
+      "precio": 19700,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
       "id": 3089,
       "nombre": "TACCONI POMELO 12*1500 CC",
       "unidadesBulto": 12,
@@ -34026,7 +34218,7 @@
     },
     {
       "id": 3832,
-      "nombre": "NUEZ MOSC MOL CONDILIST 6*1KG",
+      "nombre": "NUEZ MOSC MOLIDO CONDILIST 6*1KG",
       "unidadesBulto": 6,
       "codBarra": "7790150049266",
       "familia": "ADEREZOS",
@@ -34050,7 +34242,7 @@
     },
     {
       "id": 3835,
-      "nombre": "PIMIENTA NEG MOL CONDILIST 6*1KG",
+      "nombre": "PIMIENTA NEGRO MOLIDO CONDILIST 6*1KG",
       "unidadesBulto": 6,
       "codBarra": "7790150023266",
       "familia": "ADEREZOS",
@@ -34081,7 +34273,7 @@
       "rubro": "DESODORANTES CORPORALES",
       "precio": 59988.001,
       "descuento": 0,
-      "stock": 1,
+      "stock": 9,
       "retornable": null
     },
     {
@@ -34105,7 +34297,7 @@
       "rubro": "GALLETAS",
       "precio": 33615.599,
       "descuento": 0,
-      "stock": 4,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -34117,7 +34309,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 11175.003,
       "descuento": 0,
-      "stock": 58,
+      "stock": 45,
       "retornable": null
     },
     {
@@ -34129,7 +34321,7 @@
       "rubro": "SNACKS SALUDABLES",
       "precio": 11175.003,
       "descuento": 0,
-      "stock": 7,
+      "stock": 5,
       "retornable": null
     },
     {
@@ -34169,6 +34361,18 @@
       "retornable": null
     },
     {
+      "id": 5853,
+      "nombre": "CAFE BONAFIDE TOSTADO INT 6*200 G",
+      "unidadesBulto": 6,
+      "codBarra": "7792360097754",
+      "familia": "INFUSIONES",
+      "rubro": "CAFE",
+      "precio": 38160.012,
+      "descuento": 0,
+      "stock": 3,
+      "retornable": null
+    },
+    {
       "id": 6074,
       "nombre": "WINDSOR COPA DE AGUA",
       "unidadesBulto": 1,
@@ -34181,6 +34385,18 @@
       "retornable": null
     },
     {
+      "id": 166,
+      "nombre": "TIRABUZON 3 VEG MATARAZZO 12*500+50G",
+      "unidadesBulto": 12,
+      "codBarra": "7790070106209",
+      "familia": "PASTAS",
+      "rubro": "PASTAS SECAS",
+      "precio": 21768.573,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
       "id": 715,
       "nombre": "ACEITE PRIMORDIAL 4*5000 CC",
       "unidadesBulto": 4,
@@ -34189,7 +34405,7 @@
       "rubro": "ACEITES",
       "precio": 56956,
       "descuento": 0,
-      "stock": 499,
+      "stock": 497,
       "retornable": null
     },
     {
@@ -34225,7 +34441,7 @@
       "rubro": "GALLETAS",
       "precio": 43200.001,
       "descuento": 0,
-      "stock": 10,
+      "stock": 24,
       "retornable": null
     },
     {
@@ -34237,7 +34453,7 @@
       "rubro": "GALLETAS",
       "precio": 43200.013,
       "descuento": 0,
-      "stock": 32,
+      "stock": 23,
       "retornable": null
     },
     {
@@ -34249,7 +34465,7 @@
       "rubro": "GALLETAS",
       "precio": 43200.013,
       "descuento": 0,
-      "stock": 18,
+      "stock": 12,
       "retornable": null
     },
     {
@@ -34310,9 +34526,9 @@
       "codBarra": "7798113302724",
       "familia": "OTRAS BEBIDAS",
       "rubro": "AGUA SABORIZADA",
-      "precio": 3380.332,
-      "descuento": 50,
-      "stock": 16,
+      "precio": 2091.643,
+      "descuento": 70,
+      "stock": 156,
       "retornable": null
     },
     {
@@ -34433,6 +34649,30 @@
       "precio": 87840,
       "descuento": 0,
       "stock": 24,
+      "retornable": null
+    },
+    {
+      "id": 2782,
+      "nombre": "PEHUAMAR PAPA ACANALADA 22*90G",
+      "unidadesBulto": 22,
+      "codBarra": "7790310987742",
+      "familia": "GOLOSINAS",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 47414.267,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
+      "id": 2783,
+      "nombre": "PEHUAMAR PAPA LISA 22*90G",
+      "unidadesBulto": 22,
+      "codBarra": "7790310987759",
+      "familia": "GOLOSINAS",
+      "rubro": "SNACKS SALUDABLES",
+      "precio": 47414.271,
+      "descuento": 0,
+      "stock": 1,
       "retornable": null
     },
     {
@@ -34628,6 +34868,18 @@
       "retornable": null
     },
     {
+      "id": 3909,
+      "nombre": "DON JUAN RVA BLEND 1*5 LTS",
+      "unidadesBulto": 1,
+      "codBarra": "7798123975451",
+      "familia": "VINOS",
+      "rubro": "VINOS",
+      "precio": 122500.001,
+      "descuento": 0,
+      "stock": 1,
+      "retornable": null
+    },
+    {
       "id": 4240,
       "nombre": "ALFAJOR MINITORTA COCO 21*69G",
       "unidadesBulto": 21,
@@ -34672,7 +34924,7 @@
       "rubro": "CUIDADO DEL CABELLO",
       "precio": 44383.127,
       "descuento": 0,
-      "stock": 9,
+      "stock": 6,
       "retornable": null
     },
     {
@@ -34732,7 +34984,7 @@
       "rubro": "VINOS",
       "precio": 57473.997,
       "descuento": 0,
-      "stock": 4,
+      "stock": 3,
       "retornable": null
     },
     {
@@ -34768,7 +35020,7 @@
       "rubro": "SODA",
       "precio": 6930,
       "descuento": 0,
-      "stock": 76,
+      "stock": 74,
       "retornable": null
     },
     {
@@ -34853,6 +35105,18 @@
       "precio": 25695.993,
       "descuento": 0,
       "stock": 2,
+      "retornable": null
+    },
+    {
+      "id": 7472,
+      "nombre": "PASO DE LOS TOROS POMELO 8*2000CC",
+      "unidadesBulto": 8,
+      "codBarra": "",
+      "familia": "GASEOSAS",
+      "rubro": "GASEOSAS",
+      "precio": 25600,
+      "descuento": 0,
+      "stock": 30,
       "retornable": null
     }
   ]
