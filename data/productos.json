@@ -1,6 +1,6 @@
 {
-  "ultima_actualizacion": "2026-07-26T10:38:16.092Z",
-  "total": 2970,
+  "ultima_actualizacion": "2026-07-27T12:14:06.229Z",
+  "total": 2969,
   "envases": {
     "2776": {
       "precio": 24000,
@@ -2113,7 +2113,7 @@
       "rubro": "YERBAS",
       "precio": 21609.088,
       "descuento": 0,
-      "stock": 17,
+      "stock": 14,
       "retornable": null
     },
     {
@@ -2185,7 +2185,7 @@
       "rubro": "ARROZ",
       "precio": 23576.898,
       "descuento": 0,
-      "stock": 5,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -2245,7 +2245,7 @@
       "rubro": "LACTEOS",
       "precio": 32700,
       "descuento": 0,
-      "stock": 29,
+      "stock": 28,
       "retornable": null
     },
     {
@@ -3073,7 +3073,7 @@
       "rubro": "ARROZ",
       "precio": 12300.001,
       "descuento": 0,
-      "stock": 160,
+      "stock": 159,
       "retornable": null
     },
     {
@@ -3253,7 +3253,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26460.005,
       "descuento": 0,
-      "stock": 14,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -3601,7 +3601,7 @@
       "rubro": "LACTEOS",
       "precio": 21588.002,
       "descuento": 0,
-      "stock": 89,
+      "stock": 88,
       "retornable": null
     },
     {
@@ -3613,7 +3613,7 @@
       "rubro": "GALLETAS",
       "precio": 19950,
       "descuento": 0,
-      "stock": 14,
+      "stock": 11,
       "retornable": null
     },
     {
@@ -4189,7 +4189,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12379.999,
       "descuento": 0,
-      "stock": 5,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -4201,7 +4201,7 @@
       "rubro": "PASTAS SECAS",
       "precio": 12379.999,
       "descuento": 0,
-      "stock": 51,
+      "stock": 48,
       "retornable": null
     },
     {
@@ -4643,7 +4643,7 @@
       "codBarra": "7791866001357",
       "familia": "ADEREZOS",
       "rubro": "MAYONESAS Y ADEREZOS",
-      "precio": 43887.305,
+      "precio": 48902.755,
       "descuento": 0,
       "stock": 3,
       "retornable": null
@@ -5233,7 +5233,7 @@
       "rubro": "PAPELERA",
       "precio": 33763.499,
       "descuento": 0,
-      "stock": 60,
+      "stock": 59,
       "retornable": null
     },
     {
@@ -5644,7 +5644,7 @@
       "rubro": "JUGOS",
       "precio": 8731.254,
       "descuento": 20,
-      "stock": 39,
+      "stock": 38,
       "retornable": null
     },
     {
@@ -5812,7 +5812,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 2091.643,
       "descuento": 70,
-      "stock": 73,
+      "stock": 65,
       "retornable": null
     },
     {
@@ -8026,7 +8026,7 @@
       "rubro": "ALFAJORES",
       "precio": 13283.271,
       "descuento": 0,
-      "stock": 33,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -9130,7 +9130,7 @@
       "rubro": "JUGOS",
       "precio": 8969.028,
       "descuento": 0,
-      "stock": 10,
+      "stock": 18,
       "retornable": null
     },
     {
@@ -10802,18 +10802,6 @@
       "retornable": null
     },
     {
-      "id": 2174,
-      "nombre": "SHOT TABLETA 20*170 G",
-      "unidadesBulto": 20,
-      "codBarra": "7622300424084",
-      "familia": "GOLOSINAS",
-      "rubro": "GOLOSINAS",
-      "precio": 85400.003,
-      "descuento": 30,
-      "stock": 16,
-      "retornable": null
-    },
-    {
       "id": 2175,
       "nombre": "MILKA D/LECHE BLANCO 30*67G",
       "unidadesBulto": 30,
@@ -11614,7 +11602,7 @@
       "rubro": "CONSERVAS Y COMESTIBLES",
       "precio": 26700.005,
       "descuento": 0,
-      "stock": 8,
+      "stock": 2,
       "retornable": null
     },
     {
@@ -11626,7 +11614,7 @@
       "rubro": "GALLETAS",
       "precio": 26376.004,
       "descuento": 0,
-      "stock": 35,
+      "stock": 32,
       "retornable": null
     },
     {
@@ -11638,7 +11626,7 @@
       "rubro": "GALLETAS",
       "precio": 21980.001,
       "descuento": 0,
-      "stock": 24,
+      "stock": 21,
       "retornable": null
     },
     {
@@ -11902,7 +11890,7 @@
       "rubro": "HARINAS Y PREMEZCLAS",
       "precio": 12990,
       "descuento": 0,
-      "stock": 28,
+      "stock": 26,
       "retornable": null
     },
     {
@@ -12166,7 +12154,7 @@
       "rubro": "AGUA",
       "precio": 7099.987,
       "descuento": 11.228,
-      "stock": 31,
+      "stock": 30,
       "retornable": null
     },
     {
@@ -20053,7 +20041,7 @@
       "rubro": "GALLETAS",
       "precio": 41114.228,
       "descuento": 0,
-      "stock": 25,
+      "stock": 22,
       "retornable": null
     },
     {
@@ -22151,7 +22139,7 @@
       "codBarra": "7798353194752",
       "familia": "VINOS",
       "rubro": "VINOS",
-      "precio": 45092.706,
+      "precio": 47998.28,
       "descuento": 0,
       "stock": 5,
       "retornable": null
@@ -22223,7 +22211,7 @@
       "codBarra": "7798353193120",
       "familia": "VINOS",
       "rubro": "VINOS",
-      "precio": 93525.268,
+      "precio": 97322.72,
       "descuento": 0,
       "stock": 3,
       "retornable": null
@@ -22331,7 +22319,7 @@
       "codBarra": "7798353195049",
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
-      "precio": 34618.584,
+      "precio": 39975.98,
       "descuento": 0,
       "stock": 5,
       "retornable": null
@@ -22355,7 +22343,7 @@
       "codBarra": "7798353195056",
       "familia": "CHAMPAGNES",
       "rubro": "CHAMPAGNE",
-      "precio": 34618.584,
+      "precio": 39975.98,
       "descuento": 0,
       "stock": 5,
       "retornable": null
@@ -22391,7 +22379,7 @@
       "codBarra": "7798353195728",
       "familia": "VINOS",
       "rubro": "VINOS",
-      "precio": 25051.709,
+      "precio": 39975.98,
       "descuento": 0,
       "stock": 10,
       "retornable": null
@@ -22993,7 +22981,7 @@
       "rubro": "HIGIENE PERSONAL",
       "precio": 64230.515,
       "descuento": 0,
-      "stock": 10,
+      "stock": 7,
       "retornable": null
     },
     {
@@ -31711,7 +31699,7 @@
       "rubro": "CERVEZAS",
       "precio": 40200,
       "descuento": 0,
-      "stock": 34,
+      "stock": 28,
       "retornable": null
     },
     {
@@ -32063,7 +32051,7 @@
       "id": 7480,
       "nombre": "PEPSI BLACK 6*1500 CC",
       "unidadesBulto": 6,
-      "codBarra": "7791813421054",
+      "codBarra": "7791813828419",
       "familia": "GASEOSAS",
       "rubro": "GASEOSAS",
       "precio": 5130,
@@ -33226,7 +33214,7 @@
       "rubro": "LIMPIEZA",
       "precio": 100656.004,
       "descuento": 0,
-      "stock": 67,
+      "stock": 64,
       "retornable": null
     },
     {
@@ -34378,7 +34366,7 @@
       "rubro": "LIMPIEZA",
       "precio": 27929.999,
       "descuento": 0,
-      "stock": 34,
+      "stock": 31,
       "retornable": null
     },
     {
@@ -35026,7 +35014,7 @@
       "rubro": "AGUA SABORIZADA",
       "precio": 6570,
       "descuento": 0,
-      "stock": 49,
+      "stock": 46,
       "retornable": null
     },
     {
