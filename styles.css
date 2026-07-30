@@ -1266,12 +1266,8 @@ body {
 
   .mv-acciones {
     flex-direction: column;
+    align-items: center;
     gap: 6px;
-  }
-
-  .cantidad-wrap {
-    width: 100%;
-    justify-content: center;
   }
 
   .btn-comprar {
