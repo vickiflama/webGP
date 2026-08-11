@@ -61,8 +61,9 @@ function renderizarProductos(lista) {
 
   grid.innerHTML = visibles.map((p) => `
     <div class="producto-card" data-familia="${p.familia}">
-      <img src="https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.familia || 'GP')}"
-           alt="${p.nombre}" class="producto-img">
+      <img src="https://webgp-imagenes-worker.vickiflama1.workers.dev/${p.id}.png"
+     onerror="this.onerror=null; this.src='https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.familia || 'GP')}'"
+     alt="${p.nombre}" class="producto-img">
       <p class="producto-nombre">${p.nombre}</p>
       <p class="producto-precio">${formatearPrecio(p.precio)}</p>
       <p class="producto-bulto">Bulto x ${p.unidadesBulto} u.</p>
