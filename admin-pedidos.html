@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="admin-pedidos.css">
+    <title>Panel de Pedidos - Admin Gran Prix</title>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+        <div class="nav-right">
+            <span id="admin-usuario-mail" style="font-weight:600;"></span>
+            <a href="#" onclick="cerrarSesionAdmin()" style="margin-left:1rem;">
+                <i class="fa-solid fa-right-from-bracket"></i> Salir
+            </a>
+        </div>
+    </header>
+
+    <section class="admin-section">
+        <h2 class="admin-titulo"><i class="fa-solid fa-box"></i> Panel de Pedidos</h2>
+
+        <div class="admin-filtros">
+            <button class="filtro-estado activo" data-estado="todos" onclick="filtrarPorEstado('todos')">Todos</button>
+            <button class="filtro-estado" data-estado="preparando" onclick="filtrarPorEstado('preparando')">Preparando</button>
+            <button class="filtro-estado" data-estado="despachado" onclick="filtrarPorEstado('despachado')">Despachado</button>
+            <button class="filtro-estado" data-estado="entregado" onclick="filtrarPorEstado('entregado')">Entregado</button>
+            <button class="filtro-estado" data-estado="cancelado" onclick="filtrarPorEstado('cancelado')">Cancelado</button>
+        </div>
+
+        <div id="admin-sin-pedidos" style="display:none">
+            <p>No hay pedidos en este estado.</p>
+        </div>
+
+        <div id="admin-lista-pedidos"></div>
+    </section>
+
+    <!-- MODAL DETALLE / HISTORIAL -->
+    <div class="modal-overlay" id="modal-admin-detalle">
+        <div class="modal modal-detalle-contenido">
+            <button class="modal-cerrar" onclick="cerrarDetalleAdmin()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h2 class="modal-titulo" id="admin-detalle-nro"></h2>
+            <div id="admin-detalle-contenido"></div>
+        </div>
+    </div>
+
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Cargando...</p>
+    </div>
+
+    <script src="admin-pedidos.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="admin-pedidos-firebase.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.admin-section { max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+.admin-titulo { margin-bottom: 1.5rem; }
+.admin-filtros { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.filtro-estado {
+    padding: 0.5rem 1rem; border: 1px solid #ddd; border-radius: 20px;
+    background: #fff; cursor: pointer; font-weight: 600;
+}
+.filtro-estado.activo { background: #fe6902; color: #fff; border-color: #fe6902; }
+
+.admin-pedido-card {
+    background: #fff; border: 1px solid #eee; border-radius: 10px;
+    padding: 1rem; margin-bottom: 1rem;
+}
+.admin-pedido-header { display: flex; justify-content: space-between; align-items: flex-start; }
+.admin-pedido-body { margin-top: 0.8rem; }
+.admin-cambio-estado { margin: 0.8rem 0; display: flex; align-items: center; gap: 0.5rem; }
+.admin-cambio-estado select { padding: 0.4rem; border-radius: 6px; border: 1px solid #ccc; }
+.admin-pedido-botones { margin-top: 0.5rem; }
+
+.estado-preparacion { background: #FFF3CD; color: #997404; }
+.estado-camino { background: #CFE2FF; color: #084298; }
+.estado-entregado { background: #D1E7DD; color: #0F5132; }
+.estado-cancelado { background: #F8D7DA; color: #842029; }
+.pedido-estado { padding: 0.3rem 0.7rem; border-radius: 20px; font-weight: 600; font-size: 0.85rem; }
+
+.historial-item { display: flex; gap: 0.5rem; padding: 0.4rem 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }

@@ -260,3 +260,5 @@
         max-width: 95vw;
     }
 }
+
+.estado-cancelado { background: #F8D7DA; color: #842029; }

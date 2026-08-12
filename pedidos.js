@@ -1,18 +1,16 @@
 // ==================== ESTADOS ====================
 const estadoClases = {
-    'pendiente': 'estado-pendiente',
-    'en preparación': 'estado-preparacion',
-    'listo para retirar': 'estado-listo',
-    'en camino': 'estado-camino',
-    'entregado': 'estado-entregado'
+    'preparando': 'estado-preparacion',
+    'despachado': 'estado-camino',
+    'entregado': 'estado-entregado',
+    'cancelado': 'estado-cancelado'
 };
 
 const estadoIconos = {
-    'pendiente': 'fa-clock',
-    'en preparación': 'fa-gear',
-    'listo para retirar': 'fa-store',
-    'en camino': 'fa-truck',
-    'entregado': 'fa-circle-check'
+    'preparando': 'fa-gear',
+    'despachado': 'fa-truck',
+    'entregado': 'fa-circle-check',
+    'cancelado': 'fa-ban'
 };
 
 // ==================== RENDERIZAR ====================
