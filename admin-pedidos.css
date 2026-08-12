@@ -43,3 +43,10 @@
 .admin-login-card button { margin-top: 1.2rem; }
 .admin-login-error { color: #842029; background: #F8D7DA; padding: 0.5rem; border-radius: 6px; font-size: 0.85rem; margin-top: 0.5rem; }
 .admin-login-link { margin-top: 1rem; font-size: 0.9rem; }
+
+
+.aSalir {
+margin-left:1rem;
+color: black;
+font-weight:600;
+}
