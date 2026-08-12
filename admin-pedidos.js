@@ -145,6 +145,10 @@ window.verDetalleAdmin = function (id) {
             </div>
         </div>
         <div class="detalle-seccion">
+            <h4>Criterio de reemplazo</h4>
+            <p>${pedido.reemplazo || '-'}</p>
+        </div>
+        <div class="detalle-seccion">
             <h4>Envío</h4>
             <p>${pedido.tipoEnvio === 'retiro'
                 ? 'Retiro en local.'
