@@ -3,6 +3,9 @@ import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/fi
 import {
     getFirestore, collection, getDocs, doc, updateDoc, arrayUnion
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { ADMIN_USUARIOS, usuarioAEmail } from "./admin-config.js";
+
+
 
 const firebaseConfig = {
     apiKey: "AIzaSyAlVuVENd77eqQO-EjrvPQ-ppXISZ0qZYA",
@@ -13,10 +16,8 @@ const firebaseConfig = {
     appId: "1:969104780476:web:1d4e79065815a4181474b9"
 };
 
-// ⚠️ Agregá acá los mails del equipo autorizado para entrar al panel
-const ADMIN_EMAILS = [
-    "vickiflama1@gmail.com",
-];
+// Agregá acá los usuarios del equipo autorizado para entrar al panel
+const ADMIN_EMAILS = ADMIN_USUARIOS.map(usuarioAEmail);
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 const auth = getAuth(app);
@@ -26,12 +27,12 @@ let usuarioActual = null;
 
 onAuthStateChanged(auth, async (user) => {
     if (!user || !ADMIN_EMAILS.includes(user.email)) {
-        window.location.href = 'login.html';
+       window.location.href = 'admin-login.html';
         return;
     }
 
     usuarioActual = user;
-    document.getElementById('admin-usuario-mail').textContent = user.email;
+    document.getElementById('admin-usuario-mail').textContent = user.email.split('@')[0];
 
     window.mostrarLoading('Cargando pedidos...');
     try {

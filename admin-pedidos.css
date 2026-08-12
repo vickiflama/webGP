@@ -24,3 +24,22 @@
 .pedido-estado { padding: 0.3rem 0.7rem; border-radius: 20px; font-weight: 600; font-size: 0.85rem; }
 
 .historial-item { display: flex; gap: 0.5rem; padding: 0.4rem 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
+
+.admin-login-section {
+    display: flex; align-items: center; justify-content: center;
+    min-height: 100vh; background: #f5f5f5;
+}
+.admin-login-card {
+    background: #fff; padding: 2.5rem; border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08); width: 100%; max-width: 380px; text-align: center;
+}
+.admin-login-logo { max-width: 140px; margin-bottom: 1rem; }
+.admin-login-card h2 { margin-bottom: 1.5rem; font-size: 1.2rem; }
+.admin-login-card form { display: flex; flex-direction: column; gap: 0.3rem; text-align: left; }
+.admin-login-card label { font-weight: 600; font-size: 0.9rem; margin-top: 0.5rem; }
+.admin-login-card input {
+    padding: 0.7rem; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem;
+}
+.admin-login-card button { margin-top: 1.2rem; }
+.admin-login-error { color: #842029; background: #F8D7DA; padding: 0.5rem; border-radius: 6px; font-size: 0.85rem; margin-top: 0.5rem; }
+.admin-login-link { margin-top: 1rem; font-size: 0.9rem; }

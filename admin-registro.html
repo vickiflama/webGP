@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="admin-pedidos.css">
+    <title>Crear cuenta admin - Gran Prix</title>
+</head>
+<body>
+    <section class="admin-login-section">
+        <div class="admin-login-card">
+            <img src="img/Fondo Blanco GP.png" alt="Gran Prix" class="admin-login-logo">
+            <h2>Crear cuenta de administrador</h2>
+            <form id="form-registro-admin">
+                <label>Usuario</label>
+                <input type="text" id="reg-usuario" placeholder="Ej: victoria" required autocomplete="off">
+
+                <label>Contraseña</label>
+                <input type="password" id="reg-password" placeholder="Mínimo 6 caracteres" required minlength="6">
+
+                <label>Repetir contraseña</label>
+                <input type="password" id="reg-password2" placeholder="Repetir contraseña" required minlength="6">
+
+                <p id="reg-error" class="admin-login-error" style="display:none"></p>
+
+                <button type="submit" class="btn-mi-carrito">Crear cuenta</button>
+            </form>
+            <p class="admin-login-link"><a href="admin-login.html">Ya tengo cuenta, iniciar sesión</a></p>
+        </div>
+    </section>
+
+    <div class="loading-overlay" id="loading">
+        <div class="spinner"></div>
+        <p class="loading-texto">Procesando...</p>
+    </div>
+
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="admin-registro.js"></script>
+</body>
+</html>
