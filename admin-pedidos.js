@@ -72,7 +72,7 @@ window.renderizarPedidosAdmin = function (pedidos, guardarComoTotal = true) {
                 </div>
                 <div class="admin-pedido-body">
                     <div class="pedido-info-item"><span>Productos</span><span> ${cantProductos} unidades</span></div>
-                    <div class="pedido-info-item"><span>Total</span><span class="precio">$${(pedido.total || 0).toLocaleString('es-AR')}</span></div>
+                    <div class="pedido-info-item"><span>Total</span><span class="precio"> $${(pedido.total || 0).toLocaleString('es-AR')}</span></div>
                     <div class="admin-cambio-estado">
                         <label>Cambiar estado:</label>
                         <select onchange="cambiarEstadoPedido('${pedido.id}', this.value)">
