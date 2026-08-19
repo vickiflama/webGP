@@ -191,6 +191,23 @@ async function guardarPedido(pedido) {
     }
 }
 
+// ==================== GUARDAR ARREPENTIMIENTO ====================
+async function guardarArrepentimiento(datos) {
+    try {
+        const user = auth.currentUser;
+        await addDoc(collection(db, 'arrepentimientos'), {
+            ...datos,
+            uid: user ? user.uid : null,
+            fechaSolicitud: new Date().toISOString(),
+            estado: 'Pendiente'
+        });
+        return true;
+    } catch (error) {
+        console.error('Error guardando arrepentimiento:', error);
+        return false;
+    }
+}
+
 // ==================== EXPONER GLOBALMENTE ====================
 window.registrarUsuario = registrarUsuario;
 window.loginUsuario = loginUsuario;
@@ -199,3 +216,4 @@ window.toggleMenu = toggleMenu;
 window.mostrarLoading = mostrarLoading;
 window.ocultarLoading = ocultarLoading;
 window.guardarPedido = guardarPedido;
+window.guardarArrepentimiento = guardarArrepentimiento;

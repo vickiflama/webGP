@@ -510,41 +510,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
 });
 
-// ==================== SUSCRIPCIÓN ====================
-function suscribirse() {
-  const nombre = document.getElementById("sus-nombre").value.trim();
-  const apellido = document.getElementById("sus-apellido").value.trim();
-  const dni = document.getElementById("sus-dni").value.trim();
-  const celular = document.getElementById("sus-celular").value.trim();
-  const email = document.getElementById("sus-email").value.trim();
 
-  const alerta = document.getElementById("alerta-suscripcion");
-  const texto = document.getElementById("alerta-suscripcion-texto");
-  alerta.classList.remove("activo");
-  alerta.style.background = "";
-
-  if (!nombre || !apellido || !dni || !celular || !email) {
-    texto.textContent = "Por favor completá todos los campos obligatorios.";
-    alerta.classList.add("activo");
-    setTimeout(() => alerta.classList.remove("activo"), 4000);
-    return;
-  }
-
-  document.getElementById("sus-nombre").value = "";
-  document.getElementById("sus-apellido").value = "";
-  document.getElementById("sus-dni").value = "";
-  document.getElementById("sus-celular").value = "";
-  document.getElementById("sus-email").value = "";
-  document.getElementById("sus-cumple").value = "";
-
-  texto.textContent = "✅ ¡Te suscribiste correctamente! Pronto recibirás nuestras ofertas.";
-  alerta.style.background = "#3DB549";
-  alerta.classList.add("activo");
-  setTimeout(() => {
-    alerta.classList.remove("activo");
-    alerta.style.background = "";
-  }, 4000);
-}
 
 // ==================== EXPONER GLOBALMENTE ====================
 window.abrirModal = abrirModal;
@@ -559,4 +525,3 @@ window.moverSliderProductos = moverSliderProductos;
 window.agregarAlCarrito = agregarAlCarrito;
 window.cambiarCantidad = cambiarCantidad;
 window.eliminarDelCarritoIndex = eliminarDelCarritoIndex;
-window.suscribirse = suscribirse;

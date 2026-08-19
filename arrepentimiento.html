@@ -220,14 +220,39 @@
     <script src="modales.js"></script>
     <script type="module" src="firebase.js"></script>
     <script>
-        function enviarArrepentimiento(e) {
-            e.preventDefault();
-            // Acá se puede conectar a Firebase o enviar por email
-            document.getElementById('form-arrepentimiento').style.display = 'none';
-            document.getElementById('arr-exito').style.display = 'flex';
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+    async function enviarArrepentimiento(e) {
+        e.preventDefault();
+
+        const datos = {
+            nombre: document.getElementById('arr-nombre').value.trim(),
+            apellido: document.getElementById('arr-apellido').value.trim(),
+            dni: document.getElementById('arr-dni').value.trim(),
+            email: document.getElementById('arr-email').value.trim(),
+            telefono: document.getElementById('arr-telefono').value.trim(),
+            nroPedido: document.getElementById('arr-nro-pedido').value.trim(),
+            fechaCompra: document.getElementById('arr-fecha').value,
+            motivo: document.getElementById('arr-motivo').value.trim()
+        };
+
+        const btn = document.querySelector('.arr-btn-enviar');
+        btn.disabled = true;
+        btn.textContent = 'Enviando...';
+
+        const ok = await window.guardarArrepentimiento(datos);
+
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fa-solid fa-rotate-left"></i> Solicitar devolución de compra';
+
+        if (!ok) {
+            alert('Hubo un error al enviar la solicitud. Probá de nuevo.');
+            return;
         }
-    </script>
+
+        document.getElementById('form-arrepentimiento').style.display = 'none';
+        document.getElementById('arr-exito').style.display = 'flex';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
 
 </body>
 
