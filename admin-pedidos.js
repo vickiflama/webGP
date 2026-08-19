@@ -50,6 +50,7 @@ window.renderizarPedidosAdmin = function (pedidos, guardarComoTotal = true) {
         const iconoEstado = estadoIconos[estado] || 'fa-gear';
         const esRetiro = pedido.tipoEnvio === 'retiro';
         const cantProductos = pedido.productos?.reduce((sum, p) => sum + p.cantidad, 0) || 0;
+        const clienteNombre = pedido.usuario || 'Cliente sin nombre';
 
         // Opciones de estado según tipo de envío
         const opciones = esRetiro
@@ -62,6 +63,7 @@ window.renderizarPedidosAdmin = function (pedidos, guardarComoTotal = true) {
                     <div>
                         <div class="pedido-nro">${pedido.nroPedido || pedido.id}</div>
                         <div class="pedido-fecha">${fechaStr} ${horaStr}hs · ${esRetiro ? 'Retiro en local' : 'Envío a domicilio'}</div>
+                        <div class="pedido-fecha">${clienteNombre}</div>
                         <div class="pedido-fecha">${pedido.direccion?.telefono || pedido.telefono || 'Sin teléfono'}</div>
                     </div>
                     <span class="pedido-estado ${claseEstado}">
@@ -130,7 +132,19 @@ window.verDetalleAdmin = function (id) {
         `).join('')
         : '<p>Sin cambios de estado registrados todavía.</p>';
 
+    // Datos del cliente que hizo el pedido (según lo que guarda guardarPedido() en firebase.js)
+    const clienteNombre = pedido.usuario || '-';
+    const clienteTelefono = pedido.direccion?.telefono || pedido.telefono || '-';
+    const clienteUid = pedido.uid || '-';
+
     document.getElementById('admin-detalle-contenido').innerHTML = `
+        <div class="detalle-seccion">
+            <h4>Cliente</h4>
+            <p>Nombre: ${clienteNombre}<br>
+            Teléfono: ${clienteTelefono}<br>
+            ID de usuario: ${clienteUid}</p>
+            <p style="font-size:0.85em;color:#888">El email no queda guardado en el pedido — para verlo, buscá este ID de usuario en Authentication &gt; Users, en Firebase Console.</p>
+        </div>
         <div class="detalle-seccion">
             <h4>Productos</h4>
             ${pedido.productos?.map(p => `
