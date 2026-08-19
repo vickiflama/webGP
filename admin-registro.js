@@ -1,5 +1,6 @@
 import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 import { ADMIN_USUARIOS, usuarioAEmail } from "./admin-config.js";
 
 const firebaseConfig = {
@@ -13,6 +14,7 @@ const firebaseConfig = {
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 const auth = getAuth(app);
+const db = getFirestore(app);
 
 document.getElementById('form-registro-admin').addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -36,7 +38,17 @@ document.getElementById('form-registro-admin').addEventListener('submit', async 
 
     window.mostrarLoading?.('Creando cuenta...');
     try {
-        await createUserWithEmailAndPassword(auth, usuarioAEmail(usuario), pass1);
+        const email = usuarioAEmail(usuario);
+        const cred = await createUserWithEmailAndPassword(auth, email, pass1);
+
+        // Registra automáticamente el permiso de admin en Firestore,
+        // así las reglas de seguridad no necesitan editarse a mano.
+        await setDoc(doc(db, 'admins', email), {
+            usuario: usuario,
+            email: email,
+            creado: new Date().toISOString()
+        });
+
         window.location.href = 'admin-pedidos.html';
     } catch (error) {
         window.ocultarLoading?.();
