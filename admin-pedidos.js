@@ -71,7 +71,7 @@ window.renderizarPedidosAdmin = function (pedidos, guardarComoTotal = true) {
                     </span>
                 </div>
                 <div class="admin-pedido-body">
-                    <div class="pedido-info-item"><span>Productos</span><span>${cantProductos} unidades</span></div>
+                    <div class="pedido-info-item"><span>Productos</span><span> ${cantProductos} unidades</span></div>
                     <div class="pedido-info-item"><span>Total</span><span class="precio">$${(pedido.total || 0).toLocaleString('es-AR')}</span></div>
                     <div class="admin-cambio-estado">
                         <label>Cambiar estado:</label>
@@ -116,7 +116,7 @@ window.cambiarEstadoPedido = async function (pedidoId, nuevoEstado) {
 }
 
 // ==================== DETALLE + HISTORIAL ====================
-window.verDetalleAdmin = function (id) {
+window.verDetalleAdmin = async function (id) {
     const pedido = window.todosPedidosAdmin?.find(p => p.id === id);
     if (!pedido) return;
 
@@ -143,7 +143,7 @@ window.verDetalleAdmin = function (id) {
             <p>Nombre: ${clienteNombre}<br>
             Teléfono: ${clienteTelefono}<br>
             ID de usuario: ${clienteUid}</p>
-            <p style="font-size:0.85em;color:#888">El email no queda guardado en el pedido — para verlo, buscá este ID de usuario en Authentication &gt; Users, en Firebase Console.</p>
+            <p id="admin-cliente-extra" style="font-size:0.9em;color:#888">Buscando más datos del cliente...</p>
         </div>
         <div class="detalle-seccion">
             <h4>Productos</h4>
@@ -177,6 +177,28 @@ window.verDetalleAdmin = function (id) {
 
     document.getElementById('modal-admin-detalle').classList.add('activo');
     document.body.style.overflow = 'hidden';
+
+    // Busca datos extra del cliente (celular, dni, localidad) en su perfil.
+    // Se hace después de mostrar el modal para no demorar la apertura.
+    if (pedido.uid && window.obtenerDatosCliente) {
+        const datos = await window.obtenerDatosCliente(pedido.uid);
+        const extraEl = document.getElementById('admin-cliente-extra');
+        if (extraEl) {
+            if (datos) {
+                extraEl.innerHTML = `
+                    Celular: ${datos.celular || '-'}<br>
+                    DNI/CUIT: ${datos.dni || '-'}<br>
+                    Localidad: ${datos.localidad || '-'}, ${datos.provincia || '-'}
+                `;
+                extraEl.style.color = '';
+            } else {
+                extraEl.textContent = 'No se encontraron más datos de perfil para este cliente.';
+            }
+        }
+    } else {
+        const extraEl = document.getElementById('admin-cliente-extra');
+        if (extraEl) extraEl.textContent = '';
+    }
 }
 
 window.cerrarDetalleAdmin = function () {
