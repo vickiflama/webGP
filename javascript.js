@@ -353,9 +353,10 @@ async function cargarSliderMasVendidos() {
     const data = await res.json();
     const productos = data.productos.slice(0, 12);
 
-    slider.innerHTML = productos.map(p => `
+        slider.innerHTML = productos.map(p => `
       <div class="mv-card">
-        <img src="https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.rubro || 'GP')}"
+        <img src="https://webgp-imagenes-worker.vickiflama1.workers.dev/${p.id}.png"
+             onerror="this.onerror=null;this.src='https://placehold.co/180x180/f5f5f5/fe6902?text=${encodeURIComponent(p.rubro || 'GP')}'"
              alt="${p.nombre}" class="mv-img">
         <p class="mv-nombre">${p.nombre}</p>
         <p class="mv-precio">${p.precio.toLocaleString('es-AR', { style: 'currency', currency: 'ARS', minimumFractionDigits: 2 })}</p>
