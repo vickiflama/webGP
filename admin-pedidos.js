@@ -15,6 +15,11 @@ const estadoIconos = {
 
 let filtroActual = 'todos';
 
+// Muestra solo el usuario (sin @admin.granprix.local)
+function nombreAutor(autor) {
+    return String(autor || '').split('@')[0];
+}
+
 // ==================== FILTRO ====================
 window.filtrarPorEstado = function (estado) {
     filtroActual = estado;
@@ -120,6 +125,9 @@ window.verDetalleAdmin = async function (id) {
     const pedido = window.todosPedidosAdmin?.find(p => p.id === id);
     if (!pedido) return;
 
+    // Deja anotado (interno) que este usuario abrió el pedido
+    window.registrarVistaPedido?.(pedido);
+
     document.getElementById('admin-detalle-nro').textContent = pedido.nroPedido || id;
 
     const historial = pedido.historialEstados || [];
@@ -127,10 +135,20 @@ window.verDetalleAdmin = async function (id) {
         ? historial.map(h => `
             <div class="historial-item">
                 <i class="fa-solid fa-clock"></i>
-                <span><b>${h.estado}</b> — ${new Date(h.fecha).toLocaleString('es-AR')} — por ${h.autor}</span>
+                <span><b>${h.estado}</b> — ${new Date(h.fecha).toLocaleString('es-AR')} — por ${nombreAutor(h.autor)}</span>
             </div>
         `).join('')
         : '<p>Sin cambios de estado registrados todavía.</p>';
+
+    const vistos = pedido.vistoPor || [];
+    const vistosHtml = vistos.length
+        ? vistos.map(v => `
+            <div class="historial-item">
+                <i class="fa-solid fa-eye"></i>
+                <span><b>${nombreAutor(v.autor)}</b> — ${new Date(v.fecha).toLocaleString('es-AR')}</span>
+            </div>
+        `).join('')
+        : '<p>Nadie lo abrió todavía.</p>';
 
     // Datos del cliente que hizo el pedido (según lo que guarda guardarPedido() en firebase.js)
     const clienteNombre = pedido.usuario || '-';
@@ -172,6 +190,10 @@ window.verDetalleAdmin = async function (id) {
         <div class="detalle-seccion">
             <h4>Historial de estados (interno)</h4>
             ${historialHtml}
+        </div>
+        <div class="detalle-seccion">
+            <h4>Quién vio este pedido (interno)</h4>
+            ${vistosHtml}
         </div>
     `;
 

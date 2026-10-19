@@ -1,7 +1,7 @@
 // ==================== FIREBASE CONFIG ====================
 import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, updateProfile } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
-import { getFirestore, collection, addDoc, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { getFirestore, collection, addDoc, doc, setDoc, runTransaction } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAlVuVENd77eqQO-EjrvPQ-ppXISZ0qZYA",
@@ -163,10 +163,21 @@ async function guardarPedido(pedido) {
     try {
         const user = auth.currentUser;
 
-        // Genera el número de pedido
-        const { getDocs } = await import("https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js");
-        const snapshot = await getDocs(collection(db, 'pedidos'));
-        const numero = snapshot.size + 1;
+        // Genera el número de pedido con un contador guardado en Firestore (contadores/pedidos).
+        // Si el contador no está disponible, usa un sufijo al azar para no perder el pedido.
+        let numero;
+        try {
+            const contadorRef = doc(db, 'contadores', 'pedidos');
+            numero = await runTransaction(db, async (tx) => {
+                const snap = await tx.get(contadorRef);
+                const siguiente = (snap.exists() ? Number(snap.data().valor) || 0 : 0) + 1;
+                tx.update(contadorRef, { valor: siguiente });
+                return siguiente;
+            });
+        } catch (errorContador) {
+            console.error('No se pudo usar el contador de pedidos:', errorContador);
+            numero = Math.floor(1000 + Math.random() * 9000);
+        }
         const fecha = new Date();
         const fechaStr = fecha.getFullYear().toString() +
             String(fecha.getMonth() + 1).padStart(2, '0') +
