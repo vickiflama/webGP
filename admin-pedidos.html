@@ -32,14 +32,33 @@
 
         <div class="admin-filtros">
             <button class="filtro-estado activo" data-estado="todos" onclick="filtrarPorEstado('todos')">Todos</button>
+            <button class="filtro-estado" data-estado="pendiente" onclick="filtrarPorEstado('pendiente')">Pendiente</button>
             <button class="filtro-estado" data-estado="preparando" onclick="filtrarPorEstado('preparando')">Preparando</button>
             <button class="filtro-estado" data-estado="despachado" onclick="filtrarPorEstado('despachado')">Despachado</button>
             <button class="filtro-estado" data-estado="entregado" onclick="filtrarPorEstado('entregado')">Entregado</button>
             <button class="filtro-estado" data-estado="cancelado" onclick="filtrarPorEstado('cancelado')">Cancelado</button>
         </div>
 
+        <div class="admin-buscador">
+            <div class="campo campo-texto">
+                <label for="filtro-texto">Buscar</label>
+                <input type="search" id="filtro-texto" placeholder="Nombre, N° de pedido o teléfono" oninput="aplicarFiltros()">
+            </div>
+            <div class="campo">
+                <label for="filtro-desde">Desde</label>
+                <input type="date" id="filtro-desde" onchange="aplicarFiltros()">
+            </div>
+            <div class="campo">
+                <label for="filtro-hasta">Hasta</label>
+                <input type="date" id="filtro-hasta" onchange="aplicarFiltros()">
+            </div>
+            <button class="btn-limpiar" onclick="limpiarFiltros()"><i class="fa-solid fa-eraser"></i> Limpiar</button>
+            <button class="btn-papelera" onclick="abrirPapelera()"><i class="fa-solid fa-trash-can"></i> Papelera</button>
+        </div>
+        <div class="admin-contador" id="admin-contador"></div>
+
         <div id="admin-sin-pedidos" style="display:none">
-            <p>No hay pedidos en este estado.</p>
+            <p>No hay pedidos que coincidan con los filtros.</p>
         </div>
 
         <div id="admin-lista-pedidos"></div>
@@ -56,13 +75,24 @@
         </div>
     </div>
 
+    <!-- MODAL PAPELERA -->
+    <div class="modal-overlay" id="modal-papelera">
+        <div class="modal modal-detalle-contenido">
+            <button class="modal-cerrar" onclick="cerrarPapelera()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h2 class="modal-titulo">Papelera</h2>
+            <div id="papelera-contenido"></div>
+        </div>
+    </div>
+
     <div class="loading-overlay" id="loading">
         <div class="spinner"></div>
         <p class="loading-texto">Cargando...</p>
     </div>
 
-    <script type="module" src="admin-pedidos.js?v=3"></script>
+    <script type="module" src="admin-pedidos.js?v=4"></script>
     <script type="module" src="firebase.js"></script>
-    <script type="module" src="admin-pedidos-firebase.js?v=3"></script>
+    <script type="module" src="admin-pedidos-firebase.js?v=4"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 import {
-    getFirestore, collection, getDocs, getDoc, doc, updateDoc, arrayUnion
+    getFirestore, collection, getDocs, getDoc, doc, updateDoc, arrayUnion, writeBatch
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -115,6 +115,72 @@ window.obtenerDatosCliente = async function (uid) {
         return snap.exists() ? snap.data() : null;
     } catch (error) {
         console.error('Error leyendo datos del cliente:', error);
+        return null;
+    }
+}
+
+// ==================== PAPELERA ====================
+// Mueve el pedido a "pedidosEliminados" (queda una copia completa) y lo borra de "pedidos".
+window.moverPedidoAPapelera = async function (pedidoId) {
+    try {
+        const refPedido = doc(db, 'pedidos', pedidoId);
+        const snap = await getDoc(refPedido);
+        if (!snap.exists()) return false;
+
+        const batch = writeBatch(db);
+        batch.set(doc(db, 'pedidosEliminados', pedidoId), {
+            pedidoId: pedidoId,
+            pedido: snap.data(),
+            eliminadoPor: usuarioActual.email,
+            eliminadoEn: new Date().toISOString(),
+            restaurado: false
+        });
+        batch.delete(refPedido);
+        await batch.commit();
+        return true;
+    } catch (error) {
+        console.error('Error moviendo pedido a la papelera:', error);
+        return false;
+    }
+}
+
+// Devuelve la lista de pedidos en la papelera (los más recientes primero) o null si falla
+window.cargarPapelera = async function () {
+    try {
+        const snapshot = await getDocs(collection(db, 'pedidosEliminados'));
+        const lista = [];
+        snapshot.forEach(d => {
+            const data = d.data();
+            if (!data.restaurado) lista.push({ id: d.id, ...data });
+        });
+        lista.sort((a, b) => new Date(b.eliminadoEn) - new Date(a.eliminadoEn));
+        return lista;
+    } catch (error) {
+        console.error('Error cargando la papelera:', error);
+        return null;
+    }
+}
+
+// Vuelve a crear el pedido con su mismo ID y número. La copia en la papelera se marca como restaurada (no se borra).
+window.restaurarPedidoDePapelera = async function (papeleraId) {
+    try {
+        const refPapelera = doc(db, 'pedidosEliminados', papeleraId);
+        const snap = await getDoc(refPapelera);
+        if (!snap.exists()) return null;
+        const item = snap.data();
+        const pedidoId = item.pedidoId || papeleraId;
+
+        const batch = writeBatch(db);
+        batch.set(doc(db, 'pedidos', pedidoId), item.pedido);
+        batch.update(refPapelera, {
+            restaurado: true,
+            restauradoPor: usuarioActual.email,
+            restauradoEn: new Date().toISOString()
+        });
+        await batch.commit();
+        return { id: pedidoId, ...item.pedido };
+    } catch (error) {
+        console.error('Error restaurando pedido:', error);
         return null;
     }
 }
