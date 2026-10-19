@@ -470,6 +470,8 @@ body {
 /* Inputs */
 .input-field {
     flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
     padding: 14px 16px;
     border: 1.5px solid #ccc;
     border-radius: 8px;
@@ -1293,4 +1295,13 @@ body {
   .mv-precio {
     font-size: 16px;
   }
+}
+
+/* Formulario de suscripción: un campo por fila en celulares */
+@media (max-width: 600px) {
+    .suscripcion-form .form-row {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 12px;
+    }
 }
