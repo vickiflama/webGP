@@ -385,7 +385,7 @@ async function confirmarPedido() {
     const pedido = {
       productos: carritoData,
       costoEnvases: calcularCostoEnvases(),
-      total: calcularTotal() + calcularCostoEnvases(),
+      total: Math.round((calcularTotal() + calcularCostoEnvases()) * 100) / 100,
       reemplazo: textosReemplazo[reemplazo?.value] || "-",
       tipoEnvio: envio?.value,
       pago: textosPago[pago?.value] || "-",
@@ -559,7 +559,7 @@ function calcularCostoEnvases() {
       total += precioUnitario * (cantTotal - state.cantidadEnvases);
     }
   }
-  return total;
+  return Math.round(total * 100) / 100;
 }
 
 function actualizarTotalConEnvases() {

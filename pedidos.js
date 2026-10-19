@@ -62,7 +62,7 @@ window.renderizarPedidos = function(pedidos) {
                     </div>
                     <div class="pedido-info-item">
                         <span>Total</span>
-                        <span class="precio">$${(pedido.total || 0).toLocaleString('es-AR')}</span>
+                        <span class="precio">$${(Math.round((pedido.total || 0) * 100) / 100).toLocaleString('es-AR')}</span>
                     </div>
                 </div>
                 <div class="pedido-botones">
@@ -102,12 +102,12 @@ window.verDetalle = function(id) {
             ${pedido.costoEnvases && pedido.costoEnvases > 0 ? `
                 <div class="detalle-producto-row">
                     <span>Envases retornables</span>
-                    <span>+$${pedido.costoEnvases.toLocaleString('es-AR')}</span>
+                    <span>+$${(Math.round(pedido.costoEnvases * 100) / 100).toLocaleString('es-AR')}</span>
                 </div>
             ` : ''}
             <div class="detalle-total">
                 <span>Total:</span>
-                <span>$${(pedido.total || 0).toLocaleString('es-AR')}</span>
+                <span>$${(Math.round((pedido.total || 0) * 100) / 100).toLocaleString('es-AR')}</span>
             </div>
         </div>
 
