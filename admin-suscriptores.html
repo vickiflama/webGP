@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="admin-pedidos.css">
+    <title>Suscriptores - Admin Gran Prix</title>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo-header">
+            <a href="index.html">
+                <img src="img/Fondo Blanco GP.png" alt="Logo Gran Prix" class="logo">
+            </a>
+        </div>
+        <div class="nav-right">
+            <span id="admin-usuario-mail"></span>
+            <a href="#" id="btn-salir" class="aSalir">
+                <i class="fa-solid fa-right-from-bracket"></i> Salir
+            </a>
+        </div>
+    </header>
+
+    <section class="admin-section">
+        <h2 class="admin-titulo"><i class="fa-solid fa-bullhorn"></i> Suscriptores</h2>
+        <nav class="admin-nav">
+            <a class="admin-nav-link" href="admin-pedidos.html"><i class="fa-solid fa-box"></i> Pedidos</a>
+            <a class="admin-nav-link activo" href="admin-suscriptores.html"><i class="fa-solid fa-bullhorn"></i> Suscriptores</a>
+        </nav>
+
+        <div class="admin-buscador">
+            <div class="campo campo-texto">
+                <label for="filtro-texto">Buscar</label>
+                <input type="search" id="filtro-texto" placeholder="Nombre, correo, celular o DNI">
+            </div>
+            <button class="btn-excel" id="btn-excel"><i class="fa-solid fa-file-excel"></i> Descargar Excel</button>
+        </div>
+        <div class="admin-contador" id="admin-contador"></div>
+
+        <div id="sus-lista"></div>
+    </section>
+
+    <script type="module" src="admin-suscriptores.js"></script>
+</body>
+</html>
