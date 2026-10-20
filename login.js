@@ -36,7 +36,7 @@ async function enviarRecuperar() {
         const auth = getAuth();
         await sendPasswordResetEmail(auth, email.value.trim());
         window.ocultarLoading();
-        window.location.href = 'mailconfirmado.html';
+        window.location.href = 'mailconfirmado.html?tipo=recuperar';
     } catch (error) {
         window.ocultarLoading();
         console.error(error);

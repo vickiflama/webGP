@@ -59,8 +59,8 @@
     <!-- MENSAJE ÉXITO -->
     <section class="login-section">
         <div class="mail-enviado-box">
-            <h2 class="mail-enviado-titulo">¡Tu correo fue confirmado!</h2>
-            <p class="mail-enviado-subtitulo">Tu cuenta ya está activa. Ingresá con tu correo y contraseña para empezar a comprar.</p>
+            <h2 class="mail-enviado-titulo" id="mc-titulo">¡Tu correo fue confirmado!</h2>
+            <p class="mail-enviado-subtitulo" id="mc-texto">Tu cuenta ya está activa. Ingresá con tu correo y contraseña para empezar a comprar.</p>
         </div>
     </section>
 
@@ -93,6 +93,13 @@
         <p class="loading-texto">Cargando...</p>
     </div>
 
+    <script>
+        // Si venís de "Olvidé mi contraseña" mostramos otro mensaje
+        if (new URLSearchParams(window.location.search).get('tipo') === 'recuperar') {
+            document.getElementById('mc-titulo').textContent = '¡Te enviamos un correo!';
+            document.getElementById('mc-texto').textContent = 'Revisá tu casilla (y la carpeta de spam) y tocá el enlace para crear una contraseña nueva. Después ingresá acá.';
+        }
+    </script>
     <script src="javascript.js"></script>
     <script type="module" src="firebase.js"></script>
     <script src="modales.js"></script>
