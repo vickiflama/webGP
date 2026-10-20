@@ -1,6 +1,6 @@
 // ==================== FIREBASE CONFIG ====================
 import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, updateProfile } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, updateProfile, sendEmailVerification } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 import { getFirestore, collection, addDoc, doc, setDoc, runTransaction } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -89,7 +89,7 @@ async function loginUsuario() {
     if (emailVal === '' || passwordVal === '') {
         if (emailVal === '') emailField.classList.add('input-error');
         if (passwordVal === '') passwordField.classList.add('input-error');
-        errorBanner.style.display = 'block';
+        mostrarErrorLogin(errorBanner, null, false);
         return;
     }
 
@@ -100,8 +100,9 @@ async function loginUsuario() {
         if (!userCredential.user.emailVerified) {
             await signOut(auth);
             ocultarLoading();
-            errorBanner.textContent = 'Debés verificar tu email antes de ingresar. Revisá tu casilla de correo.';
-            errorBanner.style.display = 'block';
+            mostrarErrorLogin(errorBanner,
+                'Debés verificar tu email antes de ingresar. Revisá tu casilla de correo (y la carpeta de spam). Si el enlace venció, pedí uno nuevo:',
+                true);
             return;
         }
 
@@ -110,9 +111,71 @@ async function loginUsuario() {
         window.location.href = 'index.html';
     } catch (error) {
         ocultarLoading();
-        errorBanner.style.display = 'block';
+        mostrarErrorLogin(errorBanner, null, false);
         emailField.classList.add('input-error');
         passwordField.classList.add('input-error');
+    }
+}
+
+// Muestra el cartel rojo del login. Si texto es null, deja el mensaje original.
+// Con conBoton = true agrega el botón "Reenviar correo de verificación".
+const MENSAJE_LOGIN_ORIGINAL = 'Tu correo electrónico o contraseña fueron ingresados incorrectamente. Inténtalo nuevamente';
+
+function mostrarErrorLogin(errorBanner, texto, conBoton) {
+    const p = errorBanner.querySelector('p');
+    if (p) p.textContent = texto || MENSAJE_LOGIN_ORIGINAL;
+
+    const viejo = document.getElementById('btn-reenviar-verificacion');
+    if (viejo) viejo.remove();
+
+    if (conBoton) {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.id = 'btn-reenviar-verificacion';
+        btn.className = 'btn-registrar';
+        btn.style.marginTop = '10px';
+        btn.textContent = 'Reenviar correo de verificación';
+        btn.onclick = reenviarVerificacion;
+        errorBanner.appendChild(btn);
+    }
+    errorBanner.style.display = 'block';
+}
+
+// ==================== REENVIAR VERIFICACIÓN ====================
+// Vuelve a entrar con los datos escritos, pide a Firebase un correo nuevo y cierra la sesión.
+async function reenviarVerificacion() {
+    const emailVal = document.getElementById('login-email').value.trim();
+    const passwordVal = document.getElementById('login-password').value.trim();
+    const errorBanner = document.getElementById('login-error');
+
+    if (!emailVal || !passwordVal) {
+        mostrarErrorLogin(errorBanner, 'Escribí tu correo y contraseña y volvé a apretar el botón.', true);
+        return;
+    }
+
+    mostrarLoading('Enviando correo...');
+    try {
+        const cred = await signInWithEmailAndPassword(auth, emailVal, passwordVal);
+        if (cred.user.emailVerified) {
+            await signOut(auth);
+            ocultarLoading();
+            mostrarErrorLogin(errorBanner, 'Tu correo ya está verificado. Apretá ACCESO para ingresar.', false);
+            return;
+        }
+        await sendEmailVerification(cred.user, {
+            url: 'https://vickiflama.github.io/webGP/mailconfirmado.html'
+        });
+        await signOut(auth);
+        ocultarLoading();
+        mostrarErrorLogin(errorBanner, 'Listo, te enviamos un correo nuevo a ' + emailVal + '. Abrí el enlace y después ingresá.', false);
+    } catch (error) {
+        ocultarLoading();
+        console.error('Error reenviando verificación:', error);
+        if (error.code === 'auth/too-many-requests') {
+            mostrarErrorLogin(errorBanner, 'Hiciste muchos intentos seguidos. Esperá unos minutos y probá de nuevo.', true);
+        } else {
+            mostrarErrorLogin(errorBanner, 'No pudimos enviar el correo. Revisá que tu correo y contraseña estén bien escritos.', true);
+        }
     }
 }
 
